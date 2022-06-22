@@ -6,7 +6,7 @@ on:
     branches: [main]
 
 jobs:
-  test-tauri:
+  build:
     strategy:
       fail-fast: false
       matrix:
