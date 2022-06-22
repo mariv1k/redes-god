@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import colorData from "../global/color";
 import RGQuestions from "./Question";
 
 const RGCore = () => {
@@ -13,18 +14,39 @@ const RGCore = () => {
 const RGControls = () => {
   return (
     <Controls>
-      <CheckButton />
+      <CheckButton>Comprobar</CheckButton>
     </Controls>
-  )
-}
+  );
+};
 
 const Controls = styled.div`
-  
-`
+  width: 95%;
+  max-width: 1000px;
+`;
 
 const CheckButton = styled.div`
-  padding: 24px;
-`
+  width: fit-content;
+  padding: 16px;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: ${colorData.light.front1};
+  border: 2px solid ${colorData.light.front3};
+  margin-left: auto;
+  user-select: none;
+  color: ${colorData.light.front2};
+
+  &:hover {
+    background-color: ${colorData.light.front3};
+  }
+
+  &:active {
+    transform: scale(0.95);
+  }
+`;
 
 const Core = styled.div`
   width: 100%;

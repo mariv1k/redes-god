@@ -8,9 +8,10 @@ const colorData = {
         background: "#F6F6F6",
         front1: "#FFFFFF",
         front2: "#2C2F33",
+        front3: "#33cc33",
         text1: "#23272A",
         text2: "#ffffff",
-        selected1: "#1d3557"
+        selected1: "#1d3557",
     }
 }
 
