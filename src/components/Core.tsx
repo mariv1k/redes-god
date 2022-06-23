@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import colorData from "../global/color";
-import RGQuestions from "./Question";
+import RGQuestions, { currentQuestions } from "./Question";
 
 const RGCore = () => {
   return (
@@ -14,10 +14,16 @@ const RGCore = () => {
 const RGControls = () => {
   return (
     <Controls>
-      <CheckButton>Comprobar</CheckButton>
+      <CheckButton onClick={handleCheckClick}>Comprobar</CheckButton>
     </Controls>
   );
 };
+
+const handleCheckClick = () => {
+  currentQuestions.forEach(currQuestion => {
+    console.log(currQuestion.checked)
+  })
+}
 
 const Controls = styled.div`
   width: 95%;

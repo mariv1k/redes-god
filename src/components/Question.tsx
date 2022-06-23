@@ -2,8 +2,10 @@ import { ChangeEvent, ReactElement, useState } from "react";
 import styled from "styled-components";
 import colorData from "../global/color";
 import questionsData from "../global/questions-data";
-import { QuestionData } from "../global/types";
+import { CurrentQuestion, QuestionData } from "../global/types";
 import { nextChar } from "../global/utils";
+
+export var currentQuestions: CurrentQuestion[] = [];
 
 const RGQuestion = (data: QuestionData, id: number) => {
   var questionIdx = "a";
@@ -18,6 +20,12 @@ const RGQuestion = (data: QuestionData, id: number) => {
 
   const handleAnswerClick = (e: ChangeEvent<HTMLInputElement>): void => {
     setSelectedAnswer(e.currentTarget.value);
+    currentQuestions.forEach((currQuestion, index) => {
+      if (currQuestion.id === id) {
+        currentQuestions[index].checked = e.currentTarget.value;
+        return;
+      }
+    });
   };
 
   data.answers.forEach((answer) => {
@@ -47,7 +55,7 @@ const RGQuestion = (data: QuestionData, id: number) => {
   };
 
   const handleReportAnswerClick = (): void => {
-    //TODO
+    alert("Reported");
   };
 
   const GRQuestionControls = () => {
@@ -91,8 +99,18 @@ const RGQuestions = () => {
   var id = 1;
 
   questionsData.forEach((question) => {
-    if (id > 30) return;
-    questionGroup.push(RGQuestion(question, id++));
+    if (id > 5) return;
+    var component = RGQuestion(question, id);
+    var currQuestion = {
+      id,
+      component,
+      data: question,
+      checked: "0",
+    };
+    questionGroup.push(component);
+    if (!currentQuestions.includes(currQuestion))
+      currentQuestions.push(currQuestion);
+    id++;
   });
   return <>{questionGroup}</>;
 };
