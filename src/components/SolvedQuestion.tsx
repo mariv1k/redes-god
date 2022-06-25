@@ -4,15 +4,19 @@ import { FC } from "react";
 import { nextChar } from "../global/utils";
 
 export const SolvedQuestion: FC<T.Question> = (question) => {
-  const QuestionTitle: FC<string> = (title) => {
+  const SolvedQuestionNumber: FC<number> = (num) => {
     return (
-      <S.SolvedQuestionTitle className="question_title">
-        {title}
-      </S.SolvedQuestionTitle>
+      <S.QuestionNumber className="question_number">{num}. </S.QuestionNumber>
     );
   };
 
-  const QuestionChoices: FC<string[]> = (choices) => {
+  const SolvedQuestionTitle: FC<string> = (title) => {
+    return (
+      <S.QuestionTitle className="question_title">{SolvedQuestionNumber(question.id)}{title}</S.QuestionTitle>
+    );
+  };
+
+  const SolvedQuestionChoices: FC<string[]> = (choices) => {
     var choiceIndex = "a";
     const isChoiceChecked = (value: string): boolean => {
       return question.choice === value;
@@ -72,23 +76,15 @@ export const SolvedQuestion: FC<T.Question> = (question) => {
     );
   };
 
-  const QuestionNumber: FC<number> = (num) => {
+  const SolvedQuestionExplanation: FC<string> = (explanation) => {
     return (
-      <S.SolvedQuestionNumber className="question_number">
-        {num}
-      </S.SolvedQuestionNumber>
-    );
-  };
-
-  const QuestionExplanation: FC<string> = (solution) => {
-    return (
-      <S.QuestionExplanation className="question_explanation">
+      <S.QuestionExplanation className={"question_explanation" + " " + (explanation === "" ? "inactive" : "")} >
         <label htmlFor={question.id.toString()}>
           Explicación<span>&#x3e;</span>
         </label>
         <input type="checkbox" id={question.id.toString()} name="accordion" />
         <div>
-          <p>{solution}</p>
+          <p>{explanation}</p>
         </div>
       </S.QuestionExplanation>
     );
@@ -96,10 +92,9 @@ export const SolvedQuestion: FC<T.Question> = (question) => {
 
   return (
     <S.SolvedQuestion>
-      {QuestionNumber(question.id)}
-      {QuestionTitle(question.data.title)}
-      {QuestionChoices(question.data.choices)}
-      {QuestionExplanation(question.data.explanation)}
+      {SolvedQuestionTitle(question.data.title)}
+      {SolvedQuestionChoices(question.data.choices)}
+      {SolvedQuestionExplanation(question.data.explanation)}
     </S.SolvedQuestion>
   );
 };

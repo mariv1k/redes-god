@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import questionsData from "../global/data";
 import * as S from "../global/styles";
 import * as T from "../global/types";
@@ -17,14 +17,16 @@ export class TestManager {
     if (number > questionsData.length) return;
     if (!force && this._questions.length > 0) return;
     this._questions = [];
-    questionsData.slice(0, number).forEach((questionData, index) => {
-      const question: T.Question = {
-        id: index + 1,
-        data: questionData,
-        choice: "-",
-      };
-      this._questions.push(question);
-    });
+    shuffle(questionsData)
+      .slice(0, number)
+      .forEach((questionData, index) => {
+        const question: T.Question = {
+          id: index + 1,
+          data: questionData,
+          choice: "-",
+        };
+        this._questions.push(question);
+      });
   }
 
   public static QuestionsGroup() {
@@ -37,7 +39,7 @@ export class TestManager {
 
   public static SetChoice(value: string): void {
     const id = parseInt(value.match(new RegExp(/\d+/))![0]);
-    const choice = value.match(new RegExp(/[a-z\-]+/))![0];
+    const choice = value.match(new RegExp(/[a-z-]+/))![0];
 
     for (var i = 0; i < this._questions.length; i++) {
       if (this._questions[i].id === id) {
@@ -49,26 +51,17 @@ export class TestManager {
 
 const Test = () => {
   TestManager.GenerateQuestions(5);
-  const [showSolutions, setShowSolutions] = useState(false);
+  const navigate = useNavigate();
   const handleCheckSolutionsButton = (): void => {
-    setShowSolutions(true)
-  }
+    navigate("/solved");
+  };
   const CheckSolutionsButton = () => {
-    return (
-      <S.Button
-        className={showSolutions ? "inactive" : ""}
-        onClick={handleCheckSolutionsButton}
-      >
-        SOLUTIONS
-      </S.Button>
-    );
+    return <S.Button onClick={handleCheckSolutionsButton}>Comprobar</S.Button>;
   };
 
   return (
     <S.Test>
-      {showSolutions
-        ? TestManager.SolvedQuestionsGroup()
-        : TestManager.QuestionsGroup()}
+      {TestManager.QuestionsGroup()}
       <CheckSolutionsButton />
     </S.Test>
   );

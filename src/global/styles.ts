@@ -37,6 +37,17 @@ export const Test = styled.div`
   row-gap: 12px;
 `;
 
+// Solved Test
+
+export const SolvedTest = styled.div`
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 12px;
+`;
+
 // Question
 
 export const Question = styled.div`
@@ -260,13 +271,23 @@ export const QuestionExplanation = styled.div`
   font-weight: 500;
   font-size: .9rem;
   
+  &.inactive {
+    pointer-events: none;
+    opacity: 0.5;
+  }
+
   label {
     padding: 10px 20px;
+    border-radius: 4px;
     display: flex;
     align-items: center;
     cursor: pointer;
     justify-content: space-between;
     user-select: none;
+
+    &:hover {
+      background-color: ${parameters.colors.color5};
+    }
   }
 
   label > span {
@@ -302,6 +323,7 @@ export const Button = styled.div`
   border-radius: 4px;
   cursor: pointer;
   color: ${parameters.colors.color3};
+  user-select: none;
 
   &.inactive {
     pointer-events: none;

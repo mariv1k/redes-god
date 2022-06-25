@@ -1,16 +1,28 @@
 import { ChangeEvent, FC, useState } from "react";
+import ReactTooltip from "react-tooltip";
 import constants from "../global/constants";
 import * as S from "../global/styles";
 import * as T from "../global/types";
 import { nextChar } from "../global/utils";
 import { TestManager } from "./Test";
+import Tooltip from "./Tooltip";
 
 export const Question: FC<T.Question> = (question) => {
   const [selectedChoice, setSelectedChoice] = useState("-");
+  const [tooltip, showTooltip] = useState(true);
+
+  const QuestionNumber: FC<number> = (num) => {
+    return (
+      <S.QuestionNumber className="question_number">{num}. </S.QuestionNumber>
+    );
+  };
 
   const QuestionTitle: FC<string> = (title) => {
     return (
-      <S.QuestionTitle className="question_title">{title}</S.QuestionTitle>
+      <S.QuestionTitle className="question_title">
+        {QuestionNumber(question.id)}
+        {title}
+      </S.QuestionTitle>
     );
   };
 
@@ -60,16 +72,41 @@ export const Question: FC<T.Question> = (question) => {
 
     const ClearChoiceButton = () => {
       return (
-        <S.Button
-          className={selectedChoice === "-" ? "inactive" : ""}
-          onClick={handleClearChoiceButton}
-        >
-          {constants.svg.clearChoice}
-        </S.Button>
+        <>
+          <S.Button
+            onMouseEnter={() => showTooltip(true)}
+            onMouseLeave={() => {
+              showTooltip(false);
+              setTimeout(() => showTooltip(true), 50);
+            }}
+            data-tip
+            data-for="clear_choice_button"
+            className={selectedChoice === "-" ? "inactive" : ""}
+            onClick={handleClearChoiceButton}
+          >
+            {constants.svg.clearChoice}
+          </S.Button>
+          {Tooltip("Desmarcar solución", "clear_choice_button")}
+        </>
       );
     };
     const ReportChoiceButton = () => {
-      return <S.Button>{constants.svg.reportQuestion}</S.Button>;
+      return (
+        <>
+          <S.Button
+            onMouseEnter={() => showTooltip(true)}
+            onMouseLeave={() => {
+              showTooltip(false);
+              setTimeout(() => showTooltip(true), 50);
+            }}
+            data-tip
+            data-for="report_choice_button"
+          >
+            {constants.svg.reportQuestion}
+          </S.Button>
+          {Tooltip("Informar de un error", "report_choice_button")}
+        </>
+      );
     };
 
     return (
@@ -80,15 +117,8 @@ export const Question: FC<T.Question> = (question) => {
     );
   };
 
-  const QuestionNumber: FC<number> = (num) => {
-    return (
-      <S.QuestionNumber className="question_number">{num}</S.QuestionNumber>
-    );
-  };
-
   return (
     <S.Question>
-      {QuestionNumber(question.id)}
       {QuestionTitle(question.data.title)}
       {QuestionChoices(question.data.choices)}
       {QuestionPanel()}

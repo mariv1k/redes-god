@@ -18,7 +18,7 @@ export function shuffle<T>(array: T[]) {
 }
 
 export function hexToRgba(hex: string, opacity = 1) {
-  var hex = hex.replace("#", "");
+  hex = hex.replace("#", "");
 
   if (hex.length === 3) {
     hex = hex[0] + hex[0] + hex[1] + hex[1] + hex[2] + hex[2];
