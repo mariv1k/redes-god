@@ -11,10 +11,10 @@ duplicates = []
 total_count = 0
 
 
-def get_answers(answers):
+def get_choices(choices):
     res = "["
 
-    for answer in answers:
+    for answer in choices:
         res += f"\"{re.sub(option_rgx, '', answer).strip()}\", "
     if len(res) > 2:
         res = res[:-2]
@@ -25,7 +25,7 @@ def parse():
     o = open(output_file, "w")
     res = "[\n"
     title = ""
-    answers = []
+    choices = []
     lines = light_parse().split("\n")
     last = 0
 
@@ -36,14 +36,14 @@ def parse():
         elif re.search(option_rgx, line):
             if last == 1:
                 title = re.sub(clean_begin, "", title).strip()
-            answers.append(line.strip())
+            choices.append(line.strip())
             last = 0
         else:
             if last == 0 and title != "":
                 res += add("{\n" +
-                           f"title: \"{title}\",\nanswers: {get_answers(answers)},\nsolution: \"\"\n" + "},\n", title)
+                           f"title: \"{title}\",\nchoices: {get_choices(choices)},\nsolution: \"\",\nexplanation: \"orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\"\n" + "},\n", title)
                 title = ""
-                answers = []
+                choices = []
             last = 1
             title += line
             continue

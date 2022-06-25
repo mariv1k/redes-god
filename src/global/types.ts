@@ -1,15 +1,12 @@
-import { ReactElement } from "react";
-
-export type QuestionData = {
-  title: String;
-  answers: String[];
-  solution: String;
-  lesson?: number;
+export interface QuestionData {
+  title: string;
+  choices: string[];
+  solution: string;
+  explanation: string;
 };
 
-export type CurrentQuestion = {
-  id: number
-  component: ReactElement,
+export interface Question {
+  id: number;
   data: QuestionData,
-  checked: string
+  choice: string  
 }

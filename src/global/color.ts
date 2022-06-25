@@ -1,4 +1,4 @@
-const colorData = {
+const colors = {
     dark: {
         background: "#36393f",
         front1: "#2f3136",
@@ -15,4 +15,4 @@ const colorData = {
     }
 }
 
-export default colorData
+export default colors

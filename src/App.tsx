@@ -1,12 +1,14 @@
-import "./App.css"
-import  RGContainer  from './components/Container';
+import * as S from "./global/styles";
+import Test from "./components/Test";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <RGContainer />
-    </div>
+    <S.App>
+      <main>
+        <Test />
+      </main>
+    </S.App>
   );
-}
+};
 
 export default App;
