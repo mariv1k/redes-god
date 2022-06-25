@@ -1,5 +1,4 @@
 import { ChangeEvent, FC, useState } from "react";
-import ReactTooltip from "react-tooltip";
 import constants from "../global/constants";
 import * as S from "../global/styles";
 import * as T from "../global/types";
@@ -9,7 +8,7 @@ import Tooltip from "./Tooltip";
 
 export const Question: FC<T.Question> = (question) => {
   const [selectedChoice, setSelectedChoice] = useState("-");
-  const [tooltip, showTooltip] = useState(true);
+  const [, showTooltip] = useState(true);
 
   const QuestionNumber: FC<number> = (num) => {
     return (

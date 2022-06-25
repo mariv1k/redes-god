@@ -78,7 +78,7 @@ export const SolvedQuestion: FC<T.Question> = (question) => {
 
   const SolvedQuestionExplanation: FC<string> = (explanation) => {
     return (
-      <S.QuestionExplanation className={"question_explanation" + " " + (explanation === "" ? "inactive" : "")} >
+      <S.QuestionExplanation className={"question_explanation " + (explanation === "" ? "inactive" : "")} >
         <label htmlFor={question.id.toString()}>
           Explicación<span>&#x3e;</span>
         </label>
