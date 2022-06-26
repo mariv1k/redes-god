@@ -18,7 +18,7 @@ export const App = styled.div`
     font-family: ${parameters.font.fontFamily}, sans-serif;
     font-size: 1rem;
     box-sizing: border-box;
-    color: ${parameters.colors.color3}
+    color: ${parameters.colors.color3};
   }
 `;
 
@@ -26,6 +26,8 @@ export const App = styled.div`
 
 export const Main = styled.main`
   width: 95%;
+  min-height: calc(100vh - 80px);
+  height: auto;
   max-width: 1000px;
   padding: 30px 0;
 `;
@@ -39,13 +41,26 @@ export const Header = styled.header`
   z-index: 1;
   top: 0;
   background-color: ${parameters.colors.color3};
-  transition: all 0.3s ease-out !important;
-  display: grid;
-  gap: 0px 0px; 
-  grid-template-areas: 
-    "new_test github"
-    "check_solutions github"; 
-  
+  transition: top 0.2s ease-out !important;
+  display: flex;
+  padding: 20px 30px;
+  flex-direction: row;
+  gap: 8px;
+  align-items: left;
+`;
+
+// Footer
+
+export const Footer = styled.footer`
+  color: ${parameters.colors.color1};
+  background-color: ${parameters.colors.color3};
+  height: ${parameters.height.footer}px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
 `;
 
 // Test
@@ -343,6 +358,8 @@ export const Button = styled.div`
   cursor: pointer;
   color: ${parameters.colors.color3};
   user-select: none;
+  padding: 4px;
+  font-weight: 600;
 
   &.inactive {
     pointer-events: none;

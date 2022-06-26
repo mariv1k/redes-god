@@ -3,7 +3,6 @@ import questionsData from "../global/data";
 import * as S from "../global/styles";
 import * as T from "../global/types";
 import { shuffle } from "../global/utils";
-import { CheckSolutionsButton } from "./Button";
 import { Question } from "./Question";
 import { SolvedQuestion } from "./SolvedQuestion";
 
@@ -59,12 +58,11 @@ const Test = () => {
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [])
-  TestManager.GenerateQuestions(10);
+  TestManager.GenerateQuestions(1);
 
   return (
     <S.Test>
       {TestManager.QuestionsGroup()}
-      <CheckSolutionsButton />
     </S.Test>
   );
 };
