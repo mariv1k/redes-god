@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import questionsData from "../global/data";
 import * as S from "../global/styles";
@@ -13,11 +14,11 @@ export class TestManager {
     return this._questions;
   }
 
-  public static GenerateQuestions(number: number, force: boolean = false) {
-    if (number > questionsData.length) return;
+  public static GenerateQuestions(number?: number, force: boolean = false) {
+    if (number && number > questionsData.length) return;
     if (!force && this._questions.length > 0) return;
     this._questions = [];
-    shuffle(questionsData)
+    questionsData
       .slice(0, number)
       .forEach((questionData, index) => {
         const question: T.Question = {
@@ -44,13 +45,17 @@ export class TestManager {
     for (var i = 0; i < this._questions.length; i++) {
       if (this._questions[i].id === id) {
         this._questions[i].choice = choice !== "-" ? choice : "-";
+        return
       }
     }
   }
 }
 
 const Test = () => {
-  TestManager.GenerateQuestions(5);
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+  TestManager.GenerateQuestions(35);
   const navigate = useNavigate();
   const handleCheckSolutionsButton = (): void => {
     navigate("/solved");

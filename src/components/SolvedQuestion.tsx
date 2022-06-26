@@ -12,7 +12,10 @@ export const SolvedQuestion: FC<T.Question> = (question) => {
 
   const SolvedQuestionTitle: FC<string> = (title) => {
     return (
-      <S.QuestionTitle className="question_title">{SolvedQuestionNumber(question.id)}{title}</S.QuestionTitle>
+      <S.QuestionTitle className="question_title">
+        {SolvedQuestionNumber(question.id)}
+        {title}
+      </S.QuestionTitle>
     );
   };
 
@@ -33,7 +36,8 @@ export const SolvedQuestion: FC<T.Question> = (question) => {
       const choice = value.match(new RegExp(/[a-z]+/))![0];
 
       if (question.data.solution === "") return false;
-      if (question.choice === "-" && question.data.solution === choice) return true;
+      if (question.choice === "-" && question.data.solution === choice)
+        return true;
       if (
         question.choice !== "-" &&
         question.choice === choice &&
@@ -78,14 +82,16 @@ export const SolvedQuestion: FC<T.Question> = (question) => {
 
   const SolvedQuestionExplanation: FC<string> = (explanation) => {
     return (
-      <S.QuestionExplanation className={"question_explanation " + (explanation === "" ? "inactive" : "")} >
+      <S.QuestionExplanation
+        className={
+          "question_explanation " + (explanation === "" ? "inactive" : "")
+        }
+      >
         <label htmlFor={question.id.toString()}>
           Explicación<span>&#x3e;</span>
         </label>
         <input type="checkbox" id={question.id.toString()} name="accordion" />
-        <div>
-          <p>{explanation}</p>
-        </div>
+        <div dangerouslySetInnerHTML={{ __html: explanation }} />
       </S.QuestionExplanation>
     );
   };

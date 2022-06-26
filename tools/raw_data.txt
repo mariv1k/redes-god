@@ -2728,46 +2728,54 @@ dispositivos.
 b) Es una red cuyo nivel fisico se estructura en una topología de bus.
 c) Es una red en la que los dispositivos emplean protocolo ETHERNET de nivel de enlace.
 d) Es una red de conmutación de circuitos con la propiedad de envío de tramas broadcast.
+
 2.- Una red con topología en anillo ...
 a) Especifica sus protocolos y arquitectura en el estándar IEEE 802.5.
 b) Se emplea, generalmente, más en la construcción de redes WAN que en la de redes MAN.
 c) Es más eficiente que una topología en bus cuando se emplea en redes LAN grandes.
 d) Emplea conexiones punto a punto a nivel de enlace, de ahí que el coste de su implantación
 sea menos elevado que en una topología en bus.
+
 3.- El espectro de potencias de la señal compuesta
 s(t) = [sen(4¡ift) + cos( 4¡ift)] + (1/2). [sen(8¡ift) + cos(8¡ift)],
 a) Es 1.41 para la primera ftecuencia.
 b) Es 0.5 para la segunda ftecuencia.
 c) Es 0.5 para la tercera ftecuencia
 d) Es 0.7 para la cuarta frecuencia.
+
 4.- En una arquitectura de red que sigue el modelo de referencia OSI/ISO ....
 a) La capa del nivel transporte proporciona servicios a la capa del nivel de red.
 b) La capa del nivel de enlace proporciona servicios a la capa del nivel de transporte.
 c) La PDU del nivel N contiene la PCI del nivel N y la SDU del nivel N-lo
 d) La IDU del nivel N contiene la PCI y la ICI del nivel N-l.
+
 5.- Si en un medio físico se transmite una señal con una potencia de 19mW y a cierta
 distancia se miden 3mW, la perdida expresada en decibelios es:
 a) 3dB.
 b) 6dB.
 c) 8dB.
 d) l2dB.
+
 6.- El espectro de un canal está situado entre 1.5MHz y 4Mhz, ¿cuántos niveles de
 señalización se necesitarán para conseguir una velocidad de transmisión máxima de 5Mbps?
 a) 2.
 b) 4.
 c) 8.
 d) 16.
+
 7.- Es falso que la modulación PSK:
 a) Tiene diferentes variantes en función del número de niveles que se emplean para modular.
 b) Es más sensible a errores de ganancia que la modulación ASK.
 c) Es una modulación analógica.
 d) Transmite una señal modulada que se obtiene de modificar una señal portadora con una
 moduladora.
+
 8.- Para codificar la secuencia de bits '10100110' se ha empleado:
 a) Una codificación banda base Manchester.
 b) Una codificación banda base NRZ bipolar.
 c) Una codificación banda base RZ bipolar.
 d) Una codificación banda base Manchester diferencial.
+
 9.- El siguiente diagrama de fase corresponde a:
 a) Una modulación QPSK que emplea 8 ángulos de fase .
 b) Una modulación QAM que emplea 8 amplitudes.
@@ -2780,12 +2788,14 @@ a) FSK-ASK.
 b) PSK-FSK.
 c) QPSK.
 d) ASK-PSK.
+
 11.- La fibra óptica multimodo de índice gradual,
 a) Tiene un núcleo de diámetro del orden de la longitud de onda de la señal transmitida.
 b) Tiene un índice de reftacción variable dentro del conductor y éste siempre es superior en la
 parte más alejada del núcleo del conductor.
 c) Soporta velocidades de cientos de Gigabips para decenas de kilómetros.
 d) Nunca necesita de repetidores.
+
 #12.- La codificación PCM diferencial de la señal analógica muestreada como se indica en la
 #figura y cuantificada empleando el menor número de bits posible, es:
 #(SE DA POR BUENA A TODO EL MUNDO, POR ERROR A TODOS LOS ALUMNOS)
@@ -2794,6 +2804,7 @@ d) Nunca necesita de repetidores.
 #b) '01011010110000110011'
 #c) '0010101010011000001100011'
 #d) '010001011010110000110011'
+
 13.- De las redes WIFI del tipo 802.11g, es falso que:
 a) Emplea el método de modulación de la 802.11a.
 b) Opera en la banda de 2.4Ghz al igual que la 802.11 b.
@@ -2801,6 +2812,7 @@ c) Emplea códigos de encriptación WEP de 64bits
 encriptar las comunicaciones.
 d) Permite alcanzar velocidades máximas de 54Mbps.
 como única posibilidad para
+
 14.- Se quieren enviar 3 señales de voz cada una de ellas con un ancho de banda de 4Khz por
 un único canal. Si se emplea multiplexación FDM, el ancho de banda del canal para
 transmistir debe de ser:
@@ -2808,6 +2820,7 @@ a) 12 kHz.
 b) un valor entre 12000 Hz Y24000 Hz.
 c) >12000 Hz.
 d) 8Khz
+
 15.- Se dispone de 4 emisores que quieren enviar
 paquetes por un único canal empleando multiplexación
 TDM sincrona. Si el tiempo de transmisión de un paquete es de
@@ -2818,6 +2831,7 @@ a) 16 ms.
 b) 7 ms.
 c) 4 ms.
 d) Ninguna de las anteriores.
+
 16.- De un cable de par trenzado del tipo STP que cumple el estándar EIA-568-A, es cierto
 que:
 a) Es más sensible a procesos de atenuación en la señal que un UTP de categoría 3.
@@ -2825,6 +2839,7 @@ b) Si es de categoría 5 soporta velocidades de transmisión entorno a los
 independientemente de la distancia que haya entre dispositivos.
 c) La velocidad de transmisión que soporta es independiente del paso de trenzado.
 d) Ninguna de las anteriores.
+
 17.- ¿Cuál es la secuencia de bits a añadir tras los datos, si el Emisor desea enviar la cadena
 de datos '101110', sabiendo que Emisor y Receptor emplean el polinomio generador G(x)=
 x3+1?
@@ -2832,6 +2847,7 @@ a) 011
 b) 0011
 c) 1001
 d) 111
+
 18.- Se sabe que el Receptor ha recibido la secuencia de bits 11011 y además se sabe que el
 Emisor emplea el código Hamming con paridad par que se asocia a un conjunto de palabras
 de datos de 2 bits. ¿Cuál es el bit erróneo recibido?
@@ -2839,6 +2855,7 @@ a) El bit erróneo es el cuarto
 b) El bit erróneo es el primero
 c) El bit erróneo es el quinto
 d) El bit erróneo es el segundo
+
 19.- Respecto a la delimitación de tramas por bits especiales, es falso que:
 a) Se emplee en las cabeceras y colas de las tramas simultáneamente.
 b) Use bits de relleno para evitar que secuencias de bits especiales puedan aparecer como
@@ -2846,35 +2863,41 @@ datos.
 c) Determine el tamaño de la trama en función de una estimación de tiempo obtenida a
 partir del retardo que tarda la trama en llegar desde emisor hasta receptor
 d) Tiene como objetivo delimitar el inicio y fin de la trama de datos.
+
 20.- Si la probabilidad de que una trama de 8 bits llegue al receptor con un error en 1 bit es
 0.002, ¿cuál es la probabilidad de que la trama llegue sin errores al receptor?
 a) 0.998
 b) 0.984
 c) 0.016
 d) Ninguna de las anteriores
+
 21.- Una trama HDLC cuyos cuatro primeros bits sean '1011' es:
 a) Una trama de información que indica que el número de secuencia enviado es '011'
 b) Una trama de supervisión que indica el rechazo de tramas.
 c) Una trama no numerada de conexión en modo Balanceado Asíncrono.
 d) Una trama no numerada de desconexión.
+
 22.- Respecto al protocolo BDLC se puede afirmar que:
 a) Es un protocolo del nivel de red.
 b) No necesita de un campo FCS 'Frame Check Sequence'.
 c) Emplea delimitación de trama por caracteres especiales.
 d) Emplea protocolo de ventana deslizante para gestionar
 tramas.
+
 23.- El protocolo PPP es falso que:
 el envío y recepción de
 a) Emplee paquetes LCP y NCP para autentificar el usuario.
 b) Emplee paquetes LCP para negociar la conexión del nivel de enlace.
 c) Emplee paquetes LCP para liberar el enlace de datos.
 d) Emplee paquetes NCP para negociar los parámetros del nivel de red.
-Examen de Redes Sevtiembre
+
+
 24.- Respecto al protocolo RlP es falso que:
 a) Emplee paquetes UDP dirigidos al puerto 520.
 b) Se puedan indicar hasta 25 rutas por mensaje.
 c) Sea un protocolo de encaminamiento dinámico empleado en redes WAN.
 d) Se envíen los paquetes a la dirección multicast 224.0.0.9
+
 25.- Para controlar la congestión de paquetes en una red LAN:
 a) Se puede limitar la velocidad de recepción de paquetes de los nodos receptores.
 b) Se puede aumentar la velocidad de envío de los nodos emisores mediante paquetes de
@@ -2882,6 +2905,7 @@ obstrucción.
 c) Se puede enviar un paquete hacia el emisor con los bits de congestión desactivados.
 d) Se puede asignar un crédito máximo a la tasa de bits que se pueden enviar por parte
 del emisor.
+
 26.- Se está aplicando el algoritmo de Dijkstra para generar el camino de mínimo coste y
 poder emplear ese criterio para un algoritmo de encaminamiento. Si se está evaluando la
 iteración i=3 con T={1,2,3}. Se puede afirmar que:
@@ -2889,6 +2913,7 @@ a) Sólo el coste L(3) ha variado con respecto a la iteración anterior
 b) Sólo el coste L(5) ha variado con respecto a la iteración anterior
 c) Sólo el coste L(6) ha variado con respecto a la iteración anterior
 d) Ninguna de las anteriores.
+
 27.- Dado el esquema de nodos de red de la figura, ¿Cuántos paquetes habrán llegado al nodo
 6 al finalizar el segundo salto, si se aplica la técnica de encaminamiento por inundación
 siendo el nodo 1 quien inicia el encaminamiento?
@@ -2896,6 +2921,7 @@ a) 1 paquete.
 b) 2 paquetes.
 c) 3 paquetes.
 d) 4 paquetes.
+
 28.- Si los paquetes de un mismo mensaje no siguen el mismo camino desde el emisor al
 receptor, estamos trabajando con:
 a) Conmutación de circuitos.
@@ -3915,8 +3941,8 @@ d) 3500 Hz.
 7. En la codificación en Banda Base, es cierto que: 
  a) En RZ bipolar se tiene 1 elemento de datos por 2 elementos de señal.**** 
  b) En NRZ se presenta 1 elemento de señal por 2 elementos de datos. 
- b) Manchester diferencial necesita menor ancho de banda que NRZ. 
- c) En Manchester diferencial, si Vt=2 bps, entonces, la Vm=1 baudios. 
+ c) Manchester diferencial necesita menor ancho de banda que NRZ. 
+ d) En Manchester diferencial, si Vt=2 bps, entonces, la Vm=1 baudios. 
  
 8. La figura adjunta representa una señal senoidal analógica que se propaga según un patrón repetitivo. Podemos 
 afirmar que la señal posee... 
@@ -4173,7 +4199,7 @@ a) *Implícito.
 b) Explícito. 
 c) Preselección. 
 d) Maestro-esclavo. 
-5/7 
+
 19. La técnica de detección de errores empleando códigos de redundancia cíclica (CRC) se 
 fundamenta en: 
 a) Enviar junto a los datos la diferencia entre los bits de datos y los bits del polinomio generador. 
@@ -4316,10 +4342,6 @@ d) Ninguna de las anteriores es cierta.
  
  
 8. Dada la siguiente señal que se transmite por el medio físico: 
- 
- 
- 
- 
 Se puede afirmar que: 
 a) Se emplea modulación en banda base. 
 b) Se emplea modulación por variación en frecuencia. 
@@ -4361,15 +4383,9 @@ d) *Empleando PCM se obtiene una velocidad de transmisión final de 508 bps.
 
  
 10. Considerando la siguiente multiplexión multinivel: 
- 
- 
- 
- 
- 
- 
- 
 Determinar la Velocidad de transmisión que deberá presentar la trama de salida indicada en 
 el esquema. 
+
 a) 2,048 Mpbs. 
 b) *8,192 Mbps. 
 c) 64 Kbps. 
@@ -5423,17 +5439,14 @@ b) Codificación binaria sin retorno a cero unipolar.
 c) Codificación binaria con retorno a cero unipolar. 
 d) Codificación Manchester. 
  
-15. ¿ Qué tipo de modulación analógica permite transmitir información a mayor velocidad si 
-se emplea un mismo ancho de banda ? 
+15. ¿ Qué tipo de modulación analógica permite transmitir información a mayor velocidad si se emplea un mismo ancho de banda ? 
  
 a) Modulación ASK. 
 b) Modulación PSK. 
 c) Modulación FSK. 
 d) Modulación QPSK. 
  
-16. ¿ Qué velocidad de transmisión es necesaria para enviar a través de un medio físico DOS 
-señales analógicas de 100 KHz de ancho de banda empleando una modulación PCM de 6 
-bits ? 
+16. ¿ Qué velocidad de transmisión es necesaria para enviar a través de un medio físico DOS señales analógicas de 100 KHz de ancho de banda empleando una modulación PCM de 6 bits ? 
  
 a) 12800 Kbps. 
 b) 25600 Kbps. 
@@ -5492,8 +5505,7 @@ c) La ventana del emisor tiene un tamaño que no varía durante el funcionamient
 protocolo. 
 d) La ventana del receptor sólo permite recibir una única trama de datos. 
  
-24. La pérdida de un paquete de datos en un protocolo de parada y espera sin numeración de 
-ACK’s provoca, 
+24. La pérdida de un paquete de datos en un protocolo de parada y espera sin numeración de ACK’s provoca, 
  
 a) Un error de duplicación. 
 b) Un error de sincronización. 
@@ -6256,18 +6268,21 @@ seguir en la red.
 c) Se emplea una tecnología de difusión para interconectar todos los equipos de la red.
 d) Los paquetes dirigidos a una dirección de broadcast son reenviados a todos los routers de la  
 red.
+
 2. Si  en una red de difusión un paquete dirigido a la dirección MAC de broadcast sufre una 
 colisión, es cierto que,
 a) Todas las estaciones que detecten la colisión reenviarán el paquete.
 b) El paquete será reenviado por la estación que lo transmitió.
 c) El paquete no será reenviado ya que va dirigido a la dirección de broadcast.
 d) No es posible, pues los paquetes de broadcast nunca sufren colisiones.
+
 3. La tecnología de difusión no es apropiada para redes WAN ya que,
 a) Los errores en los medios de difusión son muy frecuentes.
 b) El encaminamiento en una red de difusión es más lento que en una WAN punto a punto.
 c) Las redes de difusión emplean velocidades de transmisión muy pequeñas.
 d) El  elevado  número  de  equipos  que  interconecta  provocaría  un  estado  de  colisión 
 permanente.
+
 4. Las redes WAN proporcionan a los usuarios velocidades inferiores a las de las redes LAN ya  
 que,
 a) La velocidad de transmisión en un enlace punto a punto de una red WAN es menor que en 
@@ -6276,12 +6291,14 @@ b) Un enlace punto a punto en una WAN se reparte entre más usuarios que en un s
 una LAN.
 c) La tasa de error en el medio físico es mayor en las LAN que en las WAN.
 d) Las redes WAN no emplean la fibra óptica como medio de transmisión.
+
 5.  Indica  qué  mecanismo  permite  ofrecer  una  calidad  de  servicio  (QoS)  en  una  red  de 
 comunicaciones,
 a) La autenticación de usuarios que acceden a la red.
 b) Aumentar el número de colisiones en el medio físico.
 c) El reparto de la velocidad de transferencia del medio físico entre los equipos.
 d) Monitorizar los tipos de paquetes transmitidos en el medio físico.
+
 6. En una arquitectura de red de n niveles, es cierto que,
 a) Existe comunicación horizontal entre la capa n y la n-1 del otro extremo.
 b) Existe comunicación vertical entre la capa n-1 y la n+1.
@@ -6293,33 +6310,39 @@ a) Enviándolas al nivel n-1 como SDU’s.
 b) Enviándolas al nivel n par como SDU’s.
 c) Enviándolas al nivel n+1 incorporando una ICI.
 d) Enviándolas al nivel n-1 como PCI’s.
+
 8. Si una SDU es fragmentada al enviarla del nivel n al n-1, es cierto que,
 a) Es necesario incorporar una cabecera ICI a cada fragmento.
 b) Es necesario incorporar una cabecera PCI a cada fragmento.
 c) Sólo el primer fragmento incorpora la cabecera ICI.
 d) Las SDU’s no se fragmentan nunca.
+
 9. Si dos equipos con arquitectura TCP/IP establecen una conexión cada uno al servicio  HTTP de 
 un mismo servidor en Internet, es cierto que,
 a) Las dos conexiones pueden emplear el mismo número de puerto origen.
 b) Las dos conexiones emplean diferentes números de puerto destino.
 c) Las dos conexiones emplean diferentes direcciones IP destino.
 d) Las dos conexiones emplean la misma dirección IP origen.
+
 10. Si un paquete del protocolo HTTP tiene que ser fragmentado por TCP en dos paquetes para 
 enviarlo a la capa par TCP del otro extremo, es cierto que
 a) Los dos paquetes incorporan las mismas cabeceras de protocolos.
 b) Los dos paquetes incorporan cabecera HTTP.
 c) *Los dos paquetes incorporan cabecera TCP.
 d) Los dos paquetes no incorporan cabecera TCP.
+
 11. Si dos segmentos Ethernet se interconectan empleando un puente es cierto que,
 a) Todos los paquetes transmitidos circulan en ambos segmentos.
 b) Los paquetes de difusión sólo circulan en el segmento transmitido.
 c) Los paquetes de broadcast de un segmento pueden provocar colisiones en el otro.
 d) No se producen colisiones nunca.
+
 12. La velocidad máxima de transmisión que puede emplearse en un medio físico depende de,
 a) El tipo de codificación en niveles que se emplee.
 b) La potencia de la señal que se transmite.
 c) Los datos incorporados en los paquetes de datos.
 d) El tipo de código de detección de errores empleado.
+
 13. ¿ Por qué causa una señal NO puede transmitirse por un medio físico ?
 a) Porque la señal está compuesta por más armónicos que los que contiene el medio físico.
 b) Porque el ancho de banda de la señal es infinito.
@@ -6332,28 +6355,33 @@ a) Codificación QPSK.
 b) Codificación Manchester.
 c) Codificación QAM.
 d) Codificación binaria unipolar con retorno a cero.
+
 15. Si quiero aumentar la velocidad de transmisión con una señal de tipo QAM es necesario,
 a) Aumentar la amplitud de la señal modulada.
 b) Aumentar la frecuencia de la señal portadora.
 c) No es posible sin cambiar el tipo de codificación de la señal.
 d) Disminuyendo la relación señal-ruido en el medio físico.
+
 16.  La  normativa  de  multiplexión  en  el  tiempo  europea  (E1)  y  la  de  EEUU-Japón  (T1)  se 
 diferencian en que,
 a) La velocidad de transmisión empleada en un canal de voz es diferente.
 b) El tiempo empleado en la transmisión de una trama básica es diferente.
 c) La normativa de EEUU-Japón emplea una velocidad mayor que la europea.
 d) El número de canales de voz en una trama es diferente.
+
 17. Si en una red Ethernet a 10 Mbps se emplea un cableado UTP de categoría 5, es cierto que,
 a) Podrá emplearse el mismo cableado para transmitir a 1 Gbps.
 b) Es necesario blindar el cable para transmitir a 100 Mbps.
 c) Podrá emplearse el mismo cableado para transmitir a 100 Mbps.
 d) No se podrá transmitir información, pues el cable no lo permite.
+
 18.  Indica en qué situación sólo es  posible  el  empleo de la  fibra óptica como medio  físico de  
 transmisión,
 a) Distancias de menos de 100 metros y bajas velocidades.
 b) Distancias de menos de 100 metros y ruido electromagnético elevado.
 c) Distancias de menos de 100 metros y velocidades de 100 Mbps.
 d) Distancias de 100 metros y velocidades de 10 Mbps.
+
 19. El empleo de fibra óptica de tipo índice gradual permite,
 a) Mayores distancias de comunicación que la fibra multimodo.
 b) Mayores distancias de comunicación que la fibra monomodo.
@@ -6369,27 +6397,32 @@ b) Enlace satelital.
 c) Enlace inalámbrico a 54 Mbps.
 d) Enlace inalámbrico a 11 Mbps,  pues  permite  alcanzar mayores  distancias  que el  de 45 
 Mbps.
+
 21. El servicio más lento ofrecido por la capa de enlace cuando en el medio físico no se producen 
 errores es el,
 a) Servicio orientado a conexión confirmado.
 b) Servicio no orientado a conexión no confirmado.
 c) Servicio no orientado a conexión confirmado.
 d) Servicio orientado a conexión no confirmado.
+
 22. La técnica de detección de errores empleando paridad se caracteriza por,
 a) Ser más rápida en la detección de errores que con los códigos de redundancia cíclica.
 b) Permitir detectar más errores que con los códigos de redundancia cíclica.
 c) Detectar siempre errores en un número par de bits.
 d) Permitir detectar siempre errores en ráfaga.
+
 23. El error de duplicación en el control del flujo a nivel de enlace se produce cuando,
 a) El emisor envía el mismo bloque de datos dos veces.
 b) El receptor recibe dos veces el mismo bloque de datos.
 c) El emisor envía el mismo bloque de datos con numeración distinta.
 d) El receptor interpreta como datos diferentes el reenvío de un paquete.
+
 24. El tamaño de la ventana del emisor en una protocolo de ventana deslizante selectivo es,
 a) Siempre menor que la ventana del receptor.
 b) Determinado a partir del retardo en la recepción de los ACK’s.
 c) Siempre mayor que la ventana del receptor.
 d) De tamaño fijo a valor 1.
+
 25.  En el  protocolo de nivel  de enlace HDLC ,  el  establecimiento de un enlace balanceado se 
 realiza transmitiendo paquetes de,
 a) Información.
@@ -6402,22 +6435,26 @@ a) Antes de realizar la negociación LCP.
 b) Empleando el protocolo PAP.
 c) Después de realizar la negociación NCP.
 d) Empleando el protocolo IP.
+
 27. ¿ Cómo puede corregirse el congestionamiento cuando éste aparece en una red TCP/IP ?
 a) Reduciendo el número de saltos entre origen y destino.
 b) Aumentando la velocidad de transmisión entre los routers.
 c) Aumentando el número de entradas en las tablas de rutas.
 d) Reduciendo el flujo de entrada de paquetes en la red.
+
 28.  Si  en una red se  desea emplear  un protocolo de encaminamiento  que tenga en cuenta la 
 velocidad de comunicación en los enlaces se empleará,
 a) BGP.
 b) RIP v1.
 c) RIP v2.
 d) OSPF.
+
 29. Sobre el valor del MSS que se establece en una conexión TCP es cierto que,
 a) Se determina a partir del valor del campo opciones en los paquetes SYN.
 b) Se determina a partir del valor del campo window en los paquetes SYN.
 c) Se puede modificar empleando el valor del campo MSS en los paquetes RST.
 d) Se modifica en función del valor del retardo en la recepción de paquetes ACK.
+
 30. Sobre el control del flujo de datos empleado en el protocolo TCP es cierto que,
 a) El algoritmo de Karn permite determinar un tiempo de espera de ACK para los reenvíos.
 b) El tiempo de espera del ACK de un paquete de datos se modifica siempre en función del  
@@ -8191,11 +8228,13 @@ a) Su bajo coste económico de cableado frente a la tecnología de difusión.
 b) La comunicación directa a nivel de enlace entre cualquier par de nodos de la red.
 c) La transmisión de un único paquete para enviar información a todos los nodos de la red.
 d) *La tolerancia a fallos que presenta si existen varios caminos a un determinado destino.
+
 2. La transmisión de información en una red LAN de difusión se caracteriza por,
 a) Una elevada tasa de error en el medio debido a la gran extensión geográfica de la red.
 b) *Precisar de un esquema de direccionamiento a nivel de enlace.
 c) El empleo de algoritmos de encaminamiento para los equipos en los extremos de la red.
 d) Precisar de un esquema de direccionamiento implícito.
+
 3. La  comunicación  en  una  red  WAN  que  emplea  la  técnica  de  circuitos  virtuales  se
 caracteriza por,
 a) *Proporcionar  una  transmisión  de  datos  con  menos  retardos  que  con  la  técnica  de
@@ -8204,16 +8243,19 @@ b) Presentar mayor tolerancia a fallos en los nodos de la red que con la técnic
 c) Modificar la ruta que sigue un paquete en la red sin necesidad de establecer un nuevo
 camino entre origen y destino.
 d) Establecer caminos de circulación en la red para cada paquete de datos transmitido.
+
 4. El aumento en el número de niveles de una arquitectura de red se caracteriza por,
 a) *Establecer funcionalidades más sencillas para cada capa dentro de la arquitectura de red.
 b) Establecer funcionalidades más complejas para cada capa dentro de la arquitectura de red.
 c) Aumentar el número de errores en la transmisión de paquetes por el medio físico.
 d) Disminuir el número de errores en la transmisión de paquetes por el medio físico.
+
 5. La realización de un servicio ofrecido por la capa n de una arquitectura de red precisa de,
 a) *El intercambio de PDU’s entre las entidades pares del nivel n.
 b) El intercambio de IDU’s entre las entidades pares del nivel n-1.
 c) El intercambio de PDU’s entre las entidades pares del nivel n+1.
 d) El intercambio de IDU’s entre las entidades pares del nivel n.
+
 6. La interconexión de dos redes LAN Ethernet a través de una red con arquitectura TCP/IP
 se consigue,
 a) *Empleando dos routers, uno en cada LAN.
@@ -8226,12 +8268,14 @@ a) Realizar un encaminamiento de los paquetes de información mediante circuitos
 b) Realizar un envío confirmado de paquetes de información en la red.
 c) *Definir un direccionamiento para los equipos en la red. 
 d) Establecer flujos fiables de información.
+
 8. En  el  modelo  de  arquitectura  de  red  TCP/IP,  los  paquetes  de  datos  que  generan  las
 aplicaciones y que se intercambian a nivel físico,
 a) Incorporan siempre las cabeceras de todos los protocolos de la arquitectura de red.
 b) *Incorporan siempre la cabecera del protocolo IP.
 c) Incorporan siempre la cabecera del protocolo IP y TCP.
 d) Incorporan siempre la cabecera del protocolo IP y UDP.
+
 9. La transmisión de señales de información en banda base a través de un medio físico de
 ancho de banda B se caracteriza por:
 a) Permitir la transmisión de cualquier señal de datos a través del medio físico.
@@ -8240,18 +8284,21 @@ ancho de banda del medio.
 c) Reducir a B el número de componentes frecuenciales de la señal que son transmitidas a
 través del medio.
 d) No es posible incorporar información de sincronización en la señal transmitida.
+
 10. La modulación analógica por cambio en amplitud permite,
 a) Transmitir  cualquier  señal  de información a través de un medio físico con 4000 Hz de
 ancho de banda.
 b) Reducir la relación señal-ruido en el medio físico de transmisión.
 c) *Adecuar el ancho de banda de la señal moduladora al ancho de banda del medio físico.
 d) Aumentar el ancho de banda de la señal moduladora.
+
 11. La  modulación  analógica  que  permite  la  transmisión  de  señales  con mayor calidad  y
 mejor aprovechamiento del medio físico es,
 a) La modulación por cambio de amplitud y frecuencia.
 b) La modulación por cambio de amplitud.
 c) La modulación por cambio de frecuencia.
 d) *La modulación por cambio de fase y amplitud.
+
 12. La  velocidad  de  transferencia  necesaria  en  un  medio  físico  para  transmitir  señales
 moduladas digitalmente, como PCM, depende de,
 a) El ancho de banda de la señal moduladora y su relación señal-ruido.
@@ -8264,23 +8311,27 @@ a) En las fibras monomodo.
 b) Al disminuir la velocidad de transmisión.
 c) *Al aumentar la distancia de la comunicación.
 d) Al aumentar la potencia del haz de luz del emisor.
+
 14. Determina el medio físico más adecuado a emplear en un entorno industrial donde existe
 una gran cantidad de máquinas eléctricas en funcionamiento:
 a) Cable UTP categoría 3.
 b) *Cable STP.
 c) Cable UTP categoría 5.
 d) Cable UTP categoría 6.
+
 15. Sobre la comunicación inalámbrica empleando ondas electromagnéticas, es cierto que:
 a) *Señales de la misma frecuencia interfieren entre ellas.
 b) Señales de la misma frecuencia y diferente amplitud NO interfieren entre ellas.
 c) Las comunicaciones satelitales emplean frecuencias de 100 MHz.
 d) Las ondas electromagnéticas tienen todas el mismo alcance en distancia.
+
 16. Indica dónde se introduce el  campo Secuencia de Verificación de Trama (SVT) en un
 protocolo de nivel de enlace:
 a) Al principio de la cabecera del protocolo de nivel de enlace.
 b) Al final de la cabecera del protocolo de nivel de enlace.
 c) *Al final del paquete de nivel de enlace.
 d) Al principio del paquete de nivel de enlace.
+
 17. Si un protocolo de nivel de enlace emplea la técnica CRC como Secuencia de Verificación
 de Trama, es cierto que:
 a) Podrá corregir los errores en bits del paquete de nivel de enlace.
@@ -8288,6 +8339,7 @@ b) *Podrá detectar la existencia de bits erróneos en el paquete de nivel de en
 c) Podrá corregir los errores en bits de los datos de nivel de enlace.
 d) Solicitará al nivel de red la corrección de los bits con errores en el paquete de nivel de
 enlace.
+
 18. En un protocolo de control del flujo de parada y espera con numeración de DATOS y
 ACKs, y  donde no se producen errores en la transmisión en el medio físico, es FALSO
 que:
@@ -8302,18 +8354,21 @@ a) Física.
 b) MAC.
 c) LLC.
 d) *Red.
+
 20. Indica en cuál  de las  siguientes   normativas Ethernet  NO es  necesario un tamaño de
 paquete mínimo:
 a) 100BaseT.
 b) 1000BaseT.
 c) *10G-BaseT.
 d) Todas las normativas BaseT de Ethernet precisan de tamaño de paquete mínimo.
+
 21. La  interconexión  de  segmentos  Ethernet  empleando  conmutadores  en  vez  de
 concentradores permite:
 a) Reducir la congestión en la red al aumentar el número de PCs.
 b) Reducir las colisiones en la red al aumentar el número de PCs.
 c) *Eliminar las colisiones en la red independientemente del número de PCs.
 d) Eliminar la congestión en la red independientemente del número de PCs.
+
 22. Sobre  el  funcionamiento  del  reenvío  de  paquetes  Ethernet  en  un  puente  que  emplea
 Spanning-Tree, es cierto que :
 a) Si la dirección MAC destino de un paquete recibido en un puerto no es conocida, se reenvía
@@ -8323,11 +8378,13 @@ reenvía a todos los puertos ACTIVOS adicionales del puente.
 c) Si la dirección MAC destino de un paquete recibido en un puerto no es conocida, se reenvía
 sólo al PUERTO RAÍZ del puente.
 d) El puente sólo puede reenviar paquetes Ethernet a su PUERTO RAÍZ.
+
 23. La tecnología Ethernet 100BaseT se desarrolló con el objetivo de:
 a) *Mejorar el rendimiento en redes Ethernet 10BaseT con aplicaciones cliente/servidor.
 b) Reducir la congestión en redes Ethernet 10BaseT al aumentar el número de PCs .
 c) Eliminar las colisiones en los concentradores Ethernet 10BaseT.
 d) Eliminar el tamaño de paquete mínimo en redes Ethernet.
+
 24.  ¿ En qué tecnología Ethernet se emplea la codificación 8B/10B para la sincronización ?
 a) 100BaseFX.
 b) 100BaseTX.
@@ -8340,6 +8397,7 @@ la misma red IP.
 b) Reenviar paquetes ARP request asociados a una VLAN sólo al puerto troncal de la VLAN.
 c) *Establecer dominios de difusión diferentes dentro de un mismo conmutador.
 d) Definir varias redes IP para una misma VLAN en el conmutador.
+
 26. Sobre el funcionamiento de una red LAN inalámbrica de infraestructura es cierto que:
 a) Cada punto de acceso (AP) tiene conectividad inalámbrica con los equipos conectados a
 otros APs.
@@ -8349,6 +8407,7 @@ c) *La conectividad entre equipos inalámbricos conectados a diferentes AP se re
 red de infraestructura (red Ethernet).
 d) Un equipo inalámbrico conectado a un AP no tiene conectividad con equipos en la red de
 infraestructura (red Ethernet).
+
 27. Sobre el procedimiento de registro de un equipo inalámbrico en un punto de acceso (AP)
 es  cierto que:
 a) Un AP no puede rechazar registrar a un equipo que solicita el registro.
@@ -8356,6 +8415,7 @@ b) *Para el registro de un equipo en un AP es necesario conocer el SSID de la re
 c) Si un AP registra un equipo no es posible iniciar el proceso de autenticación.
 d) El proceso de registro permite proporcionar una clave de cifrado por parte del AP al equipo
 inalámbrico.
+
 28. El cifrado en WPA2-PSK y en WPA2-Enterprise se diferencia en que:
 a) *WPA2-PSK emplea una secuencia inicial de cifrado con la misma clave para todos los
 equipos inalámbricos.
@@ -8365,6 +8425,7 @@ c) WPA2-PSK emplea el mecanismo de autenticación LEAP para permitir el acceso a
 inalámbrica.
 d) WPA2-Enterprise puede emplear el  algoritmo de cifrado EAP y WPA2-PSK sólo puede
 emplear el algoritmo de cifrado TKIP.
+
 29. Indica qué dirección IP tiene que ser empleada en un dispositivo para que un router
 NUNCA pueda encaminarla (aunque emplee NAT):
 a) 10.0.0.3.
@@ -8377,18 +8438,21 @@ a) *Reduciendo el número de equipos conectados en la red.
 b) Reduciendo la capacidad de proceso de las CPUs de los routers.
 c) Reduciendo el tamaño del MTU de las redes conectadas.
 d) Aumentando la velocidad de transmisión en las redes conectadas.
+
 31. ¿ Cuál es el protocolo de encaminamiento empleado en los routers frontera de los SA para
 la conectividad global en Internet ?
 a) OSPF.
 b) RIPv1.
 c) *BGP.
 d) RIPv2.
+
 32. ¿ Cuál es el protocolo de encaminamiento que envía siempre la información completa de
 la tabla de encaminamiento de un router ?
 a) OSPF.
 b) *RIPv1.
 c) BGP.
 d) OSPFv2.
+
 33. El direccionamiento IPv6 presenta la característica de:
 a) *Asociar  direcciones  IP  únicas  a  dispositivos,  independientemente  de  su  ubicación
 geográfica.
@@ -8396,6 +8460,7 @@ b) Aumentar el número máximo de saltos de encaminamiento que un paquete IP pue
 a través de los routers de Internet.
 c) Emplear un tamaño en bytes para la cabecera IPv6 menor que en IPv4.
 d) No permitir el empleo de direcciones IP de multidifusión.
+
 34. Sea una conexión TCP entre un extremo A y otro B en una situación en la que la ventana
 de congestión del extremo A es menor que la ventana de recepción que informa el extremo
 B. En esta situación es cierto que:
@@ -8405,6 +8470,7 @@ c) El  extremo  A reduce  su  ventana  de  emisión  a  la  mitad  del  tamaño 
 recepción en B.
 d) El  extremo  A reduce  su  ventana  de  emisión  a  la  mitad  del  tamaño  de  la  ventana  de
 congestión.
+
 35. La tecnología de red MPLS está asociada a:
 a) Redes de agregación Ethernet.
 b) *Redes troncales.
@@ -10182,6 +10248,7 @@ c) Determinar un camino a través de los nodos de la red para que los paquetes a
 destino. 
 d) Especificar en cada paquete el origen y el destino para que los nodos intermedios 
 determinen un camino en la red para cada paquete transmitido. 
+
 -Si en una red de conmutación de paquetes basada en datagramas un nodo deja de 
 funcionar es cierto que: 
 a) Sólo los paquetes en tránsito en el nodo no alcanzarán su destino. 
@@ -10189,6 +10256,7 @@ b) Todos los paquetes que hayan pasado por ese nodo han de ser reenviados.
 c) Todas las estaciones de la red quedan incomunicadas. 
 d) Las estaciones que emplean ese nodo para intercambiar paquetes han de determinar una 
 nueva ruta para sus destinos. 
+
 -La transmisión de una señal de información a todas las estaciones de una red de 
 comunicaciones es posible en las redes de tipo: 
 a) Punto a punto. 
@@ -10455,6 +10523,7 @@ a) Se establece entre las capas que son adyacentes en la arquitectura.
 b) Se establece entre la capa n y la capa par n-1 de la arquitectura. 
 c) Se establece entre las capas pares de la arquitectura. 
 d) Se establece entre las capas n+1 y n-1 de la arquitectura. 
+
 -Sobre el funcionamiento de una arquitectura de red es cierto que: 
 a) El número de niveles está asociado al número de equipos que existen en la red de 
 comunicaciones. 
@@ -10717,6 +10786,7 @@ a) 5.
 b) 6. 
 c) 10000. 
 d) Infinitos. 
+
 - Determina la velocidad máxima de transmisión para una señal de pulsos con 2 niveles 
 de tensión en un medio físico full-duplex con multiplexión por frecuencia (simétrica para 
 transmisión y recepción) y ancho de banda de 1000 Hz. 
@@ -10870,6 +10940,7 @@ a) Protocolo de parada y espera.
 b) Protocolo de ventana deslizante de 1 bit. 
 c) Protocolo de ventana deslizante con repetición NO selectiva. 
 d) Protocolo de ventana deslizante con repetición selectiva. 
+
 - Sobre la transmisión de paquetes Ethernet empleando el mecanismo CSMA/CD, es cierto 
 que: 
 a) Un equipo reenvía los paquetes Ethernet que sufren errores CRC. 
@@ -11435,7 +11506,7 @@ a) Valores de MTU diferentes en toda la red.
 b) Tablas de encaminamiento muy complejas. 
 c) Porcentaje de uso de la CPU de los routers para encaminamiento inferiores al 40%. 
 d) El empleo de protocolos sin control del flujo como UDP. 
-2
+
 1. El intercambio de información en una red LAN de difusión NO se caracteriza por,
 a) Permitir una única transmisión de una trama al medio físico para que todas las estaciones la
 reciban.
@@ -11444,6 +11515,7 @@ estaciones en la red.
 c) Producirse colisiones en el medio físico cuando dos o más estaciones transmiten datos
 simultáneamente.
 d) Necesitar un esquema de direccionamiento para las estaciones de la red.
+
 2. La comunicación entre dos equipos a través de una red de conmutación de paquetes por
 circuitos virtuales se caracteriza por que,
 a) Para transmitir las señales, se establece un camino físico exclusivo entre los dos equipos
@@ -11453,6 +11525,7 @@ circulado por distintos caminos en la red.
 c) Ofrece un servicio de alta calidad, adecuado para la transmisión de datos.
 d) En general, no requiere de una conexión previa para poder enviar los datos, ni de una
 desconexión al acabar
+
 3. Conforme al modelo OSI, es FALSO que,
 a) Un protocolo de nivel N se construye usando los servicios que ofrece el nivel N-1.
 b) Un protocolo define el dialogo entre entidades de distintos niveles de la arquitectura.
@@ -11460,29 +11533,33 @@ c) Los servicios que ofrece un nivel pueden ser orientados a conexión o no orie
 conexión.
 d) Los servicios de tipo no confirmado no requieren utilizar las primitivas Response y
 Confirm.
+
 4. La realización de un servicio que la capa n+1 solicita a la capa n, se realiza
 a) Intercambiando PDU's entre entidades pares del nivel n.
 b) Intercambiando PDU's entre entidades pares del nivel n+1.
 c) Intercambiando IDU's entre entidades pares del nivel n.
 d) Intercambiando SDU's entre entidades pares del nivel n+1.
+
 5. El intercambio de información de forma fiable entre dos estaciones interconectadas con
 una red WAN con arquitectura de red OSI, es funcionalidad de,
 a) La capa de enlace.
 b) La capa de red.
 c) La capa de sesión.
 d) La capa de transporte.
+
 6. Dentro del modelo OSI, una de las funciones que gestiona el nivel de transporte es,
 a) El establecimiento del camino virtual que seguirán los paquetes en la red.
 b) El establecimiento y liberación de conexiones entre los equipos origen y destino.
 c) Controlar el acceso de múltiples usuarios de forma simultánea al mismo servidor.
 d) La encriptación de los datos cuando se requiere confidencialidad.
-3
+
 7. En una arquitectura de red, la capa n puede reorganizar los paquetes que ha fragmentado
 la capa n+1,
 a) Nunca, la reordenación la debe realizar la capa n+1.
 b) Nunca, la reordenación la debe realizar la capa n-1.
 c) Empleando las cabeceras del protocolo de nivel n.
 d) Empleando las cabeceras del protocolo de nivel n+1.
+
 8. En referencia a la arquitectura de red TCP/IP, es cierto que,
 a) Esta basada la transmisión de paquetes de datos mediante conmutación de circuitos
 virtuales.
@@ -11491,6 +11568,7 @@ recuperación de los paquetes que tienen errores.
 c) Define protocolos concretos para todos los niveles de su arquitectura, excepto para el
 Acceso a la Red, para el cual se utilizan protocolos de otras arquitecturas.
 d) No permite comunicaciones orientadas a conexión
+
 9. La transmisión de una señal con información a través de un medio físico se realiza
 correctamente si,
 a) Los armónicos de mayor frecuencia de la señal son transmitidos y los de menor frecuencia
@@ -11501,6 +11579,7 @@ c) Los armónicos de menor frecuencia de la señal se encuentran dentro del anch
 medio físico.
 d) El ancho de banda del medio físico es igual a la frecuencia del armónico de primer orden de
 la señal.
+
 10. Una señal digital periódica de 8 bits, con un periodo de 10ms, se envía por un medio con
 un ancho de banda ideal de 240Hz que comienza en la frecuencia 280Hz. ¿Cuántas
 componentes armónicas de la señal llegarán correctamente al destino?
@@ -11508,58 +11587,66 @@ a) 2.
 b) 3.
 c) 4.
 d) 5.
+
 11. Aumentar la velocidad de modulación en una señal digital de pulsos que se transmite por
 un medio físico produce,
 a) El aumento del ancho de banda del medio físico.
 b) El aumento del valor de frecuencia de los armónicos que componen la señal.
 c) La reducción en la velocidad de transmisión de información de la señal.
 d) El aumento en la velocidad de propagación de la señal en el medio físico.
-4
+
 12. ¿Cuál de los siguientes tipos de ruido que pueden afectar a una transmisión se produce
 principalmente en los circuitos emisores y receptores de un equipo?
 a) Cruzado o diafonía.
 b) Autocoplamiento.
 c) Impulsivo.
 d) Térmico.
+
 13. Indica con qué tipo de modulación analógica es posible alcanzar mayor velocidad de
 transmisión de datos en un mismo medio físico,
 a) Modulación ASK.
 b) Modulación FSK.
 c) Modulación PCM.
 d) La velocidad máxima de transmisión no depende del tipo de modulación empleada.
+
 14. La modulación analógica QAM de múltiples niveles se caracteriza por,
 a) Emplear la modulación PSK y FSK.
 b) Emplear la modulación PSK y ASK.
 c) Emplear la modulación ASK y FSK.
 d) Emplear la modulación PCM y PSK.
+
 15. Determina qué velocidad de transmisión se necesita en un medio físico para multiplexar
 en el tiempo dos señales PCM: una de 64Kbps y otra de 32 Kbps,
 a) 64 Kbps.
 b) 32 Kbps.
 c) 128 Kbps.
 d) 96 Kbps.
+
 16. ¿ En que se diferencian los estándares de multiplexado E1 (europeo) y T1 (americano)?
 a) Las tramas del E1 duran 125µs y las del T1 la mitad.
 b) El E1 multiplexa 30 canales de voz digital mientras que el T1 multiplexa 24.
 c) El T1 emplea multiplexado por división de frecuencia y el E1 por división en el tiempo.
 d) El T1 incluye información de control en las tramas, pero el E1 no.
+
 17. Para enviar una señal digital de datos a una distancia de 100m, ¿qué medio de
 transmisión de los siguientes permite alcanzar una velocidad de transmisión mayor?
 a) STP.
 b) UTP categoría 3.
 c) UTP categoría 5.
 d) Cable coaxial de 50 ohmios.
-5
+
 18. El medio físico más adecuado para las comunicaciones intercontinentales es,
 a) Fibra óptica multimodo.
 b) Fibra óptica monomodo.
 c) Fibra óptica de índice gradual.
 d) Cable STP.
+
 19. Sobre los tipos de fibra óptica para transmisión de señales digitales, es cierto que,
 a) La fibra monomodo provoca más distorsión intermodal que la fibra multimodo.
 b) La multimodo permite transmitir pulsos de luz a mayor frecuencia que la monomodo.
 c) Para una misma distancia, la multimodo tiene un mayor ancho de banda que la monomodo.
 d) Para un mismo ancho de banda, la monomodo permite transmitir a mayores distancias.
+
 20. En relación a las técnicas de contienda para el acceso a un medio compartido, es FALSO
 que,
 a) Con la transmisión ALOHA, un equipo no tiene en cuenta la posible existencia de una señal
@@ -11568,12 +11655,14 @@ b) Con transmisión CSMA, un equipo puede enviar una trama de datos cuando no de
 presencia de otra señal en el medio físico.
 c) Tanto con ALOHA como con CSMA, pueden existir colisiones al transmitir datos.
 d) En general, la transmisión de tipo CSMA ofrece un menor rendimiento que la ALOHA.
+
 21. El campo de secuencia de verificación de trama (FCS) de una trama de enlace en un
 protocolo de la arquitectura OSI es parte de la,
 a) PCI de enlace.
 b) SDU de enlace.
 c) ICI de enlace.
 d) IDU de enlace.
+
 22. Respecto a los tipos de servicio que puede ofrecer el nivel de enlace al de red, es cierto que,
 a) El servicio con conexión y con reconocimiento de tramas es el más rápido.
 b) Los servicios sin confirmación se utilizan cuando el medio físico tiene una tasa de error
@@ -11581,6 +11670,7 @@ alta.
 c) El servicio sin conexión y sin confirmación es el más adecuado para redes locales de
 calidad.
 d) Los servicios con confirmación son necesariamente orientados a conexión.
+
 23. Habitualmente, en un protocolo orientado a bit, ¿qué operación realiza un emisor para
 evitar la interpretación incorrecta de secuencias de bits de datos que coinciden con el
 código del delimitador 01111110?
@@ -11588,19 +11678,21 @@ a) Añade un cero después de cada secuencia de cinco unos seguidos.
 b) Sustituye cada secuencia de cinco unos seguidos por un cero.
 c) Cambia cada secuencia de seis unos seguidos por una secuencia de cinco unos y un cero.
 d) Duplica el código del delimitador cada vez que aparece entre los bits de datos.
-6
+
 24. ¿Cuál es el valor del campo de detección de errores que hay que asociar a la secuencia de
 bits de datos ‘100011’ utilizando un código CRC con el polinomio generador x2+1?
 a) 00.
 b) 01.
 c) 10.
 d) 11
+
 25. Para que en el envío de paquetes de información en un protocolo de ventana deslizante se
 aproveche adecuadamente el medio físico, debe verificarse que
 a) El emisor pueda enviar paquetes durante todo el tiempo de espera de un ACK.
 b) El emisor tenga un tamaño de ventana igual a 1.
 c) El receptor tenga un tamaño de ventana igual a 1.
 d) El receptor tenga un tamaño de ventana mayor que el emisor.
+
 26. El aprovechamiento del medio físico en un protocolo de ventana deslizante selectivo, NO
 depende de,
 a) La tasa de error en el medio físico.
@@ -11609,18 +11701,21 @@ correcta.
 c) La velocidad de transferencia en el medio físico.
 d) El número medio de reenvíos de paquetes necesarios para enviar un paquete de forma
 correcta.
+
 27. Si un protocolo de parada y espera emplea sólo numeración de las tramas de datos, es
 cierto que
 a) Pueden producirse errores de duplicación.
 b) Pueden producirse errores de sincronización emisor - receptor.
 c) Pueden producirse errores de duplicación y de sincronización.
 d) No pueden producirse errores de duplicación ni de sincronización.
+
 28. ¿Cuál es la principal causa de la pérdida de sincronización de los asentimientos o
 confirmaciones en un proceso emisor de un protocolo de parada y espera?
 a) La llegada de datos duplicados al receptor.
 b) La pérdida de las tramas de asentimiento.
 c) La utilización de un temporizador en el emisor con demasiado tiempo de espera.
 d) Que el receptor tarde demasiado tiempo en enviar el asentimiento de una trama de datos.
+
 29. ¿Cuál de los siguientes tipos de trama de supervisión del protocolo HDLC sirve para
 indicar una confirmación negativa de una trama con errores cuando se utiliza envío
 continuo con repetición no selectiva?
@@ -13152,63 +13247,74 @@ dispositivos.
 b) Es una red cuyo nivel fisico se estructura en una topología de bus.
 c) Es una red en la que los dispositivos emplean protocolo ETHERNET de nivel de enlace.
 d) Es una red de conmutación de circuitos con la propiedad de envío de tramas broadcast.
+
 2.- Una red con topología en anillo ...
 a) Especifica sus protocolos y arquitectura en el estándar IEEE 802.5.
 b) Se emplea, generalmente, más en la construcción de redes WAN que en la de redes MAN.
 c) Es más eficiente que una topología en bus cuando se emplea en redes LAN grandes.
 d) Emplea conexiones punto a punto a nivel de enlace, de ahí que el coste de su implantación
 sea menos elevado que en una topología en bus.
+
 3.- El espectro de potencias de la señal compuesta
 s(t) = [sen(4¡ift) + cos( 4¡ift)] + (1/2). [sen(8¡ift) + cos(8¡ift)],
 a) Es 1.41 para la primera ftecuencia.
 b) Es 0.5 para la segunda ftecuencia.
 c) Es 0.5 para la tercera ftecuencia
 d) Es 0.7 para la cuarta frecuencia.
+
 4.- En una arquitectura de red que sigue el modelo de referencia OSI/ISO ....
 a) La capa del nivel transporte proporciona servicios a la capa del nivel de red.
 b) La capa del nivel de enlace proporciona servicios a la capa del nivel de transporte.
 c) La PDU del nivel N contiene la PCI del nivel N y la SDU del nivel N-lo
 d) La IDU del nivel N contiene la PCI y la ICI del nivel N-l.
+
 5.- Si en un medio físico se transmite una señal con una potencia de 19mW y a cierta
 distancia se miden 3mW, la perdida expresada en decibelios es:
 a) 3dB.
 b) 6dB.
 c) 8dB.
 d) l2dB.
+
 6.- El espectro de un canal está situado entre 1.5MHz y 4Mhz, ¿cuántos niveles de
 señalización se necesitarán para conseguir una velocidad de transmisión máxima de 5Mbps?
 a) 2.
 b) 4.
 c) 8.
 d) 16.
+
 7.- Es falso que la modulación PSK:
 a) Tiene diferentes variantes en función del número de niveles que se emplean para modular.
 b) Es más sensible a errores de ganancia que la modulación ASK.
 c) Es una modulación analógica.
 d) Transmite una señal modulada que se obtiene de modificar una señal portadora con una
 moduladora.
+
 8.- Para codificar la secuencia de bits '10100110' se ha empleado:
 a) Una codificación banda base Manchester.
 b) Una codificación banda base NRZ bipolar.
 c) Una codificación banda base RZ bipolar.
 d) Una codificación banda base Manchester diferencial.
+
 9.- El siguiente diagrama de fase corresponde a: 
 a) Una modulación QPSK que emplea 8 ángulos de fase .
 b) Una modulación QAM que emplea 8 amplitudes.
 c) Una modulación QAM que emplea 4 ángulos de fase y 2 amplitudes.
 d) Una modulación QPSK que emplea 2 ángulos de fase y 4 amplitudes.
+
 10.- Según la forma de onda de la figura que se desplaza en un medio físico, se puede afirmar
-que se trata de una modulación[
+que se trata de una modulación
 a) FSK-ASK.
 b) PSK-FSK.
 c) QPSK.
 d) ASK-PSK.
+
 11.- La fibra óptica multimodo de índice gradual,
 a) Tiene un núcleo de diámetro del orden de la longitud de onda de la señal transmitida.
 b) Tiene un índice de reftacción variable dentro del conductor y éste siempre es superior en la
 parte más alejada del núcleo del conductor.
 c) Soporta velocidades de cientos de Gigabips para decenas de kilómetros.
 d) Nunca necesita de repetidores. 
+
 #12.- La codificación PCM diferencial de la señal analógica muestreada como se indica en la
 #figura y cuantificada empleando el menor número de bits posible, es:
 #(SE DA POR BUENA A TODO EL MUNDO, POR ERROR A TODOS LOS ALUMNOS)
@@ -13217,13 +13323,14 @@ d) Nunca necesita de repetidores.
 #b) '01011010110000110011'
 #c) '0010101010011000001100011'
 #d) '010001011010110000110011'
+
 13.- De las redes WIFI del tipo 802.11g, es falso que:
 a) Emplea el método de modulación de la 802.11a.
 b) Opera en la banda de 2.4Ghz al igual que la 802.11 b.
 c) Emplea códigos de encriptación WEP de 64bits
 encriptar las comunicaciones.
 d) Permite alcanzar velocidades máximas de 54Mbps.
-como única posibilidad para
+
 14.- Se quieren enviar 3 señales de voz cada una de ellas con un ancho de banda de 4Khz por
 un único canal. Si se emplea multiplexación FDM, el ancho de banda del canal para
 transmistir debe de ser:
@@ -13231,6 +13338,7 @@ a) 12 kHz.
 b) un valor entre 12000 Hz Y24000 Hz.
 c) >12000 Hz.
 d) 8Khz
+
 15.- Se dispone de 4 emisores que quieren enviar
 paquetes por un único canal empleando multiplexación
 TDM sincrona. Si el tiempo de transmisión de un paquete es de
@@ -13250,6 +13358,7 @@ independientemente de la distancia que haya entre dispositivos.
 c) La velocidad de transmisión que soporta es independiente del paso de trenzado.
 d) Ninguna de las anteriores.
 100Mbps
+
 17.- ¿Cuál es la secuencia de bits a añadir tras los datos, si el Emisor desea enviar la cadena
 de datos '101110', sabiendo que Emisor y Receptor emplean el polinomio generador G(x)=
 x3+1?
@@ -13257,6 +13366,7 @@ a) 011
 b) 0011
 c) 1001
 d) 111
+
 18.- Se sabe que el Receptor ha recibido la secuencia de bits 11011 y además se sabe que el
 Emisor emplea el código Hamming con paridad par que se asocia a un conjunto de palabras
 de datos de 2 bits. ¿Cuál es el bit erróneo recibido?
@@ -13264,6 +13374,7 @@ a) El bit erróneo es el cuarto
 b) El bit erróneo es el primero
 c) El bit erróneo es el quinto
 d) El bit erróneo es el segundo
+
 19.- Respecto a la delimitación de tramas por bits especiales, es falso que:
 a) Se emplee en las cabeceras y colas de las tramas simultáneamente.
 b) Use bits de relleno para evitar que secuencias de bits especiales puedan aparecer como
@@ -13271,34 +13382,40 @@ datos.
 c) Determine el tamaño de la trama en función de una estimación de tiempo obtenida a
 partir del retardo que tarda la trama en llegar desde emisor hasta receptor
 d) Tiene como objetivo delimitar el inicio y fin de la trama de datos.
+
 20.- Si la probabilidad de que una trama de 8 bits llegue al receptor con un error en 1 bit es
 0.002, ¿cuál es la probabilidad de que la trama llegue sin errores al receptor?
 a) 0.998
 b) 0.984
 c) 0.016
 d) Ninguna de las anteriores
+
 21.- Una trama HDLC cuyos cuatro primeros bits sean '1011' es:
 a) Una trama de información que indica que el número de secuencia enviado es '011'
 b) Una trama de supervisión que indica el rechazo de tramas.
 c) Una trama no numerada de conexión en modo Balanceado Asíncrono.
 d) Una trama no numerada de desconexión.
+
 22.- Respecto al protocolo BDLC se puede afirmar que:
 a) Es un protocolo del nivel de red.
 b) No necesita de un campo FCS 'Frame Check Sequence'.
 c) Emplea delimitación de trama por caracteres especiales.
 d) Emplea protocolo de ventana deslizante para gestionar
 tramas.
+
 23.- El protocolo PPP es falso que:
 el envío y recepción de
 a) Emplee paquetes LCP y NCP para autentificar el usuario.
 b) Emplee paquetes LCP para negociar la conexión del nivel de enlace.
 c) Emplee paquetes LCP para liberar el enlace de datos.
 d) Emplee paquetes NCP para negociar los parámetros del nivel de red.
+
 24.- Respecto al protocolo RlP es falso que:
 a) Emplee paquetes UDP dirigidos al puerto 520.
 b) Se puedan indicar hasta 25 rutas por mensaje.
 c) Sea un protocolo de encaminamiento dinámico empleado en redes WAN.
 d) Se envíen los paquetes a la dirección multicast 224.0.0.9
+
 25.- Para controlar la congestión de paquetes en una red LAN:
 a) Se puede limitar la velocidad de recepción de paquetes de los nodos receptores.
 b) Se puede aumentar la velocidad de envío de los nodos emisores mediante paquetes de
@@ -13306,6 +13423,7 @@ obstrucción.
 c) Se puede enviar un paquete hacia el emisor con los bits de congestión desactivados.
 d) Se puede asignar un crédito máximo a la tasa de bits que se pueden enviar por parte
 del emisor.
+
 26.- Se está aplicando el algoritmo de Dijkstra para generar el camino de mínimo coste y
 poder emplear ese criterio para un algoritmo de encaminamiento. Si se está evaluando la
 iteración i=3 con T={1,2,3}. Se puede afirmar que: 4
@@ -13313,6 +13431,7 @@ a) Sólo el coste L(3) ha variado con respecto a la iteración anterior
 b) Sólo el coste L(5) ha variado con respecto a la iteración anterior
 c) Sólo el coste L(6) ha variado con respecto a la iteración anterior
 d) Ninguna de las anteriores.
+
 27.- Dado el esquema de nodos de red de la figura,¿Cuántos paquetes habrán llegado al nodo
 6 al finalizar el segundo salto, si se aplica la técnica de encaminamiento por inundación
 siendo el nodo 1 quien inicia el encaminamiento?
@@ -13320,6 +13439,7 @@ a) 1 paquete.
 b) 2 paquetes.
 c) 3 paquetes.
 d) 4 paquetes.
+
 28.- Si los paquetes de un mismo mensaje no siguen el mismo camino desde el emisor al
 receptor, estamos trabajando con:
 a) Conmutación de circuitos.
@@ -13794,7 +13914,7 @@ a) El emisor pueda estar inactivo más tiempo.
 b) El emisor pueda enviar más información sin esperar a recibir los ACK. 
 c) El receptor pueda confirmar más paquetes de información. 
 d) El receptor se congestione al recibir más paquetes de información. 
- 6
+
 26. Cuando dos redes con direccionamiento IP privado intercambian paquetes IP empleando 
 un túnel es cierto que, 
  
@@ -14363,9 +14483,9 @@ d) 3500 Hz.
 7. En la codificación en Banda Base, es cierto que: 
  a) En RZ bipolar se tiene 1 elemento de datos por 2 elementos de señal.**** 
  b) En NRZ se presenta 1 elemento de señal por 2 elementos de datos. 
- b) Manchester diferencial necesita menor ancho de banda que NRZ. 
- c) En Manchester diferencial, si Vt=2 bps, entonces, la Vm=1 baudios. 
- 
+ c) Manchester diferencial necesita menor ancho de banda que NRZ. 
+ d) En Manchester diferencial, si Vt=2 bps, entonces, la Vm=1 baudios. 
+
 8. La figura adjunta representa una señal senoidal analógica que se propaga según un patrón repetitivo. Podemos 
 afirmar que la señal posee... 
  a) Una fase de 0º. 
@@ -14464,18 +14584,18 @@ c) En un circuito virtual, el fallo de un nodo intermedio del camino no afecta a
 d) En la opción de datagramas, se garantiza que los paquetes lleguen ordenados al destino. 
  
  
-Por fallo en el enunciado, se da por 
-buena la solución a) y c) 
-2/7 
-Cuestiones del test 
-1. En relación a los tipos de comunicación utilizados más comúnmente en redes se puede 
-afirmar que: 
-a) Para la transmisión de voz lo más adecuado es una transmisión asíncrona y digital/binaria. 
-b) *En una comunicación síncrona se envía una señal que indica donde se encuentran los bits, 
-siendo lo más común que se envíe en una línea separada a la de datos. 
-c) En una red de difusión tipo bus no puede emplearse transmisión síncrona. 
-d) Un interfaz síncrono requiere de unos pulsos de sincronización al principio de la trama para 
-sincronizar el origen y el destino. 
+#Por fallo en el enunciado, se da por 
+#buena la solución a) y c) 
+#
+#Cuestiones del test 
+#1. En relación a los tipos de comunicación utilizados más comúnmente en redes se puede 
+#afirmar que: 
+#a) Para la transmisión de voz lo más adecuado es una transmisión asíncrona y digital/binaria. 
+#b) *En una comunicación síncrona se envía una señal que indica donde se encuentran los bits, 
+#siendo lo más común que se envíe en una línea separada a la de datos. 
+#c) En una red de difusión tipo bus no puede emplearse transmisión síncrona. 
+#d) Un interfaz síncrono requiere de unos pulsos de sincronización al principio de la trama para 
+#sincronizar el origen y el destino. 
  
 2. Indicar cual de las siguientes afirmaciones relativas a la transmisión de datos en una WAN es 
 cierta: 
@@ -14625,7 +14745,7 @@ a) *Implícito.
 b) Explícito. 
 c) Preselección. 
 d) Maestro-esclavo. 
-5/7 
+
 19. La técnica de detección de errores empleando códigos de redundancia cíclica (CRC) se 
 fundamenta en: 
 a) Enviar junto a los datos la diferencia entre los bits de datos y los bits del polinomio generador. 
@@ -14765,7 +14885,7 @@ a) Permitir mayores velocidades de transferencia al codificar más niveles.
 b) *Permitir mejor sincronización emisor-receptor. 
 c) Disminuir el efecto del ruido en la interpretación de la señal. 
 d) Ninguna de las anteriores es cierta.  
-3/9 
+
  
  
 8. Dada la siguiente señal que se transmite por el medio físico: 
@@ -15918,7 +16038,7 @@ a) Establecer turnos para transmitir información en el medio físico.
 b) Producirse colisiones en la solicitud de turnos de transmisión. 
 c) Impedir que se produzcan colisiones en el medio físico. 
 d) Establecer un mecanismo de transmisión cuando se ha producido una colisión. 
- 5
+
 20. Los protocolos de nivel de enlace orientados a carácter se caracterizan por, 
  
 a) No añadir información redundante en los datos de los paquetes. 
@@ -16747,18 +16867,21 @@ seguir en la red.
 c) Se emplea una tecnología de difusión para interconectar todos los equipos de la red.
 d) Los paquetes dirigidos a una dirección de broadcast son reenviados a todos los routers de la  
 red.
+
 2. Si  en una red de difusión un paquete dirigido a la dirección MAC de broadcast sufre una 
 colisión, es cierto que,
 a) Todas las estaciones que detecten la colisión reenviarán el paquete.
 b) El paquete será reenviado por la estación que lo transmitió.
 c) El paquete no será reenviado ya que va dirigido a la dirección de broadcast.
 d) No es posible, pues los paquetes de broadcast nunca sufren colisiones.
+
 3. La tecnología de difusión no es apropiada para redes WAN ya que,
 a) Los errores en los medios de difusión son muy frecuentes.
 b) El encaminamiento en una red de difusión es más lento que en una WAN punto a punto.
 c) Las redes de difusión emplean velocidades de transmisión muy pequeñas.
 d) El  elevado  número  de  equipos  que  interconecta  provocaría  un  estado  de  colisión 
 permanente.
+
 4. Las redes WAN proporcionan a los usuarios velocidades inferiores a las de las redes LAN ya  
 que,
 a) La velocidad de transmisión en un enlace punto a punto de una red WAN es menor que en 
@@ -16767,50 +16890,58 @@ b) Un enlace punto a punto en una WAN se reparte entre más usuarios que en un s
 una LAN.
 c) La tasa de error en el medio físico es mayor en las LAN que en las WAN.
 d) Las redes WAN no emplean la fibra óptica como medio de transmisión.
+
 5.  Indica  qué  mecanismo  permite  ofrecer  una  calidad  de  servicio  (QoS)  en  una  red  de 
 comunicaciones,
 a) La autenticación de usuarios que acceden a la red.
 b) Aumentar el número de colisiones en el medio físico.
 c) El reparto de la velocidad de transferencia del medio físico entre los equipos.
 d) Monitorizar los tipos de paquetes transmitidos en el medio físico.
+
 6. En una arquitectura de red de n niveles, es cierto que,
 a) Existe comunicación horizontal entre la capa n y la n-1 del otro extremo.
 b) Existe comunicación vertical entre la capa n-1 y la n+1.
 c) Un número elevado de niveles aumenta la velocidad de transmisión.
 d) Un número reducido de niveles hace más difícil la detección de errores.
-2
+
 7. El intercambio de PDU’s entre entidades pares del nivel n se realiza,
 a) Enviándolas al nivel n-1 como SDU’s.
 b) Enviándolas al nivel n par como SDU’s.
 c) Enviándolas al nivel n+1 incorporando una ICI.
 d) Enviándolas al nivel n-1 como PCI’s.
+
 8. Si una SDU es fragmentada al enviarla del nivel n al n-1, es cierto que,
 a) Es necesario incorporar una cabecera ICI a cada fragmento.
 b) Es necesario incorporar una cabecera PCI a cada fragmento.
 c) Sólo el primer fragmento incorpora la cabecera ICI.
 d) Las SDU’s no se fragmentan nunca.
+
 9. Si dos equipos con arquitectura TCP/IP establecen una conexión cada uno al servicio  HTTP de 
 un mismo servidor en Internet, es cierto que,
 a) Las dos conexiones pueden emplear el mismo número de puerto origen.
 b) Las dos conexiones emplean diferentes números de puerto destino.
 c) Las dos conexiones emplean diferentes direcciones IP destino.
-d) Las dos conexiones emplean la misma dirección IP origen.
+d) Las dos conexiones emplean la misma dirección IP origen.ç
+
 10. Si un paquete del protocolo HTTP tiene que ser fragmentado por TCP en dos paquetes para 
 enviarlo a la capa par TCP del otro extremo, es cierto que
 a) Los dos paquetes incorporan las mismas cabeceras de protocolos.
 b) Los dos paquetes incorporan cabecera HTTP.
 c) *Los dos paquetes incorporan cabecera TCP.
 d) Los dos paquetes no incorporan cabecera TCP.
+
 11. Si dos segmentos Ethernet se interconectan empleando un puente es cierto que,
 a) Todos los paquetes transmitidos circulan en ambos segmentos.
 b) Los paquetes de difusión sólo circulan en el segmento transmitido.
 c) Los paquetes de broadcast de un segmento pueden provocar colisiones en el otro.
 d) No se producen colisiones nunca.
+
 12. La velocidad máxima de transmisión que puede emplearse en un medio físico depende de,
 a) El tipo de codificación en niveles que se emplee.
 b) La potencia de la señal que se transmite.
 c) Los datos incorporados en los paquetes de datos.
 d) El tipo de código de detección de errores empleado.
+
 13. ¿ Por qué causa una señal NO puede transmitirse por un medio físico ?
 a) Porque la señal está compuesta por más armónicos que los que contiene el medio físico.
 b) Porque el ancho de banda de la señal es infinito.
@@ -16823,28 +16954,33 @@ a) Codificación QPSK.
 b) Codificación Manchester.
 c) Codificación QAM.
 d) Codificación binaria unipolar con retorno a cero.
+
 15. Si quiero aumentar la velocidad de transmisión con una señal de tipo QAM es necesario,
 a) Aumentar la amplitud de la señal modulada.
 b) Aumentar la frecuencia de la señal portadora.
 c) No es posible sin cambiar el tipo de codificación de la señal.
 d) Disminuyendo la relación señal-ruido en el medio físico.
+
 16.  La  normativa  de  multiplexión  en  el  tiempo  europea  (E1)  y  la  de  EEUU-Japón  (T1)  se 
 diferencian en que,
 a) La velocidad de transmisión empleada en un canal de voz es diferente.
 b) El tiempo empleado en la transmisión de una trama básica es diferente.
 c) La normativa de EEUU-Japón emplea una velocidad mayor que la europea.
 d) El número de canales de voz en una trama es diferente.
+
 17. Si en una red Ethernet a 10 Mbps se emplea un cableado UTP de categoría 5, es cierto que,
 a) Podrá emplearse el mismo cableado para transmitir a 1 Gbps.
 b) Es necesario blindar el cable para transmitir a 100 Mbps.
 c) Podrá emplearse el mismo cableado para transmitir a 100 Mbps.
 d) No se podrá transmitir información, pues el cable no lo permite.
+
 18.  Indica en qué situación sólo es  posible  el  empleo de la  fibra óptica como medio  físico de  
 transmisión,
 a) Distancias de menos de 100 metros y bajas velocidades.
 b) Distancias de menos de 100 metros y ruido electromagnético elevado.
 c) Distancias de menos de 100 metros y velocidades de 100 Mbps.
 d) Distancias de 100 metros y velocidades de 10 Mbps.
+
 19. El empleo de fibra óptica de tipo índice gradual permite,
 a) Mayores distancias de comunicación que la fibra multimodo.
 b) Mayores distancias de comunicación que la fibra monomodo.
@@ -16860,27 +16996,32 @@ b) Enlace satelital.
 c) Enlace inalámbrico a 54 Mbps.
 d) Enlace inalámbrico a 11 Mbps,  pues  permite  alcanzar mayores  distancias  que el  de 45 
 Mbps.
+
 21. El servicio más lento ofrecido por la capa de enlace cuando en el medio físico no se producen 
 errores es el,
 a) Servicio orientado a conexión confirmado.
 b) Servicio no orientado a conexión no confirmado.
 c) Servicio no orientado a conexión confirmado.
 d) Servicio orientado a conexión no confirmado.
+
 22. La técnica de detección de errores empleando paridad se caracteriza por,
 a) Ser más rápida en la detección de errores que con los códigos de redundancia cíclica.
 b) Permitir detectar más errores que con los códigos de redundancia cíclica.
 c) Detectar siempre errores en un número par de bits.
 d) Permitir detectar siempre errores en ráfaga.
+
 23. El error de duplicación en el control del flujo a nivel de enlace se produce cuando,
 a) El emisor envía el mismo bloque de datos dos veces.
 b) El receptor recibe dos veces el mismo bloque de datos.
 c) El emisor envía el mismo bloque de datos con numeración distinta.
 d) El receptor interpreta como datos diferentes el reenvío de un paquete.
+
 24. El tamaño de la ventana del emisor en una protocolo de ventana deslizante selectivo es,
 a) Siempre menor que la ventana del receptor.
 b) Determinado a partir del retardo en la recepción de los ACK’s.
 c) Siempre mayor que la ventana del receptor.
 d) De tamaño fijo a valor 1.
+
 25.  En el  protocolo de nivel  de enlace HDLC ,  el  establecimiento de un enlace balanceado se 
 realiza transmitiendo paquetes de,
 a) Información.
@@ -16893,22 +17034,26 @@ a) Antes de realizar la negociación LCP.
 b) Empleando el protocolo PAP.
 c) Después de realizar la negociación NCP.
 d) Empleando el protocolo IP.
+
 27. ¿ Cómo puede corregirse el congestionamiento cuando éste aparece en una red TCP/IP ?
 a) Reduciendo el número de saltos entre origen y destino.
 b) Aumentando la velocidad de transmisión entre los routers.
 c) Aumentando el número de entradas en las tablas de rutas.
 d) Reduciendo el flujo de entrada de paquetes en la red.
+
 28.  Si  en una red se  desea emplear  un protocolo de encaminamiento  que tenga en cuenta la 
 velocidad de comunicación en los enlaces se empleará,
 a) BGP.
 b) RIP v1.
 c) RIP v2.
 d) OSPF.
+
 29. Sobre el valor del MSS que se establece en una conexión TCP es cierto que,
 a) Se determina a partir del valor del campo opciones en los paquetes SYN.
 b) Se determina a partir del valor del campo window en los paquetes SYN.
 c) Se puede modificar empleando el valor del campo MSS en los paquetes RST.
 d) Se modifica en función del valor del retardo en la recepción de paquetes ACK.
+
 30. Sobre el control del flujo de datos empleado en el protocolo TCP es cierto que,
 a) El algoritmo de Karn permite determinar un tiempo de espera de ACK para los reenvíos.
 b) El tiempo de espera del ACK de un paquete de datos se modifica siempre en función del  
@@ -19080,7 +19225,7 @@ de funcionar es cierto que:
 - Sólo los paquetes en tránsito en el nodo no alcanzarán su destino.
 - Todos los paquetes que hayan pasado por ese nodo han de ser reenviados.
 - Todas las estaciones de la red quedan incomunicadas.
-10
+
 curso 2019-2020 Redes de los Computadores
 - Las estaciones que emplean ese nodo para intercambiar paquetes han de determinar una
 nueva ruta para sus destinos.
@@ -19113,7 +19258,7 @@ La comunicación vertical en una arquitectura de red se caracteriza porque:
 - Se establece entre la capa n y la capa n-1 adyacentes de la arquitectura.
 - Se establece entre las capas pares de nivel f́ısico.
 - Se establece entre la capa n y la capa par n en el otro extremo.
-11
+
 curso 2019-2020 Redes de los Computadores
 - Se establece entre la capa n+1 y la capa n-1 adyacentes de la arquitectura.
 # Claves: /clv-2019e
@@ -19147,7 +19292,7 @@ hernet.
 La distorsión de una señal de pulsos que se propaga por un medio f́ısico se
 produce:
 - Siempre, debido a la existencia del ancho de banda del medio.
-12
+
 curso 2019-2020 Redes de los Computadores
 - Siempre que se supere la velocidad de transmisión del teorema de Nyquist.
 - Siempre que se supere la velocidad de transmisión del teorema de Shannon.
@@ -19180,7 +19325,7 @@ La presencia de ruido cruzado en un cable eléctrico, provoca:
 # Razonamiento:
 La técnica de modulación QAM se caracteriza por:
 - Establecer 8 cambios de fase y 2 cambios de amplitud en la señal portadora.
-13
+
 curso 2019-2020 Redes de los Computadores
 - Establecer 4 cambios de fase y 2 cambios de amplitud en la señal portadora.
 - Aumentar el ancho de banda del medio f́ısico.
@@ -19213,7 +19358,7 @@ en una fibra óptica ?
 ¿ Qué tipo de fibra es la más adecuada para el empleo de la técnica de multi-
 plexado por longitud de onda ?
 - Fibra monomodo.
-14
+
 curso 2019-2020 Redes de los Computadores
 - Fibra multimodo.
 - Fibra ı́ndice gradual.
@@ -19247,7 +19392,7 @@ receptor lo descarta.
 # Claves: /clv-2019e
 # Razonamiento:
 ¿ Qué protocolo NO está definido en el modelo de referencia IEEE 802 ?
-15
+
 curso 2019-2020 Redes de los Computadores
 - IP.
 - LLC.
@@ -19279,7 +19424,7 @@ Indica el sistema de señalización empleado en Ethernet 100BaseTX:
 # Razonamiento:
 ¿ Qué tipo de tecnoloǵıa Ethernet es compatible con Ethernet 10BaseT al em-
 plear el CSMA/CD ?
-16
+
 curso 2019-2020 Redes de los Computadores
 - Ethernet 1000BaseT.
 - Ethernet 10GBaseT.
@@ -19314,7 +19459,7 @@ de canales (frecuencias) diferentes para establecer la comunicación:
 - IEEE 802.11n.
 - Todas las normativas de redes LAN inalámbricas emplean el mismo número de canales.
 # Claves: /clv-2019e
-17
+
 curso 2019-2020 Redes de los Computadores
 # Razonamiento:
 Indica qué mecanismo de autenticación es más inseguro para obtener el acceso
@@ -19347,7 +19492,7 @@ de las tablas de encaminamiento a otros routers ?
 - RIPv1.
 - RIPv2.
 # Claves: /clv-2019e
-18
+
 curso 2019-2020 Redes de los Computadores
 # Razonamiento:
 ¿ En qué parte de un paquete IPv6 se incorpora la información sobre prioridad
@@ -19381,7 +19526,7 @@ Las redes de difusión de caracterizan por:
 nado.
 - Necesitar múltiples transmisiones de un mismo paquete para ser enviado a todos los
 equipos de la red.
-19
+
 curso 2019-2020 Redes de los Computadores
 - Permitir tolerancia a fallos al disponer de varios medios de comunicación para interco-
 nectar los equipos de la red.
@@ -19414,7 +19559,7 @@ denomina:
 - Repetidor.
 - Puente.
 - Router.
-20
+
 curso 2019-2020 Redes de los Computadores
 - Pasarela.
 # Claves: /clv-2017e
@@ -19447,7 +19592,7 @@ Sea un medio f́ısico con una relación señal-ruido de 10 dB, si la potencia
 señal de ruido aumenta al doble, la nueva relación señal ruido será:
 - 7 dB.
 - 12 dB.
-21
+
 curso 2019-2020 Redes de los Computadores
 - 20 dB.
 - La misma, 10 dB.
@@ -19481,7 +19626,7 @@ STP.
 # Razonamiento:
 El medio f́ısico que permite velocidades de transmisión de 100 Gbps a distancias
 de varios kilómetros es:
-22
+
 curso 2019-2020 Redes de los Computadores
 - Fibra óptica monomodo con multiplexión de longitudes de onda.
 - Fibra óptica multimodo.
@@ -19515,7 +19660,7 @@ mente el paquete afectado.
 rechazados.
 - El tamaño de ventana del receptor es siempre mayor que 2.
 # Claves: /clv-2017e
-23
+
 curso 2019-2020 Redes de los Computadores
 # Razonamiento:
 Sobre el funcionamiento del protocolo de ventana deslizante con repetición SE-
@@ -19549,7 +19694,7 @@ Sobre el proceso de APRENDIZAJE en los puentes Ethernet es cierto que:
 - Una dirección MAC puede estar asociada a más de un puerto simultáneamente.
 - Asocia direcciones MAC destino con puertos.
 - Una dirección MAC NO puede cambiar el puerto al que está asociada.
-24
+
 curso 2019-2020 Redes de los Computadores
 # Claves: /clv-2017e
 # Razonamiento:
@@ -19583,7 +19728,7 @@ para identificar redes Wi-Fi (ESSID) ?
 Indica con qué mecanismo de las redes IEEE 802.11x se consigue que dos esta-
 ciones asociadas a un AP puedan detectar siempre sus transmisiones:
 - *RTS/CTS.
-25
+
 curso 2019-2020 Redes de los Computadores
 - CSMA/CA.
 - CSMA/CD.
@@ -19616,7 +19761,7 @@ de tráfico.
 Indica cuál de los siguientes factores afecta a la congestión en una red con
 arquitectura TCP/IP,
 - Capacidad de proceso de la CPU de un router.
-26
+
 curso 2019-2020 Redes de los Computadores
 - Protocolo de nivel de aplicación empleado.
 - Protocolo de nivel de enlace empleado.
@@ -19649,7 +19794,7 @@ Sobre el protocolo de encaminamiento IPv6 es cierto que,
 # Razonamiento:
 Si en una conexión TCP entre dos extremos A y B en Internet, un paquete TCP
 emitido por A llega al destino con errores de CRC es cierto que,
-27
+
 curso 2019-2020 Redes de los Computadores
 - El extremo A reenv́ıa el paquete TCP y reduce el tamaño de la ventana de congestión.
 - El extremo A no env́ıa más paquetes TCP hasta que recibe el ACK del paquete que sufre
@@ -19685,7 +19830,7 @@ intermedios.
 estaciones de la red con una sola transmisión en un medio f́ısico.
 - En la tecnoloǵıa punto a punto la conectividad f́ısica entre todas las estaciones de la red
 precisa de un coste de cableado menor que en la tecnoloǵıa de difusión.
-28
+
 curso 2019-2020 Redes de los Computadores
 # Claves: /clv-2016e
 # Razonamiento:
@@ -19718,7 +19863,7 @@ La solicitud de un servicio de la capa n a la capa n-1 provoca:
 - La comunicación entre las capas pares del nivel n.
 - La comunicación entre las capa n y la capa par n-1.
 - La comunicación entre las capas adyacentes n+1 y n-1.
-29
+
 curso 2019-2020 Redes de los Computadores
 # Claves: /clv-2016e /clv-repetida
 # Razonamiento:

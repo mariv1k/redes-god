@@ -9,6 +9,9 @@ const parameters = {
   font: {
     fontFamily: "Open Sans",
   },
+  padding: {
+    choices: "0 0 0.5rem 1.75rem"
+  }
 };
 
 export default parameters

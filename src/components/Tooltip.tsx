@@ -6,7 +6,6 @@ const Tooltip: FC<string> = (text, id) => {
   return (
     <ReactTooltip
       id={id}
-      globalEventOff=""
       place="bottom"
       effect="solid"
       backgroundColor={parameters.colors.color3}

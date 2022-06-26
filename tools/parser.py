@@ -4,18 +4,20 @@ raw_data_file = "./tools/raw_data.txt"
 output_file = "./tools/output.txt"
 output_light_file = "./tools/output-light.txt"
 
-option_rgx = re.compile(r"^[a-z]\)")
+option_rgx = re.compile(r"^[a-d]\)")
 clean_begin = re.compile(r"^[^[a-zA-Z]*")
+clean_ast = re.compile(r"^[\*]*|[\*]*$")
 
 duplicates = []
 total_count = 0
+qid = 1
 
 
 def get_choices(choices):
     res = "["
 
     for answer in choices:
-        res += f"\"{re.sub(option_rgx, '', answer).strip()}\", "
+        res += f"\"{re.sub(clean_ast, '', re.sub(option_rgx, '', answer).strip())}\", "
     if len(res) > 2:
         res = res[:-2]
     return res + "]"
@@ -41,7 +43,7 @@ def parse():
         else:
             if last == 0 and title != "":
                 res += add("{\n" +
-                           f"title: \"{title}\",\nchoices: {get_choices(choices)},\nsolution: \"\",\nexplanation: \"orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\"\n" + "},\n", title)
+                           f"id: {qid},\ntitle: \"{title}\",\nchoices: {get_choices(choices)},\nsolution: \"\",\nexplanation: \"\"\n" + "},\n", title, get_choices(choices))
                 title = ""
                 choices = []
             last = 1
@@ -57,8 +59,9 @@ def light_parse():
     r = open(raw_data_file, "r")
     o = open(output_light_file, "w")
     res = ""
+    final = ""
     temp = ""
-    last = 0
+    prevWasD = False
 
     lines = r.readlines()
     r.close()
@@ -69,38 +72,64 @@ def light_parse():
         line = line.lstrip()
 
         if line.strip() == "":
+            if prevWasD:
+                res += temp.replace("\\n", " ") + "\n"
+                temp = ""
+                prevWasD = False
             res += "\n"
             continue
         if line.strip() == "###BREAKPOINT###":
-            res += temp
             break
         if line[0] == "#":
             continue
         if re.search(option_rgx, line):
-            res += line + "\n"
-            line = line.strip()
+            if line.startswith("d)"):
+                prevWasD = True
+            res += temp.replace("\\n", " ") + "\n"
             temp = line
             continue
-        if line[0].islower():
-            temp += line
+        temp += line
+
+    temp = ""
+    prevWasD = False
+    for index, line in enumerate(res.split("\n"), start=0):
+        line = line.lstrip()
+
+        if line.strip() == "":
+            if prevWasD:
+                final += temp.replace("\\n", " ") + "\n"
+                temp = ""
+                prevWasD = False
+            final += "\n"
             continue
-        res += line
-        temp = ""
-
-    o.write(res)
+        if line.strip() == "###BREAKPOINT###":
+            break
+        if line[0] == "#":
+            continue
+        if re.search(option_rgx, line):
+            if line.startswith("d)"):
+                prevWasD = True
+            final += temp.replace("\\n", " ") + "\n"
+            temp = line
+            continue
+        temp += line
+    o.write(final)
     o.close()
-    return res
+    return final
 
 
-def add(value, title):
+def add(value, title, choices):
     title = re.sub(re.compile(r"[^\x00-\x7F]*"), "", title.lower()).strip()
+    choices = re.sub(re.compile(r"[^\x00-\x7F]*"), "", choices.lower()).strip()
     global total_count
     global duplicates
+    global qid
 
     total_count += 1
-    if title in duplicates:
+    if title + choices in duplicates :
         return ""
-    duplicates.append(title)
+    qid += 1
+    duplicates.append(title + choices)
     return value
 
 

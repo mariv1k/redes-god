@@ -61,7 +61,6 @@ export const Question = styled.div`
   gap: 0;
   grid-template-columns: auto min-content;
   grid-template-areas:
-    "question_number question_panel"
     "question_title question_panel"
     "question_choices question_panel";
   box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
@@ -95,11 +94,10 @@ export const QuestionChoices = styled.div`
   label {
     font-size: 1.05rem;
     cursor: pointer;
-    padding: 0 0 0 1.75rem;
+    padding: ${parameters.padding.choices};
     position: relative;
     display: flex;
     align-items: center;
-    margin-top: 0.75rem;
 
     &:focus,
     &:active,
@@ -150,7 +148,6 @@ export const QuestionPanel = styled.div`
 `;
 
 export const QuestionNumber = styled.span`
-  grid-area: question_number;
   user-select: none;
   font-size: 0.8rem;
   margin-bottom: 4px;
@@ -169,7 +166,6 @@ export const SolvedQuestion = styled.div`
   gap: 0;
   grid-template-columns: auto;
   grid-template-areas:
-    "question_number"
     "question_title"
     "question_choices"
     "question_explanation";
@@ -213,11 +209,10 @@ export const SolvedQuestionChoices = styled.div`
   label {
     font-size: 1.05rem;
     cursor: pointer;
-    padding: 0 0 0 1.75rem;
+    padding: ${parameters.padding.choices};
     position: relative;
     display: flex;
     align-items: center;
-    margin-top: 0.75rem;
 
     &:focus {
       color: ${parameters.colors.color4};
@@ -256,7 +251,6 @@ export const SolvedQuestionChoices = styled.div`
 `;
 
 export const SolvedQuestionNumber = styled.span`
-  grid-area: question_number;
   user-select: none;
   font-size: 0.8rem;
   margin-bottom: 4px;
@@ -269,8 +263,8 @@ export const QuestionExplanation = styled.div`
   background-color: ${parameters.colors.color1};
   margin-top: 20px;
   font-weight: 500;
-  font-size: .9rem;
-  
+  font-size: 1rem;
+
   &.inactive {
     pointer-events: none;
     opacity: 0.5;
@@ -301,12 +295,13 @@ export const QuestionExplanation = styled.div`
   }
 
   div {
-    padding: 0 20px;
     max-height: 0;
     overflow: hidden;
+    font-size: .9rem;
   }
-
+  
   label + input[type="checkbox"]:checked + div {
+    padding: 10px 20px;
     max-height: fit-content;
   }
 `;
