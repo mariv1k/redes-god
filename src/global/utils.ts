@@ -34,3 +34,11 @@ export function hexToRgba(hex: string, opacity = 1) {
 
   return "rgba(" + r + "," + g + "," + b + "," + opacity + ")";
 }
+
+export function round(num: number, decimals = 2) {
+  return Math.round((num + Number.EPSILON) * 10 * decimals) / (10 * decimals);
+}
+
+export function clamp(num: number, min: number, max: number) {
+  return num <= min ? min : num >= max ? max : num;
+}

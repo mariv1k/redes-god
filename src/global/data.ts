@@ -22,7 +22,7 @@ const questionsData: QuestionData[] = [
       "Las redes de difusión emplean velocidades de transmisión muy reducidas.",
       "El elevado número de equipos que interconecta provocaría un estado de colisión permanente.",
     ],
-    solution: "",
+    solution: "d",
     explanation: "",
   },
   {
@@ -35,7 +35,7 @@ const questionsData: QuestionData[] = [
       "Determinar un camino a través de los nodos de la red para que los paquetes alcancen su destino.",
       "Especificar en cada paquete el origen y el destino para que los nodos intermedios determinen un camino en la red para cada paquete transmitido.",
     ],
-    solution: "",
+    solution: "d",
     explanation: "",
   },
   {
@@ -48,7 +48,7 @@ const questionsData: QuestionData[] = [
       "Todas las estaciones de la red quedan incomunicadas.",
       "Las estaciones que emplean ese nodo para intercambiar paquetes han de determinar una nueva ruta para sus destinos.",
     ],
-    solution: "",
+    solution: "a",
     explanation: "",
   },
   {
@@ -61,7 +61,7 @@ const questionsData: QuestionData[] = [
       "Monodifusión.",
       "Conmutación de paquetes.",
     ],
-    solution: "",
+    solution: "b",
     explanation: "",
   },
   {
@@ -73,7 +73,7 @@ const questionsData: QuestionData[] = [
       "Existir un único camino físico entre cualquier par de estaciones de la red punto a punto.",
       "Presentar congestión ante un elevado volumen de tráfico de paquetes en la red.",
     ],
-    solution: "",
+    solution: "d",
     explanation: "",
   },
   {
@@ -85,7 +85,7 @@ const questionsData: QuestionData[] = [
       "Necesitar múltiples transmisiones de un mismo paquete para ser enviado a todos los equipos de la red.",
       "Permitir tolerancia a fallos al disponer de varios medios de comunicación para interconectar los equipos de la red.",
     ],
-    solution: "",
+    solution: "a",
     explanation: "",
   },
   {
@@ -98,7 +98,7 @@ const questionsData: QuestionData[] = [
       "Redes de conmutación de paquetes con datagramas.",
       "Redes de conmutación de paquetes con circuitos virtuales.",
     ],
-    solution: "",
+    solution: "a",
     explanation: "",
   },
   {
@@ -111,7 +111,7 @@ const questionsData: QuestionData[] = [
       "Es necesaria la transmisión del paquete en todos los medios físicos de la red de datagramas.",
       "Es necesario que el equipo emisor transmita el paquete de información tantas veces como equipos existen en la red de datagramas.",
     ],
-    solution: "",
+    solution: "c",
     explanation: "",
   },
   {
@@ -124,7 +124,7 @@ const questionsData: QuestionData[] = [
       "Los equipos más alejados del que ha dejado de funcionar no pueden intercambiar información.",
       "Ningún equipo de la red podrá transmitir o recibir información.",
     ],
-    solution: "",
+    solution: "a",
     explanation: "",
   },
   {
@@ -137,7 +137,7 @@ const questionsData: QuestionData[] = [
       "En la tecnología punto a punto es posible enviar un paquete de información a todas las estaciones de la red con una sola transmisión en un medio físico.",
       "En la tecnología punto a punto la conectividad física entre todas las estaciones de la red precisa de un coste de cableado menor que en la tecnología de difusión.",
     ],
-    solution: "",
+    solution: "b",
     explanation: "",
   },
   {
@@ -150,7 +150,7 @@ const questionsData: QuestionData[] = [
       "Establecer un camino diferente para cada paquete transmitido por una estación a un mismo destino.",
       "No realizar establecimiento ni liberación del circuito en redes con tecnología punto a punto.",
     ],
-    solution: "",
+    solution: "b",
     explanation: "",
   },
   {
@@ -162,7 +162,7 @@ const questionsData: QuestionData[] = [
       "Transmitir un paquete de información para cada estación de un grupo de multidifusión.",
       "Transmitir un paquete de información a TODAS las estaciones de la red.",
     ],
-    solution: "",
+    solution: "a",
     explanation: "",
   },
   {
@@ -174,7 +174,7 @@ const questionsData: QuestionData[] = [
       "La red de Ethernet es un ejemplo de red punto a punto.",
       "La unión de redes LAN no puede formar redes WAN.",
     ],
-    solution: "",
+    solution: "a",
     explanation: "",
   },
   {
@@ -187,7 +187,7 @@ const questionsData: QuestionData[] = [
       "Los mensajes multicast llegan a todas las máquinas de una red.",
       "Ninguna de las anteriores es correcta.",
     ],
-    solution: "",
+    solution: "d",
     explanation: "",
   },
   {
@@ -199,7 +199,7 @@ const questionsData: QuestionData[] = [
       "Emplea medio compartido por todas las estaciones.",
       "Su topología no puede ser punto a punto, que está reservada a las WAN.",
     ],
-    solution: "",
+    solution: "c",
     explanation: "",
   },
   {
@@ -207,7 +207,7 @@ const questionsData: QuestionData[] = [
     title:
       "Una empresa con oficinas en Madrid, Berlín y Moscú tendrá sus sedes conectadas a través de:",
     choices: ["LAN.", "WAN.", "MAN.", "Ethernet."],
-    solution: "",
+    solution: "b",
     explanation: "",
   },
   {
@@ -220,7 +220,7 @@ const questionsData: QuestionData[] = [
       "Una red en BUS nunca empleará Ethernet como método de acceso al medio.",
       "Una red en árbol es un ejemplo de red punto a punto.",
     ],
-    solution: "",
+    solution: "c",
     explanation: "",
   },
   {
@@ -232,7 +232,7 @@ const questionsData: QuestionData[] = [
       "Una red en anillo no puede ser un ejemplo de red de difusión.",
       "Todas las redes punto a punto son de titularidad pública.",
     ],
-    solution: "",
+    solution: "b",
     explanation: "",
   },
   {
@@ -244,7 +244,7 @@ const questionsData: QuestionData[] = [
       "En la conmutación de paquetes no podemos elegir entre datagramas y circuitos virtuales.",
       "En circuitos virtuales los datos se transmiten en unidades discretas.",
     ],
-    solution: "",
+    solution: "d",
     explanation: "",
   },
   {
@@ -256,7 +256,7 @@ const questionsData: QuestionData[] = [
       "Marca el bit M de la trama testigo, pero no de las tramas de datos.",
       "Vigila y gestiona la inclusión de nuevas estaciones al anillo.",
     ],
-    solution: "",
+    solution: "b",
     explanation: "",
   },
   {
@@ -268,7 +268,7 @@ const questionsData: QuestionData[] = [
       "Es una red en la que los dispositivos emplean protocolo ETHERNET de nivel de enlace.",
       "Es una red de conmutación de circuitos con la propiedad de envío de tramas broadcast.",
     ],
-    solution: "",
+    solution: "a",
     explanation: "",
   },
   {
@@ -280,7 +280,7 @@ const questionsData: QuestionData[] = [
       "Es más eficiente que una topología en bus cuando se emplea en redes LAN grandes.",
       "Emplea conexiones punto a punto a nivel de enlace, de ahí que el coste de su implantación sea menos elevado que en una topología en bus.",
     ],
-    solution: "",
+    solution: "a",
     explanation: "",
   },
   {
@@ -292,7 +292,7 @@ const questionsData: QuestionData[] = [
       "Se crean ampliando en como mucho 25 nuevos equipos una red de área local.",
       "Pueden ser públicas y privadas.",
     ],
-    solution: "",
+    solution: "d",
     explanation: "",
   },
   {
@@ -305,7 +305,7 @@ const questionsData: QuestionData[] = [
       "Conforman una red con buen rendimiento para bajo tráfico.",
       "Un equipo puede enviar dos tramas seguidas sin tiempo de espera.",
     ],
-    solution: "",
+    solution: "d",
     explanation: "",
   },
   {
@@ -318,7 +318,7 @@ const questionsData: QuestionData[] = [
       "Una red wifi IEE 802.11 emplea un método de reserva centralizada.",
       "Una red óptica FDDI emplea el método CSMA persistente.",
     ],
-    solution: "",
+    solution: "a",
     explanation: "",
   },
   {
@@ -331,7 +331,7 @@ const questionsData: QuestionData[] = [
       "No haya desaprovechamiento de canales de comunicación cuando no hay transmisión de información.",
       "Se empleen en comunicaciones full-duplex cuando se implementen en aplicaciones de telefonia.",
     ],
-    solution: "",
+    solution: "c",
     explanation: "",
   },
   {
@@ -344,7 +344,7 @@ const questionsData: QuestionData[] = [
       "Proporciona servicios no orientados a conexión.",
       "Siempre necesitan de protocolos de encaminamiento dinámico o adaptativo.",
     ],
-    solution: "",
+    solution: "b",
     explanation: "",
   },
   {
@@ -357,7 +357,7 @@ const questionsData: QuestionData[] = [
       "Una topología en estrella.",
       "Una topología en punto a punto.",
     ],
-    solution: "",
+    solution: "b",
     explanation: "",
   },
   {
@@ -370,7 +370,7 @@ const questionsData: QuestionData[] = [
       "Sólo en el primer fragmento se incorpora la cabecera del protocolo de nivel n.",
       "Sólo en el primer fragmento se incorpora la cabecera del protocolo de nivel n+1.",
     ],
-    solution: "",
+    solution: "d",
     explanation: "",
   },
   {
@@ -383,7 +383,7 @@ const questionsData: QuestionData[] = [
       "Cuando en un extremo la capa n+1 solicita a la capa inferior n-1 un envío de datos.",
       "Cuando en un extremo la capa n solicita a la capa par n-1 un envío de datos.",
     ],
-    solution: "",
+    solution: "b",
     explanation: "",
   },
   {
@@ -396,7 +396,7 @@ const questionsData: QuestionData[] = [
       "Se establece entre la capa n+1 y la capa n-1 adyacentes de la arquitectura.",
       "Se establece entre la capa n y la capa n-1 adyacentes de la arquitectura.",
     ],
-    solution: "",
+    solution: "d",
     explanation: "",
   },
   {
@@ -409,7 +409,7 @@ const questionsData: QuestionData[] = [
       "Entre las capas pares del nivel más alto de la arquitectura de red.",
       "Entre las capas adyacentes de todos los niveles de la arquitectura de red.",
     ],
-    solution: "",
+    solution: "b",
     explanation: "",
   },
   {
@@ -421,7 +421,7 @@ const questionsData: QuestionData[] = [
       "La comunicación entre la capa n y la capa par n-1.",
       "La comunicación entre las capas adyacentes n+1 y n-1.",
     ],
-    solution: "",
+    solution: "b",
     explanation: "",
   },
   {
@@ -434,7 +434,7 @@ const questionsData: QuestionData[] = [
       "El error debe intentar detectarlo la capa adyacente n+1.",
       "El error debe intentar detectarlo la capa adyacente n-1.",
     ],
-    solution: "",
+    solution: "c",
     explanation: "",
   },
   {
@@ -442,7 +442,7 @@ const questionsData: QuestionData[] = [
     title:
       "El dispositivo de interconexión entre dos redes que trabaja a nivel físico se denomina:",
     choices: ["Repetidor.", "Puente.", "Router.", "Pasarela."],
-    solution: "",
+    solution: "a",
     explanation: "",
   },
   {
@@ -450,7 +450,7 @@ const questionsData: QuestionData[] = [
     title:
       "La interconexión de dos redes Ethernet conectadas a través de una WAN con arquitectura TCP/IP, ha de realizarse con:",
     choices: ["Un repetidor.", "Un puente.", "Un router.", "Una pasarela."],
-    solution: "",
+    solution: "c",
     explanation: "",
   },
   {
@@ -463,7 +463,7 @@ const questionsData: QuestionData[] = [
       "Se establece entre las capas pares de la arquitectura.",
       "Se establece entre las capas n+1 y n-1 de la arquitectura.",
     ],
-    solution: "",
+    solution: "c",
     explanation: "",
   },
   {
@@ -475,7 +475,7 @@ const questionsData: QuestionData[] = [
       "Las capas pares de la arquitectura establecen comunicaciones a nivel vertical.",
       "La comunicación entre las capas pares del nivel 1 siempre es horizontal.",
     ],
-    solution: "",
+    solution: "d",
     explanation: "",
   },
   {
@@ -488,7 +488,7 @@ const questionsData: QuestionData[] = [
       "Si uno de los paquetes no incorpora la cabecera del protocolo n-1, serán dos fragmentos a unir.",
       "Si uno de los paquetes no incorpora la cabecera el protocolo n, serán dos fragmentos a unir.",
     ],
-    solution: "",
+    solution: "a",
     explanation: "",
   },
   {
@@ -501,7 +501,7 @@ const questionsData: QuestionData[] = [
       "Incorporar SIEMPRE la cabecera del nivel más bajo de la arquitectura.",
       "Incorporar SIEMPRE al principio del paquete la cabecera de nivel más alto de la arquitectura.",
     ],
-    solution: "",
+    solution: "c",
     explanation: "",
   },
   {
@@ -514,7 +514,7 @@ const questionsData: QuestionData[] = [
       "Comunicación horizontal de la capa n-1.",
       "Comunicación vertical entre capas pares del nivel n.",
     ],
-    solution: "",
+    solution: "a",
     explanation: "",
   },
   {
@@ -527,7 +527,7 @@ const questionsData: QuestionData[] = [
       "Conmutador (‘Switch’).",
       "Encaminador (‘Router’).",
     ],
-    solution: "",
+    solution: "b",
     explanation: "",
   },
   {
@@ -540,7 +540,7 @@ const questionsData: QuestionData[] = [
       "Siempre que se supere la velocidad de transmisión del teorema de Shannon.",
       "Sólo cuando el medio físico presenta una relación señal-ruido mayor de 30 dB.",
     ],
-    solution: "",
+    solution: "a",
     explanation: "",
   },
   {
@@ -553,7 +553,7 @@ const questionsData: QuestionData[] = [
       "Se pueden producir errores si se emplea una velocidad de transmisión de 4*B bps.",
       "La velocidad de transmisión no afecta a la existencia de errores.",
     ],
-    solution: "",
+    solution: "c",
     explanation: "",
   },
   {
@@ -566,7 +566,7 @@ const questionsData: QuestionData[] = [
       "Los bits de datos incorporan información de sincronización.",
       "Emplear una codificación de múltiples niveles para conseguir velocidades de transmisión elevadas.",
     ],
-    solution: "",
+    solution: "c",
     explanation: "",
   },
   {
@@ -578,7 +578,7 @@ const questionsData: QuestionData[] = [
       "La limitación en el número de niveles de codificación de la señal de datos.",
       "El aumento en el ancho de banda del medio físico",
     ],
-    solution: "",
+    solution: "c",
     explanation: "",
   },
   {
@@ -590,7 +590,7 @@ const questionsData: QuestionData[] = [
       "Aumentar el ancho de banda del medio físico.",
       "Reducir la relación señal-ruido del medio físico.",
     ],
-    solution: "",
+    solution: "b",
     explanation: "",
   },
   {
@@ -603,7 +603,7 @@ const questionsData: QuestionData[] = [
       "Empleando la modulación ASK con frecuencia de portadora de 2*B Hz.",
       "No es posible transmitir dos señales de pulsos por un mismo medio físico.",
     ],
-    solution: "",
+    solution: "a",
     explanation: "",
   },
   {
@@ -616,7 +616,7 @@ const questionsData: QuestionData[] = [
       "Cuando el ruido de impulso es muy bajo.",
       "Cuando la distancia de comunicación es superior a 1 Km.",
     ],
-    solution: "",
+    solution: "a",
     explanation: "",
   },
   {
@@ -629,7 +629,7 @@ const questionsData: QuestionData[] = [
       "El tipo de dispositivo emisor de luz empleado.",
       "No existe limitación en la distancia de comunicación empleada en una fibra óptica.",
     ],
-    solution: "",
+    solution: "a",
     explanation: "",
   },
   {
@@ -642,7 +642,7 @@ const questionsData: QuestionData[] = [
       "Fibra monomodo.",
       "Cualquier tipo de fibra es adecuada para esta técnica.",
     ],
-    solution: "",
+    solution: "c",
     explanation: "",
   },
   {
@@ -655,7 +655,7 @@ const questionsData: QuestionData[] = [
       "La velocidad máxima de transmisión no se verá modificada.",
       "La relación señal-ruido del medio físico se reduce a la mitad.",
     ],
-    solution: "",
+    solution: "a",
     explanation: "",
   },
   {
@@ -663,7 +663,7 @@ const questionsData: QuestionData[] = [
     title:
       "Sea un medio físico con una relación señal-ruido de 10 dB, si la potencia de la señal de ruido aumenta al doble, la nueva relación señal ruido será:",
     choices: ["7 dB.", "12 dB.", "20 dB.", "La misma, 10 dB."],
-    solution: "",
+    solution: "a",
     explanation: "",
   },
   {
@@ -676,7 +676,7 @@ const questionsData: QuestionData[] = [
       "Los bits de datos se identifican empleando valores de fase diferente en la señal.",
       "La señal de datos manchester no incluye información de sincronización.",
     ],
-    solution: "",
+    solution: "a",
     explanation: "",
   },
   {
@@ -688,7 +688,7 @@ const questionsData: QuestionData[] = [
       "Emplear valores diferentes de fase y amplitud de la señal portadora para identificar grupos de bits.",
       "Emplear más ancho de banda en la señal modulada que la modulación FSK.",
     ],
-    solution: "",
+    solution: "c",
     explanation: "",
   },
   {
@@ -701,7 +701,7 @@ const questionsData: QuestionData[] = [
       "Permite una mayor velocidad de transmisión a menor valor de categoría del cable UTP.",
       "Si se elimina el trenzado de pares en el cable UTP, al nuevo cable se le denomina cable STP.",
     ],
-    solution: "",
+    solution: "b",
     explanation: "",
   },
   {
@@ -714,7 +714,7 @@ const questionsData: QuestionData[] = [
       "Fibra óptica monomodo con multiplexión de longitudes de onda.",
       "Ondas electromagnéticas empleando la frecuencia portadora de 5 GHz.",
     ],
-    solution: "",
+    solution: "c",
     explanation: "",
   },
   {
@@ -727,7 +727,7 @@ const questionsData: QuestionData[] = [
       "Mayor ancho de banda disponible al usuario final.",
       "El empleo de las mismas frecuencias portadoras que la tecnología Wi-Fi.",
     ],
-    solution: "",
+    solution: "a",
     explanation: "",
   },
   {
@@ -735,7 +735,7 @@ const questionsData: QuestionData[] = [
     title:
       "Si se desea transmitir información a través de un medio físico empleando una señal de pulsos con 4 niveles y a una velocidad de 90000 bps, el medio físico necesita un ancho de banda mínimo de:",
     choices: ["30000 Hz.", "45000 Hz.", "90000 Hz.", "22500 Hz."],
-    solution: "",
+    solution: "d",
     explanation: "",
   },
   {
@@ -748,7 +748,7 @@ const questionsData: QuestionData[] = [
       "Codificación binaria con retorno a cero unipolar.",
       "Codificación Manchester.",
     ],
-    solution: "",
+    solution: "d",
     explanation: "",
   },
   {
@@ -761,7 +761,7 @@ const questionsData: QuestionData[] = [
       "Modulación FSK.",
       "Modulación QPSK.",
     ],
-    solution: "",
+    solution: "d",
     explanation: "",
   },
   {
@@ -772,9 +772,9 @@ const questionsData: QuestionData[] = [
       "Cable UTP categoría 3.",
       "Cable UTP categoría 5.",
       "Fibra óptica monomodo.",
-      "Fibra óptica multimodo -> dispersión intermodal",
+      "Fibra óptica multimodo.",
     ],
-    solution: "",
+    solution: "c",
     explanation: "",
   },
   {
@@ -787,7 +787,7 @@ const questionsData: QuestionData[] = [
       "Aumenta la relación señal-ruido en el medio físico.",
       "Se reduce la relación señal-ruido en el medio físico.",
     ],
-    solution: "",
+    solution: "d",
     explanation: "",
   },
   {
@@ -800,7 +800,7 @@ const questionsData: QuestionData[] = [
       "Codificación Mánchester",
       "Codificación PCM.",
     ],
-    solution: "",
+    solution: "a",
     explanation: "",
   },
   {
@@ -813,7 +813,7 @@ const questionsData: QuestionData[] = [
       "Aumentando el ancho de banda del medio físico.",
       "Aumentando el número de armónicos que componen la señal.",
     ],
-    solution: "",
+    solution: "c",
     explanation: "",
   },
   {
@@ -826,7 +826,7 @@ const questionsData: QuestionData[] = [
       "Un medio físico con un ancho de banda superior al valor B1+B2.",
       "Un medio físico con un ancho de banda igual al MENOR de los valores B1 y B2.",
     ],
-    solution: "",
+    solution: "c",
     explanation: "",
   },
   {
@@ -838,7 +838,7 @@ const questionsData: QuestionData[] = [
       "Establecer más portadoras que la modulación QAM.",
       "Establecer los mismos cambios de amplitud que la modulación QAM.",
     ],
-    solution: "",
+    solution: "b",
     explanation: "",
   },
   {
@@ -850,7 +850,7 @@ const questionsData: QuestionData[] = [
       "Presenta una mayor velocidad máxima de transmisión.",
       "Presenta una mayor tensión eléctrica en las señales transmitidas.",
     ],
-    solution: "",
+    solution: "c",
     explanation: "",
   },
   {
@@ -862,7 +862,7 @@ const questionsData: QuestionData[] = [
       "Transmisión de canales de datos multiplexados en frecuencia.",
       "Reducir la relación señal-ruido respecto de los cables de 50 Ohmios de impedancia.",
     ],
-    solution: "",
+    solution: "c",
     explanation: "",
   },
   {
@@ -875,7 +875,7 @@ const questionsData: QuestionData[] = [
       "La potencia del dispositivo emisor de luz.",
       "El número de canales multiplexados por longitud de onda",
     ],
-    solution: "",
+    solution: "d",
     explanation: "",
   },
   {
@@ -883,7 +883,7 @@ const questionsData: QuestionData[] = [
     title:
       "Cuántos armónicos componen una señal periódica de pulsos con periodo 1 ms y transmitida por un medio fisico de 5000 Hz de ancho de banda?",
     choices: ["5.", "6.", "10000.", "Infinitos."],
-    solution: "",
+    solution: "d",
     explanation: "",
   },
   {
@@ -891,7 +891,7 @@ const questionsData: QuestionData[] = [
     title:
       "Determina la velocidad máxima de transmisión para una señal de pulsos con 2 niveles de tensión en un medio físico full-duplex con multiplexión por frecuencia (simétrica para transmisión y recepción) y ancho de banda de 1000 Hz.",
     choices: ["1000 bps.", "2000 bps.", "4000 bps.", "8000 bps"],
-    solution: "",
+    solution: "a",
     explanation: "",
   },
   {
@@ -904,7 +904,7 @@ const questionsData: QuestionData[] = [
       "La velocidad máxima de transmisión en el medio aumenta.",
       "El ancho de banda B del medio aumenta de valor.",
     ],
-    solution: "",
+    solution: "c",
     explanation: "",
   },
   {
@@ -917,7 +917,7 @@ const questionsData: QuestionData[] = [
       "Los bits de datos se identifican empleando el mismo periodo de muestreo en receptor y emisor.",
       "Los bits de datos no pueden identificarse.",
     ],
-    solution: "",
+    solution: "c",
     explanation: "",
   },
   {
@@ -925,7 +925,7 @@ const questionsData: QuestionData[] = [
     title:
       "Se desea realizar la transmisión en un medio físico de dos señales de datos digitales con velocidades de 32 Kbps y 64 Kbps respectivamente. Si se emplea la multiplexión en el tiempo, el medio físico precisa de una velocidad de transmisión de:",
     choices: ["64 Kbps.", "96 Kbps.", "128 Kbps.", "256 Kbps."],
-    solution: "",
+    solution: "b",
     explanation: "",
   },
   {
@@ -938,7 +938,7 @@ const questionsData: QuestionData[] = [
       "Si aumenta la relación señal-ruido se reducirá la velocidad máxima de transmisión.",
       "Si aumenta la longitud del cable aumentará el ancho de banda disponible.",
     ],
-    solution: "",
+    solution: "b",
     explanation: "",
   },
   {
@@ -951,7 +951,7 @@ const questionsData: QuestionData[] = [
       "Fibra óptica multimodo.",
       "Todas las fibras ópticas permiten la transmisión a la misma distancia máxima.",
     ],
-    solution: "",
+    solution: "a",
     explanation: "",
   },
   {
@@ -964,7 +964,7 @@ const questionsData: QuestionData[] = [
       "Todas las ondas electromagnéticas se emplean para transmisión de datos.",
       "Si dos señales emplean frecuencias diferentes no interfieren entre ellas.",
     ],
-    solution: "",
+    solution: "d",
     explanation: "",
   },
   {
@@ -977,7 +977,7 @@ const questionsData: QuestionData[] = [
       "El mejor método es FSK, porque las frecuencias de una señal son teóricamente infinitas.",
       "QAM es una modulación combinada PSK y ASK.",
     ],
-    solution: "",
+    solution: "d",
     explanation: "",
   },
   {
@@ -989,7 +989,7 @@ const questionsData: QuestionData[] = [
       "Modifica la fase y amplitud de una señal portadora haciendo uso de una señal moduladora.",
       "Proporciona menor velocidad de modulación que una codificación en banda modulada ASK.",
     ],
-    solution: "",
+    solution: "c",
     explanation: "",
   },
   {
@@ -1001,15 +1001,15 @@ const questionsData: QuestionData[] = [
       "Es una modulación analógica.",
       "Transmite una señal modulada que se obtiene de modificar una señal portadora con una moduladora.",
     ],
-    solution: "",
+    solution: "b",
     explanation: "",
   },
   {
     id: 83,
     title:
       "Se quiere implementar un sistema de comunicaciones que tenga un ancho de banda de 100Mhz y que consiga una relación S/NdB de 80dB. ¿Cuál será la capacidad máxima del canal de comunicación?",
-    choices: ["≈5315 Mbps.", "≈ 2657 Mbps.", "≈ 634 Mbps.", "≈ 1268 Mbps."],
-    solution: "",
+    choices: ["≈ 5315 Mbps.", "≈ 2657 Mbps.", "≈ 634 Mbps.", "≈ 1268 Mbps."],
+    solution: "b",
     explanation: "",
   },
   {
@@ -1021,7 +1021,7 @@ const questionsData: QuestionData[] = [
       "Es una modulación en fase que permite codificar hasta 2 bits por elemento de señal",
       "Es una modulación en frecuencia y en fase con señal moduladora digital y portadora digital",
     ],
-    solution: "",
+    solution: "b",
     explanation: "",
   },
   {
@@ -1029,7 +1029,7 @@ const questionsData: QuestionData[] = [
     title:
       "Se quiere implementar un sistema de comunicaciones que tenga un ancho de banda de 50Mhz y que consiga una relación S/NdB de 60dB. ¿Cuál será la capacidad máxima del canal de comunicación?",
     choices: ["≈ 996.5 Mbps.", "≈1993 Mbps.", "≈ 296.5 Mbps.", "≈ 593 Mbps."],
-    solution: "",
+    solution: "a",
     explanation: "",
   },
   {
@@ -1041,7 +1041,7 @@ const questionsData: QuestionData[] = [
       "Es una variante de la modulación PSK que permite codificar datos de 4 bits en señales analógicas con distinta fase.",
       "Es una modulación que emplea 4 fases distintas que forman desplazamientos de 90º.",
     ],
-    solution: "",
+    solution: "d",
     explanation: "",
   },
   {
@@ -1049,7 +1049,7 @@ const questionsData: QuestionData[] = [
     title:
       "Se quiere implementar un sistema de comunicaciones que tenga un ancho de banda de 50Khz y que consiga una relación S/dB de 2dB. ¿Cuál será la capacidad máxima del canal de comunicación?",
     choices: ["≈ 137 Kbps.", "≈ 68.5 Kbps.", "≈ 116 Kbps.", "≈ 232 Kbps."],
-    solution: "",
+    solution: "b",
     explanation: "",
   },
   {
@@ -1062,7 +1062,7 @@ const questionsData: QuestionData[] = [
       "Los paquetes Ethernet de difusión emitidos por un equipo SOLO se transmiten en la red donde está el equipo.",
       "Emplear el algoritmo Spanning-Tree para aprender qué direcciones MAC existen en cada red Ethernet.",
     ],
-    solution: "",
+    solution: "a",
     explanation: "",
   },
   {
@@ -1075,7 +1075,7 @@ const questionsData: QuestionData[] = [
       "Servicio con conexión y con reconocimiento.",
       "Servicio de ventana deslizante.",
     ],
-    solution: "",
+    solution: "b",
     explanation: "",
   },
   {
@@ -1088,7 +1088,7 @@ const questionsData: QuestionData[] = [
       "Errores en ráfaga de longitud menor que el grado del polinomio generador.",
       "No existen tipos de errores que detecten ambos códigos.",
     ],
-    solution: "",
+    solution: "b",
     explanation: "",
   },
   {
@@ -1101,7 +1101,7 @@ const questionsData: QuestionData[] = [
       "Protocolo de ventana deslizante con repetición NO selectiva.",
       "Protocolo de ventana deslizante con repetición selectiva.",
     ],
-    solution: "",
+    solution: "d",
     explanation: "",
   },
   {
@@ -1114,7 +1114,7 @@ const questionsData: QuestionData[] = [
       "Existe un número máximo de intentos en el reenvío de un paquete que ha sufrido una colisión",
       "El tiempo de espera aleatorio para el reenvío de un paquete que ha sufrido una colisión es siempre el mismo en cada intento.",
     ],
-    solution: "",
+    solution: "c",
     explanation: "",
   },
   {
@@ -1126,7 +1126,7 @@ const questionsData: QuestionData[] = [
       "Es un mecanismo con menos pasos que el CSMA/CD para su uso en redes inalámbricas.",
       "Se fundamenta en escuchar el medio a la vez que se transmite para ver si se está produciendo una colisión.",
     ],
-    solution: "",
+    solution: "a",
     explanation: "",
   },
   {
@@ -1134,7 +1134,7 @@ const questionsData: QuestionData[] = [
     title:
       "Cómo se denomina el mecanismo en el que no existen colisiones a la hora de transmitir paquetes en las redes inalámbricas?",
     choices: ["CSMA/CD con RTS/CTS.", "CSMA/CA con RTS/CTS.", "DCF.", "PCF."],
-    solution: "",
+    solution: "d",
     explanation: "",
   },
   {
@@ -1147,7 +1147,7 @@ const questionsData: QuestionData[] = [
       "El router puede procesar los paquetes dirigidos a las direcciones MAC de sus interfaces.",
       "El router puede procesar todos los paquetes Ethernet transmitidos en un segmento Ethernet.",
     ],
-    solution: "",
+    solution: "c",
     explanation: "",
   },
   {
@@ -1160,7 +1160,7 @@ const questionsData: QuestionData[] = [
       "La SVT permite corregir errores en el paquete de datos.",
       "Incorpora en la cabecera del paquete información para la detección de errores.",
     ],
-    solution: "",
+    solution: "b",
     explanation: "",
   },
   {
@@ -1173,7 +1173,7 @@ const questionsData: QuestionData[] = [
       "El receptor RECHAZA cualquier paquete de datos que no llegue en orden.",
       "El emisor y el receptor SIEMPRE tienen el mismo tamaño de ventana.",
     ],
-    solution: "",
+    solution: "b",
     explanation: "",
   },
   {
@@ -1181,7 +1181,7 @@ const questionsData: QuestionData[] = [
     title:
       "Qué protocolo NO está definido en el modelo de referencia IEEE 802?",
     choices: ["LLC.", "IP.", "VLAN.", "Ethernet."],
-    solution: "",
+    solution: "b",
     explanation: "",
   },
   {
@@ -1194,7 +1194,7 @@ const questionsData: QuestionData[] = [
       "Un router reenvía los paquetes Ethernet de difusión entre sus interfaces Ethernet.",
       "Un puente reenvía los paquetes Ethernet de difusión entre los segmentos que interconecta.",
     ],
-    solution: "",
+    solution: "d",
     explanation: "",
   },
   {
@@ -1207,7 +1207,7 @@ const questionsData: QuestionData[] = [
       "Paridad por filas y columnas de un bloque de 8 bits.",
       "CRC.",
     ],
-    solution: "",
+    solution: "b",
     explanation: "",
   },
   {
@@ -1220,7 +1220,7 @@ const questionsData: QuestionData[] = [
       "Si la ventana del emisor es mayor que 3, no se reenvían paquetes de datos que serán rechazados.",
       "El tamaño de ventana del receptor es siempre mayor que 2.",
     ],
-    solution: "",
+    solution: "b",
     explanation: "",
   },
   {
@@ -1233,7 +1233,7 @@ const questionsData: QuestionData[] = [
       "El receptor rechaza cualquier paquete de datos que no llegue en orden.",
       "La ventana del emisor tendrá un tiempo de llenado MENOR que el tiempo de llegada de un ACK.",
     ],
-    solution: "",
+    solution: "a",
     explanation: "",
   },
   {
@@ -1246,7 +1246,7 @@ const questionsData: QuestionData[] = [
       "Una estación detecta colisiones al finalizar la transmisión de un paquete Ethernet.",
       "Una estación detecta colisiones en la recepción de un paquete Ethernet.",
     ],
-    solution: "",
+    solution: "b",
     explanation: "",
   },
   {
@@ -1259,7 +1259,7 @@ const questionsData: QuestionData[] = [
       "Asocia direcciones MAC destino con puertos.",
       "Una dirección MAC NO puede cambiar el puerto al que está asociada.",
     ],
-    solution: "",
+    solution: "b",
     explanation: "",
   },
   {
@@ -1272,7 +1272,7 @@ const questionsData: QuestionData[] = [
       "Detección de errores.",
       "Direccionamiento de equipos.",
     ],
-    solution: "",
+    solution: "b",
     explanation: "",
   },
   {
@@ -1285,7 +1285,7 @@ const questionsData: QuestionData[] = [
       "El receptor y emisor están siempre sincronizados.",
       "No se producen nunca errores en los paquetes de confirmación (ACK) transmitidos.",
     ],
-    solution: "",
+    solution: "b",
     explanation: "",
   },
   {
@@ -1298,7 +1298,7 @@ const questionsData: QuestionData[] = [
       "Un router NO reenvía los paquetes Ethernet de difusión entre sus interfaces Ethernet.",
       "Un puente NO reenvía los paquetes Ethernet de difusión entre los segmentos que interconecta.",
     ],
-    solution: "",
+    solution: "c",
     explanation: "",
   },
   {
@@ -1311,7 +1311,7 @@ const questionsData: QuestionData[] = [
       "Asocia direcciones MAC destino con puertos.",
       "Una dirección MAC puede no estar asociada a ningún puerto.",
     ],
-    solution: "",
+    solution: "d",
     explanation: "",
   },
   {
@@ -1319,7 +1319,7 @@ const questionsData: QuestionData[] = [
     title:
       "Codificaciones Indica el sistema de señalización empleado en Ethernet 100BaseFX:",
     choices: ["Manchester.", "4D-PAM5.", "NRZI.", "8B/10B."],
-    solution: "",
+    solution: "c",
     explanation: "",
   },
   {
@@ -1331,7 +1331,7 @@ const questionsData: QuestionData[] = [
       "Define un conjunto de 16 símbolos de 5 bits.",
       "Define un conjunto de 32 símbolos de 5 bits.",
     ],
-    solution: "",
+    solution: "c",
     explanation: "",
   },
   {
@@ -1344,7 +1344,7 @@ const questionsData: QuestionData[] = [
       "Ethernet 100BaseFX.",
       "Ethernet 1000BaseLX.",
     ],
-    solution: "",
+    solution: "a",
     explanation: "",
   },
   {
@@ -1352,14 +1352,14 @@ const questionsData: QuestionData[] = [
     title:
       "Indica en qué tecnología Ethernet NO se introducen bits de sincronización en todos los bytes del paquete Ethernet:",
     choices: ["10BaseT.", "100BaseFX.", "100BaseTX.", "1000BaseLX."],
-    solution: "",
+    solution: "a",
     explanation: "",
   },
   {
     id: 113,
     title: "Indica el sistema de señalización empleado en Ethernet 100BaseTX:",
     choices: ["Manchester.", "4D-PAM5.", "MLT-3.", "8B/10B."],
-    solution: "",
+    solution: "c",
     explanation: "",
   },
   {
@@ -1371,7 +1371,7 @@ const questionsData: QuestionData[] = [
       "Ethernet 100BaseLX.",
       "Ethernet 1000BaseSX.",
     ],
-    solution: "",
+    solution: "a",
     explanation: "",
   },
   {
@@ -1384,7 +1384,7 @@ const questionsData: QuestionData[] = [
       "Ethernet 5GBaseT.",
       "Ethernet 2.5GBaseT.",
     ],
-    solution: "",
+    solution: "b",
     explanation: "",
   },
   {
@@ -1397,7 +1397,7 @@ const questionsData: QuestionData[] = [
       "Emplear un formato de paquete MAC distinto que en Ethernet 10BaseT.",
       "Estar definida para emplear solamente el medio físico de fibra óptica.",
     ],
-    solution: "",
+    solution: "b",
     explanation: "",
   },
   {
@@ -1410,7 +1410,7 @@ const questionsData: QuestionData[] = [
       "La interconexión entre conmutadores IEEE 802.1Q se gestiona con el protocolo GVRP.",
       "Establece un único dominio de difusión entre todos los puertos de enlace de acceso del conmutador.",
     ],
-    solution: "",
+    solution: "c",
     explanation: "",
   },
   {
@@ -1423,7 +1423,7 @@ const questionsData: QuestionData[] = [
       "Un paquete de difusión procedente de un enlace troncal se reenvía sólo a los puertos troncales asociados a la misma VLAN.",
       "Un paquete de difusión procedente de un enlace troncal se reenvía a todos los puertos troncales del conmutador.",
     ],
-    solution: "",
+    solution: "b",
     explanation: "",
   },
   {
@@ -1436,7 +1436,7 @@ const questionsData: QuestionData[] = [
       "Los paquetes ARP Request transmitidos en una VLAN son reenviados a todos los puertos del conmutador asociados a la misma VLAN.",
       "Los paquetes ARP Reply transmitidos en una VLAN son reenviados a todos los puertos troncales y de acceso asociados a la misma VLAN",
     ],
-    solution: "",
+    solution: "c",
     explanation: "",
   },
   {
@@ -1449,7 +1449,7 @@ const questionsData: QuestionData[] = [
       "Los paquetes de difusión de una VLAN son reenviados sólo a los puertos de acceso del conmutador asociados a la misma VLAN.",
       "Los paquetes de difusión de una VLAN pueden ser reenviados a puertos troncales y de acceso asociados a la misma VLAN.",
     ],
-    solution: "",
+    solution: "d",
     explanation: "",
   },
   {
@@ -1461,7 +1461,7 @@ const questionsData: QuestionData[] = [
       "Todos los mecanismos de cifrado se basan en el intercambio de una clave inicial.",
       "El estándar WPA3 es el más seguro porque no realiza el intercambio de una clave inicial de cifrado.",
     ],
-    solution: "",
+    solution: "c",
     explanation: "",
   },
   {
@@ -1473,7 +1473,7 @@ const questionsData: QuestionData[] = [
       "Ambas normas permiten el algoritmo de cifrado RC4.",
       "WPA2 introduce nuevos mecanismos de autenticación más seguros que en WPA.",
     ],
-    solution: "",
+    solution: "c",
     explanation: "",
   },
   {
@@ -1485,7 +1485,7 @@ const questionsData: QuestionData[] = [
       "Permitir el uso de diferentes frecuencias para las estaciones asociadas a un punto de acceso.",
       "Reenviar los paquetes ACK que sufren errores al ser transmitidos en el aire.",
     ],
-    solution: "",
+    solution: "b",
     explanation: "",
   },
   {
@@ -1498,7 +1498,7 @@ const questionsData: QuestionData[] = [
       "IEEE 802.11n.",
       "Todas las normativas de redes LAN inalámbricas emplean el mismo número de canales.",
     ],
-    solution: "",
+    solution: "c",
     explanation: "",
   },
   {
@@ -1506,7 +1506,7 @@ const questionsData: QuestionData[] = [
     title:
       "Indica qué mecanismo de autenticación es más inseguro para obtener el acceso no autorizado a una red Wi-Fi:",
     choices: ["WPA-TKIP.", "WPA2-PSK.", "EAP/TLS.", "EAP/PEAP"],
-    solution: "",
+    solution: "b",
     explanation: "",
   },
   {
@@ -1519,7 +1519,7 @@ const questionsData: QuestionData[] = [
       "MAC IEEE 802.1Q.",
       "En todos los protocolos MAC del IEEE es necesario el empleo del protocolo IEEE 802.2.",
     ],
-    solution: "",
+    solution: "d",
     explanation: "",
   },
   {
@@ -1532,7 +1532,7 @@ const questionsData: QuestionData[] = [
       "IEEE 802.11n.",
       "Todas las normas IEEE 802.11x emplean las tramas Beacon Frame.",
     ],
-    solution: "",
+    solution: "d",
     explanation: "",
   },
   {
@@ -1540,14 +1540,14 @@ const questionsData: QuestionData[] = [
     title:
       "Indica con qué mecanismo de las redes IEEE 802.11x se consigue que dos estaciones asociadas a un AP puedan detectar siempre sus transmisiones:",
     choices: ["RTS/CTS.", "CSMA/CA.", "CSMA/CD.", "WEP."],
-    solution: "",
+    solution: "a",
     explanation: "",
   },
   {
     id: 129,
     title: "Qué mecanismo de cifrado en redes Wi-Fi es actualmente seguro?",
     choices: ["WPA2/AES.", "WPA2/TKIP.", "WPA2/PEAP.", "WPA2/TLS."],
-    solution: "",
+    solution: "a",
     explanation: "",
   },
   {
@@ -1560,7 +1560,7 @@ const questionsData: QuestionData[] = [
       "Añadiendo las capas del modelo IEEE 802.x debajo de la capa de enlace de TCP/IP.",
       "Añadiendo las capas del modelo IEEE 802.x debajo de la capa de red de TCP/IP.",
     ],
-    solution: "",
+    solution: "d",
     explanation: "",
   },
   {
@@ -1573,7 +1573,7 @@ const questionsData: QuestionData[] = [
       "IEEE 802.11n.",
       "Todas las normas IEEE 802.11x soportan el mecanismo RTS/CTS.",
     ],
-    solution: "",
+    solution: "d",
     explanation: "",
   },
   {
@@ -1586,7 +1586,7 @@ const questionsData: QuestionData[] = [
       "Son transmitidas por los clientes para conocer la existencia de una red inalámbrica en un entorno.",
       "Permiten conocer el número de estaciones dentro de la cobertura de una red inalámbrica ad-hoc.",
     ],
-    solution: "",
+    solution: "b",
     explanation: "",
   },
   {
@@ -1599,7 +1599,7 @@ const questionsData: QuestionData[] = [
       "Es más eficiente que RIPv1 por hacer uso de la multidifusión.",
       "Usa las mismas tablas que RIPv1 pero las actualiza más a menudo.",
     ],
-    solution: "",
+    solution: "c",
     explanation: "",
   },
   {
@@ -1612,7 +1612,7 @@ const questionsData: QuestionData[] = [
       "Los algoritmos de encaminamiento emplean la multidifusión para un procesamiento más eficiente de los paquetes de información.",
       "El protocolo BGP no emplea multidifusión en el envío de información de encaminamiento.",
     ],
-    solution: "",
+    solution: "b",
     explanation: "",
   },
   {
@@ -1624,7 +1624,7 @@ const questionsData: QuestionData[] = [
       "Define un sistema de cabeceras más flexible que IPv4.",
       "Soporta monodifusión (anycast).",
     ],
-    solution: "",
+    solution: "b",
     explanation: "",
   },
   {
@@ -1632,7 +1632,7 @@ const questionsData: QuestionData[] = [
     title:
       "Qué algoritmo de encaminamiento no tiene en cuenta valores de métrica al gestionar las tablas de encaminamiento?",
     choices: ["OSPF.", "BGP.", "RIPv1.", "RIPv2."],
-    solution: "",
+    solution: "b",
     explanation: "",
   },
   {
@@ -1645,7 +1645,7 @@ const questionsData: QuestionData[] = [
       "En la cabecera de extensión de encaminamiento.",
       "En la cabecera IPv6.",
     ],
-    solution: "",
+    solution: "d",
     explanation: "",
   },
   {
@@ -1653,7 +1653,7 @@ const questionsData: QuestionData[] = [
     title:
       "Qué protocolo de encaminamiento emplea la capa de transporte para informar de las tablas de encaminamiento a otros routers?",
     choices: ["OSPF.", "RIPv1.", "RIPv2.", "BGP."],
-    solution: "",
+    solution: "d",
     explanation: "",
   },
   {
@@ -1666,7 +1666,7 @@ const questionsData: QuestionData[] = [
       "BGP.",
       "Todos los protocolos de encaminamiento optimizan rutas a los destinos.",
     ],
-    solution: "",
+    solution: "c",
     explanation: "",
   },
   {
@@ -1678,7 +1678,7 @@ const questionsData: QuestionData[] = [
       "El tamaño de la cabecera de nivel de red en un paquete IPv6 es siempre fija.",
       "El protocolo IPv6 aumenta el valor del campo TTL para permitir redes IP más extensas.",
     ],
-    solution: "",
+    solution: "b",
     explanation: "",
   },
   {
@@ -1690,7 +1690,7 @@ const questionsData: QuestionData[] = [
       "Si RIP detecta una métrica mayor a un destino modifica el valor de la métrica para actualizarla.",
       "Un mensaje RIP con información de destinos es reenviado a todos los segmentos de red existentes.",
     ],
-    solution: "",
+    solution: "b",
     explanation: "",
   },
   {
@@ -1703,7 +1703,7 @@ const questionsData: QuestionData[] = [
       "Los routers que reciben este paquete lo envían a todos los routers multicasting de Internet.",
       "El paquete sólo es procesado por los equipos que pertenecen a este grupo de multidifusión.",
     ],
-    solution: "",
+    solution: "d",
     explanation: "",
   },
   {
@@ -1715,7 +1715,7 @@ const questionsData: QuestionData[] = [
       "Utiliza conexiones UDP para el envío de los mensajes BGP en la red.",
       "Los routers BGP disponen de un conocimiento global de los SA de Internet.",
     ],
-    solution: "",
+    solution: "d",
     explanation: "",
   },
   {
@@ -1728,7 +1728,7 @@ const questionsData: QuestionData[] = [
       "Pueden enviar mensajes a routers que no sean adyacentes (que no están en la misma LAN).",
       "RIP versión 2 y OSPF no tienen ninguna característica en común.",
     ],
-    solution: "",
+    solution: "b",
     explanation: "",
   },
   {
@@ -1741,7 +1741,7 @@ const questionsData: QuestionData[] = [
       "Se envían periódicamente entre cada par de routers que establecen una conexión BGP.",
       "Informan de errores o actualizaciones en los destinos existen en un sistema autónomo.",
     ],
-    solution: "",
+    solution: "c",
     explanation: "",
   },
   {
@@ -1754,7 +1754,7 @@ const questionsData: QuestionData[] = [
       "Gestión del flujo de información asignando velocidades de transmisión a diferentes clases de tráfico.",
       "Filtrado de paquetes que pueden ser encaminados o no (firewall).",
     ],
-    solution: "",
+    solution: "b",
     explanation: "",
   },
   {
@@ -1767,14 +1767,14 @@ const questionsData: QuestionData[] = [
       "Interconexión de redes LAN con menos de 10 saltos de distancia máxima.",
       "Interconexión de redes LAN donde las distancias entre redes pueden reducirse.",
     ],
-    solution: "",
+    solution: "a",
     explanation: "",
   },
   {
     id: 148,
     title: "Indica cuál de los siguientes NO es un mensaje del protocolo BGP:",
     choices: ["BGP Hello.", "BGP Open.", "BGP Notification.", "BGP Keepalive."],
-    solution: "",
+    solution: "a",
     explanation: "",
   },
   {
@@ -1787,7 +1787,7 @@ const questionsData: QuestionData[] = [
       "En una tabla puede existir más de una entrada de puerta de enlace por defecto.",
       "Todas las entradas de una tabla deben tener la máscara de red con el mismo valor.",
     ],
-    solution: "",
+    solution: "b",
     explanation: "",
   },
   {
@@ -1799,7 +1799,7 @@ const questionsData: QuestionData[] = [
       "Adapta el valor del temporizador de espera de los ACK al RTT de los paquetes TCP confirmados.",
       "Determina un valor fijo de temporizador de espera de ACK para una conexión TCP en el establecimiento de la conexión.",
     ],
-    solution: "",
+    solution: "c",
     explanation: "",
   },
   {
@@ -1812,7 +1812,7 @@ const questionsData: QuestionData[] = [
       "La ventana de congestión SIEMPRE es mayor que la ventana de recepción.",
       "La ventana del emisor nunca es mayor que la ventana del receptor.",
     ],
-    solution: "",
+    solution: "d",
     explanation: "",
   },
   {
@@ -1820,7 +1820,7 @@ const questionsData: QuestionData[] = [
     title:
       "Qué protocolo de aplicación de la arquitectura de red TCP/IP NO emplea ni el protocolo TCP ni el UDP?",
     choices: ["HTTP.", "DNS.", "ICMP.", "PING."],
-    solution: "",
+    solution: "d",
     explanation: "",
   },
   {
@@ -1832,7 +1832,7 @@ const questionsData: QuestionData[] = [
       "Aumentando la capacidad de proceso de las CPUs de los routers.",
       "Aumentando el número de protocolos de encaminamiento empleados.",
     ],
-    solution: "",
+    solution: "c",
     explanation: "",
   },
   {
@@ -1840,7 +1840,7 @@ const questionsData: QuestionData[] = [
     title:
       "Qué protocolo de la arquitectura TCP/IP permitirá identificar que no existe una aplicación determinada funcionando en un computador?",
     choices: ["IP.", "DNS.", "TCP.", "IGMP."],
-    solution: "",
+    solution: "c",
     explanation: "",
   },
   {
@@ -1848,7 +1848,7 @@ const questionsData: QuestionData[] = [
     title:
       "Qué protocolo de la arquitectura de red TCP/IP permite reenviar la información transportada en un paquete Ethernet que sufre una alteración en el medio físico?",
     choices: ["IP.", "ICMP.", "TCP.", "UDP."],
-    solution: "",
+    solution: "c",
     explanation: "",
   },
   {
@@ -1861,7 +1861,7 @@ const questionsData: QuestionData[] = [
       "El extremo A reenvía el paquete TCP y reduce el tamaño de la ventana de congestión.",
       "Cuando expire el temporizador de espera de ACK del paquete que sufre el error, el emisor reduce el valor del tiempo de espera del ACK del paquete reenviado.",
     ],
-    solution: "",
+    solution: "c",
     explanation: "",
   },
   {
@@ -1874,7 +1874,7 @@ const questionsData: QuestionData[] = [
       "Protocolo de nivel de enlace empleado.",
       "Protocolo de gestión de tablas de encaminamiento empleado.",
     ],
-    solution: "",
+    solution: "a",
     explanation: "",
   },
   {
@@ -1887,7 +1887,7 @@ const questionsData: QuestionData[] = [
       "La pérdida de un ACK provoca la reducción de la ventana de congestión del emisor.",
       "El retardo en la llegada de un ACK reduce a la mitad el tiempo de espera del ACK del reenvío.",
     ],
-    solution: "",
+    solution: "c",
     explanation: "",
   },
   {
@@ -1900,7 +1900,7 @@ const questionsData: QuestionData[] = [
       "Protocolo de nivel de enlace empleado.",
       "Número de dispositivos que transmiten información simultáneamente.",
     ],
-    solution: "",
+    solution: "c",
     explanation: "",
   },
   {
@@ -1913,7 +1913,7 @@ const questionsData: QuestionData[] = [
       "El tamaño de la ventana de un emisor TCP aumentará si expiran temporizadores de espera de ACK.",
       "Si un emisor TCP recibe un paquete ACK aumenta el tamaño de su ventana de congestión en el valor del MSS.",
     ],
-    solution: "",
+    solution: "d",
     explanation: "",
   },
   {
@@ -1926,7 +1926,7 @@ const questionsData: QuestionData[] = [
       "Porcentaje de uso de la CPU de los routers para encaminamiento inferiores al 40%.",
       "El empleo de protocolos sin control del flujo como UDP.",
     ],
-    solution: "",
+    solution: "c",
     explanation: "",
   },
   {
@@ -1939,7 +1939,7 @@ const questionsData: QuestionData[] = [
       "Producirse colisiones en el medio físico cuando dos o más estaciones transmiten datos simultáneamente.",
       "Necesitar un esquema de direccionamiento para las estaciones de la red.",
     ],
-    solution: "",
+    solution: "b",
     explanation: "",
   },
   {
@@ -1952,7 +1952,7 @@ const questionsData: QuestionData[] = [
       "Ofrece un servicio de alta calidad, adecuado para la transmisión de datos.",
       "En general, no requiere de una conexión previa para poder enviar los datos, ni de una desconexión al acabar.",
     ],
-    solution: "",
+    solution: "c",
     explanation: "",
   },
   {
@@ -1964,7 +1964,7 @@ const questionsData: QuestionData[] = [
       "Los servicios que ofrece un nivel pueden ser orientados a conexión o no orientados aconexión.",
       "Los servicios de tipo no confirmado no requieren utilizar las primitivas Response yConfirm.",
     ],
-    solution: "",
+    solution: "b",
     explanation: "",
   },
   {
@@ -1977,7 +1977,7 @@ const questionsData: QuestionData[] = [
       "Intercambiando IDU's entre entidades pares del nivel n.",
       "Intercambiando SDU's entre entidades pares del nivel n+1.",
     ],
-    solution: "",
+    solution: "a",
     explanation: "",
   },
   {
@@ -1990,7 +1990,7 @@ const questionsData: QuestionData[] = [
       "La capa de sesión.",
       "La capa de transporte.",
     ],
-    solution: "",
+    solution: "d",
     explanation: "",
   },
   {
@@ -2003,7 +2003,7 @@ const questionsData: QuestionData[] = [
       "Controlar el acceso de múltiples usuarios de forma simultánea al mismo servidor.",
       "La encriptación de los datos cuando se requiere confidencialidad.",
     ],
-    solution: "",
+    solution: "b",
     explanation: "",
   },
   {
@@ -2016,7 +2016,7 @@ const questionsData: QuestionData[] = [
       "Empleando las cabeceras del protocolo de nivel n.",
       "Empleando las cabeceras del protocolo de nivel n+1.",
     ],
-    solution: "",
+    solution: "a",
     explanation: "",
   },
   {
@@ -2028,7 +2028,7 @@ const questionsData: QuestionData[] = [
       "Define protocolos concretos para todos los niveles de su arquitectura, excepto para elAcceso a la Red, para el cual se utilizan protocolos de otras arquitecturas.",
       "No permite comunicaciones orientadas a conexión.",
     ],
-    solution: "",
+    solution: "c",
     explanation: "",
   },
   {
@@ -2041,7 +2041,7 @@ const questionsData: QuestionData[] = [
       "Los armónicos de menor frecuencia de la señal se encuentran dentro del ancho de banda delmedio físico.",
       "El ancho de banda del medio físico es igual a la frecuencia del armónico de primer orden dela señal.",
     ],
-    solution: "",
+    solution: "c",
     explanation: "",
   },
   {
@@ -2049,7 +2049,7 @@ const questionsData: QuestionData[] = [
     title:
       "Una señal digital periódica de 8 bits, con un periodo de 10ms, se envía por un medio conun ancho de banda ideal de 240Hz que comienza en la frecuencia 280Hz. ¿Cuántascomponentes armónicas de la señal llegarán correctamente al destino?",
     choices: ["2.", "3.", "4.", "5."],
-    solution: "",
+    solution: "b",
     explanation: "",
   },
   {
@@ -2062,7 +2062,7 @@ const questionsData: QuestionData[] = [
       "La reducción en la velocidad de transmisión de información de la señal.",
       "El aumento en la velocidad de propagación de la señal en el medio físico.",
     ],
-    solution: "",
+    solution: "b",
     explanation: "",
   },
   {
@@ -2075,7 +2075,7 @@ const questionsData: QuestionData[] = [
       "Impulsivo.",
       "Térmico.",
     ],
-    solution: "",
+    solution: "b",
     explanation: "",
   },
   {
@@ -2088,7 +2088,7 @@ const questionsData: QuestionData[] = [
       "Modulación PCM.",
       "La velocidad máxima de transmisión no depende del tipo de modulación empleada.",
     ],
-    solution: "",
+    solution: "a",
     explanation: "",
   },
   {
@@ -2101,7 +2101,7 @@ const questionsData: QuestionData[] = [
       "Emplear la modulación ASK y FSK.",
       "Emplear la modulación PCM y PSK.",
     ],
-    solution: "",
+    solution: "b",
     explanation: "",
   },
   {
@@ -2109,7 +2109,7 @@ const questionsData: QuestionData[] = [
     title:
       "Determina qué velocidad de transmisión se necesita en un medio físico para multiplexaren el tiempo dos señales PCM: una de 64Kbps y otra de 32 Kbps,",
     choices: ["64 Kbps.", "32 Kbps.", "128 Kbps.", "96 Kbps."],
-    solution: "",
+    solution: "d",
     explanation: "",
   },
   {
@@ -2122,7 +2122,7 @@ const questionsData: QuestionData[] = [
       "El T1 emplea multiplexado por división de frecuencia y el E1 por división en el tiempo.",
       "El T1 incluye información de control en las tramas, pero el E1 no.",
     ],
-    solution: "",
+    solution: "b",
     explanation: "",
   },
   {
@@ -2135,7 +2135,7 @@ const questionsData: QuestionData[] = [
       "UTP categoría 5.",
       "Cable coaxial de 50 ohmios.",
     ],
-    solution: "",
+    solution: "a",
     explanation: "",
   },
   {
@@ -2148,7 +2148,7 @@ const questionsData: QuestionData[] = [
       "Fibra óptica de índice gradual.",
       "Cable STP.",
     ],
-    solution: "",
+    solution: "b",
     explanation: "",
   },
   {
@@ -2161,7 +2161,7 @@ const questionsData: QuestionData[] = [
       "Para una misma distancia, la multimodo tiene un mayor ancho de banda que la monomodo.",
       "Para un mismo ancho de banda, la monomodo permite transmitir a mayores distancias.",
     ],
-    solution: "",
+    solution: "d",
     explanation: "",
   },
   {
@@ -2174,7 +2174,7 @@ const questionsData: QuestionData[] = [
       "Tanto con ALOHA como con CSMA, pueden existir colisiones al transmitir datos.",
       "En general, la transmisión de tipo CSMA ofrece un menor rendimiento que la ALOHA.",
     ],
-    solution: "",
+    solution: "d",
     explanation: "",
   },
   {
@@ -2187,7 +2187,7 @@ const questionsData: QuestionData[] = [
       "ICI de enlace.",
       "IDU de enlace.",
     ],
-    solution: "",
+    solution: "a",
     explanation: "",
   },
   {
@@ -2200,7 +2200,7 @@ const questionsData: QuestionData[] = [
       "El servicio sin conexión y sin confirmación es el más adecuado para redes locales de calidad.",
       "Los servicios con confirmación son necesariamente orientados a conexión.",
     ],
-    solution: "",
+    solution: "c",
     explanation: "",
   },
   {
@@ -2213,7 +2213,7 @@ const questionsData: QuestionData[] = [
       "Cambia cada secuencia de seis unos seguidos por una secuencia de cinco unos y un cero.",
       "Duplica el código del delimitador cada vez que aparece entre los bits de datos.",
     ],
-    solution: "",
+    solution: "a",
     explanation: "",
   },
   {
@@ -2221,7 +2221,7 @@ const questionsData: QuestionData[] = [
     title:
       "Cuál es el valor del campo de detección de errores que hay que asociar a la secuencia debits de datos ‘100011’ utilizando un código CRC con el polinomio generador x2+1?",
     choices: ["00.", "01.", "10.", "11."],
-    solution: "",
+    solution: "b",
     explanation: "",
   },
   {
@@ -2234,7 +2234,7 @@ const questionsData: QuestionData[] = [
       "El receptor tenga un tamaño de ventana igual a 1.",
       "El receptor tenga un tamaño de ventana mayor que el emisor.",
     ],
-    solution: "",
+    solution: "a",
     explanation: "",
   },
   {
@@ -2247,7 +2247,7 @@ const questionsData: QuestionData[] = [
       "La velocidad de transferencia en el medio físico.",
       "El número medio de reenvíos de paquetes necesarios para enviar un paquete de formacorrecta.",
     ],
-    solution: "",
+    solution: "d",
     explanation: "",
   },
   {
@@ -2260,7 +2260,7 @@ const questionsData: QuestionData[] = [
       "Pueden producirse errores de duplicación y de sincronización.",
       "No pueden producirse errores de duplicación ni de sincronización.",
     ],
-    solution: "",
+    solution: "b",
     explanation: "",
   },
   {
@@ -2273,7 +2273,7 @@ const questionsData: QuestionData[] = [
       "La utilización de un temporizador en el emisor con demasiado tiempo de espera.",
       "Que el receptor tarde demasiado tiempo en enviar el asentimiento de una trama de datos.",
     ],
-    solution: "",
+    solution: "d",
     explanation: "",
   },
   {
@@ -2281,7 +2281,7 @@ const questionsData: QuestionData[] = [
     title:
       "Cuál de los siguientes tipos de trama de supervisión del protocolo HDLC sirve paraindicar una confirmación negativa de una trama con errores cuando se utiliza envíocontinuo con repetición no selectiva?",
     choices: ["RR.", "RNR.", "REJ.", "SREJ."],
-    solution: "",
+    solution: "c",
     explanation: "",
   },
   {
@@ -2289,7 +2289,7 @@ const questionsData: QuestionData[] = [
     title:
       "Una empresa con oficinas en Madrid, Paris y Berlín está probablemente conectada a través de una red:",
     choices: ["LAN.", "WAN.", "MAN.", "Ethernet."],
-    solution: "",
+    solution: "b",
     explanation: "",
   },
   {
@@ -2297,7 +2297,7 @@ const questionsData: QuestionData[] = [
     title:
       "La seguridad y privacidad son temas que preocupan especialmente a redes con topología en:",
     choices: ["Estrella.", "Bus.", "Árbol.", "Malla."],
-    solution: "",
+    solution: "b",
     explanation: "",
   },
   {
@@ -2305,7 +2305,7 @@ const questionsData: QuestionData[] = [
     title:
       "En el modelo OSI, el cifrado y descifrado de los datos son responsabilidad del nivel:",
     choices: ["Físico.", "Enlace", "Presentación.", "Sesión."],
-    solution: "",
+    solution: "c",
     explanation: "",
   },
   {
@@ -2313,7 +2313,7 @@ const questionsData: QuestionData[] = [
     title:
       "El desplazamiento en fase correspondiente a un desplazamiento de ¾ de ciclo se corresponde con:",
     choices: ["0º.", "90º.", "3π/2.", "3π/4."],
-    solution: "",
+    solution: "c",
     explanation: "",
   },
   {
@@ -2321,7 +2321,7 @@ const questionsData: QuestionData[] = [
     title:
       "Se pretende digitalizar la voz humana. Sabiendo que ésta contiene normalmente frecuencias entre 0Hz y los 4000Hz, y que se emplean 8 bits por muestra, la velocidad del proceso será:",
     choices: ["8000 bps.", "4000 Kbps.", "64.000 bps.", "32.000 bps"],
-    solution: "",
+    solution: "c",
     explanation: "",
   },
   {
@@ -2334,7 +2334,7 @@ const questionsData: QuestionData[] = [
       "El mejor método es FSK, porque las frecuencias de una señal son teóricamente infinitas.",
       "QPSK es una modulación combinada FSK-ASK.",
     ],
-    solution: "",
+    solution: "b",
     explanation: "",
   },
   {
@@ -2347,7 +2347,7 @@ const questionsData: QuestionData[] = [
       "100001100001.",
       "1000001100001.",
     ],
-    solution: "",
+    solution: "d",
     explanation: "",
   },
   {
@@ -2359,7 +2359,7 @@ const questionsData: QuestionData[] = [
       "Frecuencia de la señal portadora.",
       "El ancho de banda de la señal.",
     ],
-    solution: "",
+    solution: "a",
     explanation: "",
   },
   {
@@ -2372,7 +2372,7 @@ const questionsData: QuestionData[] = [
       "El envío por la línea de un nivel de componente continua superior a cero.",
       "Ninguna de las anterires.",
     ],
-    solution: "",
+    solution: "b",
     explanation: "",
   },
   {
@@ -2385,7 +2385,7 @@ const questionsData: QuestionData[] = [
       "Se duplica.",
       "Permanece constante.",
     ],
-    solution: "",
+    solution: "d",
     explanation: "",
   },
   {
@@ -2398,7 +2398,7 @@ const questionsData: QuestionData[] = [
       "Las redes LAN no pueden emplear medios “no guiados”.",
       "Ninguna de las anteriores.",
     ],
-    solution: "",
+    solution: "d",
     explanation: "",
   },
   {
@@ -2406,7 +2406,7 @@ const questionsData: QuestionData[] = [
     title:
       "La velocidad máxima de transmisión en un canal de comunicación con frecuencia máxima 20000Hz y frecuencia mínima 12000Hz, y un ruido de línea debido a calentamiento térmico de 20dB:",
     choices: ["≈ 19765bps.", "≈ 29962bps.", "≈ 53265bps.", "≈ 62500bps."],
-    solution: "",
+    solution: "c",
     explanation: "",
   },
   {
@@ -2419,7 +2419,7 @@ const questionsData: QuestionData[] = [
       "La presencia de una trama de información.",
       "La presencia de una trama no numerada.",
     ],
-    solution: "",
+    solution: "d",
     explanation: "",
   },
   {
@@ -2427,7 +2427,7 @@ const questionsData: QuestionData[] = [
     title:
       "La velocidad de transmisión para una línea que emplea modulación PSK con 22.5º de separación entre puntos de fase y una velocidad de modulación de 1602 baudios es:",
     choices: ["4806 baudios.", "3204 bps.", "6408 bps.", "4806 bps."],
-    solution: "",
+    solution: "c",
     explanation: "",
   },
   {
@@ -2435,7 +2435,7 @@ const questionsData: QuestionData[] = [
     title:
       "Si una onda senoidal que se ha empleado para transmitir información en el  medio físico completa un ciclo en 10 segundos. ¿Cuál es su frecuencia?",
     choices: ["4Hz.", "0,75 bps.", "0,5 Hz.", "0,1 Hz."],
-    solution: "",
+    solution: "d",
     explanation: "",
   },
   {
@@ -2447,7 +2447,7 @@ const questionsData: QuestionData[] = [
       "Si T2 se dispara dos veces, en la red N1 y N3 poseerán testigo.",
       "Si T2 se dispara una vez, habrá testigos en todos los nodos menos en N1.",
     ],
-    solution: "",
+    solution: "b",
     explanation: "",
   },
   {
@@ -2460,14 +2460,14 @@ const questionsData: QuestionData[] = [
       "RZ bipolar.",
       "Ninguna de las anteriores.",
     ],
-    solution: "",
+    solution: "d",
     explanation: "",
   },
   {
     id: 208,
     title: "La modulación QAM está relacionada con:",
     choices: ["ASK y FSK.", "FSK y PSK.", "PSK y ASK.", "2-PSK y 2-FSK."],
-    solution: "",
+    solution: "c",
     explanation: "",
   },
   {
@@ -2475,7 +2475,7 @@ const questionsData: QuestionData[] = [
     title:
       "Si la distancias Hamming entre palabras de un código vienen determinadas por el siguiente conjunto de distancias {3,4,5,4}, es posible corregir el siguiente número de errores:",
     choices: ["2.", "3.", "4.", "1."],
-    solution: "",
+    solution: "d",
     explanation: "",
   },
   {
@@ -2488,7 +2488,7 @@ const questionsData: QuestionData[] = [
       "Nivel IP.",
       "Nivel físico.",
     ],
-    solution: "",
+    solution: "a",
     explanation: "",
   },
   {
@@ -2501,7 +2501,7 @@ const questionsData: QuestionData[] = [
       "Conmutación de circuitos.",
       "Conmutación de paquetes.",
     ],
-    solution: "",
+    solution: "d",
     explanation: "",
   },
   {
@@ -2514,7 +2514,7 @@ const questionsData: QuestionData[] = [
       "Cada nodo decide el camino a seguir para cada paquete transmitido.",
       "Si un nodo de un circuito falla, la comunicación no se interrumpe entre el origen y el destino.",
     ],
-    solution: "",
+    solution: "b",
     explanation: "",
   },
   {
@@ -2527,7 +2527,7 @@ const questionsData: QuestionData[] = [
       "Encaminar los paquetes por rutas con más saltos que las rutas en una red de circuitos virtuales.",
       "Encaminar los paquetes por rutas con menos saltos que las rutas en una red de circuitos virtuales.",
     ],
-    solution: "",
+    solution: "a",
     explanation: "",
   },
   {
@@ -2540,7 +2540,7 @@ const questionsData: QuestionData[] = [
       "Los nuevos circuitos virtuales que se establezcan sufrirán un encaminamiento más rápido de los paquetes.",
       "En una red de circuitos virtuales no se produce congestión, se produce saturación.",
     ],
-    solution: "",
+    solution: "b",
     explanation: "",
   },
   {
@@ -2548,7 +2548,7 @@ const questionsData: QuestionData[] = [
     title:
       "La interconexión de dos redes de difusión con diferente direccionamiento y diferente protocolo de nivel de enlace y que emplean la arquitectura TCP/IP, ha de realizarse con,",
     choices: ["Un repetidor.", "Un puente.", "Un router.", "Una pasarela."],
-    solution: "",
+    solution: "c",
     explanation: "",
   },
   {
@@ -2561,7 +2561,7 @@ const questionsData: QuestionData[] = [
       "Empleando los servicios de la capa n-1 de los dos extremos.",
       "La comunicación entre capas de distintos equipos y diferente nivel no es posible.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -2574,7 +2574,7 @@ const questionsData: QuestionData[] = [
       "Las PCI de los niveles n e inferiores al n.",
       "Sólo la PCI del nivel n.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -2587,7 +2587,7 @@ const questionsData: QuestionData[] = [
       "El extremo no iniciador del servicio es quién realiza la solicitud de conexión.",
       "Siempre debe realizarse la desconexión después de realizar el servicio.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -2600,7 +2600,7 @@ const questionsData: QuestionData[] = [
       "Establecer una conexión con el otro extremo para verificar si puede enviar paquetes IP.",
       "Identificar caminos predefinidos en la red para el envío de los paquetes.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -2613,7 +2613,7 @@ const questionsData: QuestionData[] = [
       "El protocolo ICMP.",
       "El protocolo IP.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -2626,7 +2626,7 @@ const questionsData: QuestionData[] = [
       "Una estación no puede recibir conexiones desde diferentes estaciones a un mismo número de puerto.",
       "Un estación puede establecer dos conexiones con los mismos puertos y direcciones IP origen y destino.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -2634,7 +2634,7 @@ const questionsData: QuestionData[] = [
     title:
       "Si se desea transmitir información con una señal de pulsos a través de un medio físico con un ancho de banda de 10000 Hz y a una velocidad de 90000 bps, la señal de pulsos necesita un número de niveles mínimo de,",
     choices: ["4.", "5.", "16.", "32."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -2646,7 +2646,7 @@ const questionsData: QuestionData[] = [
       "El número de componentes frecuenciales que pueden transmitirse por el medio físico.",
       "La velocidad de propagación de la señal en el medio físico.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -2659,7 +2659,7 @@ const questionsData: QuestionData[] = [
       "Codificación binaria con retorno a cero bipolar.",
       "Codificación Manchester.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -2671,7 +2671,7 @@ const questionsData: QuestionData[] = [
       "Modulación ASK.",
       "Modulación PCM.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -2679,7 +2679,7 @@ const questionsData: QuestionData[] = [
     title:
       "Cuál es el ancho de banda máximo de la señales analógicas que pueden enviarse a través de un medio físico de 100 KHz de ancho de banda empleando una modulación PCM de 4 bits ?",
     choices: ["25 KHz.", "100 KHz.", "50 KHz.", "12.5 KHz."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -2692,7 +2692,7 @@ const questionsData: QuestionData[] = [
       "Cable STP categoría 5.",
       "Fibra óptica multimodo.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -2705,7 +2705,7 @@ const questionsData: QuestionData[] = [
       "Ser inmune al ruido electromagnético externo.",
       "Tener una relación señal-ruido muy baja.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -2717,7 +2717,7 @@ const questionsData: QuestionData[] = [
       "No reenviar los paquetes que sufren una colisión.",
       "Comprobar el medio físico antes de reenviar un paquete después de producirse una colisión.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -2730,7 +2730,7 @@ const questionsData: QuestionData[] = [
       "Presentar menos errores en el medio físico que los orientados a carácter.",
       "Añadir información redundante en la cabecera de los paquetes de nivel de enlace.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -2743,7 +2743,7 @@ const questionsData: QuestionData[] = [
       "Si un paquete de datos sufre un error en el medio, el emisor no puede detectarlo.",
       "El emisor no enviará nunca paquetes de datos a una estación que no está activa.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -2756,7 +2756,7 @@ const questionsData: QuestionData[] = [
       "La ventana del emisor tiene un tamaño que no varía durante el funcionamiento del protocolo.",
       "La ventana del receptor tiene un tamaño mayor que el número de secuencias de numeración.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -2769,7 +2769,7 @@ const questionsData: QuestionData[] = [
       "Los errores en el medio físico debido al ruido.",
       "La pérdida de ACKs en el medio.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -2782,7 +2782,7 @@ const questionsData: QuestionData[] = [
       "Las dos estaciones intercambian datos con un protocolo de parada y espera.",
       "Es necesario el establecimiento de una conexión antes del intercambio de datos.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -2795,7 +2795,7 @@ const questionsData: QuestionData[] = [
       "El receptor solicita el reenvío del paquete erróneo.",
       "Expira el temporizador del protocolo PPP y el emisor reenvía el paquete del que no ha recibido ACK.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -2808,7 +2808,7 @@ const questionsData: QuestionData[] = [
       "Porcentaje de uso de la CPU de los routers para encaminamiento inferiores al 40%.",
       "El empleo de protocolos con control del flujo como TCP.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -2821,7 +2821,7 @@ const questionsData: QuestionData[] = [
       "El equipo recibirá un mensaje Source Quench.",
       "El equipo recibirá un paquete TCP RST.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -2833,7 +2833,7 @@ const questionsData: QuestionData[] = [
       "Una entrada en una tabla RIP puede actualizarse con una métrica mayor.",
       "Las entradas en una tabla RIP no requieren de actualizaciones cada cierto tiempo para seguir activas.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -2845,7 +2845,7 @@ const questionsData: QuestionData[] = [
       "Utiliza la difusión para el envío de los mensajes OSPF en la red.",
       "En la red se designan unos routers que establecen el diálogo OSPF para obtener la solución de encaminamiento.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -2858,7 +2858,7 @@ const questionsData: QuestionData[] = [
       "Conmutación con circuitos virtuales.",
       "Conmutación con datagramas.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -2871,7 +2871,7 @@ const questionsData: QuestionData[] = [
       "En cada nodo se decide el camino a seguir para cada paquete.",
       "Si un nodo de la red falla, la comunicación se interrumpe entre el origen y el destino.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -2884,7 +2884,7 @@ const questionsData: QuestionData[] = [
       "Sólo una estación de la red recibe el paquete.",
       "Sólo las estaciones del grupo al que pertenece la estación reciben el paquete.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -2897,7 +2897,7 @@ const questionsData: QuestionData[] = [
       "Es necesario aumentar el envío de información de las estaciones en la red para reducir la congestión.",
       "En una red de datagramas no se produce congestión, se produce saturación.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -2905,7 +2905,7 @@ const questionsData: QuestionData[] = [
     title:
       "La interconexión de dos redes de difusión con el mismo protocolo de nivel de enlace y que presente el menor número de colisiones ha de realizarse con,",
     choices: ["Un repetidor.", "Un puente.", "Un router.", "Una pasarela."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -2918,7 +2918,7 @@ const questionsData: QuestionData[] = [
       "Empleando los servicios de la capa n+1 de los dos extremos.",
       "La comunicación entre capas de distintos equipos y el mismo nivel no es posible.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -2930,7 +2930,7 @@ const questionsData: QuestionData[] = [
       "Las PCI de los niveles n e inferiores al n.",
       "Sólo la PCI del nivel n.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -2943,7 +2943,7 @@ const questionsData: QuestionData[] = [
       "Enviar una sola PDU al nivel n del otro extremo.",
       "Enviar una sola SDU al nivel n-1 de la arquitectura.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -2956,7 +2956,7 @@ const questionsData: QuestionData[] = [
       "El nivel n-1 puede emplear los servicios que le ofrece el nivel n.",
       "El nivel n+1 puede emplear los servicios ofrecidos por el nivel n-1.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -2969,7 +2969,7 @@ const questionsData: QuestionData[] = [
       "El servicio se realiza sólo si los dos extremos de la comunicación están preparados.",
       "El servicio tarda más tiempo en realizarse que en el caso orientado a conexión.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -2982,7 +2982,7 @@ const questionsData: QuestionData[] = [
       "El protocolo TCP.",
       "El protocolo IP.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -2995,7 +2995,7 @@ const questionsData: QuestionData[] = [
       "16.",
       "La señal no puede ser transmitida por ese medio.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3003,7 +3003,7 @@ const questionsData: QuestionData[] = [
     title:
       "Qué relación señal-ruido es la menos adecuada para transmitir señales por un medio físico?",
     choices: ["10 dB.", "20 dB.", "-10 dB.", "-20 dB."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3016,7 +3016,7 @@ const questionsData: QuestionData[] = [
       "Codificación binaria con retorno a cero bipolar.",
       "Codificación Manchester.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3029,7 +3029,7 @@ const questionsData: QuestionData[] = [
       "Modulación ASK.",
       "Modulación PCM.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3037,7 +3037,7 @@ const questionsData: QuestionData[] = [
     title:
       "Qué velocidad de transmisión es necesaria para enviar a través de un medio físico 2 señales analógicas de 100 KHz de ancho de banda empleando una modulación PCM de 6 bits ?",
     choices: ["12800 Kbps.", "25600 Kbps.", "1200 Kbps.", "2400 Kbps."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3050,7 +3050,7 @@ const questionsData: QuestionData[] = [
       "Fibra óptica monomodo.",
       "Fibra óptica multimodo.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3063,7 +3063,7 @@ const questionsData: QuestionData[] = [
       "Permitir una comunicación a un coste razonable para lugares remotos y aislados.",
       "Permitir velocidades de transmisión elevadas con un coste económico menor que la fibra óptica.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3075,7 +3075,7 @@ const questionsData: QuestionData[] = [
       "Impedir que se produzcan colisiones en el medio físico.",
       "Establecer un mecanismo de transmisión cuando se ha producido una colisión.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3088,7 +3088,7 @@ const questionsData: QuestionData[] = [
       "Presentar menos errores en el medio físico que los orientados a bit.",
       "Añadir información redundante en el campo de datos de nivel de enlace.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3101,7 +3101,7 @@ const questionsData: QuestionData[] = [
       "Orientado a conexión y confirmado.",
       "No orientado a conexión y no confirmado.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3114,7 +3114,7 @@ const questionsData: QuestionData[] = [
       "Si un paquete de datos sufre un error en el medio físico, el emisor se encarga de detectarlo.",
       "El emisor no enviará nunca paquetes de datos a una estación que no está activa.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3127,7 +3127,7 @@ const questionsData: QuestionData[] = [
       "La ventana del emisor tiene un tamaño que no varía durante el funcionamiento del protocolo.",
       "La ventana del receptor sólo permite recibir una única trama de datos.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3140,7 +3140,7 @@ const questionsData: QuestionData[] = [
       "El reenvío indefinido del mismo paquete al receptor.",
       "El reenvío de la trama perdida.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3153,7 +3153,7 @@ const questionsData: QuestionData[] = [
       "Las dos estaciones intercambian datos con un protocolo de parada y espera.",
       "Es posible detectar errores en la transmisión de los bits de los paquetes.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3166,7 +3166,7 @@ const questionsData: QuestionData[] = [
       "El emisor no puede detectar que algún paquete ha sufrido un error y la capa superior tendrá que corregirlo.",
       "El receptor corrige el error en el paquete y envía los datos al nivel superior.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3179,7 +3179,7 @@ const questionsData: QuestionData[] = [
       "Porcentaje de uso de la CPU de los routers para encaminamiento inferiores al 40%.",
       "El empleo de protocolos sin control del flujo como UDP.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3192,7 +3192,7 @@ const questionsData: QuestionData[] = [
       "Los equipos de Internet pueden establecer conexiones con los equipos de la red interna.",
       "Los equipos de la red interna no pueden establecer conexiones con equipos de Internet.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3204,7 +3204,7 @@ const questionsData: QuestionData[] = [
       "Utiliza la difusión para el envío de los mensajes BGP en la red.",
       "Los routers BGP disponen de un conocimiento global de los SA de Internet.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3217,7 +3217,7 @@ const questionsData: QuestionData[] = [
       "Los routers que reciben este paquete lo envían a todos los routers multicasting de Internet.",
       "El paquete sólo es procesado por los equipos que pertenecen a este grupo de multidifusión y se encuentran en la red donde se transmite.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3230,7 +3230,7 @@ const questionsData: QuestionData[] = [
       "La transmisión de un único paquete para enviar información a todos los nodos de la red.",
       "La tolerancia a fallos que presenta si existen varios caminos a un determinado destino.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3243,7 +3243,7 @@ const questionsData: QuestionData[] = [
       "El empleo de algoritmos de encaminamiento para el intercambio de paquetes.",
       "Establecer caminos en la red entre cada par de equipos.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3256,7 +3256,7 @@ const questionsData: QuestionData[] = [
       "La capa de red detecta el error y lo corrige.",
       "La capa de enlace detecta el error y la capa de red lo corrige.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3269,7 +3269,7 @@ const questionsData: QuestionData[] = [
       "Aumentar el número de errores en la transmisión de paquetes por el medio físico.",
       "Disminuir el número de errores en la transmisión de paquetes por el medio físico.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3282,7 +3282,7 @@ const questionsData: QuestionData[] = [
       "El intercambio de PDU’s entre las entidades pares del nivel n+1.",
       "El intercambio de IDU’s entre las entidades pares del nivel n-1.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3295,7 +3295,7 @@ const questionsData: QuestionData[] = [
       "Añadiendo a cada fragmento de la SDU una PCI del nivel n.",
       "Añadiendo a cada fragmento de la SDU una ICI del nivel n+1.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3308,7 +3308,7 @@ const questionsData: QuestionData[] = [
       "Establecer conexiones a múltiples destino empleando el mismo puerto cliente.",
       "Proporcionar siempre a la capa de aplicación una comunicación no segura, debido al funcionamiento con datagramas de la capa de red.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3321,7 +3321,7 @@ const questionsData: QuestionData[] = [
       "Incorporan siempre la cabecera del protocolo IP y TCP.",
       "Incorporan siempre la cabecera del protocolo IP y UDP.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3334,7 +3334,7 @@ const questionsData: QuestionData[] = [
       "A través de puentes y repetidores.",
       "A través de pasarelas, routers y puentes.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3347,7 +3347,7 @@ const questionsData: QuestionData[] = [
       "Empleando dos pasarelas, una en cada LAN.",
       "Empleando dos repetidores, uno en cada LAN.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3360,7 +3360,7 @@ const questionsData: QuestionData[] = [
       "De la relación señal-ruido en el medio físico.",
       "De la información digital que contenga la señal.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3373,7 +3373,7 @@ const questionsData: QuestionData[] = [
       "La relación señal-ruido del medio físico.",
       "El número de niveles empleado en la codificación.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3385,7 +3385,7 @@ const questionsData: QuestionData[] = [
       "Adecuar el ancho de banda de la señal moduladora al ancho de banda del medio físico.",
       "Aumentar el ancho de banda de la señal moduladora.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3398,7 +3398,7 @@ const questionsData: QuestionData[] = [
       "La modulación por cambio de frecuencia.",
       "La modulación por cambio de fase y amplitud.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3410,7 +3410,7 @@ const questionsData: QuestionData[] = [
       "Transmitir información analógica empleando un medio físico que propaga señales de pulsos.",
       "Incorporar una señal digital de pulsos a señales analógicas que se transmiten en un medio físico.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3418,7 +3418,7 @@ const questionsData: QuestionData[] = [
     title:
       "Se desea enviar por un medio físico dos señales PCM multiplexadas en el tiempo. Una de las señales se corresponde con un canal de comunicación a 36 Kbps y la otra con un canal de 96 Kbps. El medio físico transmitirá bits de información a una velocidad de,",
     choices: ["132 Kbps.", "96 Kbps.", "36 Kbps.", "3456 Kbps."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3431,7 +3431,7 @@ const questionsData: QuestionData[] = [
       "El ruido térmico.",
       "La interferencia de señales externas al cable.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3444,7 +3444,7 @@ const questionsData: QuestionData[] = [
       "Cable par trenzado categoría 3.",
       "Cable par trenzado blindado.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3456,7 +3456,7 @@ const questionsData: QuestionData[] = [
       "Al aumentar la distancia de la comunicación.",
       "Al aumentar la potencia del haz de luz del emisor.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3469,7 +3469,7 @@ const questionsData: QuestionData[] = [
       "Cable coaxial de 75 Ω.",
       "Par trenzado UTP.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3482,7 +3482,7 @@ const questionsData: QuestionData[] = [
       "Servicio no orientado a conexión confirmado.",
       "Servicio orientado a conexión no confirmado.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3495,7 +3495,7 @@ const questionsData: QuestionData[] = [
       "Enviar junto a los datos el resto de la división de la secuencia de los bits de datos entre los bits de un polinomio generador.",
       "Enviar junto a los datos la diferencia entre los bits de datos y los bits del polinomio generador.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3508,7 +3508,7 @@ const questionsData: QuestionData[] = [
       "Protocolo de ventana deslizante.",
       "En ninguno de los protocolos de control del flujo anteriores.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3520,7 +3520,7 @@ const questionsData: QuestionData[] = [
       "Emplear tramas de información y supervisión para el control del flujo emisor-receptor.",
       "Emplear el control del flujo de parada y espera para la recuperación de errores.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3533,7 +3533,7 @@ const questionsData: QuestionData[] = [
       "El protocolo CHAP.",
       "No es posible establecer parámetros del nivel de red con un protocolo de nivel de enlace.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3546,7 +3546,7 @@ const questionsData: QuestionData[] = [
       "Es necesario que los routers de acceso a Internet empleen NAT.",
       "No es posible, es necesario siempre el direccionamiento público.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3559,7 +3559,7 @@ const questionsData: QuestionData[] = [
       "Porcentaje de uso de CPU para encaminamiento en los routers del 70%.",
       "Fragmentación de paquetes IP en los routers de la red.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3572,7 +3572,7 @@ const questionsData: QuestionData[] = [
       "Intercambiando paquetes TCP con dirección destino 255.255.255.255.",
       "Intercambiando paquetes UDP con una dirección destino de multicast.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3584,7 +3584,7 @@ const questionsData: QuestionData[] = [
       "Emplean conexiones UDP para el intercambio de información.",
       "Intercambian sólo los destinos que han modificado su coste en la tabla de rutas.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3596,7 +3596,7 @@ const questionsData: QuestionData[] = [
       "Verificar la autenticidad del origen del túnel con el protocolo GRE.",
       "Autenticar al usuario que realiza la conexión VPN con el protocolo TCP.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3609,7 +3609,7 @@ const questionsData: QuestionData[] = [
       "Los mensajes multicast llegan a todas las máquinas de una red.",
       "Ninguna de las anteriores es correcta.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3617,7 +3617,7 @@ const questionsData: QuestionData[] = [
     title:
       "La velocidad de modulación para la señal representada en la figura es:",
     choices: ["3 baudios.", "2 bps.", "1 baudio.", "6 baudios."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3630,7 +3630,7 @@ const questionsData: QuestionData[] = [
       "Al conjunto ICI + SDU no se le denomina PDU.",
       "El SAP es lo mismo que la SDU.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3643,7 +3643,7 @@ const questionsData: QuestionData[] = [
       "00110100010001111.",
       "00100011110110010",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3656,7 +3656,7 @@ const questionsData: QuestionData[] = [
       "No permite visualizar ningún dato de nuestra red.",
       "Ninguna de las anteriores es correcta.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3669,7 +3669,7 @@ const questionsData: QuestionData[] = [
       "Pueden modelar situaciones de concurrencia y sincronización.",
       "El grafo de alcanzabilidad siempre es finito.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3682,7 +3682,7 @@ const questionsData: QuestionData[] = [
       "La validación es necesaria en protocolos de comunicación.",
       "Si se especifica un protocolo posteriormente no se podría validar.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3690,7 +3690,7 @@ const questionsData: QuestionData[] = [
     title:
       "Si se ha enviado la trama 100100001 al cable que une dos ordenadores y el polinomio generador empleado en emisor y receptor es x3+x2+1.  El CRC será:",
     choices: ["000.", "001.", "100.", "110."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3703,7 +3703,7 @@ const questionsData: QuestionData[] = [
       "El Diodo Laser presenta peor prestación como emisor que el diodo infrarrojo IRED.",
       "Su principal desventaja es que no puede ir bajo tierra.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3716,7 +3716,7 @@ const questionsData: QuestionData[] = [
       "Por un número limitado de funciones armónicas de diferente amplitud y frecuencia.",
       "Por un número ilimitado de funciones armónicas de diferente amplitud y frecuencia.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3729,7 +3729,7 @@ const questionsData: QuestionData[] = [
       "Ningún armónico podrá circular por el medio.",
       "Si la velocidad de envío es inferior a 32bps se podrá enviar el armónico 32.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3742,7 +3742,7 @@ const questionsData: QuestionData[] = [
       "Se mide en unidades de Hertzios.",
       "Limita la velocidad de envío de datos.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3755,7 +3755,7 @@ const questionsData: QuestionData[] = [
       "0.",
       "No se puede calcular con estos datos.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3768,7 +3768,7 @@ const questionsData: QuestionData[] = [
       "63.",
       "El doble de potencia de señal respecto al ruido.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3781,7 +3781,7 @@ const questionsData: QuestionData[] = [
       "NRZ no es una señalización binaria.",
       "ASK se refiere a cambios de amplitud en lo que se conoce como modulación digital.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3789,7 +3789,7 @@ const questionsData: QuestionData[] = [
     title:
       "Con los datos que se muestran en la siguiente gráfica se puede deducir que se trataría de  una modulación...",
     choices: ["2-PSK.", "3-PSK.", "4-PSK.", "16-PSK."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3802,7 +3802,7 @@ const questionsData: QuestionData[] = [
       "No se puede cuantizar la señal.",
       "T=1/2Bmedio.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3815,7 +3815,7 @@ const questionsData: QuestionData[] = [
       "La salida de la modulación delta es una señal generalmente de entre 2 y 4 niveles.",
       "Si aumenta la frecuencia de muestreo, mayor precisión se logra y también mayor es la velocidad de envío de datos.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3828,7 +3828,7 @@ const questionsData: QuestionData[] = [
       "En el estándar norteamericano, la línea T básica posee una velocidad inferior a 2Mbps.",
       "Ninguna de las anteriores es cierta.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3841,7 +3841,7 @@ const questionsData: QuestionData[] = [
       "La trama posee error y éste se encuentra en el bit de la posición 3.",
       "No se puede saber si esta trama tiene error con el método de Hamming.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3854,7 +3854,7 @@ const questionsData: QuestionData[] = [
       "Conmutación de paquetes y circuitos virtuales.",
       "Conmutación de paquetes y datagramas.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3867,7 +3867,7 @@ const questionsData: QuestionData[] = [
       "El cable de par trenzado de 75 ohmios sólo transmite en su interior señales digitales.",
       "El cable de par trenzado de 50 ohmios se emplea en la transmisión de señales digitales.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3880,7 +3880,7 @@ const questionsData: QuestionData[] = [
       "Al contrario que Dijkstra, Bellman-Ford puede elegir como trayectoria óptima aquella que presente mayor coste siempre que tenga un menor número de saltos.",
       "Nunca se calculan para encaminamiento dinámico.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3893,7 +3893,7 @@ const questionsData: QuestionData[] = [
       "Será de 15 para ambos equipos.",
       "Será de 16 para ambos equipos.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3906,7 +3906,7 @@ const questionsData: QuestionData[] = [
       "Los caracteres K M P no son válidos y no llegarán al receptor como datos.",
       "No corresponde con una delimitación de caracteres sino de bits.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3919,7 +3919,7 @@ const questionsData: QuestionData[] = [
       "Se emplea una tecnología de difusión para interconectar todos los equipos de la red.",
       "Los paquetes dirigidos a una dirección de broadcast son reenviados a todos los routers de la red.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3932,7 +3932,7 @@ const questionsData: QuestionData[] = [
       "El paquete no será reenviado ya que va dirigido a la dirección de broadcast.",
       "No es posible, pues los paquetes de broadcast nunca sufren colisiones.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3944,7 +3944,7 @@ const questionsData: QuestionData[] = [
       "Las redes de difusión emplean velocidades de transmisión muy pequeñas.",
       "El elevado número de equipos que interconecta provocaría un estado de colisión permanente.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3957,7 +3957,7 @@ const questionsData: QuestionData[] = [
       "La tasa de error en el medio físico es mayor en las LAN que en las WAN.",
       "Las redes WAN no emplean la fibra óptica como medio de transmisión.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3970,7 +3970,7 @@ const questionsData: QuestionData[] = [
       "El reparto de la velocidad de transferencia del medio físico entre los equipos.",
       "Monitorizar los tipos de paquetes transmitidos en el medio físico.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3982,7 +3982,7 @@ const questionsData: QuestionData[] = [
       "Un número elevado de niveles aumenta la velocidad de transmisión.",
       "Un número reducido de niveles hace más difícil la detección de errores.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -3995,7 +3995,7 @@ const questionsData: QuestionData[] = [
       "Enviándolas al nivel n+1 incorporando una ICI.",
       "Enviándolas al nivel n-1 como PCI’s.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4008,7 +4008,7 @@ const questionsData: QuestionData[] = [
       "Sólo el primer fragmento incorpora la cabecera ICI.",
       "Las SDU’s no se fragmentan nunca.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4021,7 +4021,7 @@ const questionsData: QuestionData[] = [
       "Las dos conexiones tienen diferente puerto origen.",
       "Las dos conexiones tienen diferentes direcciones IP origen.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4034,7 +4034,7 @@ const questionsData: QuestionData[] = [
       "Los paquetes enviados tienen diferentes direcciones MAC en la cabecera Ethernet.",
       "Los paquetes enviados tienen los mismos valores de Identificación en la cabecera IP.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4047,7 +4047,7 @@ const questionsData: QuestionData[] = [
       "Los paquetes de broadcast de un segmento pueden provocar colisiones en el otro.",
       "No se producen colisiones nunca.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4060,7 +4060,7 @@ const questionsData: QuestionData[] = [
       "Los datos incorporados en los paquetes de datos.",
       "El tipo de código de detección de errores empleado.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4073,7 +4073,7 @@ const questionsData: QuestionData[] = [
       "Porque el ancho de banda del medio no es el adecuado para el ancho de banda de la señal.",
       "Porque los armónicos principales de una señal están dentro del ancho de banda del medio.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4086,7 +4086,7 @@ const questionsData: QuestionData[] = [
       "Codificación QAM.",
       "Codificación binaria unipolar con retorno a cero.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4099,7 +4099,7 @@ const questionsData: QuestionData[] = [
       "No es posible sin cambiar el tipo de codificación de la señal.",
       "Disminuyendo la relación señal-ruido en el medio físico.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4112,7 +4112,7 @@ const questionsData: QuestionData[] = [
       "La normativa de EEUU-Japón emplea una velocidad mayor que la europea.",
       "El número de canales de voz en una trama es diferente.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4125,7 +4125,7 @@ const questionsData: QuestionData[] = [
       "Podrá emplearse el mismo cableado para transmitir a 100 Mbps.",
       "No se podrá transmitir información, pues el cable no lo permite.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4138,7 +4138,7 @@ const questionsData: QuestionData[] = [
       "Distancias de menos de 100 metros y velocidades de 100 Mbps.",
       "Distancias de 200 metros y velocidades de 10 Mbps.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4151,7 +4151,7 @@ const questionsData: QuestionData[] = [
       "No podemos incorporar equipos en el segmento Ethernet a 1000 Mbps.",
       "No es posible emplear tarjetas inalámbricas de 11 Mbps y 54 Mbps en la misma red.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4164,7 +4164,7 @@ const questionsData: QuestionData[] = [
       "Enlace inalámbrico a 54 Mbps.",
       "Enlace inalámbrico a 11 Mbps, pues permite alcanzar mayores distancias que el de 45 Mbps.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4177,7 +4177,7 @@ const questionsData: QuestionData[] = [
       "Servicio no orientado a conexión confirmado.",
       "Servicio orientado a conexión no confirmado.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4190,7 +4190,7 @@ const questionsData: QuestionData[] = [
       "Detectar siempre errores en un número par de bits.",
       "Permitir detectar siempre errores en ráfaga.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4203,7 +4203,7 @@ const questionsData: QuestionData[] = [
       "El emisor envía el mismo bloque de datos con numeración distinta.",
       "El receptor interpreta como datos diferentes el reenvío de un paquete.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4216,7 +4216,7 @@ const questionsData: QuestionData[] = [
       "Siempre mayor que la ventana del receptor.",
       "De tamaño fijo a valor 1.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4229,7 +4229,7 @@ const questionsData: QuestionData[] = [
       "No numerados.",
       "No es posible establecer conexiones con el protocolo HDLC.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4242,7 +4242,7 @@ const questionsData: QuestionData[] = [
       "Después de realizar la negociación NCP.",
       "Empleando el protocolo IP.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4255,7 +4255,7 @@ const questionsData: QuestionData[] = [
       "Aumentando el número de entradas en las tablas de rutas.",
       "Reduciendo el flujo de entrada de paquetes en la red.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4268,7 +4268,7 @@ const questionsData: QuestionData[] = [
       "El puerto 1080 de la dirección pública del router de la red privada.",
       "El puerto 1080 de la dirección privada del equipo que tiene el servicio web.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4276,7 +4276,7 @@ const questionsData: QuestionData[] = [
     title:
       "Si en una red se desea emplear un protocolo de encaminamiento que tenga en cuenta la velocidad de comunicación en los enlaces se empleará,",
     choices: ["BGP.", "RIP v1.", "RIP v2.", "OSPF."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4289,7 +4289,7 @@ const questionsData: QuestionData[] = [
       "Cada túnel establecido tendrá un identificador ‘key’ distinto.",
       "Dos routers sólo pueden establecer un túnel GRE.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4301,7 +4301,7 @@ const questionsData: QuestionData[] = [
       "Es una red en la que los dispositivos emplean protocolo ETHERNET de nivel de enlace.",
       "Es una red de conmutación de circuitos con la propiedad de envío de tramas broadcast.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4313,7 +4313,7 @@ const questionsData: QuestionData[] = [
       "Es más eficiente que una topología en bus cuando se emplea en redes LAN grandes.",
       "Emplea conexiones punto a punto a nivel de enlace, de ahí que el coste de su implantaciónsea menos elevado que en una topología en bus.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4326,7 +4326,7 @@ const questionsData: QuestionData[] = [
       "Es 0.5 para la tercera ftecuencia",
       "Es 0.7 para la cuarta frecuencia.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4339,7 +4339,7 @@ const questionsData: QuestionData[] = [
       "La PDU del nivel N contiene la PCI del nivel N y la SDU del nivel N-lo",
       "La IDU del nivel N contiene la PCI y la ICI del nivel N-l.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4347,7 +4347,7 @@ const questionsData: QuestionData[] = [
     title:
       "Si en un medio físico se transmite una señal con una potencia de 19mW y a ciertadistancia se miden 3mW, la perdida expresada en decibelios es:",
     choices: ["3dB.", "6dB.", "8dB.", "l2dB."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4355,7 +4355,7 @@ const questionsData: QuestionData[] = [
     title:
       "El espectro de un canal está situado entre 1.5MHz y 4Mhz, ¿cuántos niveles deseñalización se necesitarán para conseguir una velocidad de transmisión máxima de 5Mbps?",
     choices: ["2.", "4.", "8.", "16."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4367,7 +4367,7 @@ const questionsData: QuestionData[] = [
       "Es una modulación analógica.",
       "Transmite una señal modulada que se obtiene de modificar una señal portadora con unamoduladora.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4379,7 +4379,7 @@ const questionsData: QuestionData[] = [
       "Una codificación banda base RZ bipolar.",
       "Una codificación banda base Manchester diferencial.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4391,7 +4391,7 @@ const questionsData: QuestionData[] = [
       "Una modulación QAM que emplea 4 ángulos de fase y 2 amplitudes.",
       "Una modulación QPSK que emplea 2 ángulos de fase y 4 amplitudes.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4399,7 +4399,7 @@ const questionsData: QuestionData[] = [
     title:
       "Según la forma de onda de la figura que se desplaza en un medio físico, se puede afirmarque se trata de una modulación",
     choices: ["FSK-ASK.", "PSK-FSK.", "QPSK.", "ASK-PSK."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4411,7 +4411,7 @@ const questionsData: QuestionData[] = [
       "Soporta velocidades de cientos de Gigabips para decenas de kilómetros.",
       "Nunca necesita de repetidores.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4423,7 +4423,7 @@ const questionsData: QuestionData[] = [
       "Emplea códigos de encriptación WEP de 64bitsencriptar las comunicaciones.",
       "Permite alcanzar velocidades máximas de 54Mbps.como única posibilidad para",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4436,7 +4436,7 @@ const questionsData: QuestionData[] = [
       ">12000 Hz.",
       "8Khz",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4444,7 +4444,7 @@ const questionsData: QuestionData[] = [
     title:
       "Se dispone de 4 emisores que quieren enviarpaquetes por un único canal empleando multiplexaciónTDM sincrona. Si el tiempo de transmisión de un paquete es de1ms, y se considera que una estación tiene datos a enviar cuando Bsu ranura de tiempo no es blanca, entonces, el tiempo de 'ocupación del canal es:",
     choices: ["16 ms.", "7 ms.", "4 ms.", "Ninguna de las anteriores."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4457,7 +4457,7 @@ const questionsData: QuestionData[] = [
       "La velocidad de transmisión que soporta es independiente del paso de trenzado.",
       "Ninguna de las anteriores.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4465,7 +4465,7 @@ const questionsData: QuestionData[] = [
     title:
       "Cuál es la secuencia de bits a añadir tras los datos, si el Emisor desea enviar la cadenade datos '101110', sabiendo que Emisor y Receptor emplean el polinomio generador G(x)=x3+1?",
     choices: ["011", "0011", "1001", "111"],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4478,7 +4478,7 @@ const questionsData: QuestionData[] = [
       "El bit erróneo es el quinto",
       "El bit erróneo es el segundo",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4491,7 +4491,7 @@ const questionsData: QuestionData[] = [
       "Determine el tamaño de la trama en función de una estimación de tiempo obtenida apartir del retardo que tarda la trama en llegar desde emisor hasta receptor",
       "Tiene como objetivo delimitar el inicio y fin de la trama de datos.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4499,7 +4499,7 @@ const questionsData: QuestionData[] = [
     title:
       "Si la probabilidad de que una trama de 8 bits llegue al receptor con un error en 1 bit es0.002, ¿cuál es la probabilidad de que la trama llegue sin errores al receptor?",
     choices: ["0.998", "0.984", "0.016", "Ninguna de las anteriores"],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4511,7 +4511,7 @@ const questionsData: QuestionData[] = [
       "Una trama no numerada de conexión en modo Balanceado Asíncrono.",
       "Una trama no numerada de desconexión.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4523,7 +4523,7 @@ const questionsData: QuestionData[] = [
       "Emplea delimitación de trama por caracteres especiales.",
       "Emplea protocolo de ventana deslizante para gestionartramas.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4535,7 +4535,7 @@ const questionsData: QuestionData[] = [
       "Emplee paquetes LCP para liberar el enlace de datos.",
       "Emplee paquetes NCP para negociar los parámetros del nivel de red.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4547,7 +4547,7 @@ const questionsData: QuestionData[] = [
       "Sea un protocolo de encaminamiento dinámico empleado en redes WAN.",
       "Se envíen los paquetes a la dirección multicast 224.0.0.9",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4559,7 +4559,7 @@ const questionsData: QuestionData[] = [
       "Se puede enviar un paquete hacia el emisor con los bits de congestión desactivados.",
       "Se puede asignar un crédito máximo a la tasa de bits que se pueden enviar por partedel emisor.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4572,7 +4572,7 @@ const questionsData: QuestionData[] = [
       "Sólo el coste L(6) ha variado con respecto a la iteración anterior",
       "Ninguna de las anteriores.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4580,7 +4580,7 @@ const questionsData: QuestionData[] = [
     title:
       "Dado el esquema de nodos de red de la figura, ¿Cuántos paquetes habrán llegado al nodo6 al finalizar el segundo salto, si se aplica la técnica de encaminamiento por inundaciónsiendo el nodo 1 quien inicia el encaminamiento?",
     choices: ["1 paquete.", "2 paquetes.", "3 paquetes.", "4 paquetes."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4593,7 +4593,7 @@ const questionsData: QuestionData[] = [
       "Conmutación de paquetes del tipo circuitos virtual es.",
       "Conmutación de paquetes del tipo datagramas.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4605,7 +4605,7 @@ const questionsData: QuestionData[] = [
       "El envío de información a una sola estación de la red transmitiendo más de un paquete.",
       "El envío de información a un grupo de estaciones de la red transmitiendo más de un paquete.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4618,7 +4618,7 @@ const questionsData: QuestionData[] = [
       "Determinar un camino a través de los nodos de la red para que los paquetes alcancen su destino.",
       "Especificar en cada paquete el origen y el destino para que los nodos intermedios determinen un camino en la red para cada paquete transmitido.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4631,7 +4631,7 @@ const questionsData: QuestionData[] = [
       "Ningún circuito virtual deja de funcionar, los nodos modifican automáticamente el camino que no funciona.",
       "Los paquetes de un circuito virtual son redirigidos a través de otro circuito virtual.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4639,7 +4639,7 @@ const questionsData: QuestionData[] = [
     title:
       "La interconexión de una red de difusión y una red punto a punto que emplean la arquitectura TCP/IP, ha de realizarse con,",
     choices: ["Un repetidor.", "Un puente.", "Un router.", "Una pasarela."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4652,7 +4652,7 @@ const questionsData: QuestionData[] = [
       "Se establece entre las capas pares de la arquitectura.",
       "Se establece entre las capas n+1 y n-1 de la arquitectura.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4665,7 +4665,7 @@ const questionsData: QuestionData[] = [
       "La capa n-1 no puede comunicarse con su entidad par.",
       "La capa n puede comunicarse con su entidad par.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4678,7 +4678,7 @@ const questionsData: QuestionData[] = [
       "La PCI del nivel n-1.",
       "La PCI del nivel n.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4690,7 +4690,7 @@ const questionsData: QuestionData[] = [
       "La SDU del nivel n+1 no cabe dentro de la PDU del nivel n-1.",
       "La SDU del nivel n no cabe dentro de la PDU del nivel n+1.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4703,7 +4703,7 @@ const questionsData: QuestionData[] = [
       "Detectar errores en los bits de los paquetes transmitidos en un medio físico.",
       "Identificar las estaciones que existen en la red de comunicaciones.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4711,7 +4711,7 @@ const questionsData: QuestionData[] = [
     title:
       "En una red con arquitectura TCP/IP, ¿ qué nivel de la arquitectura permite detectar errores en la transmisión de paquetes en el medio físico ?",
     choices: ["Acceso a la red.", "Interred.", "Transporte.", "Aplicación."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4724,7 +4724,7 @@ const questionsData: QuestionData[] = [
       "La existencia de varias direcciones IP para una misma máquina de Internet.",
       "La existencia de un mismo puerto TCP para los servicios de web, de correo y ftp.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4732,7 +4732,7 @@ const questionsData: QuestionData[] = [
     title:
       "Si se desea transmitir información a través de un medio físico empleando una señal de pulsos con 8 niveles y a una velocidad de 90000 bps, el medio físico necesita un ancho de banda mínimo de,",
     choices: ["30000 Hz.", "15000 Hz.", "90000 Hz.", "5625 Hz."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4745,7 +4745,7 @@ const questionsData: QuestionData[] = [
       "Aumenta el número de niveles de la señal.",
       "Aumenta el número de pulsos transmitidos por segundo de la señal.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4758,7 +4758,7 @@ const questionsData: QuestionData[] = [
       "Codificación binaria con retorno a cero bipolar.",
       "Codificación Manchester.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4771,7 +4771,7 @@ const questionsData: QuestionData[] = [
       "Modulación PSK.",
       "Modulación QAM.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4779,7 +4779,7 @@ const questionsData: QuestionData[] = [
     title:
       "Si dos señales PCM (8 bits en la cuantización) que modulan señales analógicas de 4000 Hz de ancho de banda quieren ser transmitidas empleando TDM, se precisa un canal que permita transmitir a una velocidad de,",
     choices: ["64000 bps.", "16000 bps.", "128000 bps.", "32000 bps."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4792,7 +4792,7 @@ const questionsData: QuestionData[] = [
       "Cable UTP categoría 5.",
       "Cable STP.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4805,7 +4805,7 @@ const questionsData: QuestionData[] = [
       "La fibra óptica monomodo.",
       "Ninguna, todas las fibras distorsionan la señal de la misma forma al aumentar la distancia.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4817,7 +4817,7 @@ const questionsData: QuestionData[] = [
       "Permitir transmitir información a 100 Mbps.",
       "Precisar de un mecanismo de reparto del medio físico.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4830,7 +4830,7 @@ const questionsData: QuestionData[] = [
       "DLE DLE STX DLE DLE DLE DLE.",
       "DLE STX DLE DLE DLE.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4843,7 +4843,7 @@ const questionsData: QuestionData[] = [
       "Permite detectar errores sólo en columnas.",
       "Permite detectar dos errores en cualquier posición de la matriz.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4856,7 +4856,7 @@ const questionsData: QuestionData[] = [
       "La ventana del emisor tiene un tamaño que no varía durante el funcionamiento del protocolo.",
       "La ventana del receptor tiene un tamaño menor que el número de secuencias de numeración.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4869,7 +4869,7 @@ const questionsData: QuestionData[] = [
       "El receptor reenvía el ACK perdido.",
       "El emisor y receptor quedan bloqueados.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4881,7 +4881,7 @@ const questionsData: QuestionData[] = [
       "Delimitación de tramas como en los protocolos orientados a bit.",
       "Autenticación en el establecimiento de conexiones.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4894,7 +4894,7 @@ const questionsData: QuestionData[] = [
       "La autenticación de los usuarios.",
       "El formato de los paquetes PPP.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4907,7 +4907,7 @@ const questionsData: QuestionData[] = [
       "Cualquier máquina de Internet puede establecer una conexión a una dirección IP privada de la red LAN.",
       "El encaminamiento modifica la cabecera IP de los paquetes de la red LAN en todos los routers entre el origen y el destino.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4920,7 +4920,7 @@ const questionsData: QuestionData[] = [
       "Un router recibe mensajes Source Quench.",
       "Un router detecta que el uso de su CPU para el encaminamiento es del 25%.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4933,7 +4933,7 @@ const questionsData: QuestionData[] = [
       "Establecer conexiones con el resto de routers BGP de Internet.",
       "Determinar las rutas óptimas entre los diferentes destinos en Internet.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4946,7 +4946,7 @@ const questionsData: QuestionData[] = [
       "La dirección 224.0.0.9.",
       "Una dirección MAC de multidifusión.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4959,7 +4959,7 @@ const questionsData: QuestionData[] = [
       "En ninguna unidad, ya que el túnel es transparente.",
       "En el número de saltos que existan entre los dos routers que establecen el túnel.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4972,7 +4972,7 @@ const questionsData: QuestionData[] = [
       "La transmisión de un paquete de datos a todas los equipos de la red.",
       "La transmisión de un paquete de datos a cada uno de los equipos de la red.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4984,7 +4984,7 @@ const questionsData: QuestionData[] = [
       "El direccionamiento físico es suficiente para identificar los equipos que intercambian datos.",
       "La tasa de error en el medio físico es menor que en las redes WAN.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -4997,7 +4997,7 @@ const questionsData: QuestionData[] = [
       "El tiempo de encaminamiento es menor que en una red de datagramas.",
       "Es necesario un mecanismo de ordenamiento de los paquetes recibidos.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5010,7 +5010,7 @@ const questionsData: QuestionData[] = [
       "Realizar un control eficiente de la congestión en la red.",
       "Conseguir un encaminamiento más rápido que en las redes de circuitos virtuales.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5023,7 +5023,7 @@ const questionsData: QuestionData[] = [
       "La capa de red reordene el paquete en el lugar que le corresponda.",
       "La capa de enlace almacene el paquete temporalmente para reordenarlo.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5036,7 +5036,7 @@ const questionsData: QuestionData[] = [
       "Intercambiando SDU’s entre capas adyacentes.",
       "Intercambiando ICI’s entre capas pares.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5049,7 +5049,7 @@ const questionsData: QuestionData[] = [
       "El nivel n-1 de la arquitectura.",
       "Si el servicio es fiable en el nivel n no puede producirse la pérdida de ningún paquete.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5062,7 +5062,7 @@ const questionsData: QuestionData[] = [
       "Cabecera IP y del nivel superior a IP en todos los fragmentos transmitidos.",
       "Cabecera IP en todos los fragmentos transmitidos.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5075,7 +5075,7 @@ const questionsData: QuestionData[] = [
       "Los paquetes de control (SYN, ACK,...) con errores son reenviados por el protocolo IP.",
       "Todas las afirmaciones anteriores son falsas.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5088,7 +5088,7 @@ const questionsData: QuestionData[] = [
       "Limitado al rango de numeración de los puertos.",
       "Ilimitado, depende de la memoria disponible en el sistema.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5096,7 +5096,7 @@ const questionsData: QuestionData[] = [
     title:
       "Qué dispositivo de interconexión NO permite el paso a través de él de paquetes IP dirigidos a la dirección IP de broadcast de una red ?",
     choices: ["Repetidor.", "Puente.", "Router.", "Switch."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5108,7 +5108,7 @@ const questionsData: QuestionData[] = [
       "El espectro de frecuencia de la señal recibida es el mismo que el de la transmitida.",
       "La información recibida es la misma que la transmitida.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5121,7 +5121,7 @@ const questionsData: QuestionData[] = [
       "La relación señal-ruido del medio físico.",
       "El número de niveles empleado en la codificación.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5134,7 +5134,7 @@ const questionsData: QuestionData[] = [
       "Adecuar el ancho de banda de la señal moduladora al ancho de banda del medio físico.",
       "Aumentar el ancho de banda de la señal modulada.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5147,7 +5147,7 @@ const questionsData: QuestionData[] = [
       "La modulación por cambio de fase y frecuencia.",
       "La modulación por cambio de fase y amplitud.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5155,7 +5155,7 @@ const questionsData: QuestionData[] = [
     title:
       "Si un módem emplea una modulación QAM (16 niveles) con una señal portadora de 4000 Hz, la velocidad de transmisión que se consigue es,",
     choices: ["4000 bps.", "16000 bps.", "32000 bps.", "64000 bps."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5163,7 +5163,7 @@ const questionsData: QuestionData[] = [
     title:
       "Se desea enviar por un medio físico una señal PCM que codifique un canal de audio de alta calidad. El ancho de banda del canal de audio es de 100 KHz y se desea una calidad de 256 niveles de amplitud. La señal PCM será transmitida en el medio físico a una velocidad de,",
     choices: ["100 Kbps.", "800 Kbps.", "1.6 Mbps.", "256 Mbps."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5175,7 +5175,7 @@ const questionsData: QuestionData[] = [
       "Cable STP.",
       "Fibra óptica multimodo.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5188,7 +5188,7 @@ const questionsData: QuestionData[] = [
       "Precisan de un mecanismo de reparto del medio físico.",
       "Precisan de una infraestructura de cable para su funcionamiento.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5201,7 +5201,7 @@ const questionsData: QuestionData[] = [
       "La longitud de la fibra óptica.",
       "El número de longitudes de onda multiplexadas en el haz.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5213,7 +5213,7 @@ const questionsData: QuestionData[] = [
       "Transmitir siempre la información sin comprobar si el medio físico está libre.",
       "Detectar las colisiones de manera más rápida que en otras técnicas de contienda.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5226,7 +5226,7 @@ const questionsData: QuestionData[] = [
       "Reducir la tasa de error en el medio físico.",
       "Permitir detectar colisiones en el medio físico.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5239,7 +5239,7 @@ const questionsData: QuestionData[] = [
       "La cantidad de errores en ráfaga que pueden detectarse.",
       "La frecuencia con que se producen errores en el medio físico.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5252,7 +5252,7 @@ const questionsData: QuestionData[] = [
       "Tramas de supervisión SREJ.",
       "Tramas de supervisión REJ.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5265,7 +5265,7 @@ const questionsData: QuestionData[] = [
       "El receptor pueda confirmar más paquetes de información.",
       "El receptor se congestione al recibir más paquetes de información.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5278,7 +5278,7 @@ const questionsData: QuestionData[] = [
       "La cabecera IP de los paquetes con direccionamiento privado es modificada en el túnel.",
       "El túnel proporciona un enlace punto a punto virtual entre ambas redes.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5291,7 +5291,7 @@ const questionsData: QuestionData[] = [
       "Un porcentaje de uso de CPU para encaminamiento en los routers del 70%.",
       "La reducción del tráfico que emplea el protocolo UDP en la red.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5304,7 +5304,7 @@ const questionsData: QuestionData[] = [
       "Intercambiando paquetes con dirección destino 255.255.255.255.",
       "Intercambiando paquetes con una dirección destino de multicast.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5317,7 +5317,7 @@ const questionsData: QuestionData[] = [
       "Paquetes IPCP.",
       "Paquetes TCP.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5329,7 +5329,7 @@ const questionsData: QuestionData[] = [
       "Verificar la autenticidad del origen del túnel con el protocolo GRE.",
       "Autenticar al usuario que realiza la conexión VPN con el protocolo IPCP.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5342,7 +5342,7 @@ const questionsData: QuestionData[] = [
       "La transmisión de un único paquete para enviar información a todos los nodos de la red.",
       "La tolerancia a fallos que presenta si existen varios caminos a un determinado destino.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5355,7 +5355,7 @@ const questionsData: QuestionData[] = [
       "El empleo de algoritmos de encaminamiento para los equipos en los extremos de la red.",
       "Precisar de un esquema de direccionamiento implícito.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5368,7 +5368,7 @@ const questionsData: QuestionData[] = [
       "Emplean la información de control del interfaz (ICI) para enviar la información a la capa par.",
       "No existen, las entidades pares no intercambian IDU’s.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5381,7 +5381,7 @@ const questionsData: QuestionData[] = [
       "El intercambio de PDU’s entre las entidades pares del nivel n+1.",
       "El intercambio de IDU’s entre las entidades pares del nivel n-1.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5394,7 +5394,7 @@ const questionsData: QuestionData[] = [
       "Añadiendo a cada fragmento de la SDU una PCI del nivel n.",
       "Añadiendo a cada fragmento de la SDU una ICI del nivel n+1.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5407,7 +5407,7 @@ const questionsData: QuestionData[] = [
       "Gestionar una comunicación fiable estableciendo circuitos virtuales extremo a extremo con el protocolo TCP.",
       "Proporcionar siempre a la capa de aplicación una comunicación no segura, debido al funcionamiento con datagramas de la subred.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5420,7 +5420,7 @@ const questionsData: QuestionData[] = [
       "De la relación señal-ruido en el medio físico.",
       "De la información digital que contenga la señal.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5433,7 +5433,7 @@ const questionsData: QuestionData[] = [
       "La modulación por cambio de frecuencia.",
       "La modulación por cambio de fase y amplitud.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5446,7 +5446,7 @@ const questionsData: QuestionData[] = [
       "La frecuencia de muestreo y el número de niveles de la señal moduladora.",
       "El ancho de banda del medio físico y la frecuencia de muestreo.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5459,7 +5459,7 @@ const questionsData: QuestionData[] = [
       "Codificación binaria con retorno a cero bipolar.",
       "Codificación Manchester.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5472,7 +5472,7 @@ const questionsData: QuestionData[] = [
       "Interconecta equipos cercanos geográficamente.",
       "La red Token Ring (IEEE 802.5) se trata de una red de área local.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5484,7 +5484,7 @@ const questionsData: QuestionData[] = [
       "La comunicación origen-destino se realiza a través de una canal fijo y dedicado.",
       "Es el esquema empleado en Internet.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5497,7 +5497,7 @@ const questionsData: QuestionData[] = [
       "Gestiona varias conexiones simultáneas con el host remoto.",
       "Realiza el encaminamiento de la información desde el origen al destino.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5510,7 +5510,7 @@ const questionsData: QuestionData[] = [
       "La solicitud de servicios ofrecidos por la capa n+1.",
       "La realización de servicios solicitados con IDU’s enviadas a la capa n-1.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5523,7 +5523,7 @@ const questionsData: QuestionData[] = [
       "El nivel no puede incorporar la ICI en la Unidad de Datos del Servicio.",
       "El nivel no puede incorporar la PCI en la Unidad de Datos del Protocolo.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5536,7 +5536,7 @@ const questionsData: QuestionData[] = [
       "Un servicio confiable es aquél en el que el receptor realiza un acuse de la recepción del mensaje.",
       "Se emplea una primitiva de petición cuando se avisa a la entidad de un evento en la realización de un servicio.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5549,7 +5549,7 @@ const questionsData: QuestionData[] = [
       "Una pasarela no puede conectar redes que tengan distinto nivel de red.",
       "Un repetidor es capaz de interconectar redes con distinto nivel de enlace.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5561,7 +5561,7 @@ const questionsData: QuestionData[] = [
       "La habilitación de la transición es indeterminista: puede estar o no habilitada.",
       "El disparo de la transición es indeterminista: puede estar o no disparada.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5574,7 +5574,7 @@ const questionsData: QuestionData[] = [
       "Especifica el modo en que el emisor y el receptor se sincronizan.",
       "Dado un canal físico, establece un enlace lógico libre de errores.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5587,7 +5587,7 @@ const questionsData: QuestionData[] = [
       "Un medio de transmisión atenúa en la misma proporción a todos los armónicos.",
       "La velocidad de transmisión es la misma que la velocidad de modulación para ancho de banda telefónico.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5595,7 +5595,7 @@ const questionsData: QuestionData[] = [
     title:
       "Considérese un medio de transmisión con un ancho de banda de 300 Hz y una frecuencia superior de corte de 450Hz. A partir de la señal representada en la figura. ¿Cuántos armónicos se transmitirán?",
     choices: ["1.", "2.", "3.", "4."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5603,7 +5603,7 @@ const questionsData: QuestionData[] = [
     title:
       "Considérese que por un medio de transmisión de ancho de banda igual a 20 Hz se transmite una señal a 20 baudios. Teniendo en cuenta que se emplea modulación QAM con 16 combinaciones ¿Cuántos armónicos se transmitirán como máximo?:",
     choices: ["1.", "2.", "3.", "4."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5616,7 +5616,7 @@ const questionsData: QuestionData[] = [
       "En la modulación por cambio de fase aparece más de un espectro de la señal moduladora.",
       "En el espectro de potencia de la señal modulada por cambio de fase no aparece una componente en la frecuencia de la portadora.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5629,7 +5629,7 @@ const questionsData: QuestionData[] = [
       "La velocidad límite establecida por el teorema de Nyquist no puede alcanzarse en la realidad si es superior al del teorema de Shannon .",
       "El ruido de impulso puede deberse a ruido electromagnético generado por máquinas.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5637,7 +5637,7 @@ const questionsData: QuestionData[] = [
     title:
       "Se desea enviar por un medio físico dos señales PCM multiplexadas en el tiempo. Una de las señales corresponde con un canal de comunicación de 64 Kbps y la otra con un canal de 120 Kbps. El medio físico transmitirá bits de información a una velocidad de",
     choices: ["64 Kbps.", "120 Kbps.", "184 Kbps.", "7680 Kbps."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5650,7 +5650,7 @@ const questionsData: QuestionData[] = [
       "El empleo de hubs ofrece una topología en bus, pero facilitando la interconexión.",
       "La utilización de fibra óptica ofrece un gran ancho de banda, aunque dificulta la interconexión.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5663,7 +5663,7 @@ const questionsData: QuestionData[] = [
       "En las fibras ópticas de índice de salto no aparece distorsión intramodal.",
       "La velocidad de transmisión en una fibra óptica es independiente de la codificación empleada.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5676,7 +5676,7 @@ const questionsData: QuestionData[] = [
       "Los equipos realizan el envío de datos por turnos.",
       "Este método de acceso al medio es empleado fundamentalmente en topologías tipo anillo.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5689,7 +5689,7 @@ const questionsData: QuestionData[] = [
       "Establecer un sistema de detección de errores.",
       "Realizar la sincronización entre emisor y receptor.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5702,7 +5702,7 @@ const questionsData: QuestionData[] = [
       "Servicio orientado a conexión sin reconocimiento.",
       "Servicio no orientado a conexión con reconocimiento.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5715,7 +5715,7 @@ const questionsData: QuestionData[] = [
       "Cuanto menor sea, mejor es el aprovechamiento del medio físico.",
       "El tamaño de ventana es directamente proporcional a la cantidad de memoria libre.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5728,7 +5728,7 @@ const questionsData: QuestionData[] = [
       "Protocolo de ventana deslizante de envío no continuo.",
       "Protocolo de ventana deslizante con parada y espera.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5741,7 +5741,7 @@ const questionsData: QuestionData[] = [
       "Control del flujo con un protocolo de ventana deslizante no selectivo.",
       "Control del flujo con un protocolo de parada y espera.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5754,7 +5754,7 @@ const questionsData: QuestionData[] = [
       "Es más tolerante a fallos que las redes orientadas a datagramas.",
       "El modelo OSI no recoge la posibilidad de que en el nivel de red se implementen circuitos virtuales.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5767,7 +5767,7 @@ const questionsData: QuestionData[] = [
       "Se pueden emplear mecanismos limitadores como contador de salto para evitar congestión.",
       "En determinados algoritmos se emplean cuando no se dispone de información previa de la topología de la red.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5775,7 +5775,7 @@ const questionsData: QuestionData[] = [
     title:
       "Cuál es el código de Hamming para la secuencia de datos ‘00’ si se emplea paridad impar?",
     choices: ["11111", "01010", "11111", "11010"],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5788,7 +5788,7 @@ const questionsData: QuestionData[] = [
       "El SAP se corresponde con la cabecera de cada servicio.",
       "La IDU esta formada por la SDU y la ICI.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5800,7 +5800,7 @@ const questionsData: QuestionData[] = [
       "El reensamblado se realiza a nivel de transporte.",
       "La criptografía y compresión de datos es típica del nivel de enlace.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5808,7 +5808,7 @@ const questionsData: QuestionData[] = [
     title:
       "Cuál será el periodo de muestreo de una señal analógica que se ha digitalizado a una velocidad de 4200 bps, con 6 bits por muestra?",
     choices: ["0 Hz.", "7000 segundos.", "0.0014 segundos.", "3500 Hz."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5821,7 +5821,7 @@ const questionsData: QuestionData[] = [
       "El ruido de cuantización ocurre cuando la señal varía demasiado rápido.",
       "PCM es la técnica que menor ancho de banda requiere.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5834,7 +5834,7 @@ const questionsData: QuestionData[] = [
       "Las líneas E (europeas) respresentan un modelo de servicio combinado PCM y TDM. ",
       "Ninguna de las anteriores es correcta.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5846,7 +5846,7 @@ const questionsData: QuestionData[] = [
       "Manchester diferencial necesita menor ancho de banda que NRZ.",
       "En Manchester diferencial, si Vt=2 bps, entonces, la Vm=1 baudios.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5859,7 +5859,7 @@ const questionsData: QuestionData[] = [
       "Una fase de 180º",
       "Un desfase de 270º.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5871,7 +5871,7 @@ const questionsData: QuestionData[] = [
       "64-QAM, en donde se presentan 32 frecuencias y 2 amplitudes diferentes",
       "Ninguna de las anteriores es cierta.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5883,7 +5883,7 @@ const questionsData: QuestionData[] = [
       "La categoría 4 correponde a un par trenzado STP.",
       "La categoría 5 posee 4 pares de cable de par trenzado. ",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5896,7 +5896,7 @@ const questionsData: QuestionData[] = [
       "801.11a fue el estandar europeo hasta hace pocos años.",
       "802.11g está estandarizado y se emplea en Europa.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5908,7 +5908,7 @@ const questionsData: QuestionData[] = [
       "NRZ bipolar es la codificación elegida en LAN token ring.",
       "NRZ es un ejemplo de codificación en Ethernet.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5921,7 +5921,7 @@ const questionsData: QuestionData[] = [
       "ASK es muy eficaz, pues no le afecta el ruido electromagnético (cambios de amplitud).",
       "FSK se corresponde con modulación por desplazamiento en fase.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5934,7 +5934,7 @@ const questionsData: QuestionData[] = [
       "Si se desea enviar 5 ‘1’ seguidos en los datos debe colocarse un ‘0’ tras el quinto ‘1’. ",
       "Si se desea enviar 6 ‘1’ seguidos en los datos debe colocarse un ‘0’ tras el sexto ‘1’.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5942,7 +5942,7 @@ const questionsData: QuestionData[] = [
     title:
       "Se pide obtener calcular el CRC en una trama que ha sido recibida en el equipo receptor. El polinomio generador es x5+x2+1 y los datos son 100101001. El CRC será:",
     choices: ["01001. ", "001011.", "00001. ", "No se puede obtener."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5955,7 +5955,7 @@ const questionsData: QuestionData[] = [
       "10011111 será el campo de contol de una trama de información.",
       "00000100 es el código presente en una trama de información ",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5968,7 +5968,7 @@ const questionsData: QuestionData[] = [
       "Mediante CHAP se consigue una dirección IP válida.",
       "PPP no soporta el envío de otros protocolos en su interior.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5976,7 +5976,7 @@ const questionsData: QuestionData[] = [
     title:
       "En el protocolo de ventana deslizante, si se dispone de 5 bits para la numeración de tramas, el tamaño máximo de la ventana será de:",
     choices: ["32.", "31.", "16.", "15."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5988,7 +5988,7 @@ const questionsData: QuestionData[] = [
       "Bellman-Ford se emplea para encaminamiento estático. ",
       "Dijkstra se utiliza como algoritmo dinámico de coste mínimo.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -5996,7 +5996,7 @@ const questionsData: QuestionData[] = [
     title:
       "Qué velocidad de transmisión (bps) se alcanzaría en un medio de ancho de banda B=5000Hz y una relación (S/N)db  igual a 20dB?",
     choices: ["386 baudios.", "33291 bps. ", "21960 bps.", "0 bps."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6009,7 +6009,7 @@ const questionsData: QuestionData[] = [
       "La frecuencia del armónico número 1 es exactamente igual al valor de frecuencia 10.",
       "La frecuencia de los primeros armónicos es más elevada que la frecuencia de los últimos armónicos.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6022,7 +6022,7 @@ const questionsData: QuestionData[] = [
       "En una red de difusión tipo bus no puede emplearse transmisión síncrona.",
       "Un interfaz síncrono requiere de unos pulsos de sincronización al principio de la trama para sincronizar el origen y el destino.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6035,7 +6035,7 @@ const questionsData: QuestionData[] = [
       "Los datagramas son orientados a la transmisión de datos y los circuitos virtuales son adecuados tanto para datos como para señales analógicas digitalizadas.",
       "Empleando conmutación de paquetes se establece un camino físico fijo tras la conexión.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6048,7 +6048,7 @@ const questionsData: QuestionData[] = [
       "Red: Evitar congestión en los routers.",
       "Enlace: Su función depende de si se utiliza datagramas, circuitos virtuales o conmutación de circuitos.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6061,7 +6061,7 @@ const questionsData: QuestionData[] = [
       "La Unidad de Datos de Interfaz constituye la información que se transmite entre capas pares.",
       "En el nivel 1 la PDU está compuesta por las PCI introducidas por cada capa y la SDU de usuario.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6074,7 +6074,7 @@ const questionsData: QuestionData[] = [
       "Pueden existir varias transiciones habilitadas que se disparan simultáneamente.",
       "Una transición se habilita cuando todos los lugares de donde provienen arcos de entrada tienen, al menos, una marca.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6087,7 +6087,7 @@ const questionsData: QuestionData[] = [
       "El ancho de banda de un medio de comunicación representa el rango de frecuencias de señales de ruido que no afectan al medio.",
       "En general, a la hora de reconstruir una señal, es mejor emplear los armónicos de mayor orden.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6100,7 +6100,7 @@ const questionsData: QuestionData[] = [
       "192 Kbps.",
       "Ninguna de las anteriores.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6113,7 +6113,7 @@ const questionsData: QuestionData[] = [
       "2033 Kbps.",
       "Ninguna de las anteriores.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6126,14 +6126,14 @@ const questionsData: QuestionData[] = [
       "Existen codificaciones en banda base que incluyen sincronización.",
       "En banda base la señal que transporta la información a transmitir se denomina moduladora.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
     id: 507,
     title: "Indicar cuál de las siguientes codificaciones NO es correcta:",
     choices: ["NRZ bipolar.", "AMI.", "Manchester diferencial.", "RZ"],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6146,7 +6146,7 @@ const questionsData: QuestionData[] = [
       "Tanto en modulación por cambio de frecuencia como en la modulación por cambio de amplitud la mayor potencia está concentrada en la componente de la portadora.",
       "Al emplear codificación por desplazamiento en amplitud el espectro de la señal original queda duplicado.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6159,7 +6159,7 @@ const questionsData: QuestionData[] = [
       "400 ≥ fm ≥ 50.",
       "Ninguno de los anteriores.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6172,7 +6172,7 @@ const questionsData: QuestionData[] = [
       "El cable coaxial fino permite una velocidad de 10 Mbps a una distancia de 500 m.",
       "La principal desventaja de los cables coaxiales frente a los pares trenzados es que los primeros son poco fiables y sensibles al ruido.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6185,7 +6185,7 @@ const questionsData: QuestionData[] = [
       "El recubrimiento de la fibra óptica ha de tener un índice de refracción menor que el núcleo.",
       "La ley de Snell relaciona el ancho de banda del medio con el número de haces que permite transmitir.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6198,7 +6198,7 @@ const questionsData: QuestionData[] = [
       "Las redes tipo Token ring emplean compartición basada en selección centralizada.",
       "Las técnicas de contienda tipo ALOHA requieren escuchar el medio antes de realizar la transmisión de datos.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6211,7 +6211,7 @@ const questionsData: QuestionData[] = [
       "Reconocimiento de tramas.",
       "Control de flujo.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6223,7 +6223,7 @@ const questionsData: QuestionData[] = [
       "Delimitar las tramas por su duración considerando emisor y receptor sincronizados.",
       "Se emplean bytes reservados al inicio y final de la trama.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6231,7 +6231,7 @@ const questionsData: QuestionData[] = [
     title:
       "Qué tipo de direccionamiento se emplea en una red en anillo tipo Token Ring?",
     choices: ["Implícito.", "Explícito.", "Preselección.", "Maestro-esclavo."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6244,7 +6244,7 @@ const questionsData: QuestionData[] = [
       "Detecta únicamente errores en ráfagas de longitud menor que r (siendo r la longitud del CRC).",
       "Enviar junto a los datos a transmitir los bits asociados a los coeficientes de un polinomio generador.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6252,7 +6252,7 @@ const questionsData: QuestionData[] = [
     title:
       "Dado un código con distancia Hamming 7. ¿Cuántos errores puede corregir?:",
     choices: ["2.", "3.", "7.", "15."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6265,7 +6265,7 @@ const questionsData: QuestionData[] = [
       "Presentar duplicación de mensajes en la numeración par de los paquetes.",
       "Realizar siempre el reenvío de los paquetes con numeración par.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6278,7 +6278,7 @@ const questionsData: QuestionData[] = [
       "Permitiendo que el receptor tenga un tamaño de ventana igual al número de secuencias de la numeración.",
       "Permitiendo que el emisor alcance el tamaño máximo de su ventana cuando reciba el primer paquete de ACK.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6290,7 +6290,7 @@ const questionsData: QuestionData[] = [
       "Un número elevado de niveles aumenta la velocidad de transmisión.",
       "Un número reducido de niveles hace más difícil la detección de errores.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6303,7 +6303,7 @@ const questionsData: QuestionData[] = [
       "Emplean la información de control del interfaz (ICI) para enviar la información a la capa par.",
       "Ninguna, las entidades pares no intercambian IDU’s.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6316,7 +6316,7 @@ const questionsData: QuestionData[] = [
       "Sólo el primer fragmento incorpora la cabecera ICI.",
       "Las SDU’s no se fragmentan nunca.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6329,7 +6329,7 @@ const questionsData: QuestionData[] = [
       "Un estado debe tener por lo menos una transición a otro estado.",
       "Una máquina de estados finitos puede tener varios estados iniciales.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6341,7 +6341,7 @@ const questionsData: QuestionData[] = [
       "Las transiciones se disparan en base a eventos de entrada a los lugares.",
       "En el estado inicial únicamente existirá una marca en un lugar de la red.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6349,7 +6349,7 @@ const questionsData: QuestionData[] = [
     title:
       "Supóngase que se transmiten un total de 8 bits a una velocidad de 640 bps por un medio que tiene una frecuencia inicial y final de corte de 100 Hz y 600 Hz respectivamente. ¿Cuántos armónicos dejará pasar el medio?:",
     choices: ["6.", "7.", "8.", "Ninguno de los anteriores."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6362,7 +6362,7 @@ const questionsData: QuestionData[] = [
       "Disminuir el efecto del ruido en la interpretación de la señal.",
       "Ninguna de las anteriores es cierta.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6375,7 +6375,7 @@ const questionsData: QuestionData[] = [
       "Se emplea modulación por variación en amplitud.",
       "Se emplea modulación por variación en fase.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6388,7 +6388,7 @@ const questionsData: QuestionData[] = [
       "Empleando PCM se obtiene una velocidad de transmisión final de 496 bps.",
       "Empleando PCM se obtiene una velocidad de transmisión final de 508 bps.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6401,7 +6401,7 @@ const questionsData: QuestionData[] = [
       "64 Kbps.",
       "Ninguna de las anteriores.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6414,7 +6414,7 @@ const questionsData: QuestionData[] = [
       "Con par trenzado puede superarse la velocidad de 100 Mbps en LANs.",
       "Las fibras ópticas presentan una atenuación significativamente menor que los cables coaxiales y pares trenzados.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6427,7 +6427,7 @@ const questionsData: QuestionData[] = [
       "Coordina como acceden las distintas máquinas al medio físico para realizar la comunicación.",
       "Lleva a cabo el control de flujo para coordinar la velocidad de transmisión del emisor con la de recepción del destino.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6440,7 +6440,7 @@ const questionsData: QuestionData[] = [
       "Los datos recibidos son correctos.",
       "Con la información proporcionada no se puede determinar si los bits recibidos son o no correctos.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6453,7 +6453,7 @@ const questionsData: QuestionData[] = [
       "Corregir errores hasta en 2 bits.",
       "Detectar errores hasta en 10 bits.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6461,7 +6461,7 @@ const questionsData: QuestionData[] = [
     title:
       "Considerando que se emplea paridad par, ¿Cuál será el código Hamming asociado a la palabra de datos 0110101?:",
     choices: ["10001100101.", "00001100101.", "0110101.", "Otro."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6474,7 +6474,7 @@ const questionsData: QuestionData[] = [
       "Probabilidad de que, utilizando un algoritmo para la detección de errores, una trama llegue con uno o más errores no detectados.",
       "Probabilidad de que un bit recibido sea erróneo.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6487,7 +6487,7 @@ const questionsData: QuestionData[] = [
       "El tamaño de la ventana de recepción se mantiene constante durante toda la conexión y permite almacenar 5 tramas.",
       "Las tramas marcadas con ? se han perdido.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6500,7 +6500,7 @@ const questionsData: QuestionData[] = [
       "El emisor rechaza las tramas de confirmación que no se correspondan con la última que envió.",
       "El receptor debe recibir las tramas en orden.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6512,7 +6512,7 @@ const questionsData: QuestionData[] = [
       "Mide la relación entre la longitud total de la trama a nivel de enlace y el tiempo de propagación de la trama por el medio.",
       "Mide la relación entre la longitud total del campo de datos de la trama y el tiempo de transmisión de la trama por el medio.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6525,7 +6525,7 @@ const questionsData: QuestionData[] = [
       "Las estaciones esperan un turno para realizar la transmisión de datos.",
       "Detecta colisiones en el medio más rápido que CSMA.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6537,7 +6537,7 @@ const questionsData: QuestionData[] = [
       "Emplear tramas de información y supervisión para el control del flujo emisor-receptor.",
       "Emplear el control del flujo de parada y espera para la recuperación de errores.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6550,7 +6550,7 @@ const questionsData: QuestionData[] = [
       "Cuando la capa de red se basa en datagramas la responsabilidad de encaminar recae sobre los nodos de la red.",
       "En un nivel de red que emplea circuitos virtuales la decisión de encaminamiento se toma sólo una vez en cada establecimiento de conexión entre origen y destino.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6563,7 +6563,7 @@ const questionsData: QuestionData[] = [
       "Protocolo de ventana deslizante.",
       "En ninguno de los protocolos de control de flujo anteriores.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6576,7 +6576,7 @@ const questionsData: QuestionData[] = [
       "A diferencia de TCP/IP, el modelo OSI se emplea para redes LAN y no en redes WAN.",
       "El protocolo de transporte de ambos niveles define cómo se utilizan los servicios que ofrece el nivel de red para el intercambio de PDUs de transporte.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6588,7 +6588,7 @@ const questionsData: QuestionData[] = [
       "Entre las características definidas por un determinado protocolo cabe citar: direccionamiento, control de errores, tipo de envío (simplex, dúplex), control de flujo o multiplexión.",
       "Los servicios que ofrece una determinada capa pueden ser orientados a conexión o no orientados a conexión.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6601,7 +6601,7 @@ const questionsData: QuestionData[] = [
       "La arquitectura TCP/IP está basada en datagramas y el modelo OSI en circuitos virtuales.",
       "Empleando circuitos virtuales, en una misma conexión las tramas pueden seguir distintos caminos para comunicar un mismo origen con un mismo destino.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6614,7 +6614,7 @@ const questionsData: QuestionData[] = [
       "Que el ancho de banda de la señal es de 20 Hz.",
       "En el ancho de banda los armónicos tendrán una amplitud de 0,7.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6627,7 +6627,7 @@ const questionsData: QuestionData[] = [
       "Aplicando el teorema de Nyquist se obtiene una velocidad máxima de 4000 bps.",
       "La frecuencia fundamental de la señal es de 1000Hz.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6640,7 +6640,7 @@ const questionsData: QuestionData[] = [
       "No se podrá alcanzar la velocidad máxima establecida por el teorema de Nyquist.",
       "El ruido podría eliminarse con un filtro pasa banda.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6653,7 +6653,7 @@ const questionsData: QuestionData[] = [
       "En general, aplicando una transmisión asíncrona se consiguen velocidades de transmisión mayores.",
       "La comunicación asíncrona es empleada habitualmente en las interfaces DTE-DCE.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6666,7 +6666,7 @@ const questionsData: QuestionData[] = [
       "El enlace ascendente puede aislarse del resto de enlaces mediante un filtro pasa banda considerando una frecuencia inferior y superior de corte de 23 Hz y 250 Hz respectivamente.",
       "No se puede aislar el enlace ascendente ya que se mezclará en el canal con el enlace descendente.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6679,7 +6679,7 @@ const questionsData: QuestionData[] = [
       "Encriptar la información por motivos de seguridad.",
       "Este tipo de codificaciones carecen de utilidad práctica.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6687,7 +6687,7 @@ const questionsData: QuestionData[] = [
     title:
       "Dado el siguiente esquema donde se representa un proceso de modulación: Sabiendo que um es la señal moduladora, up la portadora y uM la modulada. ¿Qué tipo de modulación se está realizando?:",
     choices: ["Modulación PSK.", "Modulación QPSK.", "Modulación QAM.", "PCM."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6700,7 +6700,7 @@ const questionsData: QuestionData[] = [
       "CANAL 1: 10 bits, CANAL 2: 20 bits.",
       "Otro.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6708,7 +6708,7 @@ const questionsData: QuestionData[] = [
     title:
       "Cuál de los siguientes cables emplearías para una red LAN Gigabit ethernet?",
     choices: ["Coaxial fino.", "UTP-3.", "UTP-5e.", "UTP-7."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6721,7 +6721,7 @@ const questionsData: QuestionData[] = [
       "Existen estándares de redes LAN a 10 Gbps que emplean fibras ópticas.",
       "La velocidad de transmisión en una fibra óptica es independiente de la codificación empleada.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6734,7 +6734,7 @@ const questionsData: QuestionData[] = [
       "Servicio orientado a conexión sin reconocimiento.",
       "Servicio no orientado a conexión con reconocimiento.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6742,7 +6742,7 @@ const questionsData: QuestionData[] = [
     title:
       "El nivel de enlace de un protocolo de red introduce un código de redundancia cíclica en las tramas empleando el polinomio generador x+1. Sabiendo que los datos a enviar (sin el CRC) es 1011, se puede afirmar que la trama final enviada será:",
     choices: ["10110.", "10111.", "101101.", "101111."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6755,7 +6755,7 @@ const questionsData: QuestionData[] = [
       "Al nivel de red del receptor no le llegarán tramas de datos duplicadas pero puede haber una pérdida de sincronización entre emisor y receptor.",
       "El receptor no recibirá correctamente ni la primera ni la segunda trama de datos.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6768,7 +6768,7 @@ const questionsData: QuestionData[] = [
       "El emisor rechaza las tramas de confirmación que no se correspondan con la última de datos que envió.",
       "El receptor debe recibir las tramas ordenadas.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6781,7 +6781,7 @@ const questionsData: QuestionData[] = [
       "CSMA/CD.",
       "Ninguno de los anteriores.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6794,7 +6794,7 @@ const questionsData: QuestionData[] = [
       "HDLC emplea ventana deslizante con envío continuo.",
       "El receptor puede emplear tramas de supervisión para confirmar o rechazar tramas de datos.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6807,7 +6807,7 @@ const questionsData: QuestionData[] = [
       "El receptor enviará una única confirmación indicando el número de secuencia 5.",
       "El receptor descartará las tramas I2, I3 e I4.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6820,7 +6820,7 @@ const questionsData: QuestionData[] = [
       "PPP se emplea cuando se quiere establecer una conexión entre un usuario y un proveedor de servicios de ADSL.",
       "PPP utiliza el mismo control de enlace de datos de alto nivel que HDLC.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6833,7 +6833,7 @@ const questionsData: QuestionData[] = [
       "OSPF es un ejemplo de protocolo basado en vector de distancias.",
       "RIP es un ejemplo de protocolo basado en estado del enlace.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6841,7 +6841,7 @@ const questionsData: QuestionData[] = [
     title:
       "En el siguiente esquema se representa la topología de una red en la que se ha introducido los costes en los enlaces que unen cada uno de los equipos. ¿Cuál es el valor del conjunto T después de 4 iteraciones considerando que el nodo inicial es el nodo “1”?",
     choices: ["1,2,5,6.", "1,2,4,5.", "1,2,5,3.", "1,2,3,4."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6854,7 +6854,7 @@ const questionsData: QuestionData[] = [
       "Se trata de un algoritmo basado en estado del enlace.",
       "Emplea tablas de encaminamiento estáticas para determinar las rutas óptimas.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6867,7 +6867,7 @@ const questionsData: QuestionData[] = [
       "Los elementos de un nivel que dialogan con otros elementos del mismo nivel son las denominadas entidades.",
       "Una arquitectura de red se puede definir como el conjunto de capas y protocolos que constituyen un sistema de comunicaciones.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6880,7 +6880,7 @@ const questionsData: QuestionData[] = [
       "Cuando el tamaño de la PDU de nivel n+1 es mayor que la longitud máxima de SDU establecida para el nivel n.",
       "El nivel n+1 establece un tamaño de SDU para que no se produzca fragmentación en el nivel n.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6893,7 +6893,7 @@ const questionsData: QuestionData[] = [
       "El nivel de red asegura la entrega de bloques de datos entre dos dispositivos cualesquiera comunicados a través de uno o más enlaces distintos.",
       "En el nivel de transporte se establecen controles de conexión, controles de flujo y controles de errores extremo a extremo",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6906,7 +6906,7 @@ const questionsData: QuestionData[] = [
       "La distorsión de retardo se produce cuando la velocidad de propagación tiende a ser mayor cerca de la frecuencia central y disminuir al acercarse a los extremos fi y fs.",
       "Habitualmente la ganancia de los medios de transmisión reales es 1 entre fi y fs.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6914,7 +6914,7 @@ const questionsData: QuestionData[] = [
     title:
       "Considérese que sobre un medio de comunicación se aplica un filtro pasa banda con frecuencia inicial de corte de 100 Hz y frecuencia superior 4500 Hz. Sabiendo que el nivel de ruido para todo el ancho de banda comprendido entre ambas frecuencias es de 30 dB. ¿A qué velocidad máxima aproximada podrá realizarse la transmisión de datos?",
     choices: ["39868.", "43856.", "57262.", "Otra."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6922,7 +6922,7 @@ const questionsData: QuestionData[] = [
     title:
       "En las siguientes figuras se representan la codificación digital de un carácter y su espectro de potencias respectivamente. Supóngase que un determinado dispositivo receptor requiere que la potencia acumulada por la amplitud de los armónicos sea de al menos 1 W. y que la señal se transmite a 256 bps. Se puede afirmar que el ancho de banda del medio debe ser de al menos:",
     choices: ["256 Hz.", "128 Hz.", "96 Hz.", "64 Hz."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6934,7 +6934,7 @@ const questionsData: QuestionData[] = [
       "La codificación bipolar es aquella que se emplea cuando en la amplitud de la señal todos los niveles se encuentran a un mismo lado del eje de tiempo.",
       "La codificación multinivel es aquella que permite la sincronización origen-destino.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6942,7 +6942,7 @@ const questionsData: QuestionData[] = [
     title:
       "Indicar la codificación en banda base que se está empleando en la siguiente señal:",
     choices: ["2T3B.", "8B6T.", "3B2T.", "Manchester diferencial."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6955,7 +6955,7 @@ const questionsData: QuestionData[] = [
       "Siempre que los armónicos de mayor orden de la señal estén fuera del ancho de banda del medio físico.",
       "Cuando el ancho de banda del medio físico no sea infinito.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6968,7 +6968,7 @@ const questionsData: QuestionData[] = [
       "Cuando sea necesario integrar información analógica en un medio de transmisión digital.",
       "Siempre que la señal moduladora sea digital.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6981,7 +6981,7 @@ const questionsData: QuestionData[] = [
       "i) A = B = 64 Kbps, C = 128 Kbps ii) 128 Kbps.",
       "Otro.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -6994,7 +6994,7 @@ const questionsData: QuestionData[] = [
       "El UTP de categoría 3 admite mayores velocidades al encontrarse apantallado.",
       "Las fibras ópticas permiten distancias menores, menor ancho de banda y menor velocidad de transmisión que estos tres cables.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7007,7 +7007,7 @@ const questionsData: QuestionData[] = [
       "Las ondas electromagnéticas empleadas utilizan propagación ionosférica.",
       "Las ondas electromagnéticas empleadas utilizan propagación superficial.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7020,7 +7020,7 @@ const questionsData: QuestionData[] = [
       "Realiza funciones de control de flujo.",
       "En el caso de líneas conmutadas realiza todos los procesos necesarios para el establecimiento del circuito (marcación, conmutación, etc.).",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7028,7 +7028,7 @@ const questionsData: QuestionData[] = [
     title:
       "Calcular el CRC resultante si el emisor quiere enviar la cadena de datos ‘10100110’ usando como polinomio generador G(x) = x2 + x + 1.",
     choices: ["011.", "11.", "00.", "Otro."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7041,7 +7041,7 @@ const questionsData: QuestionData[] = [
       "Un código generado con el algoritmo de Hamming permite corregir errores en ráfaga.",
       "El algoritmo de Hamming es un método para generar un código de distancia 3 para cualquier conjunto de k bits de datos.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7054,7 +7054,7 @@ const questionsData: QuestionData[] = [
       "La eficiencia del canal NO depende del valor de a.",
       "La relación entre la distancia del enlace y la velocidad de propagación es 1.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7067,7 +7067,7 @@ const questionsData: QuestionData[] = [
       "Cuando se producen errores tiene una mejor eficiencia que el protocolo de ventana deslizante de envío continuo con repetición selectiva.",
       "El receptor debe recibir las tramas ordenadas.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7080,7 +7080,7 @@ const questionsData: QuestionData[] = [
       "CSMA/CD.",
       "Ninguno de los anteriores.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7093,7 +7093,7 @@ const questionsData: QuestionData[] = [
       "Control de flujo con un protocolo de ventana deslizante selectivo.",
       "Control de flujo con un protocolo de ventana deslizante no selectivo.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7106,7 +7106,7 @@ const questionsData: QuestionData[] = [
       "Independientemente de los retardos en cada nodo de la WAN los datos se reciben en el mismo orden que en el que se envían.",
       "Se garantiza la entrega de la información sin errores al destino.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7119,7 +7119,7 @@ const questionsData: QuestionData[] = [
       "Una comunicación entre los diferentes nodos de la red para establecer la ruta de los paquetes en cada comunicación.",
       "El encaminamiento de los paquetes dependiendo del circuito virtual al que pertenecen.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7131,7 +7131,7 @@ const questionsData: QuestionData[] = [
       "En los protocolos basaos en estado del enlace la ruta calculada por un nodo depende de la calculada por otro.",
       "Los protocolos de Gateway interior se emplean en redes WAN.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7139,7 +7139,7 @@ const questionsData: QuestionData[] = [
     title:
       "En el siguiente esquema se representa la topología de una red en la que se ha introducido los costes en los enlaces que unen cada uno de los equipos. ¿Cuál es el valor del conjunto T después de 4 iteraciones considerando que el nodo inicial es el nodo “1”?",
     choices: ["1, 5, 4.", "1, 5, 4, 3, 2.", "1, 5, 4, 2, 3.", "Otro."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7152,7 +7152,7 @@ const questionsData: QuestionData[] = [
       "Cualquiera de las modalidades de CSMA persistente",
       "CSMA/CD",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7165,7 +7165,7 @@ const questionsData: QuestionData[] = [
       "Una red wifi IEE 802.11 emplea un método de reserva centralizada.",
       "Una red óptica FDDI emplea el método CSMA p-persistente.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7178,14 +7178,14 @@ const questionsData: QuestionData[] = [
       "‘Challenge’-PAP (desde ETD a ISP), ‘Success’- PAP (desde ISP a ETD)",
       "‘Configure Request’-LCP (desde ETD a ISP), ‘Configure ACK’-LCP (desde ISP a ETD), ‘Termintate Request’-LCP (desde ETD a ISP)",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
     id: 594,
     title: "Un ejemplo de protocolo para LAN basado en vector de distancia es:",
     choices: ["RIP", "OSPF", "EIGRP", "BGP"],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7198,7 +7198,7 @@ const questionsData: QuestionData[] = [
       "Nodo C con métrica 4",
       "Cualquiera de los nodos es valido (B, C o y D, con métrica 1)",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7211,7 +7211,7 @@ const questionsData: QuestionData[] = [
       "Emplean el algoritmo de Dijkstra para calcular la ruta de coste mínimo.",
       "Se encapsulan como paquetes de datos de la capa de transporte, haciendo uso del protocolo UDP.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7224,7 +7224,7 @@ const questionsData: QuestionData[] = [
       "Destino: 10.2.0.0/16, Gw: 10.3.0.3, Métrica: 2 y Destino: 10.3.0.0/16, Gw: 10.3.0.3, Métrica: 2",
       "El Router 4 no modificará su tabla de encaminamiento.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7237,7 +7237,7 @@ const questionsData: QuestionData[] = [
       "Se pueden emplear 5 servicios ToS distintos para calcular la métrica que determine los mecanismos de actualización de las tablas de encaminamiento.",
       "Los routers que hacen de nodos ABR pertenecen al área backbone y son los encargados de calcular la mejor ruta y propagarla al resto de routers de la red.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7245,7 +7245,7 @@ const questionsData: QuestionData[] = [
     title:
       "Se quiere implementar un sistema de comunicaciones que tenga un ancho de banda de 50Khz y que consiga una relación S/NdB de 2dB. ¿Cuál será la capacidad máxima del canal de comunicación?",
     choices: ["≈ 137 Kbps.", "≈ 68.5 Kbps.", "≈ 116 Kbps.", "≈ 232 Kbps."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7258,7 +7258,7 @@ const questionsData: QuestionData[] = [
       "‘00010100’",
       "Ninguna de las anteriores.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7266,7 +7266,7 @@ const questionsData: QuestionData[] = [
     title:
       "Se ha enviado la trama 100100001 al medio físico. Si el polinomio generador empleado es 1101 entonces el CRC calculado en el destino será:",
     choices: ["0001", "001", "010", "Ninguno de los anteriores."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7278,7 +7278,7 @@ const questionsData: QuestionData[] = [
       "Son redes con topología en estrella cuando conectan máquinas a través de un SWITCH.",
       "Son WAN de difusión.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7290,7 +7290,7 @@ const questionsData: QuestionData[] = [
       "El número de bits que puede corregir con un código de RS(255,239) es de 8.",
       "El número de símbolos de redundancia r para un código RS(255, 239) es de 16.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7303,7 +7303,7 @@ const questionsData: QuestionData[] = [
       "No emplea cabeceras y colas.",
       "Utiliza caracteres especiales para delimitar las tramas.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7311,7 +7311,7 @@ const questionsData: QuestionData[] = [
     title:
       "En una señal periódica compuesta que está formada por tres armónicos seno y dónde el primero tiene una frecuencia de 100Hz y una amplitud de 5, el segundo tiene una frecuencia de 200Hz y una amplitud de 5 y el tercero tiene una frecuencia de 300Hz y una amplitud de 5 se puede afirmar que la potencia de la señal es:",
     choices: ["5", "15", "8.66", "700"],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7324,7 +7324,7 @@ const questionsData: QuestionData[] = [
       "Está dividido en 3 canales que emplean un filtro paso banda para la señal telefónica, un filtro paso bajo para la señal ascendente y paso alta para la señal descendente",
       "Es superior al de una red Ethernet y por eso no se emplean filtros paso bajo.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7337,7 +7337,7 @@ const questionsData: QuestionData[] = [
       "Par trenzado UTP de categoria 6e.",
       "Par trenzado UTP de categoria 3.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7350,7 +7350,7 @@ const questionsData: QuestionData[] = [
       "A recibirá datos procedentes del B a una velocidad máxima de 100Mbps.",
       "B recibirá datos procedentes del A a una velocidad máxima de 400Mbps.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7362,7 +7362,7 @@ const questionsData: QuestionData[] = [
       "Transmite un único haz a lo largo del eje de la fibra óptica.",
       "Proporciona mayor ancho de banda que la fibra óptica multimodo de índice discreto o índice de salto.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7374,7 +7374,7 @@ const questionsData: QuestionData[] = [
       "La velocidad de transmisión cuando el medio tiene atenuación.",
       "Es inversamente proporcional al ancho de banda del canal y directamente proporcional al ruido existente en la línea.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7386,7 +7386,7 @@ const questionsData: QuestionData[] = [
       "Es una variante de la modulacón PSK que permite codificar datos de 2 bits en señales analógicas con distinta fase.",
       "Es una modulación que emplea 4 fases distintas que forman desplazamientos de 45º.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7399,7 +7399,7 @@ const questionsData: QuestionData[] = [
       "Una ventana deslizante para proporcionar un flujo continuo de información mejorando así, el aprovechamiento del canal de comunicación.",
       "Una misma trama para enviar datos y asentiminentos y conseguir así un mejor aprovechamiento del canal de comunicación.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7412,7 +7412,7 @@ const questionsData: QuestionData[] = [
       "La capa o nivel de red.",
       "La capa o nivel de enlace.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7424,7 +7424,7 @@ const questionsData: QuestionData[] = [
       "El envío de información a una sola estación de la red transmitiendo más de un paquete.",
       "El envío de información a un grupo de estaciones de la red transmitiendo más de un paquete.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7437,7 +7437,7 @@ const questionsData: QuestionData[] = [
       "Determinar un camino a través de los nodos de la red para que los paquetes alcancen su destino.",
       "Especificar en cada paquete el origen y el destino para que los nodos intermedios determinen un camino en la red para cada paquete transmitido.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7450,7 +7450,7 @@ const questionsData: QuestionData[] = [
       "Todas las estaciones de la red quedan incomunicadas.",
       "Las estaciones que emplean ese nodo para intercambiar paquetes han de determinar una nueva ruta para sus destinos.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7458,7 +7458,7 @@ const questionsData: QuestionData[] = [
     title:
       "La interconexión de dos redes punto a punto que emplean la arquitectura TCP/IP, ha de realizarse con,",
     choices: ["Un repetidor.", "Un puente.", "Un router.", "Una pasarela."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7471,7 +7471,7 @@ const questionsData: QuestionData[] = [
       "La capa n-1 puede comunicarse con su entidad par.",
       "La capa n puede emplear los servicios de la capa n-1.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7484,7 +7484,7 @@ const questionsData: QuestionData[] = [
       "La PCI del nivel n-1.",
       "La PCI del nivel n+1.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7497,7 +7497,7 @@ const questionsData: QuestionData[] = [
       "Detectar errores en los bits de los paquetes transmitidos en un medio físico.",
       "Identificar las estaciones que existen en la red de comunicaciones.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7505,7 +7505,7 @@ const questionsData: QuestionData[] = [
     title:
       "En una red con arquitectura TCP/IP, ¿ qué nivel más bajo de la arquitectura permite detectar que un paquete no ha alcanzado su destino ?",
     choices: ["Acceso a la red.", "Interred.", "Transporte.", "Aplicación."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7513,7 +7513,7 @@ const questionsData: QuestionData[] = [
     title:
       "Si se desea transmitir información a través de un medio físico empleando una señal de pulsos con 4 niveles y a una velocidad de 90000 bps, el medio físico necesita un ancho de banda mínimo de,",
     choices: ["30000 Hz.", "45000 Hz.", "90000 Hz.", "22500 Hz."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7526,7 +7526,7 @@ const questionsData: QuestionData[] = [
       "Aumenta la velocidad de transmisión de la señal.",
       "Disminuye el número de niveles en la señal.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7539,7 +7539,7 @@ const questionsData: QuestionData[] = [
       "Codificación binaria con retorno a cero unipolar.",
       "Codificación Manchester.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7552,7 +7552,7 @@ const questionsData: QuestionData[] = [
       "Modulación FSK.",
       "Modulación QPSK.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7560,7 +7560,7 @@ const questionsData: QuestionData[] = [
     title:
       "Qué velocidad de transmisión es necesaria para enviar a través de un medio físico DOS señales analógicas de 100 KHz de ancho de banda empleando una modulación PCM de 6 bits ?",
     choices: ["12800 Kbps.", "25600 Kbps.", "1200 Kbps.", "2400 Kbps."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7573,7 +7573,7 @@ const questionsData: QuestionData[] = [
       "La cantidad de errores en ráfaga que pueden detectarse.",
       "La frecuencia con que se producen errores en el medio físico.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7586,7 +7586,7 @@ const questionsData: QuestionData[] = [
       "Porcentaje de uso de la CPU de los routers para encaminamiento inferiores al 40%.",
       "El empleo de protocolos sin control del flujo como UDP.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7599,7 +7599,7 @@ const questionsData: QuestionData[] = [
       "Los equipos de Internet pueden establecer conexiones con los equipos de la red interna.",
       "Los equipos de la red interna no pueden establecer conexiones con equipos de Internet.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7612,7 +7612,7 @@ const questionsData: QuestionData[] = [
       "Una red multipunto con topología en Malla",
       "Ninguna de las anteriores es cierta",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7625,7 +7625,7 @@ const questionsData: QuestionData[] = [
       "WAI con topología punto a punto",
       "Ninguna de las anteriores",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7638,7 +7638,7 @@ const questionsData: QuestionData[] = [
       "No permite el uso de HUBs",
       "Emplea par trenzado no apantallado de categoría 5 y permite alcanzar velocidades de 100Mbps a distancias máximas de 100metros",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7646,7 +7646,7 @@ const questionsData: QuestionData[] = [
     title:
       "Dada la palabra de datos ‘0110110’ determina la palabra-código asociada que se transmitiría considerando que se emplea paridad par y el algoritmo de Hamming en emisor y receptor",
     choices: ["00001100110", "00011100110", "01101100000", "00001100111"],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7659,7 +7659,7 @@ const questionsData: QuestionData[] = [
       "B enviará SREJ 3",
       "B enviará RNR 4",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7671,7 +7671,7 @@ const questionsData: QuestionData[] = [
       "Es una modulación en fase que permite codificar hasta 2 bits por elemento de señal",
       "Es una modulación en frecuencia y en fase con señal moduladora digital y portadora digital",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7684,7 +7684,7 @@ const questionsData: QuestionData[] = [
       "Dependerá de la frecuencia fundamental de la señal y del ancho de banda del medio por el que se envía",
       "Ocho armónicos es suficiente ya que el carácter ‘a’ ocupa 8 bits",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7697,7 +7697,7 @@ const questionsData: QuestionData[] = [
       "‘10101’",
       "Ninguna de las anteriores",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7709,7 +7709,7 @@ const questionsData: QuestionData[] = [
       "Emplea mecanismos de detección de colisiones",
       "Se implementa para redes IEEE 802.3 con topología en bus",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7722,7 +7722,7 @@ const questionsData: QuestionData[] = [
       "Nodo D con métrica 1",
       "Cualquiera de los nodos es valido (B, C o y D, con métrica 7)",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7735,7 +7735,7 @@ const questionsData: QuestionData[] = [
       "Un medio sin atenuación pero con un nivel de ruido medio entorno a los 1dB de relación señal-ruido.",
       "Un medio con un nivel de atenuación de 10dB y un nivel de ruido medio de 5dB de relación señal-ruido.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7743,7 +7743,7 @@ const questionsData: QuestionData[] = [
     title:
       "Si la relación entre el tiempo de propagación y el tiempo de transmisión de la trama es de 1.6 entonces ¿cuál será el tamaño de la ventana de emisor para conseguir una eficiencia igual o superior al 50%?",
     choices: ["4", "3", "2", "1"],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7756,7 +7756,7 @@ const questionsData: QuestionData[] = [
       "La velocidad de transmisión es menor si se emplea NRZ que si se emplea Manchester",
       "La velocidad de modulación es menor que la velocidad de transmisión cuando se emplea NRZ",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7769,7 +7769,7 @@ const questionsData: QuestionData[] = [
       "Ethernet implementa direccionamiento de tramas y control de errores",
       "xDSL implementa únicamente transmisión half-duplex",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7782,7 +7782,7 @@ const questionsData: QuestionData[] = [
       "Destino: 10.5.0.0/16, Gw: 10.3.0.5, Métrica: 2 y Destino: 10.3.0.0/16, Gw: 10.3.0.5, Métrica: 2",
       "El Router 3 no modificará su tabla de encaminamiento.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7795,14 +7795,14 @@ const questionsData: QuestionData[] = [
       "Se propaga gracias al fenómeno de refracción y su trayectoria de propagación depende del índice de refracción del material con el que está construida",
       "Es inmune al ruido electromagnético y presenta menor atenuación de señal que la que presentaría si se empleara como medio de transmisión un par trenzado apantallado del tipo CAT5e",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
     id: 646,
     title: "Un ejemplo de protocolo para LAI basado en estado de enlace es:",
     choices: ["RIP", "OSPF", "EIGRP", "BGP"],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7815,7 +7815,7 @@ const questionsData: QuestionData[] = [
       "Emplea un campo FCS de verificación de errores",
       "No requiere conocer el tamaño de la trama que se envía",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7823,7 +7823,7 @@ const questionsData: QuestionData[] = [
     title:
       "Cuál es el número de bits que se puede corregir con un código Reed-Solomon RS(127,101) si cada símbolo está compuesto por 1 byte?",
     choices: ["208", "104", "26", "13"],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7835,7 +7835,7 @@ const questionsData: QuestionData[] = [
       "Permite alcanzar velocidades de transmisión superiores a 5 veces las que se consigue con el estándar 802.11g",
       "Nunca interferiría en las frecuencias de uso del Bluetooh",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7848,7 +7848,7 @@ const questionsData: QuestionData[] = [
       "Se produce duplicidad de tramas de datos y perdida de sincronización",
       "Io se numeran las tramas de confirmación o asentimiento",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7861,7 +7861,7 @@ const questionsData: QuestionData[] = [
       "La transmisión de un único paquete para enviar información a todos los nodos de la red.",
       "La tolerancia a fallos que presenta si existen varios caminos a un determinado destino.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7874,7 +7874,7 @@ const questionsData: QuestionData[] = [
       "El empleo de algoritmos de encaminamiento para el intercambio de paquetes.",
       "Establecer caminos en la red entre cada par de equipos.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7887,7 +7887,7 @@ const questionsData: QuestionData[] = [
       "El intercambio de PDU’s entre las entidades pares del nivel n+1.",
       "El intercambio de IDU’s entre las entidades pares del nivel n-1.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7900,7 +7900,7 @@ const questionsData: QuestionData[] = [
       "Establecer conexiones a múltiples destino empleando el mismo puerto cliente.",
       "Proporcionar siempre a la capa de aplicación una comunicación no segura, debido al funcionamiento con datagramas de la capa de red.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7913,7 +7913,7 @@ const questionsData: QuestionData[] = [
       "Incorporan siempre la cabecera del protocolo IP.",
       "Incorporan siempre la cabecera del protocolo TCP.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7926,7 +7926,7 @@ const questionsData: QuestionData[] = [
       "Empleando dos pasarelas, una en cada LAN.",
       "Empleando dos repetidores, uno en cada LAN.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7939,7 +7939,7 @@ const questionsData: QuestionData[] = [
       "La relación señal-ruido del medio físico.",
       "El número de niveles empleado en la codificación.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7951,7 +7951,7 @@ const questionsData: QuestionData[] = [
       "Transmitir información analógica empleando un medio físico que transmite señales de pulsos.",
       "Incorporar una señal digital de pulsos a señales analógicas que se transmiten en un medio físico.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7964,7 +7964,7 @@ const questionsData: QuestionData[] = [
       "Cable coaxial de 75 Ω.",
       "Par trenzado UTP.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7977,7 +7977,7 @@ const questionsData: QuestionData[] = [
       "Porcentaje de uso de CPU para encaminamiento en los routers del 70%.",
       "Fragmentación de paquetes IP en los routers de la red.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -7990,7 +7990,7 @@ const questionsData: QuestionData[] = [
       "Un router OSPF puede informar a sus vecinos de cambios en las características de sus enlaces.",
       "Al emplear la multidifusión, los paquetes enviados por un router OSPF de un SA llegan a todos los routers OSPF del SA.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8002,7 +8002,7 @@ const questionsData: QuestionData[] = [
       "Verificar la autenticidad del origen del túnel con el protocolo GRE.",
       "Autenticar al usuario que realiza la conexión VPN con el protocolo TCP.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8015,7 +8015,7 @@ const questionsData: QuestionData[] = [
       "El equipo de destino envía un paquete TCP ACK con la última secuencia recibida correctamente.",
       "El equipo que envío el paquete TCP lo reenviará esperando el ACK de la secuencia correspondiente.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8023,7 +8023,7 @@ const questionsData: QuestionData[] = [
     title:
       "Durante una conexión TCP (ver figura) el cliente envía un segmento (1) con ACK, número de secuencia 4020 y 320 bytes de datos. Después el servidor envía un segmento (2) con ACK y 546 bytes de datos. Finalmente, el cliente envía otro segmento (3) con número de ACK 2034 y 598 bytes de datos. Si no hay errores en la transmisión, ¿Qué número de secuencia tiene el segmento 2?",
     choices: ["1436.", "4618.", "1488.", "4340."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8036,7 +8036,7 @@ const questionsData: QuestionData[] = [
       "Emplear ventana deslizante permite siempre el reenvío, únicamente, de la trama que ha llegado con errores.",
       "Si una trama llega con errores, el emisor tendrá que esperar a que salte un temporizador para volver a enviarla.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8048,7 +8048,7 @@ const questionsData: QuestionData[] = [
       "Se produce a través del intercambio de unidades denominadas PDU.",
       "Se gestiona a través de los protocolos.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8060,7 +8060,7 @@ const questionsData: QuestionData[] = [
       "No permite la fragmentación de paquetes. Si es necesario fragmentar se encargará el protocolo IP.",
       "Establece un tamaño mínimo de 46 bytes de datos a enviar en la trama.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8073,7 +8073,7 @@ const questionsData: QuestionData[] = [
       "Cut through.",
       "Cualquiera de los anteriores.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8085,7 +8085,7 @@ const questionsData: QuestionData[] = [
       "Define sus protocolos a través de las RFC del IAB.",
       "Ninguna de las anteriores es cierta.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8098,7 +8098,7 @@ const questionsData: QuestionData[] = [
       "Asíncrono mediante una línea de comunicación.",
       "Asíncrono mediante dos líneas de comunicación.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8111,7 +8111,7 @@ const questionsData: QuestionData[] = [
       "Par trenzado UTP de categoría 3.",
       "Par trenzado UTP de categoría 5.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8123,7 +8123,7 @@ const questionsData: QuestionData[] = [
       "Realiza control con rechazo selectivo gracias a los temporizadores que se emplean en el emisor.",
       "Permite controlar la congestión de las redes de comunicación a través de la ventana del emisor.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8136,7 +8136,7 @@ const questionsData: QuestionData[] = [
       "La fase de la señal que se transmite.",
       "La longitud de la trama de nivel de enlace.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8149,7 +8149,7 @@ const questionsData: QuestionData[] = [
       "Ethernet y Token Ring emplean Manchester.",
       "Ethernet emplea RZ bipolar y Token Ring emplea 4B5B.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8161,7 +8161,7 @@ const questionsData: QuestionData[] = [
       "Permite el direccionamiento lógico de equipos para la interconexión de redes.",
       "Presenta mecanismos para la detección y corrección de errores de las tramas enviadas.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8174,7 +8174,7 @@ const questionsData: QuestionData[] = [
       "RIP emplea paquetes TCP multicast.",
       "OSPF se emplea para encaminamiento dinámico en la red WAN.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8187,7 +8187,7 @@ const questionsData: QuestionData[] = [
       "Realiza una transmisión orientada a conexión.",
       "Permite el envío a múltiples destinatarios.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8200,7 +8200,7 @@ const questionsData: QuestionData[] = [
       "‘001101010010001’",
       "Ninguna de las anteriores.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8213,7 +8213,7 @@ const questionsData: QuestionData[] = [
       "Manchester diferencial.",
       "2B1T.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8226,7 +8226,7 @@ const questionsData: QuestionData[] = [
       "::172:20:41:241",
       "AC:14:29:F1:172:20:41:241",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8239,7 +8239,7 @@ const questionsData: QuestionData[] = [
       "ADSL2 es siempre la tecnología menos recomendable por sus bajas prestaciones.",
       "En VDSL mejora la velocidad de bajada si se compara con ADSL2, pero no mejora la velocidad de subida.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8251,7 +8251,7 @@ const questionsData: QuestionData[] = [
       "El encapsulamiento más usado entre el cliente y el ISP esté basado en PPPoA o PPPoE.",
       "En su versión ADSL2+ soporta velocidades muy superiores a los 24Mbps para distancias superiores a 3Km.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8263,7 +8263,7 @@ const questionsData: QuestionData[] = [
       "Utilizan la codificación 4B5B.",
       "Emplean paso de testigo con bits de prioridades y reserva.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8276,7 +8276,7 @@ const questionsData: QuestionData[] = [
       "Inicialmente, la máquina cliente envía un ICMP del tipo ‘Router Solicitation’ a una dirección de Multicast y la maquina servidora responde con un ICMP del tipo ‘Router Advertisement’ que incluye una dirección IP libre.",
       "Inicialmente, la máquina servidora envía un ICMP del tipo ‘Router Solicitation’ a una dirección de Multicast, facilitando direcciones IP libres. No es necesario que el cliente solicite nada.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8289,7 +8289,7 @@ const questionsData: QuestionData[] = [
       "Está dividido en 3 canales. Un canal para señales de datos ascendentes, un canal para señal de datos descendentes y un canal para señal telefónica.",
       "Está dividido en 4 canales. Un canal para señales de datos ascendentes, un canal para señal de datos descendentes, un canal para señal telefónica ascendente y otro canal para la señal telefónica descendente.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8302,7 +8302,7 @@ const questionsData: QuestionData[] = [
       "Se emplea una tecnología de difusión para interconectar todos los equipos de la red.",
       "Los paquetes dirigidos a una dirección de broadcast son reenviados a todos los routers de la  red.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8315,7 +8315,7 @@ const questionsData: QuestionData[] = [
       "El paquete no será reenviado ya que va dirigido a la dirección de broadcast.",
       "No es posible, pues los paquetes de broadcast nunca sufren colisiones.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8327,7 +8327,7 @@ const questionsData: QuestionData[] = [
       "Las redes de difusión emplean velocidades de transmisión muy pequeñas.",
       "El  elevado  número  de  equipos  que  interconecta  provocaría  un  estado  de  colisión permanente.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8340,7 +8340,7 @@ const questionsData: QuestionData[] = [
       "La tasa de error en el medio físico es mayor en las LAN que en las WAN.",
       "Las redes WAN no emplean la fibra óptica como medio de transmisión.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8353,7 +8353,7 @@ const questionsData: QuestionData[] = [
       "El reparto de la velocidad de transferencia del medio físico entre los equipos.",
       "Monitorizar los tipos de paquetes transmitidos en el medio físico.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8366,7 +8366,7 @@ const questionsData: QuestionData[] = [
       "Las dos conexiones emplean diferentes direcciones IP destino.",
       "Las dos conexiones emplean la misma dirección IP origen.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8379,7 +8379,7 @@ const questionsData: QuestionData[] = [
       "Los dos paquetes incorporan cabecera TCP.",
       "Los dos paquetes no incorporan cabecera TCP.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8392,7 +8392,7 @@ const questionsData: QuestionData[] = [
       "Codificación QAM.",
       "Codificación binaria unipolar con retorno a cero.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8405,7 +8405,7 @@ const questionsData: QuestionData[] = [
       "La normativa de EEUU-Japón emplea una velocidad mayor que la europea.",
       "El número de canales de voz en una trama es diferente.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8418,7 +8418,7 @@ const questionsData: QuestionData[] = [
       "Distancias de menos de 100 metros y velocidades de 100 Mbps.",
       "Distancias de 100 metros y velocidades de 10 Mbps.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8430,7 +8430,7 @@ const questionsData: QuestionData[] = [
       "Mayores velocidades de transmisión que la fibra monomodo.",
       "Mayor inmunidad al ruido electromagnético que la fibra multimodo.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8443,7 +8443,7 @@ const questionsData: QuestionData[] = [
       "Enlace inalámbrico a 54 Mbps.",
       "Enlace inalámbrico a 11 Mbps,  pues  permite  alcanzar mayores  distancias  que el  de 45 Mbps.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8456,7 +8456,7 @@ const questionsData: QuestionData[] = [
       "No numerados.",
       "No es posible establecer conexiones con el protocolo HDLC.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8469,7 +8469,7 @@ const questionsData: QuestionData[] = [
       "Después de realizar la negociación NCP.",
       "Empleando el protocolo IP.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8477,7 +8477,7 @@ const questionsData: QuestionData[] = [
     title:
       "Si  en una red se  desea emplear  un protocolo de encaminamiento  que tenga en cuenta la velocidad de comunicación en los enlaces se empleará,",
     choices: ["BGP.", "RIP v1.", "RIP v2.", "OSPF."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8490,7 +8490,7 @@ const questionsData: QuestionData[] = [
       "Se puede modificar empleando el valor del campo MSS en los paquetes RST.",
       "Se modifica en función del valor del retardo en la recepción de paquetes ACK.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8503,7 +8503,7 @@ const questionsData: QuestionData[] = [
       "La ventana de congestión permite aumentar rápidamente el flujo de envío tras la recepción de un ACK.",
       "El tamaño de la ventana de congestión siempre es mayor que el tamaño de la ventana que informa el receptor.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8511,7 +8511,7 @@ const questionsData: QuestionData[] = [
     title:
       "Durante una conexión TCP (ver figura) el cliente envía un segmento (1) con ACK, número de secuencia 4020 y 320 bytes de datos. Después el servidor envía un segmento (2) con ACK y 546 bytes de datos. Finalmente, el cliente envía otro segmento (3) con número de ACK 2034 y 598 bytes de datos. Si no hay errores en la transmisión, ¿Qué número de ACK tiene el segmento 2?",
     choices: ["1436.", "4618.", "1488.", "4340."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8524,7 +8524,7 @@ const questionsData: QuestionData[] = [
       "El nodo receptor obtendrá el ICI procedente de la capa inferior (n-1) y tras procesar el PCI de la capa correspondiente (n), enviará a la capa superior (n+1) el PDU correspondiente.",
       "El nodo emisor generará una PDU formada por la SDU del nivel superior (n+1) y la PCI del nivel correspondiente (n).",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8536,7 +8536,7 @@ const questionsData: QuestionData[] = [
       "Se crean ampliando en como mucho 25 nuevos equipos una red de área local.",
       "Pueden ser públicas y privadas.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8549,7 +8549,7 @@ const questionsData: QuestionData[] = [
       "Se producirán continuamente colisiones ya que cuando un equipo quiere enviar datos los envía sin escuchar el medio.",
       "No habrá nunca colisiones porque los equipos sólo envían datos cuando obtienen permiso del equipo supervisor de la red.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8562,7 +8562,7 @@ const questionsData: QuestionData[] = [
       "Se puede garantizar el envío de tramas en un tiempo determinado.",
       "Es posible enviar tramas con requisitos temporales empleando la técnica PCF.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8575,7 +8575,7 @@ const questionsData: QuestionData[] = [
       "Entre dos envíos consecutivos de tramas por parte de un equipo, el tiempo de espera será menor si la segunda trama a enviar es una trama de control que si es una trama de datos.",
       "Puede haber colisión en el envío de las tramas.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8588,7 +8588,7 @@ const questionsData: QuestionData[] = [
       "Por una línea se envía la secuencia completa y por la otra línea una señal de reloj.",
       "Por una línea se envía la secuencia completa y por la otra no se envía nada hasta que no se llene el buffer de entrada de la línea que se está empleando para enviar.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8600,7 +8600,7 @@ const questionsData: QuestionData[] = [
       "Puede transmitir electricidad para alimentar dispositivos.",
       "Se emplea en enlaces troncales de LANs, que requieren gran capacidad de ancho de banda",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8613,7 +8613,7 @@ const questionsData: QuestionData[] = [
       "Par trenzado UTP de categoría 5e.",
       "Par trenzado UTP de categoría 6.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8625,7 +8625,7 @@ const questionsData: QuestionData[] = [
       "Permite calcular el tiempo que un equipo tiene para transmitir en función de un tiempo fijado por el administrador de la red y el tiempo que el testigo tarda en volver al equipo.",
       "Permite calcular el tiempo que un equipo tiene para transmitir en función únicamente del tiempo que tarda el testigo en volver al equipo.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8637,7 +8637,7 @@ const questionsData: QuestionData[] = [
       "Una trama de control utilizada en las 802.4 para cambiar la velocidad de envío.",
       "Ninguna de las anteriores es cierta.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8650,7 +8650,7 @@ const questionsData: QuestionData[] = [
       "Ethernet y Token Ring emplean Manchester.",
       "Ethernet emplea RZ bipolar y Token Ring emplea 4B5B.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8663,7 +8663,7 @@ const questionsData: QuestionData[] = [
       "Envíos de mensajes RIP.",
       "Envíos para aplicaciones en tiempo real como voz sobre IP.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8676,7 +8676,7 @@ const questionsData: QuestionData[] = [
       "OSPF determina la ruta óptima empleando como métrica el retardo de paquetes.",
       "OSPF determina la ruta óptima empleando como métrica la capacidad de los enlaces.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8688,7 +8688,7 @@ const questionsData: QuestionData[] = [
       "Los datos apuntados por el campo “Urgent Offset” se quieren entregar a la aplicación remota sin esperar a que ésta los pida.",
       "Todos los bytes de datos que lleva el segmento son datos urgentes y se envían lo antes posible.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8701,7 +8701,7 @@ const questionsData: QuestionData[] = [
       "‘001 101 010 010 001’",
       "Ninguna de las anteriores.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8709,7 +8709,7 @@ const questionsData: QuestionData[] = [
     title:
       "Qué codificación se emplea en el siguiente gráfico para enviar al medio la secuencia binaria 01010011?",
     choices: ["RZ bipolar.", "Manchester", "Manchester diferencial.", "AMI."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8721,7 +8721,7 @@ const questionsData: QuestionData[] = [
       "La fragmentación solo se realiza en el equipo origen, y no en los routers intermedios de la red.",
       "No requiere de nivel de enlace para transmitir datos entre equipos de una misma red.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8733,7 +8733,7 @@ const questionsData: QuestionData[] = [
       "La tecnología VDSL emplea medios físicos con ancho de banda de 30Mhz.",
       "ADSL es una tecnología asimétrica que ajusta la velocidad de transmisión en función de la calidad de la señal.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8745,7 +8745,7 @@ const questionsData: QuestionData[] = [
       "Es una modulación que emplea distintas amplitudes y desplazamientos de fase.",
       "Es una variante de la modulación MPSK que permite codificar datos de 3 bits en señales analógicas con distinta fase.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8757,7 +8757,7 @@ const questionsData: QuestionData[] = [
       "Se puede emplear el protocolo PPPoE para encapsular tramas Ethernet sobre PPP.",
       "Para unir el router del cliente con el Modem ADSL se emplea par trenzado y para unir el router ISP con el DSLAM se emplea fibra óptica.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8769,7 +8769,7 @@ const questionsData: QuestionData[] = [
       "Utilizan la codificación Manchester diferencial.",
       "Emplean paso de testigo con bits de prioridades y reserva.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8782,7 +8782,7 @@ const questionsData: QuestionData[] = [
       "Ipv6 a diferencia de Ipv4, ya no emplea el campo longitud de cabecera (HL).",
       "Ipv6 a diferencia de Ipv4, emplea un campo de cabecera de extensión de datos.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8794,7 +8794,7 @@ const questionsData: QuestionData[] = [
       "Orientada a conexión y de conmutación de paquetes con circuitos virtuales permanentes.",
       "Ninguna de las anteriores.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8807,7 +8807,7 @@ const questionsData: QuestionData[] = [
       "Permitir el envío de un paquete de información a un grupo de estaciones en la red.",
       "Permitir la difusión de un paquete de información en redes WAN.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8820,7 +8820,7 @@ const questionsData: QuestionData[] = [
       "Reducir los retardos en el establecimiento de los circuitos de las redes telefónicas.",
       "Establecer caminos de circulación en la red para cada paquete de datos transmitido.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8833,7 +8833,7 @@ const questionsData: QuestionData[] = [
       "No existe ningún fallo en los niveles inferiores al n.",
       "Siempre existe un fallo en algún nivel superior al n.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8846,7 +8846,7 @@ const questionsData: QuestionData[] = [
       "Gestionar una comunicación fiable estableciendo circuitos virtuales extremo a extremo con el protocolo TCP.",
       "Proporcionar siempre a la capa de aplicación una comunicación no segura, debido al funcionamiento con datagramas de la subred.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8859,7 +8859,7 @@ const questionsData: QuestionData[] = [
       "Varias PDU’s con cabeceras del protocolo de transporte en todas ellas.",
       "Varias PDU’s con cabeceras del protocolo de aplicación en todas ellas.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8871,7 +8871,7 @@ const questionsData: QuestionData[] = [
       "Una comunicación extremo a extremo libre de errores para la capa de aplicación.",
       "Evitar que se produzcan errores en la capa física.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8884,7 +8884,7 @@ const questionsData: QuestionData[] = [
       "El número de niveles de la señal.",
       "La relación señal ruido del medio físico.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8897,7 +8897,7 @@ const questionsData: QuestionData[] = [
       "Interpretar la información por los cambios en el tipo de transiciones de la señal.",
       "Incorporar información de sincronización en la propia señal.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8905,7 +8905,7 @@ const questionsData: QuestionData[] = [
     title:
       "Se desea enviar por un medio físico dos señales PCM multiplexadas en el tiempo. Una de las señales se corresponde con un canal de comunicación a 64 Kbps y la otra con un canal de 96 Kbps. El medio físico transmitirá bits de información a una velocidad de,",
     choices: ["128 Kbps.", "96 Kbps.", "64 Kbps.", "160 Kbps."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8918,7 +8918,7 @@ const questionsData: QuestionData[] = [
       "Fibra óptica monomodo.",
       "Fibra óptica multimodo.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8931,7 +8931,7 @@ const questionsData: QuestionData[] = [
       "Presentar menos errores en el medio físico que los orientados a bit.",
       "Añadir información redundante en el campo de datos de nivel de enlace.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8944,7 +8944,7 @@ const questionsData: QuestionData[] = [
       "Las dos estaciones intercambian datos con un protocolo de parada y espera.",
       "Es posible detectar errores en los bits de los paquetes transmitidos.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8957,7 +8957,7 @@ const questionsData: QuestionData[] = [
       "Los equipos de Internet pueden establecer conexiones con direcciones IP de los equipos de la red interna.",
       "Los equipos de la red interna no pueden establecer conexiones con equipos de Internet.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8970,7 +8970,7 @@ const questionsData: QuestionData[] = [
       "El protocolo UDP en el equipo que envío el paquete lo reenvía correctamente.",
       "La aplicación del equipo que envío el paquete UDP debe reenviar la información.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8982,7 +8982,7 @@ const questionsData: QuestionData[] = [
       "Es siempre infinito para fibra óptica",
       "Está limitado por el ancho de banda del medio físico que la transporta",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -8995,7 +8995,7 @@ const questionsData: QuestionData[] = [
       "Se puede incrementar la velocidad de transmisión si se aumenta el número de cambios de señal de nuestro dispositivo modulador",
       "No  se  puede  incrementar  la  velocidad  de  transmisión  salvo  que  utilicemos  alguna  técnica  de multiplexación como TDM",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9008,7 +9008,7 @@ const questionsData: QuestionData[] = [
       "No importa el medio físico que se utilice para la transmisión, se debe elegir la técnica en función, únicamente, de si ésta permite sincronización o no",
       "Si se elige banda modulada, no se tendrá que adaptar la información que se desea transmitir",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9021,7 +9021,7 @@ const questionsData: QuestionData[] = [
       "La modulación BSK modifica el ancho de banda en función de la señal moduladora",
       "La modulación QAM modifica la amplitud y la fase de la señal portadora",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9033,7 +9033,7 @@ const questionsData: QuestionData[] = [
       "Permite alcanzar los 100Mbps en banda base sobre fibra óptica",
       "Permite alcanzar los 100Mbps en banda base sobre cable de par trenzado",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9046,7 +9046,7 @@ const questionsData: QuestionData[] = [
       "El ancho de banda del medio se divide en canales de 20 MHz de ancho de banda",
       "Al ser un medio físico no compartido, permite  la transmisión sin que se empleen mecanismos de acceso al medio del tipo contienda",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9059,7 +9059,7 @@ const questionsData: QuestionData[] = [
       "Un encaminamiento adaptativo distribuido",
       "Un encaminamiento adaptativo centralizado",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9072,7 +9072,7 @@ const questionsData: QuestionData[] = [
       "::AC:14:2B:E6",
       "2001:0db8:85a3:0000:13194:8a2e:0070:7334",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9085,7 +9085,7 @@ const questionsData: QuestionData[] = [
       "Se utiliza el protocolo DHCP en IPv4 e IPv6 y el protocolo DNS en IPv4",
       "Se utiliza el protocolo DHCP en IPv4 e IPv6 y el protocolo Neighbor Discovery en IPv6",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9097,7 +9097,7 @@ const questionsData: QuestionData[] = [
       "Incompatible con RDSI debido al solapamiento de frecuencias",
       "Que envía la señal de voz y datos mediante señales digitales",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9110,7 +9110,7 @@ const questionsData: QuestionData[] = [
       "IDSL es más lento que ADSL, pero permite llegar a distancias 10 veces mayores",
       "ADSL2 permite utilizar el ancho de banda reservado para telefonía",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9122,7 +9122,7 @@ const questionsData: QuestionData[] = [
       "Se puede enviar un paquete hacia el emisor con los bits de congestión desactivados",
       "Se puede asignar un crédito máximo a la tasa de bits que se puede recibir por parte del receptor",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9135,7 +9135,7 @@ const questionsData: QuestionData[] = [
       "Una  red  con  topología en estrella que emplea un  concentrador de  tipo  SWITCH permita enviar mensajes broadcast a un conjunto de máquinas",
       "Un BRIDGE permita conectar dos LANs con distinta topología de red y nivel de enlace",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9143,7 +9143,7 @@ const questionsData: QuestionData[] = [
     title:
       "Se quiere implementar un sistema de comunicaciones que tenga un ancho de banda de 3000Hz y que consiga una relación S/NdB de 35dB. ¿Cuál será la capacidad máxima del canal de comunicación?",
     choices: ["≈ 69.7Kbps", "≈ 34.8Kbps", "≈ 31Kbps", "≈ 15.5Kbps"],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9156,7 +9156,7 @@ const questionsData: QuestionData[] = [
       "Par trenzado UTP 6",
       "Par trenzado STP",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9169,7 +9169,7 @@ const questionsData: QuestionData[] = [
       "La diferencia es de 2 niveles de tensión",
       "La diferencia es de 3 niveles de tensión",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9182,7 +9182,7 @@ const questionsData: QuestionData[] = [
       "‘0000101011010000000010101111’",
       "‘010111011000100001011101’",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9195,7 +9195,7 @@ const questionsData: QuestionData[] = [
       "Siempre  corresponde  a  una  codificación  Manchester  diferencial  para  la  secuencia  binaria ‘0110101’",
       "Nunca corresponderá a una codificación RZ bipolar",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9208,7 +9208,7 @@ const questionsData: QuestionData[] = [
       "Un valor ponderado obtenido a partir del ancho de banda de  los enlaces que  intervendrían en  la ruta",
       "El número de routers o encaminadores que se pueden configurar como puerta de enlace de cada encaminador o nodo intermedio",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9221,7 +9221,7 @@ const questionsData: QuestionData[] = [
       "Token Ring no emplea delimitador de comienzo y de final para delimitar la trama",
       "La RDSI emplea delimitador de bits especiales para indicar comienzo y final de trama",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9229,7 +9229,7 @@ const questionsData: QuestionData[] = [
     title:
       "Durante  una  conexión  TCP  (ver  figura)  el  cliente  envía  un  segmento  (1)  con  ACK,  número  de secuencia 1400 y 300 bytes de datos. Después el servidor envía un segmento (2) con ACK y 550 bytes de datos. Finalmente, el cliente envía otro segmento (3) con número de ACK 2300 y 350 bytes de datos. Si no hay errores en  la  transmisión,  ¿Qué número de  secuencia  tiene el  segmento 2?  (Por errata,  se ha anulada, y se ha dado 0.3p a todos)",
     choices: ["1700.", "1750.", "2000.", "2050."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9241,7 +9241,7 @@ const questionsData: QuestionData[] = [
       "Tenga latencias inferiores a 7microsegundos en el reenvío de tramas",
       "Comprueba errores en tramas haciendo uso del CRC",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9254,7 +9254,7 @@ const questionsData: QuestionData[] = [
       "C sacará la trama del medio y construirá una nueva B‐D C‐D T (de cabecera a cola)",
       "C sacará la trama del medio y construirá una nueva A‐C B‐D T C‐D (de cabecera a cola)",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9266,7 +9266,7 @@ const questionsData: QuestionData[] = [
       "No se requiere conocer la longitud de la trama para controlar el acceso al medio.",
       "Se requiere conocer el tiempo de interframe, el tiempo de ranura, la longitud de la trama y un parámetro aleatorio para controlar el acceso al medio.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9274,7 +9274,7 @@ const questionsData: QuestionData[] = [
     title:
       "Si una red está formada por dos LAN, A y B, y éstas se conectan mediante un BRIDGE y a su vez A interconecta máquinas mediante un HUB y B mediante un SWITCH, se puede afirmar que la topología de la red es:",
     choices: ["Bus.", "Estrella.", "Anillo.", "Ninguna de las anteriores"],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9287,7 +9287,7 @@ const questionsData: QuestionData[] = [
       "WiFi,  entonces  realiza  control  del  enlace  lógico  e  implementa  tres  tipos  de  tramas  distintas, gestión, control y datos",
       "FDDI, entonces realiza control del enlace lógico e implementa un solo tipo de trama, llamada datos",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9299,7 +9299,7 @@ const questionsData: QuestionData[] = [
       "Delimitación de tramas como en los protocolos orientados a bit.",
       "Autenticación en el establecimiento de conexiones.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9312,7 +9312,7 @@ const questionsData: QuestionData[] = [
       "La autenticación de los usuarios.",
       "El formato de los paquetes PPP.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9325,7 +9325,7 @@ const questionsData: QuestionData[] = [
       "Cualquier máquina de Internet puede establecer una conexión a una dirección IP privada de la red LAN.",
       "El encaminamiento modifica la cabecera IP de los paquetes de la red LAN en todos los routers entre el origen y el destino.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9338,7 +9338,7 @@ const questionsData: QuestionData[] = [
       "La dirección 224.0.0.9.",
       "Una dirección MAC de multidifusión.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9346,7 +9346,7 @@ const questionsData: QuestionData[] = [
     title:
       "Qué ancho de banda  se necesita para  implementar un  sistema de  comunicaciones que  tenga una capacidad máxima de canal de 50 Mbps empleando un medio que tiene una relación S/NdB de 35 dB?",
     choices: ["≈ 1.07 Mhz.", "≈ 2.15Mhz.", "≈ 4.30 Mhz.", "≈ 7.14 Mhz."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9359,7 +9359,7 @@ const questionsData: QuestionData[] = [
       "Asíncrono y se suele emplear en interfaces para comunicar DTE‐DCE.",
       "Asíncrono y se suele emplear en redes LAN.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9367,7 +9367,7 @@ const questionsData: QuestionData[] = [
     title:
       "Si el ancho de banda de un medio físico es de 20Mhz, ¿cuál es el número máximo de armónicos que se pueden transmitir si se sabe que la frecuencia fundamental de la señal a enviar es de 500Khz?",
     choices: ["10000.", "40.", "25.", "Infinitos."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9380,7 +9380,7 @@ const questionsData: QuestionData[] = [
       "‘10100’",
       "Ninguna de las anteriores.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9393,7 +9393,7 @@ const questionsData: QuestionData[] = [
       "Par trenzado UTP que permite alcanzar velocidades de hasta 10Gbps sobre 50 metros.",
       "Par trenzado FTP (S‐UTP) que permite alcanzar velocidades de hasta 10 Gbps sobre 100 metros.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9406,7 +9406,7 @@ const questionsData: QuestionData[] = [
       "Se conseguiría transmitir a más distancia que si éste estuviera compuesto de UTP 6.",
       "Un medio inalámbrico basado en el estándar 802.11g permitiría transmitir a más distancia.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9418,7 +9418,7 @@ const questionsData: QuestionData[] = [
       "Modifica la fase y amplitud de una señal portadora haciendo uso de una señal moduladora.",
       "Proporciona menor velocidad de modulación que una codificación en banda modulada ASK.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9430,7 +9430,7 @@ const questionsData: QuestionData[] = [
       "Es un tipo de modulación NRZ bipolar para codificar 8 bits con 6 flancos de subida o bajada.",
       "Modulación multinivel  que  codifica  patrones  de  8  bits  como  6  elementos  distintos  de  señal compuestos por combinaciones de 3 valores de tensión distintos.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9443,7 +9443,7 @@ const questionsData: QuestionData[] = [
       "A todos los nodos adyacentes de la LAN paquetes IP dirigidos a 224.0.0.10",
       "A todos los ‘routers’ de una misma área de la LAN paquetes UDP dirigidos a 224.0.0.7",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9456,7 +9456,7 @@ const questionsData: QuestionData[] = [
       "Emplea el algoritmo de Dijkstra para determinar  la  ruta de  coste mínimo, haciendo uso de una métrica basada en los retardos que se producen en los enlaces.",
       "Emplea el algoritmo de Bellman‐Ford para determinar  la ruta de coste mínimo, haciendo uso de una métrica basada en el ancho de banda de los enlaces.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9468,7 +9468,7 @@ const questionsData: QuestionData[] = [
       "Dispone de mecanismos de autentificación y encriptación a diferencia de IPv4 que no los tiene y requiere de protocolos auxiliares como IPSEC.",
       "Emplea un campo en la cabecera para establecer control de calidad de servicio QoS.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9480,7 +9480,7 @@ const questionsData: QuestionData[] = [
       "Proveedores de  internet y/o empresas globales  (nacionales,  regionales), así como de empresas y/o proveedores locales de internet.",
       "Proveedores locales de internet, así como de la información del interfaz de red.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9493,7 +9493,7 @@ const questionsData: QuestionData[] = [
       "Inicialmente,  la máquina servidora DHCPv4 envía un paquete ‘Discover’ a BROADCAST facilitando direcciones IP libres. No es necesario que el cliente solicite nada.",
       "Inicialmente, la máquina servidora DHCPv4 envía un paquete ‘Discover’ encapsulado en un trama Ethernet con la dirección MAC destino del cliente, en el que se encapsula la IP asignada.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9506,7 +9506,7 @@ const questionsData: QuestionData[] = [
       "Un Encaminador (‘Router’).",
       "Una Pasarela (‘Gateway’).",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9514,7 +9514,7 @@ const questionsData: QuestionData[] = [
     title:
       "Qué protocolo de nivel de transporte se emplea en una aplicación de sincronización de tiempo por internet?",
     choices: ["TCP.", "IP.", "ICMP.", "UDP."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9527,7 +9527,7 @@ const questionsData: QuestionData[] = [
       "Controlar el flujo de datos de la comunicación.",
       "Controlar  los  errores  en  el  envío  de  datos  en  comunicaciones  orientadas  a  conexión  cliente‐servidor.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9539,7 +9539,7 @@ const questionsData: QuestionData[] = [
       "Trabaja con un flujo de bytes, no con paquetes o tramas.",
       "Es incapaz de informar de errores en la comunicación.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9551,7 +9551,7 @@ const questionsData: QuestionData[] = [
       "Un protocolo de la capa de enlace.",
       "Un protocolo de la capa de aplicación.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9564,7 +9564,7 @@ const questionsData: QuestionData[] = [
       "Por selección.",
       "Ninguna de las anteriores.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9576,7 +9576,7 @@ const questionsData: QuestionData[] = [
       "Se emplea una topología en anillo.",
       "Ninguna de las anteriores es cierta.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9589,7 +9589,7 @@ const questionsData: QuestionData[] = [
       "Tres direcciones MAC.",
       "Tres direcciones IP.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9601,7 +9601,7 @@ const questionsData: QuestionData[] = [
       "Obligará al equipo que ha detectado la colisión a esperar un tiempo antes de intentar de nuevo el envío.",
       "Ocurre muy raras veces, siempre dependiendo de la velocidad de transmisión del medio físico.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9613,7 +9613,7 @@ const questionsData: QuestionData[] = [
       "Marca el bit M de la trama testigo, pero no de las tramas de datos.",
       "Vigila y gestiona la inclusión de nuevas estaciones al anillo.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9621,7 +9621,7 @@ const questionsData: QuestionData[] = [
     title:
       "Una  vivienda  se  encuentra  situada  a  2.5km  de  la  central  telefónica de  servicios DSL,  si  se desea contratar  un  servicio  que  garantice  una  velocidad  máxima  de  20Mbps,  la  mejor  opción  precio‐prestaciones de acuerdo a los servicios y características vistas en clase, sería:",
     choices: ["VDSL2.", "VDSL.", "ADSL2+.", "ADSL."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9634,7 +9634,7 @@ const questionsData: QuestionData[] = [
       "Ethernet+PPPoE+PPP+IP+TCP (I1) y Ethernet+PPPoE+PPP+IP+TCP (I2).",
       "Ethernet+PPPoE+PPP+IP+TCP (I1) y ATM+AAL5+LLC+Ethernet+PPPoE+PPP+IP+TCP (I2).",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9646,7 +9646,7 @@ const questionsData: QuestionData[] = [
       "No se puede realizar control de congestión utilizando TCP.",
       "Se  emplea  una  ventana  de  congestión  en  emisor  que  se  ajusta  en  función  de  los  paquetes perdidos.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9659,7 +9659,7 @@ const questionsData: QuestionData[] = [
       "Modulación PSK",
       "Modulación QAM",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9672,7 +9672,7 @@ const questionsData: QuestionData[] = [
       "La transmisión de un único paquete para enviar información a todos los nodos de la red",
       "La tolerancia a fallos que presenta si existen varios caminos a un determinado destino",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9685,7 +9685,7 @@ const questionsData: QuestionData[] = [
       "Permitir el envío de un paquete de información a un grupo de estaciones en la red",
       "Permitir la difusión de un paquete de información en redes WAN",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9698,7 +9698,7 @@ const questionsData: QuestionData[] = [
       "Ningún circuito virtual deja de funcionar, los nodos modifican automáticamente el camino que no funciona",
       "Los paquetes de un circuito virtual son redirigidos a través de otro circuito virtual",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9711,7 +9711,7 @@ const questionsData: QuestionData[] = [
       "Gestionar una comunicación fiable estableciendo un encaminamiento basado en conmutación de paquetes",
       "Proporcionar  siempre  a  la  capa  de  aplicación  una  comunicación  no  segura,  debido  al funcionamiento con datagramas de la subred",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9724,7 +9724,7 @@ const questionsData: QuestionData[] = [
       "La existencia de varias direcciones IP para una misma máquina de Internet",
       "La existencia de un mismo puerto TCP para los servicios de web, de correo y ftp",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9737,7 +9737,7 @@ const questionsData: QuestionData[] = [
       "La relación señal‐ruido del medio físico",
       "El número de niveles empleado en la codificación",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9745,7 +9745,7 @@ const questionsData: QuestionData[] = [
     title:
       "Qué  velocidad  de  transmisión  se  requiere  para  enviar  a  través  de  un  medio  físico  2  señales analógicas de 100 KHz de ancho de banda empleando una modulación PCM de 6 bits?",
     choices: ["25600 Kbps.", "12800 Kbps.", "2400 Kbps.", "1200 Kbps."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9758,7 +9758,7 @@ const questionsData: QuestionData[] = [
       "Codificar los datos binarios como cambios de tipo de transición de señal",
       "Incorporar información de sincronización en la propia señal",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9770,7 +9770,7 @@ const questionsData: QuestionData[] = [
       "Impedir que se produzcan colisiones en el medio físico",
       "Establecer un mecanismo de transmisión cuando se ha producido una colisión",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9783,7 +9783,7 @@ const questionsData: QuestionData[] = [
       "El reenvío de la trama perdida",
       "El reenvío indefinido del mismo paquete al receptor",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9796,7 +9796,7 @@ const questionsData: QuestionData[] = [
       "‘0110001011000000001000111011’",
       "Ninguna de las anteriores es cierta",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9808,7 +9808,7 @@ const questionsData: QuestionData[] = [
       "Que envía la señal de voz y datos mediante señales digitales",
       "No permite la corrección de errores en su versión ADSL2+",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9821,7 +9821,7 @@ const questionsData: QuestionData[] = [
       "La  trama de datos que  llega al  ISP  tiene varios niveles de encapsulamiento de nivel de enlace entre ellos  Ethernet",
       "El DSLAM  emplea  interfaces  con niveles  físicos distintos para  conectar módems  con proveedor (ISP)",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9829,7 +9829,7 @@ const questionsData: QuestionData[] = [
     title:
       "Durante una conexión TCP (ver figura) el cliente envía un segmento (1) con flag ACK áctivo, número de  secuencia 1100 y 250 bytes de datos. Después el  servidor envía un  segmento  (2)  con  flag ACK áctivo y 350 bytes de datos. Finalmente, el cliente envía otro segmento (3) con número de ACK 2000 y  200  bytes  de  datos.  Si  no  hay  errores  en  la  transmisión,  ¿Qué  número  de  secuencia  tiene  el segmento 2?",
     choices: ["1700", "1650", "1350", "1100"],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9841,7 +9841,7 @@ const questionsData: QuestionData[] = [
       "Requiere un temporizador de retransmisión en el caso de que se produzcan errores de perdida de paquetes",
       "Es dependiente del tamaño de ventana del emisor",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9854,7 +9854,7 @@ const questionsData: QuestionData[] = [
       "0000:0000:172:17:34:79",
       "FE80:B827:2D7A:EFE7:F669",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9867,7 +9867,7 @@ const questionsData: QuestionData[] = [
       "Se  utiliza  la  técnica  ND  (Neighbor  Discovery)  y  se  hace  uso  de  3  paquetes  de  tipos  ‘Router Solicitation’ y ‘Router Advertisement’",
       "Se utiliza el protocolo DHCP y se hace uso de 4 paquetes: 2 Broadcast y 2 Unicast",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9879,7 +9879,7 @@ const questionsData: QuestionData[] = [
       "Configurar las tablas de encaminamiento de un router que sólo tiene activo el protocolo RIP",
       "Configurar las tablas de encaminamiento de un router cuando éste no tiene activo algún protocolo del tipo EGP",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9891,7 +9891,7 @@ const questionsData: QuestionData[] = [
       "Representan el turno de transmisión y dan acceso al medio por turnos",
       "Están sujetas al bit de reserva del subcampo control de acceso de la trama ‘Token’",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9904,7 +9904,7 @@ const questionsData: QuestionData[] = [
       "‘Switch’ del tipo ‘Store & Forward’ porque emplea buffers",
       "‘Hub’ porque es el más económico y emplea una malla conmutada que favorece las transmisiones",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9917,7 +9917,7 @@ const questionsData: QuestionData[] = [
       "Par trenzado UTP 5",
       "Par trenzado UTP 5e",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9929,7 +9929,7 @@ const questionsData: QuestionData[] = [
       "Posibilidad de transmitir corriente eléctrica para alimentar dispositivos",
       "Transmisión simultánea de señales en ambos sentidos (dúplex) en un único hilo",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9942,7 +9942,7 @@ const questionsData: QuestionData[] = [
       "Nivel de Sesión",
       "Nivel de Presentación",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9955,7 +9955,7 @@ const questionsData: QuestionData[] = [
       "Modulación MPSK",
       "Modulación MFSK",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9968,7 +9968,7 @@ const questionsData: QuestionData[] = [
       "Limita la reconstrucción de la señal en el receptor",
       "Sea un parámetro que se incrementa proporcionalmente con la frecuencia",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9981,7 +9981,7 @@ const questionsData: QuestionData[] = [
       "Delta modulación ‘100110’",
       "TDM ‘00110 00111 00101 00100 00101 01000 00110’",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -9993,7 +9993,7 @@ const questionsData: QuestionData[] = [
       "Es un protocolo de nivel de enlace con control de detección de errores en los datos",
       "Es un protocolo de nivel de enlace que se emplea para direccionar máquinas en redes localizadas en distintos segmentos de red conectadas entre sí por enrutadores",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10006,7 +10006,7 @@ const questionsData: QuestionData[] = [
       "Siempre  corresponde  a  una  codificación  Manchester  diferencial  para  la  secuencia  binaria ‘0110101’",
       "Nunca corresponderá a una codificación RZ bipolar",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10019,7 +10019,7 @@ const questionsData: QuestionData[] = [
       "LANs de circuitos virtuales",
       "MANs con medio inalámbrico",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10032,7 +10032,7 @@ const questionsData: QuestionData[] = [
       "GigaBit Ethernet",
       "Paso rápido de testigo en anillo, FDDI",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10040,7 +10040,7 @@ const questionsData: QuestionData[] = [
     title:
       "Se quiere  implementar un sistema de comunicaciones que  tenga un ancho de banda de 1500Hz y que consiga una relación S/NdB de 40dB. ¿Cuál será la capacidad máxima del canal de comunicación?",
     choices: ["≈ 39.8Kbps.", "≈ 19.9Kbps.", "≈ 9.9Kbps.", "≈ 8Kbps."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10052,7 +10052,7 @@ const questionsData: QuestionData[] = [
       "Filtros paso banda en emisor y receptor",
       "No requiere uso de filtros paso banda",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10060,7 +10060,7 @@ const questionsData: QuestionData[] = [
     title:
       "Si el ancho de banda de un medio con dos canales es de 100Hz y el canal de subida (transmisión) se sitúa  en  la parte baja del  espectro de  frecuencias  y ocupa  el 20% de  éste,  ¿Cuál es  la  frecuencia portadora requerida para la señal de bajada (recepción)?",
     choices: ["10Hz.", "40Hz.", "50Hz.", "60Hz."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10073,7 +10073,7 @@ const questionsData: QuestionData[] = [
       "Emplean direcciones multicast distintas",
       "Emplean el mismo algoritmo de actualización de  rutas para determinar el  camino óptimo entre nodos",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10086,7 +10086,7 @@ const questionsData: QuestionData[] = [
       "Utilizan un control de acceso al medio con escucha, con detección de colisión",
       "Conforman una red con buen rendimiento para bajo tráfico",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10099,7 +10099,7 @@ const questionsData: QuestionData[] = [
       "Store‐and‐forward",
       "Cualquiera de los anteriores es igual de válida sin ofrecer ventajas frente a las otras",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10111,7 +10111,7 @@ const questionsData: QuestionData[] = [
       "La fragmentación solo se realiza en el equipo origen, y no en los routers intermedios de la red",
       "No requiere de nivel de enlace para transmitir datos entre equipos de una misma red",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10124,7 +10124,7 @@ const questionsData: QuestionData[] = [
       "ADSL2 es siempre la tecnología menos recomendable por sus bajas prestaciones",
       "En VDSL mejora  la velocidad de bajada si se compara con ADSL2, pero no mejora  la velocidad de subida",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10137,7 +10137,7 @@ const questionsData: QuestionData[] = [
       "HUB",
       "Puente (‘Bridge’)",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10150,7 +10150,7 @@ const questionsData: QuestionData[] = [
       "Determinar un camino a través de los nodos de la red para que los paquetes alcancen su destino",
       "Especificar en cada paquete el origen y el destino para que los nodos intermedios determinen un camino en la red para cada paquete transmitido",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10163,7 +10163,7 @@ const questionsData: QuestionData[] = [
       "Se establece entre entidades pares o capas del mismo nivel de la arquitectura",
       "Se establece entre las capas n+1 y n‐1 de la arquitectura",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10175,7 +10175,7 @@ const questionsData: QuestionData[] = [
       "El establecimiento de conexión siempre es bidireccional",
       "La liberación de conexión siempre es bidireccional",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10188,7 +10188,7 @@ const questionsData: QuestionData[] = [
       "El receptor envía un ACK con el campo tamaño de ventana a valor 0",
       "El tamaño de ventana del emisor es 0",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10200,7 +10200,7 @@ const questionsData: QuestionData[] = [
       "El emisor reenvía bloques de datos que no han llegado al receptor",
       "Establece una conexión unidireccional",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10212,7 +10212,7 @@ const questionsData: QuestionData[] = [
       "Un concentrador DSLAM realizan funciones de modulación/demodulación",
       "ADSL proporciona un enlace físico de datos entre el abonado y el ISP",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10224,7 +10224,7 @@ const questionsData: QuestionData[] = [
       "Permite la fragmentación de paquetes IP en el origen",
       "No dispone del mecanismo de multidifusión",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10237,7 +10237,7 @@ const questionsData: QuestionData[] = [
       "Estableciendo túneles intermedios",
       "No es posible, los dos extremos de la comunicación deben soportar la misma versión de IP",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10249,7 +10249,7 @@ const questionsData: QuestionData[] = [
       "No permiten tolerancia ante fallos en una fibra",
       "El formato del paquete FDDI es compatible con el de Token Ring",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10261,7 +10261,7 @@ const questionsData: QuestionData[] = [
       "El envío de información a una sola estación de la red transmitiendo más de un paquete.",
       "El envío de información a un grupo de estaciones de la red transmitiendo más de un paquete.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10269,7 +10269,7 @@ const questionsData: QuestionData[] = [
     title:
       "La interconexión de dos redes Ethernet conectadas a través de una WAN con arquitectura TCP/IP, ha de realizarse con,",
     choices: ["Un repetidor.", "Un puente.", "Un router.", "Una pasarela."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10282,7 +10282,7 @@ const questionsData: QuestionData[] = [
       "La PCI de la capa n-1.",
       "La PCI de la capa n+1.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10294,7 +10294,7 @@ const questionsData: QuestionData[] = [
       "La SDU de la capa n+1 no cabe dentro de la PDU de la capa n-1.",
       "La SDU de la capa n no cabe dentro de la PDU de la capa n+1.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10302,7 +10302,7 @@ const questionsData: QuestionData[] = [
     title:
       "En una red con arquitectura TCP/IP, ¿ qué nivel de la arquitectura permite realizar un control del flujo extremo a extremo ?",
     choices: ["Enlace.", "Red.", "Transporte.", "Aplicación."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10315,7 +10315,7 @@ const questionsData: QuestionData[] = [
       "La ventana del emisor tiene un tamaño que no varía durante el funcionamiento del protocolo.",
       "La ventana del receptor sólo permite recibir una única trama de datos.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10328,7 +10328,7 @@ const questionsData: QuestionData[] = [
       "Ethernet 802.3 detecta colisiones y Ethernet DIX no.",
       "La velocidad máxima de transmisión en Ethernet DIX es mayor que en Ethernet 802.3.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10341,7 +10341,7 @@ const questionsData: QuestionData[] = [
       "En modo half-duplex la limitación está en el número de colisiones que se produzcan.",
       "En modo half-duplex la limitación son 254 segmentos conectados en cascada.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10354,7 +10354,7 @@ const questionsData: QuestionData[] = [
       "Ethernet 10baseT.",
       "Todas las normativas Ethernet  incorporan el campo Préambulo en la cabecera Ethernet.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10367,7 +10367,7 @@ const questionsData: QuestionData[] = [
       "Los paquetes de difusión de una VLAN son reenviados sólo a los puertos de acceso del conmutador.",
       "Los paquetes de difusión de una VLAN nunca son reenviados a un puerto troncal.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10380,7 +10380,7 @@ const questionsData: QuestionData[] = [
       "Ethernet 100BaseFX.",
       "Ethernet 1000BaseLX.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10388,14 +10388,14 @@ const questionsData: QuestionData[] = [
     title:
       "Qué mecanismo de seguridad Wi-Fi no puede realizar una autenticación basada en una contraseña compartida PSK ?",
     choices: ["WEP.", "WPA-Personal.", "WPA2-Personal.", "WPA2-Enterprise."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
     id: 858,
     title: "Qué algoritmo de cifrado emplea WPA2 ?",
     choices: ["RSA.", "TKIP.", "IPSEC.", "AES."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10403,7 +10403,7 @@ const questionsData: QuestionData[] = [
     title:
       "Qué mecanismo de autenticación WiFi permite proporcionar una clave de cifrado MK empleando un servidor RADIUS ?",
     choices: ["TKIP.", "EAP/TLS.", "PEAP.", "CHAP."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10415,7 +10415,7 @@ const questionsData: QuestionData[] = [
       "No existen direcciones de difusión IPv6.",
       "Una dirección IPv6 de un dispositivo es la misma independientemente del operador de red al que se encuentre conectado.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10428,7 +10428,7 @@ const questionsData: QuestionData[] = [
       "Modificar la ruta que sigue un paquete en la red sin necesidad de establecer un nuevocamino entre origen y destino.",
       "Establecer caminos de circulación en la red para cada paquete de datos transmitido.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10441,7 +10441,7 @@ const questionsData: QuestionData[] = [
       "El intercambio de PDU’s entre las entidades pares del nivel n+1.",
       "El intercambio de IDU’s entre las entidades pares del nivel n.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10454,7 +10454,7 @@ const questionsData: QuestionData[] = [
       "Empleando dos pasarelas, una en cada LAN.",
       "Empleando dos repetidores, uno en cada LAN.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10466,7 +10466,7 @@ const questionsData: QuestionData[] = [
       "Definir un direccionamiento para los equipos en la red.",
       "Establecer flujos fiables de información.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10479,7 +10479,7 @@ const questionsData: QuestionData[] = [
       "Incorporan siempre la cabecera del protocolo IP y TCP.",
       "Incorporan siempre la cabecera del protocolo IP y UDP.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10492,7 +10492,7 @@ const questionsData: QuestionData[] = [
       "Reducir a B el número de componentes frecuenciales de la señal que son transmitidas através del medio.",
       "No es posible incorporar información de sincronización en la señal transmitida.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10504,7 +10504,7 @@ const questionsData: QuestionData[] = [
       "Adecuar el ancho de banda de la señal moduladora al ancho de banda del medio físico.",
       "Aumentar el ancho de banda de la señal moduladora.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10517,7 +10517,7 @@ const questionsData: QuestionData[] = [
       "La modulación por cambio de frecuencia.",
       "La modulación por cambio de fase y amplitud.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10530,7 +10530,7 @@ const questionsData: QuestionData[] = [
       "La frecuencia de muestreo y el número de niveles de la señal moduladora.",
       "El ancho de banda del medio físico y la frecuencia de muestreo.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10542,7 +10542,7 @@ const questionsData: QuestionData[] = [
       "Al aumentar la distancia de la comunicación.",
       "Al aumentar la potencia del haz de luz del emisor.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10555,7 +10555,7 @@ const questionsData: QuestionData[] = [
       "Cable UTP categoría 5.",
       "Cable UTP categoría 6.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10568,7 +10568,7 @@ const questionsData: QuestionData[] = [
       "Las comunicaciones satelitales emplean frecuencias de 100 MHz.",
       "Las ondas electromagnéticas tienen todas el mismo alcance en distancia.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10581,7 +10581,7 @@ const questionsData: QuestionData[] = [
       "Al final del paquete de nivel de enlace.",
       "Al principio del paquete de nivel de enlace.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10594,7 +10594,7 @@ const questionsData: QuestionData[] = [
       "Podrá corregir los errores en bits de los datos de nivel de enlace.",
       "Solicitará al nivel de red la corrección de los bits con errores en el paquete de nivel deenlace.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10607,7 +10607,7 @@ const questionsData: QuestionData[] = [
       "No se producen reenvíos de paquetes de datos.",
       "No se producen envíos continuos de paquetes de datos.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10615,7 +10615,7 @@ const questionsData: QuestionData[] = [
     title:
       "Qué capa de la arquitectura de red no está definida en el modelo de referencia IEEE802.2 ?",
     choices: ["Física.", "MAC.", "LLC.", "Red."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10628,7 +10628,7 @@ const questionsData: QuestionData[] = [
       "10G-BaseT.",
       "Todas las normativas BaseT de Ethernet precisan de tamaño de paquete mínimo.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10641,7 +10641,7 @@ const questionsData: QuestionData[] = [
       "Eliminar las colisiones en la red independientemente del número de PCs.",
       "Eliminar la congestión en la red independientemente del número de PCs.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10654,7 +10654,7 @@ const questionsData: QuestionData[] = [
       "Si la dirección MAC destino de un paquete recibido en un puerto no es conocida, se reenvíasólo al PUERTO RAÍZ del puente.",
       "El puente sólo puede reenviar paquetes Ethernet a su PUERTO RAÍZ.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10666,7 +10666,7 @@ const questionsData: QuestionData[] = [
       "Eliminar las colisiones en los concentradores Ethernet 10BaseT.",
       "Eliminar el tamaño de paquete mínimo en redes Ethernet.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10674,7 +10674,7 @@ const questionsData: QuestionData[] = [
     title:
       "En qué tecnología Ethernet se emplea la codificación 8B/10B para la sincronización ?",
     choices: ["100BaseFX.", "100BaseTX.", "1000BaseT.", "1000BaseLX."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10687,7 +10687,7 @@ const questionsData: QuestionData[] = [
       "Establecer dominios de difusión diferentes dentro de un mismo conmutador.",
       "Definir varias redes IP para una misma VLAN en el conmutador.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10700,7 +10700,7 @@ const questionsData: QuestionData[] = [
       "La conectividad entre equipos inalámbricos conectados a diferentes AP se realiza con unared de infraestructura (red Ethernet).",
       "Un equipo inalámbrico conectado a un AP no tiene conectividad con equipos en la red deinfraestructura (red Ethernet).",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10713,7 +10713,7 @@ const questionsData: QuestionData[] = [
       "Si un AP registra un equipo no es posible iniciar el proceso de autenticación.",
       "El proceso de registro permite proporcionar una clave de cifrado por parte del AP al equipoinalámbrico.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10725,7 +10725,7 @@ const questionsData: QuestionData[] = [
       "WPA2-PSK emplea el mecanismo de autenticación LEAP para permitir el acceso a la redinalámbrica.",
       "WPA2-Enterprise puede emplear el  algoritmo de cifrado EAP y WPA2-PSK sólo puedeemplear el algoritmo de cifrado TKIP.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10733,7 +10733,7 @@ const questionsData: QuestionData[] = [
     title:
       "Indica qué dirección IP tiene que ser empleada en un dispositivo para que un routerNUNCA pueda encaminarla (aunque emplee NAT):",
     choices: ["10.0.0.3.", "192.168.1.1.", "225.10.2.1.", "241.241.241.241."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10745,7 +10745,7 @@ const questionsData: QuestionData[] = [
       "Reduciendo el tamaño del MTU de las redes conectadas.",
       "Aumentando la velocidad de transmisión en las redes conectadas.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10753,7 +10753,7 @@ const questionsData: QuestionData[] = [
     title:
       "Cuál es el protocolo de encaminamiento empleado en los routers frontera de los SA parala conectividad global en Internet ?",
     choices: ["OSPF.", "RIPv1.", "BGP.", "RIPv2."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10761,7 +10761,7 @@ const questionsData: QuestionData[] = [
     title:
       "Cuál es el protocolo de encaminamiento que envía siempre la información completa dela tabla de encaminamiento de un router ?",
     choices: ["OSPF.", "RIPv1.", "BGP.", "OSPFv2."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10773,7 +10773,7 @@ const questionsData: QuestionData[] = [
       "Emplear un tamaño en bytes para la cabecera IPv6 menor que en IPv4.",
       "No permitir el empleo de direcciones IP de multidifusión.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10786,7 +10786,7 @@ const questionsData: QuestionData[] = [
       "El  extremo  A reduce  su  ventana  de  emisión  a  la  mitad  del  tamaño  de  la  ventana  derecepción en B.",
       "El  extremo  A reduce  su  ventana  de  emisión  a  la  mitad  del  tamaño  de  la  ventana  decongestión.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10798,7 +10798,7 @@ const questionsData: QuestionData[] = [
       "Redes de acceso ADSL.",
       "Redes de acceso FTTH.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10806,7 +10806,7 @@ const questionsData: QuestionData[] = [
     title:
       "Una arquitectura de red que define una aplicación para el intercambio de archivos en una red de área local Ethernet, NO precisa disponer de la capa:",
     choices: ["Física.", "Enlace.", "Red.", "Aplicación."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10818,7 +10818,7 @@ const questionsData: QuestionData[] = [
       "La comunicación entre las capa n y la capa par n-1.",
       "La comunicación entre las capas adyacentes n+1 y n-1.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10830,7 +10830,7 @@ const questionsData: QuestionData[] = [
       "Se incorporan las cabeceras de los niveles inferiores sólo en el primer fragmento.",
       "Se incorpora la cabecera del nivel superior sólo en el primer fragmento.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10838,7 +10838,7 @@ const questionsData: QuestionData[] = [
     title:
       "Indica cuál de las siguientes capas no está presente en la arquitectura TCP/IP:",
     choices: ["Aplicación.", "Sesión.", "Transporte.", "Red."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10851,7 +10851,7 @@ const questionsData: QuestionData[] = [
       "En cada repetidor intermedio existente entre las dos estaciones.",
       "En las estaciones que intercambian los paquetes.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10864,7 +10864,7 @@ const questionsData: QuestionData[] = [
       "Capa de red.",
       "Capa de enlace.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10872,7 +10872,7 @@ const questionsData: QuestionData[] = [
     title:
       "Cuántos armónicos componen una señal periódica de pulsos con periodo 1 ms y transmitida por un medio fisico de 5000 Hz de ancho de banda ?",
     choices: ["5.", "6.", "10000.", "Infinitos."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10880,7 +10880,7 @@ const questionsData: QuestionData[] = [
     title:
       "Determina la velocidad máxima de transmisión para una señal de pulsos con 2 niveles de tensión en un medio físico full-duplex con multiplexión por frecuencia (simétrica para transmisión y recepción) y ancho de banda de 1000 Hz.",
     choices: ["1000 bps.", "2000 bps.", "4000 bps.", "8000 bps."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10893,14 +10893,14 @@ const questionsData: QuestionData[] = [
       "IEEE 802.11n.",
       "Todas las normas IEEE 802.11x soportan el mecanismo RTS/CTS.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
     id: 902,
     title: "Qué mecanismo de cifrado en redes WiFi es actualmente seguro ?",
     choices: ["WPA2/AES.", "WPA2/TKIP.", "WPA2/PEAP.", "WPA2/TLS."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10913,7 +10913,7 @@ const questionsData: QuestionData[] = [
       "El encaminamiento de un paquete depende de cómo se encaminó el paquete anterior.",
       "El encaminamiento se realiza para todos los paquetes aunque sean enviados al mismo destino.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10926,7 +10926,7 @@ const questionsData: QuestionData[] = [
       "En una tabla puede existir más de una entrada de puerta de enlace por defecto.",
       "Todas las entradas de una tabla tiene que tener la máscara de red con el mismo valor.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10939,7 +10939,7 @@ const questionsData: QuestionData[] = [
       "Interconexión de redes LAN con menos de 10 saltos de distancia máxima.",
       "Interconexión de redes LAN donde las distancias entre redes pueden reducirse.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10951,7 +10951,7 @@ const questionsData: QuestionData[] = [
       "Es posible el intercambio de paquetes IPv4 a través de una red IPv6.",
       "El protocolo IPv6 aumenta el valor del campo TTL para permitir redes IP más extensas.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10959,7 +10959,7 @@ const questionsData: QuestionData[] = [
     title:
       "El dispositivo de interconexión entre dos redes  que trabaja a nivel físico se denomina:",
     choices: ["Repetidor.", "Puente.", "Router.", "Pasarela."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10972,7 +10972,7 @@ const questionsData: QuestionData[] = [
       "En la capa de red.",
       "En la capa de enlace.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10985,7 +10985,7 @@ const questionsData: QuestionData[] = [
       "Interconecta dos estados.",
       "Siempre interconecta dos estados diferentes.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -10998,7 +10998,7 @@ const questionsData: QuestionData[] = [
       "La velocidad máxima de transmisión no se verá modificada.",
       "La relación señal-ruido del medio físico se reduce a la mitad.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11011,7 +11011,7 @@ const questionsData: QuestionData[] = [
       "Los paquetes ARP Request transmitidos en una VLAN son reenviados a todos los puertos del conmutador asociados a la misma VLAN.",
       "Los paquetes ARP Reply transmitidos en una VLAN son reenviados a todos los puertos  troncales y de acceso asociados a la misma VLAN.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11024,14 +11024,14 @@ const questionsData: QuestionData[] = [
       "IEEE 802.11n.",
       "Todas las normas IEEE 802.11x emplean las tramas Beacon Frame.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
     id: 913,
     title: "Qué mecanismo de cifrado en redes Wi-Fi es actualmente seguro ?",
     choices: ["WPA2/AES.", "WPA2/TKIP.", "WPA2/PEAP.", "WPA2/TLS."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11039,7 +11039,7 @@ const questionsData: QuestionData[] = [
     title:
       "Indica el mecanismo de autenticación WPA Enterprise que permite el intercambio más seguro de la clave MK entre una estación y un AP.",
     choices: ["EAP/SSH.", "PEAP.", "LEAP.", "EAP/AES."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11052,7 +11052,7 @@ const questionsData: QuestionData[] = [
       "Pueden enviar mensajes a routers que no sean adyacentes (que no están en la misma LAN).",
       "RIP versión 2 y OSPF no tienen ninguna característica en común.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11065,7 +11065,7 @@ const questionsData: QuestionData[] = [
       "HFC.",
       "Todas las tecnologías de acceso WAN emplean un medio físico dedicado para cada abonado.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11078,7 +11078,7 @@ const questionsData: QuestionData[] = [
       "Redes de conmutación de paquetes con datagramas.",
       "Redes de conmutación de paquetes con circuitos virtuales.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11091,7 +11091,7 @@ const questionsData: QuestionData[] = [
       "Si uno de los paquetes no incorpora la cabecera del protocolo n-1, serán dos fragmentos a unir.",
       "Si uno de los paquetes no incorpora la cabecera el protocolo n, serán dos fragmentos a unir.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11103,7 +11103,7 @@ const questionsData: QuestionData[] = [
       "La capa de aplicación emplea SIEMPRE la capa ICMP para el intercambio de datos entre equipos.",
       "La capa de aplicación emplea SIEMPRE la capa UDP para el intercambio de datos entre equipos.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11111,7 +11111,7 @@ const questionsData: QuestionData[] = [
     title:
       "Qué protocolo de aplicación de la arquitectura de red TCP/IP NO emplea ni el protocolo TCP ni el UDP ?",
     choices: ["HTTP.", "DNS.", "ICMP.", "PING."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11124,7 +11124,7 @@ const questionsData: QuestionData[] = [
       "Codificación Mánchester.",
       "Codificación PCM.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11137,7 +11137,7 @@ const questionsData: QuestionData[] = [
       "La potencia del dispositivo emisor de luz.",
       "El número de canales multiplexados por longitud de onda.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11150,7 +11150,7 @@ const questionsData: QuestionData[] = [
       "Servicio con conexión y con reconocimiento.",
       "Servicio de ventana deslizante.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11163,14 +11163,14 @@ const questionsData: QuestionData[] = [
       "Protocolo de ventana deslizante con repetición NO selectiva.",
       "Protocolo de ventana deslizante con repetición selectiva.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
     id: 925,
     title: "Indica el sistema de señalización empleado en Ethernet 100BaseFX:",
     choices: ["Manchester.", "4D-PAM5.", "NRZI.", "8B/10B."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11183,7 +11183,7 @@ const questionsData: QuestionData[] = [
       "Ethernet 100BaseFX.",
       "Ethernet 1000BaseLX.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11191,7 +11191,7 @@ const questionsData: QuestionData[] = [
     title:
       "Cómo se denomina el mecanismo en el que no existen colisiones a la hora de transmitir paquetes en las redes inalámbricas ?",
     choices: ["CSMA/CD con RTS/CTS.", "CSMA/CA con RTS/CTS.", "DCF.", "PCF."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11199,7 +11199,7 @@ const questionsData: QuestionData[] = [
     title:
       "Qué algoritmo de encaminamiento no tiene en cuenta valores de métrica al gestionar las tablas de encaminamiento ?",
     choices: ["OSPF.", "BGP.", "RIPv1.", "RIPv2."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11212,7 +11212,7 @@ const questionsData: QuestionData[] = [
       "Se ha producido un fallo en la capa superior n+1 Þ la arquitectura de red.",
       "Siempre existe un fallo en alguna capa superior a la capa n.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11220,7 +11220,7 @@ const questionsData: QuestionData[] = [
     title:
       "Una señal digital periódica de 8 bits, con un periodo de 10ms, se envía por un medio con un ancho de banda ideal de 240Hz que comienza en la frecuencia 280Hz. ¿Cuántas componentes armónicas de la señal llegarán correctamente al destino?",
     choices: ["2.", "3.", "4.", "5."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11233,7 +11233,7 @@ const questionsData: QuestionData[] = [
       "Fibra óptica monomodo.",
       "Fibra óptica multimodo.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11246,7 +11246,7 @@ const questionsData: QuestionData[] = [
       "Aumentar la sensibilidad del dispositivo receptor de luz en el extremo de la fibra.",
       "Realizar un multiplexado de longitud de onda para incorporar varios haces de luz.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11259,7 +11259,7 @@ const questionsData: QuestionData[] = [
       "Después de transmitir un paquete al medio físico se comprueba si el medio presenta colisiones.",
       "Si el medio físico está libre antes de la transmisión, nunca se producirán colisiones.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11272,7 +11272,7 @@ const questionsData: QuestionData[] = [
       "Empleando el campo tipo de la cabecera LLC.",
       "Empleando el campo longitud de la cabecera IEEE 802.3.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11285,7 +11285,7 @@ const questionsData: QuestionData[] = [
       "Interconexión de 4 concentradores (half-duplex) Ethernet.",
       "Interconexión de 5 conmutadores (full-duplex) Ethernet.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11297,7 +11297,7 @@ const questionsData: QuestionData[] = [
       "Ethernet 1000BaseTX.",
       "Ethernet 1000BaseCX.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11309,7 +11309,7 @@ const questionsData: QuestionData[] = [
       "Un puerto de enlace de acceso puede estar asociado a varias VLAN diferentes.",
       "En un conmutador VLAN sólo puede existir un único puerto de enlace troncal.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11322,7 +11322,7 @@ const questionsData: QuestionData[] = [
       "Dos AP con un mismo SSID tienen que emplear siempre el mismo subcanal o portadora.",
       "Una estación asociada a un AP tiene cobertura con todas las estaciones asociadas al AP.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11330,7 +11330,7 @@ const questionsData: QuestionData[] = [
     title:
       "Indica cuál de los siguientes es un mecanismo de autenticación en WPA2.",
     choices: ["TKIP.", "PSK.", "AES.", "LEAP."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11343,7 +11343,7 @@ const questionsData: QuestionData[] = [
       "Presencia de mensajes Source Quench.",
       "Un router detecta que el uso de su CPU para el encaminamiento es del 25%.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11355,7 +11355,7 @@ const questionsData: QuestionData[] = [
       "Utiliza la difusión para el envío de los mensajes OSPF en la red.",
       "Los enlaces entre routers OSPF pueden modificar su valor de coste del enlace.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11368,7 +11368,7 @@ const questionsData: QuestionData[] = [
       "Los routers que reciben este paquete lo envían a todos los routers multicasting de Internet.",
       "El paquete es recibido por todos los equipos de la red donde es transmitido y pertenecen al grupo de multidifusión 224.0.0.7.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11381,7 +11381,7 @@ const questionsData: QuestionData[] = [
       "El establecimiento de una conexión.",
       "La liberación de una conexión.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11394,7 +11394,7 @@ const questionsData: QuestionData[] = [
       "El número máximo de bytes que el extremo B puede enviar al extremo A.",
       "El número total de bytes que el extremo A recibió correctamente.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11407,7 +11407,7 @@ const questionsData: QuestionData[] = [
       "La transmisión de múltiples paquetes para enviar la misma información a todos los computadores de la red.",
       "La tolerancia a fallos que presenta al permitir varios caminos físicos a un determinado computador.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11420,7 +11420,7 @@ const questionsData: QuestionData[] = [
       "Todos los computadores de la red quedan incomunicados.",
       "Los computadores que emplean ese nodo para intercambiar paquetes han de determinar una nueva ruta para sus destinos.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11432,7 +11432,7 @@ const questionsData: QuestionData[] = [
       "Identificar a todas las máquinas de la red con una única dirección física (dirección MAC).",
       "Identificar a todas las máquinas de la red con diferentes direcciones físicas (direcciones MAC).",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11445,7 +11445,7 @@ const questionsData: QuestionData[] = [
       "Se establece entre la capa n y la capa par n+1 de la arquitectura.",
       "Se establece entre las capas n y n-1 de la arquitectura.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11458,7 +11458,7 @@ const questionsData: QuestionData[] = [
       "La capa par de nivel n+1en el otro extremo de la comunicación informa del error.",
       "La capa n+1 del emisor reenvía la PDU del nivel n perdida.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11471,7 +11471,7 @@ const questionsData: QuestionData[] = [
       "Todos los paquetes de una fragmentación incorporan la cabecera del protocolo de nivel n-1.",
       "Todos los paquetes de una fragmentación incorporan la cabecera del protocolo de nivel n.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11484,7 +11484,7 @@ const questionsData: QuestionData[] = [
       "Gestionar una comunicación fiable estableciendo circuitos virtuales extremo a extremo con el protocolo TCP.",
       "Proporcionar siempre a la capa de aplicación una comunicación no segura, debido al funcionamiento de conmutación con datagramas en Internet.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11497,7 +11497,7 @@ const questionsData: QuestionData[] = [
       "En los computadores que intercambian los paquetes.",
       "En todos los routers existentes en la red IP.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11510,7 +11510,7 @@ const questionsData: QuestionData[] = [
       "Existe un repetidor entre ambos computadores.",
       "Existe una pasarela entre ambos computadores.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11523,7 +11523,7 @@ const questionsData: QuestionData[] = [
       "El ancho de banda del medio físico empleada.",
       "Ningún factor, todas las señales tienen los mismos valores de amplitud en sus componentes frecuenciales.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11531,7 +11531,7 @@ const questionsData: QuestionData[] = [
     title:
       "Determina la velocidad máxima de transmisión para una señal de pulsos con 4 niveles de tensión en un medio físico half-duplex con ancho de banda de 1000 Hz.",
     choices: ["1000 bps.", "2000 bps.", "4000 bps.", "8000 bps."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11544,7 +11544,7 @@ const questionsData: QuestionData[] = [
       "Codificación binaria UNIPOLAR SIN Retorno a Cero.",
       "Codificación Manchester.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11552,7 +11552,7 @@ const questionsData: QuestionData[] = [
     title:
       "Se desea realizar la transmisión en un medio físico de una señal analógica modulada con PCM. La señal analógica tiene un ancho de banda de 2000 Hz y se emplea una modulación PCM con 512 niveles de tensión. El medio físico precisa de una velocidad de transmisión de:",
     choices: ["1024 Kbps.", "2048 Kbps.", "18 Kbps.", "36 Kbps."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11565,7 +11565,7 @@ const questionsData: QuestionData[] = [
       "Modulación QAM.",
       "Modulación FSK.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11578,7 +11578,7 @@ const questionsData: QuestionData[] = [
       "Modulación QAM.",
       "Modulación PSK de fase coherente a 0º y 180º.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11591,7 +11591,7 @@ const questionsData: QuestionData[] = [
       "Cable UTP categoría 5.",
       "El ruido de impulso afecta igual a todos los tipos de cable UTP.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11604,7 +11604,7 @@ const questionsData: QuestionData[] = [
       "Reducir la velocidad de transmisión máxima al aumentar la potencia del haz de luz.",
       "Ser muy sensible al ruido de impulso provocado por aparatos eléctricos.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11617,7 +11617,7 @@ const questionsData: QuestionData[] = [
       "Permitir detectar errores en ráfaga de longitud mayor que el grado del polinomio generador.",
       "Permitir corregir errores en ráfaga de longitud menor que el grado del polinomio generador.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11630,7 +11630,7 @@ const questionsData: QuestionData[] = [
       "El emisor no puede enviar el paquete con secuencia 6 hasta recibir el ACK del paquete con secuencia 2.",
       "El receptor puede confirmar como mucho hasta el paquete con secuencia 6 cuando ha recibido los paquetes con secuencias 1 y 2.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11643,7 +11643,7 @@ const questionsData: QuestionData[] = [
       "MAC IEEE 802.1Q.",
       "Todas las normas MAC del IEEE son soportadas por el protocolo IEEE 802.2.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11656,7 +11656,7 @@ const questionsData: QuestionData[] = [
       "Servicio no orientado a conexión con confirmación (tipo 3).",
       "Puede emplear cualquiera de los 3 tipos de servicios del IEEE 802.2.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11669,7 +11669,7 @@ const questionsData: QuestionData[] = [
       "La conexión de dos concentradores Ethernet reduce a la mitad el dominio de colisión.",
       "El reenvío de un paquete que ha sufrido una colisión se produce de manera indefinida hasta su éxito.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11682,7 +11682,7 @@ const questionsData: QuestionData[] = [
       "Permite inhabilitar puertos de los puentes para el proceso de reenvío y aprendizaje.",
       "Establece puentes raíces y puentes designados.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11695,7 +11695,7 @@ const questionsData: QuestionData[] = [
       "Emplear modulación QAM en vez de codificación Manchester.",
       "Modificar el formato de la cabecera de los paquetes Ethernet.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11708,7 +11708,7 @@ const questionsData: QuestionData[] = [
       "Ethernet 1000BaseX.",
       "10Gigabit Ethernet.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11721,7 +11721,7 @@ const questionsData: QuestionData[] = [
       "Emplea el campo Tipo de la cabecera para distinguir entre paquetes con formato IEEE 802.3 y con formato IEEE 802.1Q.",
       "Emplea direcciones MAC origen y destino de 64 bytes de tamaño.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11733,7 +11733,7 @@ const questionsData: QuestionData[] = [
       "Emplear el mecanismo RTS/CTS para que todas las estaciones tengan cobertura solapada.",
       "Emplear las mismas normativas de transmisión (IEEE 802.11x) que en las redes de infraestructura.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11741,7 +11741,7 @@ const questionsData: QuestionData[] = [
     title:
       "Indica qué mecanismo de AUTENTICACIÓN de redes Wi-Fi es más seguro (más difícil de determinar la clave de autenticación):",
     choices: ["WEP.", "PEAP.", "LEAP.", "TKIP."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11754,7 +11754,7 @@ const questionsData: QuestionData[] = [
       "Dos APs con un mismo SSID tienen que emplear siempre el mismo canal Wi-Fi.",
       "Una estación asociada a un AP tiene cobertura con todas las estaciones asociadas al AP.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11767,7 +11767,7 @@ const questionsData: QuestionData[] = [
       "Gestiona los flujos de información, estableciendo mecanismos de reparto del ancho de banda.",
       "Libera conexiones TCP en caso de que el router se encuentre congestionado.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11775,7 +11775,7 @@ const questionsData: QuestionData[] = [
     title:
       "Indica cuál de las siguientes direcciones IPv4 NO es válida para asignarla a un dispositivo conectado al troncal (backbone) de Internet:",
     choices: ["5.17.33.4", "122.45.67.34", "192.168.0.1", "200.10.10.1"],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11788,7 +11788,7 @@ const questionsData: QuestionData[] = [
       "BGP Notification.",
       "BGP Keepalive.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11796,7 +11796,7 @@ const questionsData: QuestionData[] = [
     title:
       "Indica qué campo de la cabecera IPv4 NO existe en la cabecera IPv6:",
     choices: ["IP origen.", "IP destino.", "TTL.", "HL."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11809,7 +11809,7 @@ const questionsData: QuestionData[] = [
       "Si el nivel de enlace es Ethernet, se empleará como MAC destino una dirección MAC de multidifusión.",
       "El paquete es procesado por todos los routers de la red que emplean el protocolo RIPv2.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11822,7 +11822,7 @@ const questionsData: QuestionData[] = [
       "Algoritmo de Karn.",
       "Algoritmo de prevención de la congestión.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11835,7 +11835,7 @@ const questionsData: QuestionData[] = [
       "Redes de conmutación de paquetes con datagramas.",
       "Redes de conmutación de paquetes con circuitos virtuales.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11847,7 +11847,7 @@ const questionsData: QuestionData[] = [
       "Es una red en la que los dispositivos emplean protocolo ETHERNET de nivel de enlace.",
       "Es una red de conmutación de circuitos con la propiedad de envío de tramas broadcast.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11859,7 +11859,7 @@ const questionsData: QuestionData[] = [
       "Es más eficiente que una topología en bus cuando se emplea en redes LAN grandes.",
       "Emplea conexiones punto a punto a nivel de enlace, de ahí que el coste de su implantación sea menos elevado que en una topología en bus.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11872,7 +11872,7 @@ const questionsData: QuestionData[] = [
       "Una red wifi IEE 802.11 emplea un método de reserva centralizada.",
       "Una red óptica FDDI emplea el método CSMA p-persistente.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11885,7 +11885,7 @@ const questionsData: QuestionData[] = [
       "Codificación Mánchester",
       "Codificación PCM.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11893,7 +11893,7 @@ const questionsData: QuestionData[] = [
     title:
       "Codificaciones -Indica el sistema de señalización empleado en Ethernet 100BaseFX:",
     choices: ["Manchester.", "4D-PAM5.", "NRZI.", "8B/10B."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11906,7 +11906,7 @@ const questionsData: QuestionData[] = [
       "Producirse colisiones en el medio físico cuando dos o más estaciones transmiten datossimultáneamente.",
       "Necesitar un esquema de direccionamiento para las estaciones de la red.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11919,7 +11919,7 @@ const questionsData: QuestionData[] = [
       "Ofrece un servicio de alta calidad, adecuado para la transmisión de datos.",
       "En general, no requiere de una conexión previa para poder enviar los datos, ni de unadesconexión al acabar",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11931,7 +11931,7 @@ const questionsData: QuestionData[] = [
       "Define protocolos concretos para todos los niveles de su arquitectura, excepto para elAcceso a la Red, para el cual se utilizan protocolos de otras arquitecturas.",
       "No permite comunicaciones orientadas a conexión",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11944,7 +11944,7 @@ const questionsData: QuestionData[] = [
       "ICI de enlace.",
       "IDU de enlace.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11957,7 +11957,7 @@ const questionsData: QuestionData[] = [
       "El servicio sin conexión y sin confirmación es el más adecuado para redes locales decalidad.",
       "Los servicios con confirmación son necesariamente orientados a conexión.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11970,7 +11970,7 @@ const questionsData: QuestionData[] = [
       "Cambia cada secuencia de seis unos seguidos por una secuencia de cinco unos y un cero.",
       "Duplica el código del delimitador cada vez que aparece entre los bits de datos.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11978,7 +11978,7 @@ const questionsData: QuestionData[] = [
     title:
       "Cuál es el valor del campo de detección de errores que hay que asociar a la secuencia debits de datos ‘100011’ utilizando un código CRC con el polinomio generador x2+1?",
     choices: ["00.", "01.", "10.", "11"],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -11991,7 +11991,7 @@ const questionsData: QuestionData[] = [
       "El receptor tenga un tamaño de ventana igual a 1.",
       "El receptor tenga un tamaño de ventana mayor que el emisor.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -12004,7 +12004,7 @@ const questionsData: QuestionData[] = [
       "Pueden producirse errores de duplicación y de sincronización.",
       "No pueden producirse errores de duplicación ni de sincronización.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -12017,7 +12017,7 @@ const questionsData: QuestionData[] = [
       "Cable STP categoría 5.",
       "Fibra óptica multimodo.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -12025,7 +12025,7 @@ const questionsData: QuestionData[] = [
     title:
       "Si se ha enviado la trama 100100001 al cable que une dos ordenadores y el polinomio generador empleado en emisor y receptor es x3+x2+1.  El CRC será:",
     choices: ["000", "001", "100", "110"],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -12033,7 +12033,7 @@ const questionsData: QuestionData[] = [
     title:
       "Con los datos que se muestran en la siguiente gráfica se puede deducir que se trataría de  una modulación ...",
     choices: ["2-PSK.", "3-PSK.", "4-PSK.", "16-PSK."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -12045,7 +12045,7 @@ const questionsData: QuestionData[] = [
       "Emplea códigos de encriptación WEP de 64bitsencriptar las comunicaciones.",
       "Permite alcanzar velocidades máximas de 54Mbps.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -12058,7 +12058,7 @@ const questionsData: QuestionData[] = [
       "La velocidad de transmisión que soporta es independiente del paso de trenzado.",
       "Ninguna de las anteriores.100Mbps",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -12071,7 +12071,7 @@ const questionsData: QuestionData[] = [
       "Sólo el coste L(6) ha variado con respecto a la iteración anterior",
       "Ninguna de las anteriores.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -12079,7 +12079,7 @@ const questionsData: QuestionData[] = [
     title:
       "Dado el esquema de nodos de red de la figura,¿Cuántos paquetes habrán llegado al nodo6 al finalizar el segundo salto, si se aplica la técnica de encaminamiento por inundaciónsiendo el nodo 1 quien inicia el encaminamiento?",
     choices: ["1 paquete.", "2 paquetes.", "3 paquetes.", "4 paquetes."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -12092,7 +12092,7 @@ const questionsData: QuestionData[] = [
       "Interconecta equipos cercanos geográficamente.",
       "La red Token Ring (IEEE 802.5) se trata de una red de área local.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -12100,7 +12100,7 @@ const questionsData: QuestionData[] = [
     title:
       "Cuál es el código de Hamming para la secuencia de datos ‘00’ si se emplea paridad impar?",
     choices: ["11111", "01010", "11111", "11010 "],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -12113,7 +12113,7 @@ const questionsData: QuestionData[] = [
       "El SAP se corresponde con la cabecera de cada servicio.",
       "La IDU esta formada por la SDU y la ICI. ",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -12125,7 +12125,7 @@ const questionsData: QuestionData[] = [
       "El reensamblado se realiza a nivel de transporte. ",
       "La criptografía y compresión de datos es típica del nivel de enlace.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -12133,7 +12133,7 @@ const questionsData: QuestionData[] = [
     title:
       "Cuál será el periodo de muestreo de una señal analógica que se ha digitalizado a una velocidad de 4200 bps, con 6 bits por muestra?",
     choices: ["0 Hz.", "7000 segundos.", "0.0014 segundos  ", "3500 Hz."],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -12146,7 +12146,7 @@ const questionsData: QuestionData[] = [
       "El ruido de cuantización ocurre cuando la señal varía demasiado rápido.",
       "PCM es la técnica que menor ancho de banda requiere.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -12159,7 +12159,7 @@ const questionsData: QuestionData[] = [
       "En un circuito virtual, el fallo de un nodo intermedio del camino no afecta a la comunicación.",
       "En la opción de datagramas, se garantiza que los paquetes lleguen ordenados al destino.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -12172,7 +12172,7 @@ const questionsData: QuestionData[] = [
       "OSPF es un ejemplo de protocolo basado en vector de distancias.",
       "RIP es un ejemplo de protocolo basado en estado del enlace. .",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -12185,7 +12185,7 @@ const questionsData: QuestionData[] = [
       "Si el tamaño de la ventana es a la eficiencia es",
       "Para un tamaño de ventana menor que a la eficiencia es 1.",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
   {
@@ -12198,7 +12198,7 @@ const questionsData: QuestionData[] = [
       "Ethernet+PPPoE+PPP+IP+TCP (I1) y Ethernet+PPPoE+PPP+IP+TCP (I2)",
       "Ethernet+PPPoE+PPP+IP+TCP (I1) y ATM+AAL5+LLC+Ethernet+PPPoE+PPP+IP+TCP (I2)",
     ],
-    solution: "",
+    solution: "-",
     explanation: "",
   },
 ];

@@ -11,6 +11,9 @@ const parameters = {
   },
   padding: {
     choices: "0 0 0.5rem 1.75rem"
+  },
+  height: {
+    header: 80
   }
 };
 

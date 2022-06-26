@@ -11,19 +11,41 @@ export const App = styled.div`
   min-width: 240px;
   height: 100%;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 
   * {
     font-family: ${parameters.font.fontFamily}, sans-serif;
     font-size: 1rem;
     box-sizing: border-box;
+    color: ${parameters.colors.color3}
   }
+`;
 
-  main {
-    width: 95%;
-    max-width: 1000px;
-    padding: 30px 0;
-  }
+// Main
+
+export const Main = styled.main`
+  width: 95%;
+  max-width: 1000px;
+  padding: 30px 0;
+`;
+
+// Header
+
+export const Header = styled.header`
+  width: 100%;
+  height: ${parameters.height.header}px;
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  background-color: ${parameters.colors.color3};
+  transition: all 0.3s ease-out !important;
+  display: grid;
+  gap: 0px 0px; 
+  grid-template-areas: 
+    "new_test github"
+    "check_solutions github"; 
+  
 `;
 
 // Test
@@ -229,6 +251,7 @@ export const SolvedQuestionChoices = styled.div`
 
     &:before {
       content: "";
+      opacity: 0.5;
       position: absolute;
       left: 0rem;
       width: 7px;
@@ -297,9 +320,9 @@ export const QuestionExplanation = styled.div`
   div {
     max-height: 0;
     overflow: hidden;
-    font-size: .9rem;
+    font-size: 0.9rem;
   }
-  
+
   label + input[type="checkbox"]:checked + div {
     padding: 10px 20px;
     max-height: fit-content;
@@ -315,6 +338,7 @@ export const Button = styled.div`
   border: 2px solid ${hexToRgba(parameters.colors.color3)};
   display: flex;
   justify-content: center;
+  align-items: center;
   border-radius: 4px;
   cursor: pointer;
   color: ${parameters.colors.color3};

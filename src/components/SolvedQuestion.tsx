@@ -2,6 +2,7 @@ import * as S from "../global/styles";
 import * as T from "../global/types";
 import { FC } from "react";
 import { nextChar } from "../global/utils";
+import { TestManager } from "./Test";
 
 export const SolvedQuestion: FC<T.Question> = (question) => {
   const SolvedQuestionNumber: FC<number> = (num) => {
@@ -22,32 +23,35 @@ export const SolvedQuestion: FC<T.Question> = (question) => {
   const SolvedQuestionChoices: FC<string[]> = (choices) => {
     var choiceIndex = "a";
     const isChoiceChecked = (value: string): boolean => {
-      return question.choice === value;
+      return question.choice === TestManager.GetChoice(value);
     };
     const isChoiceCorrect = (value: string): boolean => {
-      return (
-        question.choice !== "-" &&
-        question.choice === question.data.solution &&
-        value.includes(question.data.solution) &&
-        question.data.solution !== ""
-      );
+      const choice = TestManager.GetChoice(value)
+
+      if (question.data.solution === "-") return false;
+      if (question.choice === "-") return false;
+      if (
+        choice === question.data.solution
+      )
+        return true;
+      return false;
     };
     const isChoiceWrong = (value: string): boolean => {
-      const choice = value.match(new RegExp(/[a-z]+/))![0];
-
-      if (question.data.solution === "") return false;
+      const choice = TestManager.GetChoice(value)
+      
+      if (question.data.solution === "-") return false;
       if (question.choice === "-" && question.data.solution === choice)
         return true;
       if (
-        question.choice !== "-" &&
         question.choice === choice &&
-        choice === question.data.solution
+        choice !== question.data.solution
       )
         return true;
       return false;
     };
     const choicesGroup = choices.map((choice) => {
       const id = question.id.toString() + choiceIndex;
+      const prevChoiceIndex = choiceIndex;
       choiceIndex = nextChar(choiceIndex);
 
       return (
@@ -68,7 +72,7 @@ export const SolvedQuestion: FC<T.Question> = (question) => {
               (isChoiceWrong(id) ? "wrongChoice" : "")
             }
             htmlFor={id}
-          >{`${choice}`}</label>
+          >{`${prevChoiceIndex}) ${choice}`}</label>
         </>
       );
     });
