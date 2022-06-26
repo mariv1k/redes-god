@@ -1,5 +1,6 @@
 # Redes God
-[Redes God](https://redesgod.netlify.app/)
+Tests para Redes
+[Web](https://redesgod.netlify.app/)
 
 ## Building
 ```

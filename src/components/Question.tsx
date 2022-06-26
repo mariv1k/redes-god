@@ -103,7 +103,7 @@ export const Question: FC<T.Question> = (question) => {
     return (
       <S.QuestionPanel className="question_panel">
         <ClearChoiceButton />
-        <ReportChoiceButton />
+        {/*<ReportChoiceButton />*/}
       </S.QuestionPanel>
     );
   };
