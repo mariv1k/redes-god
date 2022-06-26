@@ -6,7 +6,7 @@ import { TestManager } from "./Test";
 const TestScore = () => {
   const totalQuestions = TestManager.questions.length;
   const correctQuestions = TestManager.questions.filter(
-    (question) => question.choice === question.data.solution
+    (question) => question.choice !== "-" && question.choice === question.data.solution
   ).length;
   const wrongQuestions = TestManager.questions.filter(
     (question) => question.choice !== "-" && question.choice !== question.data.solution
