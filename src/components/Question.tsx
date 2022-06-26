@@ -67,9 +67,9 @@ export const Question: FC<T.Question> = (question) => {
       setSelectedChoice("-");
       TestManager.SetChoice(question.id + "-");
     };
-    const handleReportChoiceButton = (): void => {
+    /*const handleReportChoiceButton = (): void => {
       // TODO
-    };
+    };*/
 
     const ClearChoiceButton = () => {
       return (
@@ -86,7 +86,7 @@ export const Question: FC<T.Question> = (question) => {
         </>
       );
     };
-    const ReportChoiceButton = () => {
+    /*const ReportChoiceButton = () => {
       return (
         <>
           <S.Button
@@ -98,7 +98,7 @@ export const Question: FC<T.Question> = (question) => {
           </S.Button>
         </>
       );
-    };
+    };*/
 
     return (
       <S.QuestionPanel className="question_panel">
