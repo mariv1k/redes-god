@@ -1,40 +1,33 @@
-import { ChangeEvent, FC, useState } from "react";
-import constants from "../global/constants";
-import * as S from "../global/styles";
-import * as T from "../global/types";
-import { nextChar } from "../global/utils";
-import { TestManager } from "./Test";
+import { ChangeEvent, useState } from "react";
+import parameters from "../../global/parameters";
+import * as S from "../../global/styles";
+import * as T from "../../global/types";
+import { nextChar } from "../../global/utils";
+import { ExamManager } from "../Exam/Exam";
 
-export const Question: FC<T.Question> = (question) => {
+export const Question = (question: T.Question) => {
   const [selectedChoice, setSelectedChoice] = useState("-");
 
-  const QuestionNumber: FC<number> = (num) => {
-    return (
-      <S.QuestionNumber className="question_number">{num}. </S.QuestionNumber>
-    );
-  };
-
-  const QuestionTitle: FC<string> = (title) => {
+  const QuestionTitle = (title: string, num: number) => {
     return (
       <S.QuestionTitle className="question_title">
-        {QuestionNumber(question.id)}
-        {title}
+        {num}. {title}
       </S.QuestionTitle>
     );
   };
 
-  const QuestionChoices: FC<string[]> = (choices) => {
+  const QuestionChoices = (choices: string[]) => {
     var choiceIndex = "a";
     const isChoiceChecked = (value: string): boolean => {
       return selectedChoice === value;
     };
     const handleChoiceClick = (e: ChangeEvent<HTMLInputElement>): void => {
       setSelectedChoice(e.currentTarget.value);
-      TestManager.SetChoice(e.currentTarget.value);
+      ExamManager.SetChoice(e.currentTarget.value);
     };
     const choicesGroup = choices.map((choice) => {
       const id = question.id.toString() + choiceIndex;
-      const prevChoiceIndex = choiceIndex
+      const prevChoiceIndex = choiceIndex;
       choiceIndex = nextChar(choiceIndex);
 
       return (
@@ -65,7 +58,7 @@ export const Question: FC<T.Question> = (question) => {
   const QuestionPanel = () => {
     const handleClearChoiceButton = (): void => {
       setSelectedChoice("-");
-      TestManager.SetChoice(question.id + "-");
+      ExamManager.SetChoice(question.id + "-");
     };
     /*const handleReportChoiceButton = (): void => {
       // TODO
@@ -74,15 +67,14 @@ export const Question: FC<T.Question> = (question) => {
     const ClearChoiceButton = () => {
       return (
         <>
-          <S.Button
+          <S.Button2
             data-tip
             data-for="clear_choice_button"
             className={selectedChoice === "-" ? "inactive" : ""}
             onClick={handleClearChoiceButton}
           >
-            {constants.svg.clearChoice}
-          </S.Button>
-          
+            {parameters.svg.clearChoice}
+          </S.Button2>
         </>
       );
     };
@@ -110,7 +102,7 @@ export const Question: FC<T.Question> = (question) => {
 
   return (
     <S.Question>
-      {QuestionTitle(question.data.title)}
+      {QuestionTitle(question.data.title, question.id)}
       {QuestionChoices(question.data.choices)}
       {QuestionPanel()}
     </S.Question>

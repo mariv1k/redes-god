@@ -1,8 +1,7 @@
-import { FC } from "react";
 import ReactTooltip from "react-tooltip";
 import parameters from "../global/parameters";
 
-const Tooltip: FC<string> = (text, id) => {
+const Tooltip = (text: string, id: string) => {
   return (
     <ReactTooltip
       id={id}

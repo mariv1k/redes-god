@@ -1,7 +1,7 @@
 import { useState } from "react";
 import parameters from "../global/parameters";
 import * as S from "../global/styles";
-import { CheckSolutionsButton, GithubButton, NewTestButton } from "./Button";
+import { GithubButton, GoToExamButton, GoToSoloExamButton } from "./Button";
 
 const Header = () => {
   var prevScrollpos = window.pageYOffset;
@@ -19,8 +19,8 @@ const Header = () => {
 
   return (
     <S.Header style={{ top: styleTop }}>
-      <CheckSolutionsButton />
-      <NewTestButton />
+      <GoToSoloExamButton />
+      <GoToExamButton />
       <GithubButton />
     </S.Header>
   );

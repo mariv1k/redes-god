@@ -1,32 +1,25 @@
-import * as S from "../global/styles";
-import * as T from "../global/types";
-import { FC } from "react";
-import { nextChar } from "../global/utils";
-import { TestManager } from "./Test";
+import parameters from "../../global/parameters";
+import * as S from "../../global/styles";
+import * as T from "../../global/types";
+import { nextChar } from "../../global/utils";
+import { ExamManager } from "../Exam/Exam";
 
-export const SolvedQuestion: FC<T.Question> = (question) => {
-  const SolvedQuestionNumber: FC<number> = (num) => {
-    return (
-      <S.QuestionNumber className="question_number">{num}. </S.QuestionNumber>
-    );
-  };
-
-  const SolvedQuestionTitle: FC<string> = (title) => {
+export const SolvedQuestion = (question: T.Question) => {
+  const QuestionTitle = (title: string, num: number) => {
     return (
       <S.QuestionTitle className="question_title">
-        {SolvedQuestionNumber(question.id)}
-        {title}
+        {num}. {title}
       </S.QuestionTitle>
     );
   };
 
-  const SolvedQuestionChoices: FC<string[]> = (choices) => {
+  const SolvedQuestionChoices = (choices: string[]) => {
     var choiceIndex = "a";
     const isChoiceChecked = (value: string): boolean => {
-      return question.choice === TestManager.GetChoice(value);
+      return question.choice === ExamManager.GetChoice(value);
     };
     const isChoiceCorrect = (value: string): boolean => {
-      const choice = TestManager.GetChoice(value)
+      const choice = ExamManager.GetChoice(value)
 
       if (question.data.solution === "-") return false;
       if (question.choice === "-") return false;
@@ -37,7 +30,7 @@ export const SolvedQuestion: FC<T.Question> = (question) => {
       return false;
     };
     const isChoiceWrong = (value: string): boolean => {
-      const choice = TestManager.GetChoice(value)
+      const choice = ExamManager.GetChoice(value)
       
       if (question.data.solution === "-") return false;
       if (question.choice === "-" && question.data.solution === choice)
@@ -84,25 +77,25 @@ export const SolvedQuestion: FC<T.Question> = (question) => {
     );
   };
 
-  const SolvedQuestionExplanation: FC<string> = (explanation) => {
+  const SolvedQuestionExplanation = (explanation: string) => {
     return (
-      <S.QuestionExplanation
+      <S.SolvedQuestionExplanation
         className={
           "question_explanation " + (explanation === "" ? "inactive" : "")
         }
       >
         <label htmlFor={question.id.toString()}>
-          Explicación<span>&#x3e;</span>
+          Explicación<div>{parameters.svg.unfoldAccordion}</div>
         </label>
         <input type="checkbox" id={question.id.toString()} name="accordion" />
         <div dangerouslySetInnerHTML={{ __html: explanation }} />
-      </S.QuestionExplanation>
+      </S.SolvedQuestionExplanation>
     );
   };
 
   return (
     <S.SolvedQuestion>
-      {SolvedQuestionTitle(question.data.title)}
+      {QuestionTitle(question.data.title, question.id)}
       {SolvedQuestionChoices(question.data.choices)}
       {SolvedQuestionExplanation(question.data.explanation)}
     </S.SolvedQuestion>

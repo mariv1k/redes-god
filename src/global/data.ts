@@ -10,8 +10,8 @@ const questionsData: QuestionData[] = [
       "El envío de información a una sola estación de la red transmitiendo más de un paquete.",
       "El envío de información a un grupo de estaciones de la red transmitiendo más de un paquete.",
     ],
-    solution: "b",
-    explanation: "Además de identificar a un computador individual, el protocolo IP puede asignar una dirección que haga referencia a un conjunto de máquinas con las direcciones de multidifusión. La convención para estas direcciones en IPv4 especifica el uso de las clase D (1110...). La dirección MAC tiene como bit más significativo un 1. Al encaminar un paquete de multidifusión, el encaminador deberá relacionar la dirección con los miembros de ese grupo.",
+    solution: "a",
+    explanation: "",
   },
   {
     id: 2,
@@ -167,7 +167,7 @@ const questionsData: QuestionData[] = [
   },
   {
     id: 14,
-    title: "En relación con los tipos de red...",
+    title: "En relación con los tipos de red",
     choices: [
       "Una red con topología en estrella no es el mejor ejemplo de medio de difusión.",
       "Una red en BUS suele ser de titularidad pública.",
@@ -180,7 +180,7 @@ const questionsData: QuestionData[] = [
   {
     id: 15,
     title:
-      "En relación con la tecnología de transmisión empleada en las redes de computadores...",
+      "En relación con la tecnología de transmisión empleada en las redes de computadores",
     choices: [
       "En las redes de difusión no se permite el uso de mensajes de broadcast.",
       "En las redes punto a punto no se pueden emplear mensajes de multicast.",
@@ -225,7 +225,7 @@ const questionsData: QuestionData[] = [
   },
   {
     id: 19,
-    title: "En relación con los tipos de red...",
+    title: "En relación con los tipos de red",
     choices: [
       "Una red con topología en estrella es el mejor ejemplo de medio de difusión.",
       "Una red en BUS suele ser de titularidad privada.",
@@ -261,7 +261,7 @@ const questionsData: QuestionData[] = [
   },
   {
     id: 22,
-    title: "Una red punto a punto...",
+    title: "Una red punto a punto",
     choices: [
       "Es una red cuya tecnología de transmisión emplea un enlace directo entre dos dispositivos.",
       "Es una red cuyo nivel fisico se estructura en una topología de bus.",
@@ -273,7 +273,7 @@ const questionsData: QuestionData[] = [
   },
   {
     id: 23,
-    title: "Una red con topología en anillo...",
+    title: "Una red con topología en anillo",
     choices: [
       "Especifica sus protocolos y arquitectura en el estándar IEEE 802.5.",
       "Se emplea, generalmente, más en la construcción de redes WAN que en la de redes MAN.",
@@ -576,7 +576,7 @@ const questionsData: QuestionData[] = [
       "La reducción en el ancho de banda del medio físico.",
       "La reducción de la velocidad de transmisión en el medio físico.",
       "La limitación en el número de niveles de codificación de la señal de datos.",
-      "El aumento en el ancho de banda del medio físico",
+      "El aumento en el ancho de banda del medio físico.",
     ],
     solution: "c",
     explanation: "",
@@ -767,12 +767,12 @@ const questionsData: QuestionData[] = [
   {
     id: 63,
     title:
-      "Indica en cuál de los siguientes medios físicos la dispersión intramodal es mayor.",
+      "Indica en cuál de los siguientes medios físicos la dispersión intramodal es mayor",
     choices: [
       "Cable UTP categoría 3.",
       "Cable UTP categoría 5.",
       "Fibra óptica monomodo.",
-      "Fibra óptica multimodo.",
+      "Fibra óptica multimodo -> dispersión intermodal.",
     ],
     solution: "c",
     explanation: "",
@@ -797,7 +797,7 @@ const questionsData: QuestionData[] = [
     choices: [
       "Codificación binaria unipolar sin retorno a cero.",
       "Codificación binaria bipolar con retorno a cero.",
-      "Codificación Mánchester",
+      "Codificación Mánchester.",
       "Codificación PCM.",
     ],
     solution: "a",
@@ -873,7 +873,7 @@ const questionsData: QuestionData[] = [
       "El tipo de fibra óptica empleada.",
       "La velocidad de transmisión empleada.",
       "La potencia del dispositivo emisor de luz.",
-      "El número de canales multiplexados por longitud de onda",
+      "El número de canales multiplexados por longitud de onda.",
     ],
     solution: "d",
     explanation: "",
@@ -889,8 +889,8 @@ const questionsData: QuestionData[] = [
   {
     id: 73,
     title:
-      "Determina la velocidad máxima de transmisión para una señal de pulsos con 2 niveles de tensión en un medio físico full-duplex con multiplexión por frecuencia (simétrica para transmisión y recepción) y ancho de banda de 1000 Hz.",
-    choices: ["1000 bps.", "2000 bps.", "4000 bps.", "8000 bps"],
+      "Determina la velocidad máxima de transmisión para una señal de pulsos con 2 niveles de tensión en un medio físico full-duplex con multiplexión por frecuencia (simétrica para transmisión y recepción) y ancho de banda de 1000 Hz",
+    choices: ["1000 bps.", "2000 bps.", "4000 bps.", "8000 bps."],
     solution: "a",
     explanation: "",
   },
@@ -926,7 +926,7 @@ const questionsData: QuestionData[] = [
       "Se desea realizar la transmisión en un medio físico de dos señales de datos digitales con velocidades de 32 Kbps y 64 Kbps respectivamente. Si se emplea la multiplexión en el tiempo, el medio físico precisa de una velocidad de transmisión de:",
     choices: ["64 Kbps.", "96 Kbps.", "128 Kbps.", "256 Kbps."],
     solution: "b",
-    explanation: "",
+    explanation: "b",
   },
   {
     id: 77,
@@ -1008,7 +1008,7 @@ const questionsData: QuestionData[] = [
     id: 83,
     title:
       "Se quiere implementar un sistema de comunicaciones que tenga un ancho de banda de 100Mhz y que consiga una relación S/NdB de 80dB. ¿Cuál será la capacidad máxima del canal de comunicación?",
-    choices: ["≈ 5315 Mbps.", "≈ 2657 Mbps.", "≈ 634 Mbps.", "≈ 1268 Mbps."],
+    choices: ["≈5315 Mbps.", "≈ 2657 Mbps.", "≈ 634 Mbps.", "≈ 1268 Mbps."],
     solution: "b",
     explanation: "",
   },
@@ -1016,24 +1016,16 @@ const questionsData: QuestionData[] = [
     id: 84,
     title: "En relación con la modulación PSK se puede afirmar que:",
     choices: [
-      "Es una modulación analógica en amplitud donde la señal portadora modifica su valor en función del valor de una señal moduladora",
-      "Es una modulación en fase con señal moduladora digital y señal portadora analógica",
-      "Es una modulación en fase que permite codificar hasta 2 bits por elemento de señal",
-      "Es una modulación en frecuencia y en fase con señal moduladora digital y portadora digital",
+      "Es una modulación analógica en amplitud donde la señal portadora modifica su valor en función del valor de una señal moduladora.",
+      "Es una modulación en fase con señal moduladora digital y señal portadora analógica.",
+      "Es una modulación en fase que permite codificar hasta 2 bits por elemento de señal.",
+      "Es una modulación en frecuencia y en fase con señal moduladora digital y portadora digital.",
     ],
     solution: "b",
     explanation: "",
   },
   {
     id: 85,
-    title:
-      "Se quiere implementar un sistema de comunicaciones que tenga un ancho de banda de 50Mhz y que consiga una relación S/NdB de 60dB. ¿Cuál será la capacidad máxima del canal de comunicación?",
-    choices: ["≈ 996.5 Mbps.", "≈1993 Mbps.", "≈ 296.5 Mbps.", "≈ 593 Mbps."],
-    solution: "a",
-    explanation: "",
-  },
-  {
-    id: 86,
     title: "La codificación QPSK se caracteriza porque:",
     choices: [
       "Permite enviar datos digitales mediante señales analógicas, empleando amplitudes distintas en la señal modulada.",
@@ -1045,7 +1037,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 87,
+    id: 86,
     title:
       "Se quiere implementar un sistema de comunicaciones que tenga un ancho de banda de 50Khz y que consiga una relación S/dB de 2dB. ¿Cuál será la capacidad máxima del canal de comunicación?",
     choices: ["≈ 137 Kbps.", "≈ 68.5 Kbps.", "≈ 116 Kbps.", "≈ 232 Kbps."],
@@ -1053,7 +1045,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 88,
+    id: 87,
     title:
       "La interconexión de dos redes Ethernet empleando un repetidor se caracteriza por:",
     choices: [
@@ -1066,7 +1058,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 89,
+    id: 88,
     title:
       "Qué tipo de servicio ofrecido por el nivel de enlace reenvía paquetes de datos sin controlar el flujo?",
     choices: [
@@ -1079,7 +1071,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 90,
+    id: 89,
     title:
       "Indica qué tipos de errores pueden detectar tanto los códigos de detección de paridad como los códigos de redundancia cíclica (CRC),",
     choices: [
@@ -1092,7 +1084,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 91,
+    id: 90,
     title:
       "En qué protocolo de ventana deslizante pueden recibirse paquetes de datos con secuencias no consecutivas?",
     choices: [
@@ -1105,20 +1097,20 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 92,
+    id: 91,
     title:
       "Sobre la transmisión de paquetes Ethernet empleando el mecanismo CSMA/CD, es cierto que:",
     choices: [
       "Un equipo reenvía los paquetes Ethernet que sufren errores CRC.",
       "El destinatario de un paquete Ethernet solicita el reenvío del paquete cuando detecta una colisión.",
-      "Existe un número máximo de intentos en el reenvío de un paquete que ha sufrido una colisión",
+      "Existe un número máximo de intentos en el reenvío de un paquete que ha sufrido una colisión.",
       "El tiempo de espera aleatorio para el reenvío de un paquete que ha sufrido una colisión es siempre el mismo en cada intento.",
     ],
     solution: "c",
     explanation: "",
   },
   {
-    id: 93,
+    id: 92,
     title: "En cuanto al mecanismo CSMA/CA es cierto que,",
     choices: [
       "Permite evitar colisiones en el envío de datos cuando existen varios dispositivos inalámbricos en el mismo radio de cobertura.",
@@ -1130,7 +1122,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 94,
+    id: 93,
     title:
       "Cómo se denomina el mecanismo en el que no existen colisiones a la hora de transmitir paquetes en las redes inalámbricas?",
     choices: ["CSMA/CD con RTS/CTS.", "CSMA/CA con RTS/CTS.", "DCF.", "PCF."],
@@ -1138,7 +1130,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 95,
+    id: 94,
     title:
       "La interconexión de dos redes Ethernet empleando un router se caracteriza por:",
     choices: [
@@ -1151,7 +1143,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 96,
+    id: 95,
     title:
       "Sobre las características de un protocolo de nivel de enlace es cierto que:",
     choices: [
@@ -1164,7 +1156,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 97,
+    id: 96,
     title:
       "Sobre el funcionamiento del protocolo de ventana deslizante con repetición SELECTIVA es cierto que:",
     choices: [
@@ -1177,7 +1169,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 98,
+    id: 97,
     title:
       "Qué protocolo NO está definido en el modelo de referencia IEEE 802?",
     choices: ["LLC.", "IP.", "VLAN.", "Ethernet."],
@@ -1185,7 +1177,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 99,
+    id: 98,
     title:
       "Sobre la transmisión de paquetes Ethernet dirigidos a la dirección MAC de difusión es cierto que:",
     choices: [
@@ -1198,7 +1190,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 100,
+    id: 99,
     title:
       "Indica qué mecanismo de detección de errores es más adecuado para detectar errores en ráfaga en el medio físico:",
     choices: [
@@ -1211,7 +1203,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 101,
+    id: 100,
     title:
       "Sobre el funcionamiento de un protocolo de ventana deslizante NO SELECTIVO es cierto que:",
     choices: [
@@ -1224,7 +1216,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 102,
+    id: 101,
     title:
       "Sobre el funcionamiento del protocolo de ventana deslizante con repetición SELECTIVA es cierto que:",
     choices: [
@@ -1237,7 +1229,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 103,
+    id: 102,
     title:
       "Sobre el funcionamiento del mecanismo CSMA/CD de Ethernet es cierto que:",
     choices: [
@@ -1250,7 +1242,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 104,
+    id: 103,
     title:
       "Sobre el proceso de APRENDIZAJE en los puentes Ethernet es cierto que:",
     choices: [
@@ -1263,7 +1255,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 105,
+    id: 104,
     title:
       "Indica qué funcionalidad del nivel de enlace NO dispone el protocolo Ethernet:",
     choices: [
@@ -1276,7 +1268,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 106,
+    id: 105,
     title:
       "En un protocolo de parada y espera donde sólo existe numeración de los paquetes de datos (los ACK son NO numerados) y se aplica sobre un medio físico con una cierta tasa de error, es cierto que:",
     choices: [
@@ -1289,7 +1281,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 107,
+    id: 106,
     title:
       "Sobre la transmisión de paquetes Ethernet de difusión es cierto que:",
     choices: [
@@ -1302,7 +1294,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 108,
+    id: 107,
     title:
       "Sobre el proceso de REENVÍO en los puentes Ethernet, es cierto que:",
     choices: [
@@ -1315,7 +1307,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 109,
+    id: 108,
     title:
       "Codificaciones Indica el sistema de señalización empleado en Ethernet 100BaseFX:",
     choices: ["Manchester.", "4D-PAM5.", "NRZI.", "8B/10B."],
@@ -1323,7 +1315,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 110,
+    id: 109,
     title: "En un sistema de codificación 4B/5B, es cierto que:",
     choices: [
       "Los símbolos a enviar son indiferentes mientras no se repitan entre ellos.",
@@ -1331,11 +1323,11 @@ const questionsData: QuestionData[] = [
       "Define un conjunto de 16 símbolos de 5 bits.",
       "Define un conjunto de 32 símbolos de 5 bits.",
     ],
-    solution: "c",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 111,
+    id: 110,
     title:
       "Qué tecnología Ethernet NO precisa la introducción de bits de sincronización en los paquetes Ethernet?",
     choices: [
@@ -1348,7 +1340,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 112,
+    id: 111,
     title:
       "Indica en qué tecnología Ethernet NO se introducen bits de sincronización en todos los bytes del paquete Ethernet:",
     choices: ["10BaseT.", "100BaseFX.", "100BaseTX.", "1000BaseLX."],
@@ -1356,14 +1348,14 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 113,
+    id: 112,
     title: "Indica el sistema de señalización empleado en Ethernet 100BaseTX:",
     choices: ["Manchester.", "4D-PAM5.", "MLT-3.", "8B/10B."],
     solution: "c",
     explanation: "",
   },
   {
-    id: 114,
+    id: 113,
     title: "Qué tecnología Ethernet NO emplea codificación NRZI?",
     choices: [
       "Ethernet 1000BaseT.",
@@ -1375,7 +1367,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 115,
+    id: 114,
     title:
       "Qué tipo de tecnología Ethernet es compatible con Ethernet 10BaseT al emplear el CSMA/CD?",
     choices: [
@@ -1384,11 +1376,11 @@ const questionsData: QuestionData[] = [
       "Ethernet 5GBaseT.",
       "Ethernet 2.5GBaseT.",
     ],
-    solution: "b",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 116,
+    id: 115,
     title:
       "La transmisión de paquetes Ethernet con la tecnología 100BaseX se caracteriza por:",
     choices: [
@@ -1401,7 +1393,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 117,
+    id: 116,
     title:
       "Sobre el funcionamiento de un conmutador Ethernet con la tecnología IEEE 802.1Q, es cierto que:",
     choices: [
@@ -1414,7 +1406,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 118,
+    id: 117,
     title:
       "El empleo de un conmutador Ethernet con la tecnología IEEE 802.1Q, permite que:",
     choices: [
@@ -1427,20 +1419,20 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 119,
+    id: 118,
     title:
       "Sobre el funcionamiento de un conmutador Ethernet VLAN es cierto que,",
     choices: [
       "Los paquetes de difusión de una VLAN son reenviados sólo a los puertos troncales del conmutador asociados a la misma VLAN.",
       "Los paquetes de difusión de una VLAN son reenviados a puertos pertenecientes a cualquier VLAN.",
       "Los paquetes ARP Request transmitidos en una VLAN son reenviados a todos los puertos del conmutador asociados a la misma VLAN.",
-      "Los paquetes ARP Reply transmitidos en una VLAN son reenviados a todos los puertos troncales y de acceso asociados a la misma VLAN",
+      "Los paquetes ARP Reply transmitidos en una VLAN son reenviados a todos los puertos troncales y de acceso asociados a la misma VLAN.",
     ],
     solution: "c",
     explanation: "",
   },
   {
-    id: 120,
+    id: 119,
     title:
       "Sobre el funcionamiento de un conmutador Ethernet VLAN es cierto que,",
     choices: [
@@ -1453,7 +1445,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 121,
+    id: 120,
     title: "En cuanto a la seguridad de las redes Wi-Fi, es cierto que:",
     choices: [
       "Todos los protocolos derivados de TKIP intercambian una nueva clave en cada paquete para el cifrado del siguiente paquete.",
@@ -1465,8 +1457,8 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 122,
-    title: "Indica qué afirmación es cierta sobre las normas WPA y WPA2.",
+    id: 121,
+    title: "Indica qué afirmación es cierta sobre las normas WPA y WPA2",
     choices: [
       "Ambas normas emplean el algoritmo de cifrado AES.",
       "WPA2 no soporta el mecanismo de autenticación PSK.",
@@ -1477,7 +1469,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 123,
+    id: 122,
     title: "El mecanismo CSMA/CA de las redes IEEE 802.11x se caracteriza por:",
     choices: [
       "Evitar las colisiones entre equipos asociados a un punto de acceso (AP).",
@@ -1489,7 +1481,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 124,
+    id: 123,
     title:
       "Indica la normativa de redes LAN inalámbricas que proporciona más número de canales (frecuencias) diferentes para establecer la comunicación:",
     choices: [
@@ -1502,15 +1494,15 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 125,
+    id: 124,
     title:
       "Indica qué mecanismo de autenticación es más inseguro para obtener el acceso no autorizado a una red Wi-Fi:",
-    choices: ["WPA-TKIP.", "WPA2-PSK.", "EAP/TLS.", "EAP/PEAP"],
+    choices: ["WPA-TKIP.", "WPA2-PSK.", "EAP/TLS.", "EAP/PEAP."],
     solution: "b",
     explanation: "",
   },
   {
-    id: 126,
+    id: 125,
     title:
       "Indica en qué normativa del IEEE es posible no emplear el protocolo IEEE 802.2 para enviar paquetes a la capa MAC:",
     choices: [
@@ -1523,7 +1515,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 127,
+    id: 126,
     title:
       "En qué normativa inalámbrica del IEEE no se emplean tramas Beacon Frame para identificar redes Wi-Fi (ESSID)?",
     choices: [
@@ -1536,7 +1528,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 128,
+    id: 127,
     title:
       "Indica con qué mecanismo de las redes IEEE 802.11x se consigue que dos estaciones asociadas a un AP puedan detectar siempre sus transmisiones:",
     choices: ["RTS/CTS.", "CSMA/CA.", "CSMA/CD.", "WEP."],
@@ -1544,14 +1536,14 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 129,
+    id: 128,
     title: "Qué mecanismo de cifrado en redes Wi-Fi es actualmente seguro?",
     choices: ["WPA2/AES.", "WPA2/TKIP.", "WPA2/PEAP.", "WPA2/TLS."],
     solution: "a",
     explanation: "",
   },
   {
-    id: 130,
+    id: 129,
     title:
       "La integración del modelo IEEE 802.x en la arquitectura TCP/IP se consigue:",
     choices: [
@@ -1564,7 +1556,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 131,
+    id: 130,
     title:
       "En qué normativa inalámbrica del IEEE no se emplea el mecanismo RTS/CTS en el acceso al medio?",
     choices: [
@@ -1577,7 +1569,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 132,
+    id: 131,
     title:
       "Sobre las tramas de señalización (Beacon Frame) de la norma IEEE 802.11x, es cierto que:",
     choices: [
@@ -1590,7 +1582,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 133,
+    id: 132,
     title:
       "Cuál de las siguientes afirmaciones es cierta para el protocolo RIPv2?",
     choices: [
@@ -1603,7 +1595,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 134,
+    id: 133,
     title:
       "Sobre el empleo de la multidifusión en el protocolo IPv4, es FALSO que:",
     choices: [
@@ -1616,10 +1608,10 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 135,
+    id: 134,
     title: "Cuál de las siguientes afirmaciones es FALSA para IPv6?",
     choices: [
-      "Permite simplificaciones en los algoritmos de encaminamiento",
+      "Permite simplificaciones en los algoritmos de encaminamiento.",
       "Las máscaras de red de IPv6 tienen la misma longitud que las de IPv4.",
       "Define un sistema de cabeceras más flexible que IPv4.",
       "Soporta monodifusión (anycast).",
@@ -1628,7 +1620,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 136,
+    id: 135,
     title:
       "Qué algoritmo de encaminamiento no tiene en cuenta valores de métrica al gestionar las tablas de encaminamiento?",
     choices: ["OSPF.", "BGP.", "RIPv1.", "RIPv2."],
@@ -1636,7 +1628,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 137,
+    id: 136,
     title:
       "En qué parte de un paquete IPv6 se incorpora la información sobre prioridad del paquete?",
     choices: [
@@ -1649,7 +1641,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 138,
+    id: 137,
     title:
       "Qué protocolo de encaminamiento emplea la capa de transporte para informar de las tablas de encaminamiento a otros routers?",
     choices: ["OSPF.", "RIPv1.", "RIPv2.", "BGP."],
@@ -1657,7 +1649,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 139,
+    id: 138,
     title:
       "Qué protocolo de encaminamiento no emplea métricas de optimización en la tabla de encaminamiento?",
     choices: [
@@ -1666,11 +1658,11 @@ const questionsData: QuestionData[] = [
       "BGP.",
       "Todos los protocolos de encaminamiento optimizan rutas a los destinos.",
     ],
-    solution: "c",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 140,
+    id: 139,
     title: "Sobre el protocolo de encaminamiento IPv6 es cierto que,",
     choices: [
       "Aumenta el número de direcciones IPv4 empleando la clase reservada D.",
@@ -1682,7 +1674,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 141,
+    id: 140,
     title: "Sobre el protocolo de encaminamiento RIP es cierto que,",
     choices: [
       "Si un interfaz de un router RIP falla, RIP informa del fallo al resto de routers RIP.",
@@ -1694,7 +1686,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 142,
+    id: 141,
     title:
       "Si un paquete IP es enviado a la dirección 224.0.0.255 es cierto que,",
     choices: [
@@ -1707,7 +1699,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 143,
+    id: 142,
     title: "Sobre el protocolo de encaminamiento BGP es cierto que,",
     choices: [
       "Emplea el algoritmo de Dijkstra para obtener la solución de encaminamiento en la red.",
@@ -1719,7 +1711,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 144,
+    id: 143,
     title:
       "Qué característica tienen en común el protocolo de encaminamiento OSPF y el protocolo RIP versión 2?",
     choices: [
@@ -1732,7 +1724,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 145,
+    id: 144,
     title:
       "Sobre los mensajes BGP Keepalive definidos en el protocolo BGP es cierto que:",
     choices: [
@@ -1745,9 +1737,9 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 146,
+    id: 145,
     title:
-      "Indica cuál de las siguientes funciones NO es realizada por un router IP.",
+      "Indica cuál de las siguientes funciones NO es realizada por un router IP",
     choices: [
       "Encaminamiento de paquetes analizando las entradas de la tabla de encaminamiento.",
       "Modificación de las direcciones IP destino en los paquetes IP cuando son encaminados.",
@@ -1758,7 +1750,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 147,
+    id: 146,
     title:
       "En qué situación el protocolo de encaminamiento OSPF será más adecuado que emplear RIP?",
     choices: [
@@ -1771,14 +1763,14 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 148,
+    id: 147,
     title: "Indica cuál de los siguientes NO es un mensaje del protocolo BGP:",
     choices: ["BGP Hello.", "BGP Open.", "BGP Notification.", "BGP Keepalive."],
     solution: "a",
     explanation: "",
   },
   {
-    id: 149,
+    id: 148,
     title:
       "Sobre la estructura de una tabla de encaminamiento de un router IP es cierto que,",
     choices: [
@@ -1791,7 +1783,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 150,
+    id: 149,
     title: "Sobre el funcionamiento del algoritmo de Karn es cierto que:",
     choices: [
       "Reduce el valor del temporizador de espera de los ACK cuando éstos expiran.",
@@ -1803,7 +1795,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 151,
+    id: 150,
     title:
       "Indica qué afirmación es cierta sobre el funcionamiento del protocolo TCP:",
     choices: [
@@ -1816,7 +1808,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 152,
+    id: 151,
     title:
       "Qué protocolo de aplicación de la arquitectura de red TCP/IP NO emplea ni el protocolo TCP ni el UDP?",
     choices: ["HTTP.", "DNS.", "ICMP.", "PING."],
@@ -1824,7 +1816,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 153,
+    id: 152,
     title: "Cómo es posible reducir la congestión en una red TCP/IP?",
     choices: [
       "Aumentando la velocidad de transmisión en las redes conectadas.",
@@ -1836,7 +1828,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 154,
+    id: 153,
     title:
       "Qué protocolo de la arquitectura TCP/IP permitirá identificar que no existe una aplicación determinada funcionando en un computador?",
     choices: ["IP.", "DNS.", "TCP.", "IGMP."],
@@ -1844,7 +1836,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 155,
+    id: 154,
     title:
       "Qué protocolo de la arquitectura de red TCP/IP permite reenviar la información transportada en un paquete Ethernet que sufre una alteración en el medio físico?",
     choices: ["IP.", "ICMP.", "TCP.", "UDP."],
@@ -1852,7 +1844,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 156,
+    id: 155,
     title:
       "Si en una conexión TCP entre dos extremos A y B en Internet, un paquete TCP emitido por A llega al destino con errores de CRC es cierto que,",
     choices: [
@@ -1865,7 +1857,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 157,
+    id: 156,
     title:
       "Indica cuál de los siguientes factores afecta a la congestión en una red con arquitectura TCP/IP,",
     choices: [
@@ -1878,7 +1870,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 158,
+    id: 157,
     title:
       "Sobre los algoritmos de control del flujo del protocolo TCP es cierto que,",
     choices: [
@@ -1891,7 +1883,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 159,
+    id: 158,
     title:
       "Indica cuál de los siguientes factores NO afecta a la congestión en una red con arquitectura TCP/IP,",
     choices: [
@@ -1904,7 +1896,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 160,
+    id: 159,
     title:
       "Sobre el control de flujo de datos en el protocolo TCP es cierto que,",
     choices: [
@@ -1917,7 +1909,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 161,
+    id: 160,
     title:
       "Qué factores NO provocan un aumento de la congestión en una red TCP/IP?",
     choices: [
@@ -1930,7 +1922,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 162,
+    id: 161,
     title:
       "El intercambio de información en una red LAN de difusión NO se caracteriza por,",
     choices: [
@@ -1943,7 +1935,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 163,
+    id: 162,
     title:
       "La comunicación entre dos equipos a través de una red de conmutación de paquetes por circuitos virtuales se caracteriza por que,",
     choices: [
@@ -1956,19 +1948,19 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 164,
+    id: 163,
     title: "Conforme al modelo OSI, es FALSO que,",
     choices: [
       "Un protocolo de nivel N se construye usando los servicios que ofrece el nivel N-1.",
       "Un protocolo define el dialogo entre entidades de distintos niveles de la arquitectura.",
-      "Los servicios que ofrece un nivel pueden ser orientados a conexión o no orientados aconexión.",
-      "Los servicios de tipo no confirmado no requieren utilizar las primitivas Response yConfirm.",
+      "Los servicios que ofrece un nivel pueden ser orientados a conexión o no orientados a conexión.",
+      "Los servicios de tipo no confirmado no requieren utilizar las primitivas Response y Confirm.",
     ],
     solution: "b",
     explanation: "",
   },
   {
-    id: 165,
+    id: 164,
     title:
       "La realización de un servicio que la capa n+1 solicita a la capa n, se realiza",
     choices: [
@@ -1981,9 +1973,9 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 166,
+    id: 165,
     title:
-      "El intercambio de información de forma fiable entre dos estaciones interconectadas conuna red WAN con arquitectura de red OSI, es funcionalidad de,",
+      "El intercambio de información de forma fiable entre dos estaciones interconectadas con una red WAN con arquitectura de red OSI, es funcionalidad de,",
     choices: [
       "La capa de enlace.",
       "La capa de red.",
@@ -1994,7 +1986,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 167,
+    id: 166,
     title:
       "Dentro del modelo OSI, una de las funciones que gestiona el nivel de transporte es,",
     choices: [
@@ -2007,9 +1999,9 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 168,
+    id: 167,
     title:
-      "En una arquitectura de red, la capa n puede reorganizar los paquetes que ha fragmentadola capa n+1,",
+      "En una arquitectura de red, la capa n puede reorganizar los paquetes que ha fragmentado la capa n+1,",
     choices: [
       "Nunca, la reordenación la debe realizar la capa n+1.",
       "Nunca, la reordenación la debe realizar la capa n-1.",
@@ -2020,13 +2012,26 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 169,
+    id: 168,
     title: "En referencia a la arquitectura de red TCP/IP, es cierto que,",
     choices: [
-      "Esta basada la transmisión de paquetes de datos mediante conmutación de circuitosvirtuales.",
-      "El nivel de red ofrece una transmisión de datos fiable al nivel de transporte, conrecuperación de los paquetes que tienen errores.",
-      "Define protocolos concretos para todos los niveles de su arquitectura, excepto para elAcceso a la Red, para el cual se utilizan protocolos de otras arquitecturas.",
+      "Esta basada la transmisión de paquetes de datos mediante conmutación de circuitos virtuales.",
+      "El nivel de red ofrece una transmisión de datos fiable al nivel de transporte, con recuperación de los paquetes que tienen errores.",
+      "Define protocolos concretos para todos los niveles de su arquitectura, excepto para el Acceso a la Red, para el cual se utilizan protocolos de otras arquitecturas.",
       "No permite comunicaciones orientadas a conexión.",
+    ],
+    solution: "c",
+    explanation: "",
+  },
+  {
+    id: 169,
+    title:
+      "La transmisión de una señal con información a través de un medio físico se realiza correctamente si,",
+    choices: [
+      "Los armónicos de mayor frecuencia de la señal son transmitidos y los de menor frecuencia no.",
+      "El ancho de banda del medio físico permite la transmisión de los 10 armónicos de mayor frecuencia que componen la señal.",
+      "Los armónicos de menor frecuencia de la señal se encuentran dentro del ancho de banda del medio físico.",
+      "El ancho de banda del medio físico es igual a la frecuencia del armónico de primer orden de la señal.",
     ],
     solution: "c",
     explanation: "",
@@ -2034,28 +2039,15 @@ const questionsData: QuestionData[] = [
   {
     id: 170,
     title:
-      "La transmisión de una señal con información a través de un medio físico se realizacorrectamente si,",
-    choices: [
-      "Los armónicos de mayor frecuencia de la señal son transmitidos y los de menor frecuenciano.",
-      "El ancho de banda del medio físico permite la transmisión de los 10 armónicos de mayorfrecuencia que componen la señal.",
-      "Los armónicos de menor frecuencia de la señal se encuentran dentro del ancho de banda delmedio físico.",
-      "El ancho de banda del medio físico es igual a la frecuencia del armónico de primer orden dela señal.",
-    ],
-    solution: "c",
-    explanation: "",
-  },
-  {
-    id: 171,
-    title:
-      "Una señal digital periódica de 8 bits, con un periodo de 10ms, se envía por un medio conun ancho de banda ideal de 240Hz que comienza en la frecuencia 280Hz. ¿Cuántascomponentes armónicas de la señal llegarán correctamente al destino?",
+      "Una señal digital periódica de 8 bits, con un periodo de 10ms, se envía por un medio con un ancho de banda ideal de 240Hz que comienza en la frecuencia 280Hz. ¿Cuántas componentes armónicas de la señal llegarán correctamente al destino?",
     choices: ["2.", "3.", "4.", "5."],
     solution: "b",
     explanation: "",
   },
   {
-    id: 172,
+    id: 171,
     title:
-      "Aumentar la velocidad de modulación en una señal digital de pulsos que se transmite porun medio físico produce,",
+      "Aumentar la velocidad de modulación en una señal digital de pulsos que se transmite por un medio físico produce,",
     choices: [
       "El aumento del ancho de banda del medio físico.",
       "El aumento del valor de frecuencia de los armónicos que componen la señal.",
@@ -2066,9 +2058,9 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 173,
+    id: 172,
     title:
-      "Cuál de los siguientes tipos de ruido que pueden afectar a una transmisión se produceprincipalmente en los circuitos emisores y receptores de un equipo?",
+      "Cuál de los siguientes tipos de ruido que pueden afectar a una transmisión se produce principalmente en los circuitos emisores y receptores de un equipo?",
     choices: [
       "Cruzado o diafonía.",
       "Autocoplamiento.",
@@ -2079,9 +2071,9 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 174,
+    id: 173,
     title:
-      "Indica con qué tipo de modulación analógica es posible alcanzar mayor velocidad detransmisión de datos en un mismo medio físico,",
+      "Indica con qué tipo de modulación analógica es posible alcanzar mayor velocidad de transmisión de datos en un mismo medio físico,",
     choices: [
       "Modulación ASK.",
       "Modulación FSK.",
@@ -2092,7 +2084,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 175,
+    id: 174,
     title:
       "La modulación analógica QAM de múltiples niveles se caracteriza por,",
     choices: [
@@ -2105,15 +2097,15 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 176,
+    id: 175,
     title:
-      "Determina qué velocidad de transmisión se necesita en un medio físico para multiplexaren el tiempo dos señales PCM: una de 64Kbps y otra de 32 Kbps,",
+      "Determina qué velocidad de transmisión se necesita en un medio físico para multiplexar en el tiempo dos señales PCM: una de 64Kbps y otra de 32 Kbps,",
     choices: ["64 Kbps.", "32 Kbps.", "128 Kbps.", "96 Kbps."],
     solution: "d",
     explanation: "",
   },
   {
-    id: 177,
+    id: 176,
     title:
       "En que se diferencian los estándares de multiplexado E1 (europeo) y T1 (americano)?",
     choices: [
@@ -2126,9 +2118,9 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 178,
+    id: 177,
     title:
-      "Para enviar una señal digital de datos a una distancia de 100m, ¿qué medio detransmisión de los siguientes permite alcanzar una velocidad de transmisión mayor?",
+      "Para enviar una señal digital de datos a una distancia de 100m, ¿qué medio de transmisión de los siguientes permite alcanzar una velocidad de transmisión mayor?",
     choices: [
       "STP.",
       "UTP categoría 3.",
@@ -2139,7 +2131,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 179,
+    id: 178,
     title:
       "El medio físico más adecuado para las comunicaciones intercontinentales es,",
     choices: [
@@ -2152,7 +2144,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 180,
+    id: 179,
     title:
       "Sobre los tipos de fibra óptica para transmisión de señales digitales, es cierto que,",
     choices: [
@@ -2165,12 +2157,12 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 181,
+    id: 180,
     title:
-      "En relación a las técnicas de contienda para el acceso a un medio compartido, es FALSOque,",
+      "En relación a las técnicas de contienda para el acceso a un medio compartido, es FALSO que,",
     choices: [
-      "Con la transmisión ALOHA, un equipo no tiene en cuenta la posible existencia de una señalen el medio físico antes de enviar la suya.",
-      "Con transmisión CSMA, un equipo puede enviar una trama de datos cuando no detecta lapresencia de otra señal en el medio físico.",
+      "Con la transmisión ALOHA, un equipo no tiene en cuenta la posible existencia de una señal en el medio físico antes de enviar la suya.",
+      "Con transmisión CSMA, un equipo puede enviar una trama de datos cuando no detecta la presencia de otra señal en el medio físico.",
       "Tanto con ALOHA como con CSMA, pueden existir colisiones al transmitir datos.",
       "En general, la transmisión de tipo CSMA ofrece un menor rendimiento que la ALOHA.",
     ],
@@ -2178,7 +2170,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 182,
+    id: 181,
     title:
       "El campo de secuencia de verificación de trama (FCS) de una trama de enlace en un protocolo de la arquitectura OSI es parte de la,",
     choices: [
@@ -2191,7 +2183,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 183,
+    id: 182,
     title:
       "Respecto a los tipos de servicio que puede ofrecer el nivel de enlace al de red, es cierto que,",
     choices: [
@@ -2204,7 +2196,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 184,
+    id: 183,
     title:
       "Habitualmente, en un protocolo orientado a bit, ¿qué operación realiza un emisor para evitar la interpretación incorrecta de secuencias de bits de datos que coinciden con el código del delimitador 01111110?",
     choices: [
@@ -2217,17 +2209,17 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 185,
+    id: 184,
     title:
-      "Cuál es el valor del campo de detección de errores que hay que asociar a la secuencia debits de datos ‘100011’ utilizando un código CRC con el polinomio generador x2+1?",
+      "Cuál es el valor del campo de detección de errores que hay que asociar a la secuencia de bits de datos ‘100011’ utilizando un código CRC con el polinomio generador x2+1?",
     choices: ["00.", "01.", "10.", "11."],
     solution: "b",
     explanation: "",
   },
   {
-    id: 186,
+    id: 185,
     title:
-      "Para que en el envío de paquetes de información en un protocolo de ventana deslizante seaproveche adecuadamente el medio físico, debe verificarse que:",
+      "Para que en el envío de paquetes de información en un protocolo de ventana deslizante se aproveche adecuadamente el medio físico, debe verificarse que:",
     choices: [
       "El emisor pueda enviar paquetes durante todo el tiempo de espera de un ACK.",
       "El emisor tenga un tamaño de ventana igual a 1.",
@@ -2238,22 +2230,22 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 187,
+    id: 186,
     title:
-      "El aprovechamiento del medio físico en un protocolo de ventana deslizante selectivo, NOdepende de,",
+      "El aprovechamiento del medio físico en un protocolo de ventana deslizante selectivo, NO depende de,",
     choices: [
       "La tasa de error en el medio físico.",
-      "El número medio de envíos de paquetes necesarios para enviar un paquete de formacorrecta.",
+      "El número medio de envíos de paquetes necesarios para enviar un paquete de forma correcta.",
       "La velocidad de transferencia en el medio físico.",
-      "El número medio de reenvíos de paquetes necesarios para enviar un paquete de formacorrecta.",
+      "El número medio de reenvíos de paquetes necesarios para enviar un paquete de forma correcta.",
     ],
     solution: "d",
     explanation: "",
   },
   {
-    id: 188,
+    id: 187,
     title:
-      "Si un protocolo de parada y espera emplea sólo numeración de las tramas de datos, escierto que:",
+      "Si un protocolo de parada y espera emplea sólo numeración de las tramas de datos, es cierto que:",
     choices: [
       "Pueden producirse errores de duplicación.",
       "Pueden producirse errores de sincronización emisor - receptor.",
@@ -2264,9 +2256,9 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 189,
+    id: 188,
     title:
-      "Cuál es la principal causa de la pérdida de sincronización de los asentimientos oconfirmaciones en un proceso emisor de un protocolo de parada y espera?",
+      "Cuál es la principal causa de la pérdida de sincronización de los asentimientos o confirmaciones en un proceso emisor de un protocolo de parada y espera?",
     choices: [
       "La llegada de datos duplicados al receptor.",
       "La pérdida de las tramas de asentimiento.",
@@ -2277,15 +2269,15 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 190,
+    id: 189,
     title:
-      "Cuál de los siguientes tipos de trama de supervisión del protocolo HDLC sirve paraindicar una confirmación negativa de una trama con errores cuando se utiliza envíocontinuo con repetición no selectiva?",
+      "Cuál de los siguientes tipos de trama de supervisión del protocolo HDLC sirve para indicar una confirmación negativa de una trama con errores cuando se utiliza envío continuo con repetición no selectiva?",
     choices: ["RR.", "RNR.", "REJ.", "SREJ."],
     solution: "c",
     explanation: "",
   },
   {
-    id: 191,
+    id: 190,
     title:
       "Una empresa con oficinas en Madrid, Paris y Berlín está probablemente conectada a través de una red:",
     choices: ["LAN.", "WAN.", "MAN.", "Ethernet."],
@@ -2293,7 +2285,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 192,
+    id: 191,
     title:
       "La seguridad y privacidad son temas que preocupan especialmente a redes con topología en:",
     choices: ["Estrella.", "Bus.", "Árbol.", "Malla."],
@@ -2301,15 +2293,15 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 193,
+    id: 192,
     title:
       "En el modelo OSI, el cifrado y descifrado de los datos son responsabilidad del nivel:",
-    choices: ["Físico.", "Enlace", "Presentación.", "Sesión."],
+    choices: ["Físico.", "Enlace.", "Presentación.", "Sesión."],
     solution: "c",
     explanation: "",
   },
   {
-    id: 194,
+    id: 193,
     title:
       "El desplazamiento en fase correspondiente a un desplazamiento de ¾ de ciclo se corresponde con:",
     choices: ["0º.", "90º.", "3π/2.", "3π/4."],
@@ -2317,15 +2309,15 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 195,
+    id: 194,
     title:
       "Se pretende digitalizar la voz humana. Sabiendo que ésta contiene normalmente frecuencias entre 0Hz y los 4000Hz, y que se emplean 8 bits por muestra, la velocidad del proceso será:",
-    choices: ["8000 bps.", "4000 Kbps.", "64.000 bps.", "32.000 bps"],
+    choices: ["8000 bps.", "4000 Kbps.", "64.000 bps.", "32.000 bps."],
     solution: "c",
     explanation: "",
   },
   {
-    id: 196,
+    id: 195,
     title:
       "De las técnicas de modulación analógica presentes en la actualidad, se puede afirmar que:",
     choices: [
@@ -2338,7 +2330,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 197,
+    id: 196,
     title:
       "Si un npolinomio generador de CRC es etiquetado como x12+x6+x5+1, la secuencia binaria equivalente es:",
     choices: [
@@ -2351,7 +2343,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 198,
+    id: 197,
     title: "Un factor de exactitud de una señal PCM reconstruida es:",
     choices: [
       "Número de bits usados en la cuantización.",
@@ -2363,7 +2355,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 199,
+    id: 198,
     title:
       "La codificación Manchester es una técnica de banda base que permite:",
     choices: [
@@ -2376,7 +2368,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 200,
+    id: 199,
     title:
       "A medida que se incrementa la velocidad de envío de datos (en bps), el ancho de banda de la señal:",
     choices: [
@@ -2389,7 +2381,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 201,
+    id: 200,
     title:
       "En relación a los medios de transmisión empleados en la actualidad, se puede afirmar que:",
     choices: [
@@ -2402,7 +2394,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 202,
+    id: 201,
     title:
       "La velocidad máxima de transmisión en un canal de comunicación con frecuencia máxima 20000Hz y frecuencia mínima 12000Hz, y un ruido de línea debido a calentamiento térmico de 20dB:",
     choices: ["≈ 19765bps.", "≈ 29962bps.", "≈ 53265bps.", "≈ 62500bps."],
@@ -2410,7 +2402,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 203,
+    id: 202,
     title:
       "El campo de control b1b2b3b4b5b6b7b8: ‘11000000’ en una trama HDLC indicaría:",
     choices: [
@@ -2423,7 +2415,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 204,
+    id: 203,
     title:
       "La velocidad de transmisión para una línea que emplea modulación PSK con 22.5º de separación entre puntos de fase y una velocidad de modulación de 1602 baudios es:",
     choices: ["4806 baudios.", "3204 bps.", "6408 bps.", "4806 bps."],
@@ -2431,15 +2423,15 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 205,
+    id: 204,
     title:
-      "Si una onda senoidal que se ha empleado para transmitir información en el  medio físico completa un ciclo en 10 segundos. ¿Cuál es su frecuencia?",
+      "Si una onda senoidal que se ha empleado para transmitir información en el medio físico completa un ciclo en 10 segundos. ¿Cuál es su frecuencia?",
     choices: ["4Hz.", "0,75 bps.", "0,5 Hz.", "0,1 Hz."],
     solution: "d",
     explanation: "",
   },
   {
-    id: 206,
+    id: 205,
     title: "En la siguiente situación de la Red de Petri:",
     choices: [
       "Si T2 se dispara una vez, en la red sólo N4 poseerá testigo.",
@@ -2451,7 +2443,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 207,
+    id: 206,
     title:
       "Qué codificación se emplea en el siguiente gráfico para enviar al medio el carácter ‘y’ (01111001)?",
     choices: [
@@ -2464,14 +2456,14 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 208,
+    id: 207,
     title: "La modulación QAM está relacionada con:",
     choices: ["ASK y FSK.", "FSK y PSK.", "PSK y ASK.", "2-PSK y 2-FSK."],
     solution: "c",
     explanation: "",
   },
   {
-    id: 209,
+    id: 208,
     title:
       "Si la distancias Hamming entre palabras de un código vienen determinadas por el siguiente conjunto de distancias {3,4,5,4}, es posible corregir el siguiente número de errores:",
     choices: ["2.", "3.", "4.", "1."],
@@ -2479,12 +2471,12 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 210,
+    id: 209,
     title:
       "El proceso generación de CRC es una de las funciones básicas asociadas a un nivel OSI. Concretamente:",
     choices: [
       "Nivel de enlace.",
-      "Nivel de transporte",
+      "Nivel de transporte.",
       "Nivel IP.",
       "Nivel físico.",
     ],
@@ -2492,7 +2484,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 211,
+    id: 210,
     title:
       "La funcionalidad de encaminamiento es necesaria en los nodos de una red de,",
     choices: [
@@ -2505,7 +2497,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 212,
+    id: 211,
     title:
       "El empleo de circuitos virtuales en una red de conmutación de paquetes se caracteriza por que,",
     choices: [
@@ -2518,7 +2510,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 213,
+    id: 212,
     title:
       "Una red de conmutación de paquetes basada en datagramas se caracteriza por,",
     choices: [
@@ -2531,7 +2523,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 214,
+    id: 213,
     title:
       "Si en una red de conmutación de paquetes basada en circuitos virtuales se produce congestión, es cierto que,",
     choices: [
@@ -2544,7 +2536,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 215,
+    id: 214,
     title:
       "La interconexión de dos redes de difusión con diferente direccionamiento y diferente protocolo de nivel de enlace y que emplean la arquitectura TCP/IP, ha de realizarse con,",
     choices: ["Un repetidor.", "Un puente.", "Un router.", "Una pasarela."],
@@ -2552,7 +2544,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 216,
+    id: 215,
     title:
       "La comunicación entre la capa n de la arquitectura de red de un equipo y la capa n+1 de la arquitectura de otro equipo distinto se realiza,",
     choices: [
@@ -2561,11 +2553,11 @@ const questionsData: QuestionData[] = [
       "Empleando los servicios de la capa n-1 de los dos extremos.",
       "La comunicación entre capas de distintos equipos y diferente nivel no es posible.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 217,
+    id: 216,
     title:
       "La PDU del nivel n que se envía al nivel n del otro extremo incorpora,",
     choices: [
@@ -2574,11 +2566,11 @@ const questionsData: QuestionData[] = [
       "Las PCI de los niveles n e inferiores al n.",
       "Sólo la PCI del nivel n.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 218,
+    id: 217,
     title:
       "Si un servicio que ofrece un nivel de la arquitectura de red es orientado a conexión, es cierto que,",
     choices: [
@@ -2587,11 +2579,11 @@ const questionsData: QuestionData[] = [
       "El extremo no iniciador del servicio es quién realiza la solicitud de conexión.",
       "Siempre debe realizarse la desconexión después de realizar el servicio.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 219,
+    id: 218,
     title:
       "El nivel de red en la arquitectura de red TCP/IP presenta la característica de,",
     choices: [
@@ -2600,11 +2592,11 @@ const questionsData: QuestionData[] = [
       "Establecer una conexión con el otro extremo para verificar si puede enviar paquetes IP.",
       "Identificar caminos predefinidos en la red para el envío de los paquetes.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 220,
+    id: 219,
     title:
       "En una red con arquitectura TCP/IP, ¿ qué protocolo de la arquitectura permite detectar que un paquete IP no ha alcanzado su destino ?",
     choices: [
@@ -2613,11 +2605,11 @@ const questionsData: QuestionData[] = [
       "El protocolo ICMP.",
       "El protocolo IP.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 221,
+    id: 220,
     title:
       "Sobre el establecimiento de conexiones en la capa de transporte de TCP/IP es cierto que,",
     choices: [
@@ -2626,19 +2618,19 @@ const questionsData: QuestionData[] = [
       "Una estación no puede recibir conexiones desde diferentes estaciones a un mismo número de puerto.",
       "Un estación puede establecer dos conexiones con los mismos puertos y direcciones IP origen y destino.",
     ],
-    solution: "-",
+    solution: "a",
+    explanation: "",
+  },
+  {
+    id: 221,
+    title:
+      "Si se desea transmitir información con una señal de pulsos a través de un medio físico con un ancho de banda de 10000 Hz y a una velocidad de 90000 bps, la señal de pulsos necesita un número de niveles mínimo de,",
+    choices: ["4.", "5.", "16.", "32."],
+    solution: "d",
     explanation: "",
   },
   {
     id: 222,
-    title:
-      "Si se desea transmitir información con una señal de pulsos a través de un medio físico con un ancho de banda de 10000 Hz y a una velocidad de 90000 bps, la señal de pulsos necesita un número de niveles mínimo de,",
-    choices: ["4.", "5.", "16.", "32."],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 223,
     title: "El nivel de ruido de un medio físico limita,",
     choices: [
       "El número de niveles que pueden emplearse para una señal de pulsos en ese medio.",
@@ -2646,11 +2638,11 @@ const questionsData: QuestionData[] = [
       "El número de componentes frecuenciales que pueden transmitirse por el medio físico.",
       "La velocidad de propagación de la señal en el medio físico.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 224,
+    id: 223,
     title:
       "Qué tipo de codificación emplea transiciones para interpretar los bits de información ?",
     choices: [
@@ -2659,11 +2651,11 @@ const questionsData: QuestionData[] = [
       "Codificación binaria con retorno a cero bipolar.",
       "Codificación Manchester.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 225,
+    id: 224,
     title: "Qué tipo de modulación analógica es menos sensible al ruido ?",
     choices: [
       "Modulación FSK.",
@@ -2671,19 +2663,19 @@ const questionsData: QuestionData[] = [
       "Modulación ASK.",
       "Modulación PCM.",
     ],
-    solution: "-",
+    solution: "a",
+    explanation: "",
+  },
+  {
+    id: 225,
+    title:
+      "Cuál es el ancho de banda máximo de la señales analógicas que pueden enviarse a través de un medio físico de 100 KHz de ancho de banda empleando una modulación PCM de 4 bits ?",
+    choices: ["25 KHz.", "100 KHz.", "50 KHz.", "12.5 KHz."],
+    solution: "a",
     explanation: "",
   },
   {
     id: 226,
-    title:
-      "Cuál es el ancho de banda máximo de la señales analógicas que pueden enviarse a través de un medio físico de 100 KHz de ancho de banda empleando una modulación PCM de 4 bits ?",
-    choices: ["25 KHz.", "100 KHz.", "50 KHz.", "12.5 KHz."],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 227,
     title:
       "Indica en cuál de los siguientes medios físicos el ruido cruzado o diafonía es mayor:",
     choices: [
@@ -2692,11 +2684,11 @@ const questionsData: QuestionData[] = [
       "Cable STP categoría 5.",
       "Fibra óptica multimodo.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 228,
+    id: 227,
     title:
       "La transmisión de datos empleando fibra óptica NO se caracteriza por,",
     choices: [
@@ -2705,11 +2697,11 @@ const questionsData: QuestionData[] = [
       "Ser inmune al ruido electromagnético externo.",
       "Tener una relación señal-ruido muy baja.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 229,
+    id: 228,
     title: "La técnica de contienda CSMA-CD se caracteriza por,",
     choices: [
       "Realizar un reparto del medio físico estableciendo prioridades.",
@@ -2717,11 +2709,11 @@ const questionsData: QuestionData[] = [
       "No reenviar los paquetes que sufren una colisión.",
       "Comprobar el medio físico antes de reenviar un paquete después de producirse una colisión.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 230,
+    id: 229,
     title:
       "Los protocolos de nivel de enlace orientados a bit se caracterizan por,",
     choices: [
@@ -2730,11 +2722,11 @@ const questionsData: QuestionData[] = [
       "Presentar menos errores en el medio físico que los orientados a carácter.",
       "Añadir información redundante en la cabecera de los paquetes de nivel de enlace.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 231,
+    id: 230,
     title:
       "En un protocolo de nivel de enlace no orientado a conexión y con confirmación es cierto que,",
     choices: [
@@ -2743,11 +2735,11 @@ const questionsData: QuestionData[] = [
       "Si un paquete de datos sufre un error en el medio, el emisor no puede detectarlo.",
       "El emisor no enviará nunca paquetes de datos a una estación que no está activa.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 232,
+    id: 231,
     title:
       "En un protocolo de ventana deslizante de envío continuo con repetición NO selectiva es cierto que,",
     choices: [
@@ -2756,11 +2748,11 @@ const questionsData: QuestionData[] = [
       "La ventana del emisor tiene un tamaño que no varía durante el funcionamiento del protocolo.",
       "La ventana del receptor tiene un tamaño mayor que el número de secuencias de numeración.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 233,
+    id: 232,
     title:
       "La numeración de los paquetes de datos en un protocolo de parada y espera evita,",
     choices: [
@@ -2769,11 +2761,11 @@ const questionsData: QuestionData[] = [
       "Los errores en el medio físico debido al ruido.",
       "La pérdida de ACKs en el medio.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 234,
+    id: 233,
     title:
       "Si dos estaciones utilizan el protocolo HDLC como protocolo de nivel de enlace es cierto que,",
     choices: [
@@ -2782,11 +2774,11 @@ const questionsData: QuestionData[] = [
       "Las dos estaciones intercambian datos con un protocolo de parada y espera.",
       "Es necesario el establecimiento de una conexión antes del intercambio de datos.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 235,
+    id: 234,
     title:
       "Si un equipo transmite un paquete PPP y alguno de los bits que lo componen sufre una alteración, es cierto que,",
     choices: [
@@ -2795,11 +2787,11 @@ const questionsData: QuestionData[] = [
       "El receptor solicita el reenvío del paquete erróneo.",
       "Expira el temporizador del protocolo PPP y el emisor reenvía el paquete del que no ha recibido ACK.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 236,
+    id: 235,
     title:
       "Qué factores producen un aumento de la congestión en una red TCP/IP ?",
     choices: [
@@ -2808,11 +2800,11 @@ const questionsData: QuestionData[] = [
       "Porcentaje de uso de la CPU de los routers para encaminamiento inferiores al 40%.",
       "El empleo de protocolos con control del flujo como TCP.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 237,
+    id: 236,
     title:
       "Si un equipo con dirección IP pública envía un paquete TCP SYN dirigido a una dirección IP privada, es cierto que",
     choices: [
@@ -2821,11 +2813,11 @@ const questionsData: QuestionData[] = [
       "El equipo recibirá un mensaje Source Quench.",
       "El equipo recibirá un paquete TCP RST.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 238,
+    id: 237,
     title: "Sobre el protocolo de encaminamiento RIP es cierto que,",
     choices: [
       "Cuando se aplica a redes con más de 16 saltos obtiene soluciones mejores que con OSPF.",
@@ -2833,11 +2825,11 @@ const questionsData: QuestionData[] = [
       "Una entrada en una tabla RIP puede actualizarse con una métrica mayor.",
       "Las entradas en una tabla RIP no requieren de actualizaciones cada cierto tiempo para seguir activas.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 239,
+    id: 238,
     title: "Sobre el protocolo de encaminamiento OSPF NO es cierto que,",
     choices: [
       "Emplea el algoritmo de Dijkstra para obtener la solución de encaminamiento en la red.",
@@ -2845,11 +2837,11 @@ const questionsData: QuestionData[] = [
       "Utiliza la difusión para el envío de los mensajes OSPF en la red.",
       "En la red se designan unos routers que establecen el diálogo OSPF para obtener la solución de encaminamiento.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 240,
+    id: 239,
     title:
       "La dirección de los equipos origen y destino de un paquete NO aparece en la cabecera del mismo si se trata de redes del tipo,",
     choices: [
@@ -2858,11 +2850,11 @@ const questionsData: QuestionData[] = [
       "Conmutación con circuitos virtuales.",
       "Conmutación con datagramas.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 241,
+    id: 240,
     title:
       "El empleo de datagramas en una red de conmutación de paquetes se caracteriza por que,",
     choices: [
@@ -2871,11 +2863,11 @@ const questionsData: QuestionData[] = [
       "En cada nodo se decide el camino a seguir para cada paquete.",
       "Si un nodo de la red falla, la comunicación se interrumpe entre el origen y el destino.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 242,
+    id: 241,
     title:
       "Si en una red de difusión en bus se envía un paquete dirigido a la dirección MAC de una estación es cierto que,",
     choices: [
@@ -2884,11 +2876,11 @@ const questionsData: QuestionData[] = [
       "Sólo una estación de la red recibe el paquete.",
       "Sólo las estaciones del grupo al que pertenece la estación reciben el paquete.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 243,
+    id: 242,
     title:
       "Si en una red de conmutación de paquetes basada en datagramas se produce congestión, es cierto que,",
     choices: [
@@ -2897,19 +2889,19 @@ const questionsData: QuestionData[] = [
       "Es necesario aumentar el envío de información de las estaciones en la red para reducir la congestión.",
       "En una red de datagramas no se produce congestión, se produce saturación.",
     ],
-    solution: "-",
+    solution: "a",
+    explanation: "",
+  },
+  {
+    id: 243,
+    title:
+      "La interconexión de dos redes de difusión con el mismo protocolo de nivel de enlace y que presente el menor número de colisiones ha de realizarse con,",
+    choices: ["Un repetidor.", "Un puente.", "Un router.", "Una pasarela."],
+    solution: "b",
     explanation: "",
   },
   {
     id: 244,
-    title:
-      "La interconexión de dos redes de difusión con el mismo protocolo de nivel de enlace y que presente el menor número de colisiones ha de realizarse con,",
-    choices: ["Un repetidor.", "Un puente.", "Un router.", "Una pasarela."],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 245,
     title:
       "La comunicación entre la capa n de la arquitectura de red de un equipo A y la capa n de la arquitectura de otro equipo distinto B se realiza,",
     choices: [
@@ -2918,11 +2910,11 @@ const questionsData: QuestionData[] = [
       "Empleando los servicios de la capa n+1 de los dos extremos.",
       "La comunicación entre capas de distintos equipos y el mismo nivel no es posible.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 246,
+    id: 245,
     title: "La SDU del nivel n que se envía al nivel n-1 incorpora,",
     choices: [
       "Las PCI de todos los niveles de la arquitectura de red.",
@@ -2930,11 +2922,11 @@ const questionsData: QuestionData[] = [
       "Las PCI de los niveles n e inferiores al n.",
       "Sólo la PCI del nivel n.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 247,
+    id: 246,
     title:
       "La fragmentación de una PDU en el nivel n de la arquitectura de red se caracteriza por,",
     choices: [
@@ -2943,11 +2935,11 @@ const questionsData: QuestionData[] = [
       "Enviar una sola PDU al nivel n del otro extremo.",
       "Enviar una sola SDU al nivel n-1 de la arquitectura.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 248,
+    id: 247,
     title:
       "Si el nivel n de una arquitectura de red no puede intercambiar PDU’s con el nivel n del otro extremo es cierto que,",
     choices: [
@@ -2956,11 +2948,11 @@ const questionsData: QuestionData[] = [
       "El nivel n-1 puede emplear los servicios que le ofrece el nivel n.",
       "El nivel n+1 puede emplear los servicios ofrecidos por el nivel n-1.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 249,
+    id: 248,
     title:
       "Si un servicio que ofrece un nivel de la arquitectura de red es NO orientado a conexión, es cierto que,",
     choices: [
@@ -2969,11 +2961,11 @@ const questionsData: QuestionData[] = [
       "El servicio se realiza sólo si los dos extremos de la comunicación están preparados.",
       "El servicio tarda más tiempo en realizarse que en el caso orientado a conexión.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 250,
+    id: 249,
     title:
       "En una red con arquitectura TCP/IP, ¿ qué protocolo de la arquitectura permite detectar que un paquete UDP no ha alcanzado su destino ?",
     choices: [
@@ -2982,11 +2974,11 @@ const questionsData: QuestionData[] = [
       "El protocolo TCP.",
       "El protocolo IP.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 251,
+    id: 250,
     title:
       "Si se desea transmitir información con una señal de pulsos a través de un medio físico con un ancho de banda de 10000 Hz, una relación señal-ruido de 10 dB y a una velocidad de 90000 bps, la señal de pulsos necesita un número de niveles mínimo de,",
     choices: [
@@ -2995,32 +2987,32 @@ const questionsData: QuestionData[] = [
       "16.",
       "La señal no puede ser transmitida por ese medio.",
     ],
-    solution: "-",
+    solution: "d",
+    explanation: "",
+  },
+  {
+    id: 251,
+    title:
+      "Qué relación señal-ruido es la menos adecuada para transmitir señales por un medio físico?",
+    choices: ["10 dB.", "20 dB.", "-10 dB.", "-20 dB."],
+    solution: "d",
     explanation: "",
   },
   {
     id: 252,
     title:
-      "Qué relación señal-ruido es la menos adecuada para transmitir señales por un medio físico?",
-    choices: ["10 dB.", "20 dB.", "-10 dB.", "-20 dB."],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 253,
-    title:
-      "Qué tipo de codificación permite alcanza mayores tasas de velocidad de transmisión ?",
+      "Qué tipo de codificación permite alcanza mayores tasas de velocidad de transmisión?",
     choices: [
       "Codificación binaria sin retorno a cero bipolar.",
       "Codificación binaria con retorno a cero unipolar.",
       "Codificación binaria con retorno a cero bipolar.",
       "Codificación Manchester.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 254,
+    id: 253,
     title:
       "Qué tipo de modulación analógica es más sensible al ruido presente en el medio físico ?",
     choices: [
@@ -3029,32 +3021,32 @@ const questionsData: QuestionData[] = [
       "Modulación ASK.",
       "Modulación PCM.",
     ],
-    solution: "-",
+    solution: "c",
+    explanation: "",
+  },
+  {
+    id: 254,
+    title:
+      "Qué velocidad de transmisión es necesaria para enviar a través de un medio físico 2 señales analógicas de 100 KHz de ancho de banda empleando una modulación PCM de 6 bits ?",
+    choices: ["12800 Kbps.", "25600 Kbps.", "1200 Kbps.", "2400 Kbps."],
+    solution: "d",
     explanation: "",
   },
   {
     id: 255,
     title:
-      "Qué velocidad de transmisión es necesaria para enviar a través de un medio físico 2 señales analógicas de 100 KHz de ancho de banda empleando una modulación PCM de 6 bits ?",
-    choices: ["12800 Kbps.", "25600 Kbps.", "1200 Kbps.", "2400 Kbps."],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 256,
-    title:
-      "Indica en cuál de los siguientes medios físicos la dispersión intramodal es mayor.",
+      "Indica en cuál de los siguientes medios físicos la dispersión intramodal es mayor",
     choices: [
       "Cable UTP categoría 3.",
       "Cable UTP categoría 5.",
       "Fibra óptica monomodo.",
       "Fibra óptica multimodo.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 257,
+    id: 256,
     title:
       "La transmisión de datos empleando enlaces vía satélite se caracteriza por,",
     choices: [
@@ -3063,11 +3055,11 @@ const questionsData: QuestionData[] = [
       "Permitir una comunicación a un coste razonable para lugares remotos y aislados.",
       "Permitir velocidades de transmisión elevadas con un coste económico menor que la fibra óptica.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 258,
+    id: 257,
     title: "Las técnicas de contienda se caracterizan por,",
     choices: [
       "Establecer turnos para transmitir información en el medio físico.",
@@ -3075,11 +3067,11 @@ const questionsData: QuestionData[] = [
       "Impedir que se produzcan colisiones en el medio físico.",
       "Establecer un mecanismo de transmisión cuando se ha producido una colisión.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 259,
+    id: 258,
     title:
       "Los protocolos de nivel de enlace orientados a carácter se caracterizan por,",
     choices: [
@@ -3088,11 +3080,11 @@ const questionsData: QuestionData[] = [
       "Presentar menos errores en el medio físico que los orientados a bit.",
       "Añadir información redundante en el campo de datos de nivel de enlace.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 260,
+    id: 259,
     title:
       "En un medio físico donde se producen frecuentes errores y se desea transmitir información sensible al retardo (voz, vídeo) se empleará un servicio,",
     choices: [
@@ -3101,11 +3093,11 @@ const questionsData: QuestionData[] = [
       "Orientado a conexión y confirmado.",
       "No orientado a conexión y no confirmado.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 261,
+    id: 260,
     title:
       "En un protocolo de nivel de enlace orientado a conexión y con confirmación es cierto que,",
     choices: [
@@ -3114,11 +3106,11 @@ const questionsData: QuestionData[] = [
       "Si un paquete de datos sufre un error en el medio físico, el emisor se encarga de detectarlo.",
       "El emisor no enviará nunca paquetes de datos a una estación que no está activa.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 262,
+    id: 261,
     title:
       "En un protocolo de ventana deslizante de envío continuo con repetición selectiva es cierto que,",
     choices: [
@@ -3127,11 +3119,11 @@ const questionsData: QuestionData[] = [
       "La ventana del emisor tiene un tamaño que no varía durante el funcionamiento del protocolo.",
       "La ventana del receptor sólo permite recibir una única trama de datos.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 263,
+    id: 262,
     title:
       "La pérdida de un paquete de datos en un protocolo de parada y espera sin numeración de ACK’s provoca,",
     choices: [
@@ -3140,11 +3132,11 @@ const questionsData: QuestionData[] = [
       "El reenvío indefinido del mismo paquete al receptor.",
       "El reenvío de la trama perdida.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 264,
+    id: 263,
     title:
       "Si dos estaciones utilizan el protocolo PPP como protocolo de nivel de enlace es cierto que,",
     choices: [
@@ -3153,11 +3145,11 @@ const questionsData: QuestionData[] = [
       "Las dos estaciones intercambian datos con un protocolo de parada y espera.",
       "Es posible detectar errores en la transmisión de los bits de los paquetes.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 265,
+    id: 264,
     title:
       "Si un equipo transmite un paquete HDLC y alguno de los bits que lo componen sufre una alteración, es cierto que,",
     choices: [
@@ -3166,24 +3158,11 @@ const questionsData: QuestionData[] = [
       "El emisor no puede detectar que algún paquete ha sufrido un error y la capa superior tendrá que corregirlo.",
       "El receptor corrige el error en el paquete y envía los datos al nivel superior.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 266,
-    title:
-      "Qué factores NO provocan un aumento de la congestión en una red TCP/IP ?",
-    choices: [
-      "Valores de MTU diferentes en toda la red.",
-      "Tablas de encaminamiento muy complejas.",
-      "Porcentaje de uso de la CPU de los routers para encaminamiento inferiores al 40%.",
-      "El empleo de protocolos sin control del flujo como UDP.",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 267,
+    id: 265,
     title:
       "Si una red local emplea el mecanismo NAT en su router de acceso a Internet, es cierto que",
     choices: [
@@ -3192,11 +3171,11 @@ const questionsData: QuestionData[] = [
       "Los equipos de Internet pueden establecer conexiones con los equipos de la red interna.",
       "Los equipos de la red interna no pueden establecer conexiones con equipos de Internet.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 268,
+    id: 266,
     title: "Sobre el protocolo de encaminamiento BGP es cierto que,",
     choices: [
       "Emplea el algoritmo de Dijkstra para obtener la solución de encaminamiento en la red.",
@@ -3204,11 +3183,11 @@ const questionsData: QuestionData[] = [
       "Utiliza la difusión para el envío de los mensajes BGP en la red.",
       "Los routers BGP disponen de un conocimiento global de los SA de Internet.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 269,
+    id: 267,
     title:
       "Si un paquete IP es enviado a la dirección 224.0.0.255 es cierto que,",
     choices: [
@@ -3217,11 +3196,11 @@ const questionsData: QuestionData[] = [
       "Los routers que reciben este paquete lo envían a todos los routers multicasting de Internet.",
       "El paquete sólo es procesado por los equipos que pertenecen a este grupo de multidifusión y se encuentran en la red donde se transmite.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 270,
+    id: 268,
     title:
       "El empleo de la tecnología punto a punto para las redes WAN se caracteriza por,",
     choices: [
@@ -3230,11 +3209,11 @@ const questionsData: QuestionData[] = [
       "La transmisión de un único paquete para enviar información a todos los nodos de la red.",
       "La tolerancia a fallos que presenta si existen varios caminos a un determinado destino.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 271,
+    id: 269,
     title:
       "La transmisión de información en una red LAN de difusión se caracteriza por,",
     choices: [
@@ -3243,11 +3222,11 @@ const questionsData: QuestionData[] = [
       "El empleo de algoritmos de encaminamiento para el intercambio de paquetes.",
       "Establecer caminos en la red entre cada par de equipos.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 272,
+    id: 270,
     title:
       "Si un paquete que circula en una red de conmutación de paquetes por datagramas sufre un error en un enlace punto a punto con protocolo PPP es cierto que,",
     choices: [
@@ -3256,11 +3235,11 @@ const questionsData: QuestionData[] = [
       "La capa de red detecta el error y lo corrige.",
       "La capa de enlace detecta el error y la capa de red lo corrige.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 273,
+    id: 271,
     title:
       "El aumento en el número de niveles de una arquitectura de red se caracteriza por,",
     choices: [
@@ -3269,11 +3248,11 @@ const questionsData: QuestionData[] = [
       "Aumentar el número de errores en la transmisión de paquetes por el medio físico.",
       "Disminuir el número de errores en la transmisión de paquetes por el medio físico.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 274,
+    id: 272,
     title:
       "La realización de un servicio ofrecido por la capa n de una arquitectura de red OSI precisa de,",
     choices: [
@@ -3282,11 +3261,11 @@ const questionsData: QuestionData[] = [
       "El intercambio de PDU’s entre las entidades pares del nivel n+1.",
       "El intercambio de IDU’s entre las entidades pares del nivel n-1.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 275,
+    id: 273,
     title:
       "La fragmentación de una SDU procedente del nivel n+1 en una arquitectura de red OSI se realiza,",
     choices: [
@@ -3295,11 +3274,11 @@ const questionsData: QuestionData[] = [
       "Añadiendo a cada fragmento de la SDU una PCI del nivel n.",
       "Añadiendo a cada fragmento de la SDU una ICI del nivel n+1.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 276,
+    id: 274,
     title:
       "La capa de transporte en la arquitectura TCP/IP se caracteriza por,",
     choices: [
@@ -3308,11 +3287,11 @@ const questionsData: QuestionData[] = [
       "Establecer conexiones a múltiples destino empleando el mismo puerto cliente.",
       "Proporcionar siempre a la capa de aplicación una comunicación no segura, debido al funcionamiento con datagramas de la capa de red.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 277,
+    id: 275,
     title:
       "En el modelo de arquitectura de red TCP/IP, los paquetes que se intercambian a nivel físico,",
     choices: [
@@ -3321,11 +3300,11 @@ const questionsData: QuestionData[] = [
       "Incorporan siempre la cabecera del protocolo IP y TCP.",
       "Incorporan siempre la cabecera del protocolo IP y UDP.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 278,
+    id: 276,
     title:
       "Los paquetes IP dirigidos a la dirección IP de broadcast de una red IP se propagan,",
     choices: [
@@ -3334,11 +3313,11 @@ const questionsData: QuestionData[] = [
       "A través de puentes y repetidores.",
       "A través de pasarelas, routers y puentes.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 279,
+    id: 277,
     title:
       "La interconexión de dos redes LAN Ethernet a través de una red con arquitectura TCP/IP se consigue,",
     choices: [
@@ -3347,11 +3326,11 @@ const questionsData: QuestionData[] = [
       "Empleando dos pasarelas, una en cada LAN.",
       "Empleando dos repetidores, uno en cada LAN.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 280,
+    id: 278,
     title:
       "El número de armónicos de una señal de pulsos que pueden transmitirse por un medio físico depende,",
     choices: [
@@ -3360,11 +3339,11 @@ const questionsData: QuestionData[] = [
       "De la relación señal-ruido en el medio físico.",
       "De la información digital que contenga la señal.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 281,
+    id: 279,
     title:
       "La atenuación que sufre una señal al transmitirse por un medio físico NO depende de,",
     choices: [
@@ -3373,11 +3352,11 @@ const questionsData: QuestionData[] = [
       "La relación señal-ruido del medio físico.",
       "El número de niveles empleado en la codificación.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 282,
+    id: 280,
     title: "La modulación analógica por cambio en amplitud permite,",
     choices: [
       "Transmitir cualquier señal de información a través de un medio físico con 4000 Hz de ancho de banda.",
@@ -3385,11 +3364,11 @@ const questionsData: QuestionData[] = [
       "Adecuar el ancho de banda de la señal moduladora al ancho de banda del medio físico.",
       "Aumentar el ancho de banda de la señal moduladora.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 283,
+    id: 281,
     title:
       "La modulación analógica que permite la transmisión de señales con mayor calidad y mejor aprovechamiento del medio físico es,",
     choices: [
@@ -3398,11 +3377,11 @@ const questionsData: QuestionData[] = [
       "La modulación por cambio de frecuencia.",
       "La modulación por cambio de fase y amplitud.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 284,
+    id: 282,
     title: "La modulación digital por código de pulsos (PCM) permite,",
     choices: [
       "Transmitir señales analógicas a través de un medio digital sin ninguna pérdida de información.",
@@ -3410,19 +3389,19 @@ const questionsData: QuestionData[] = [
       "Transmitir información analógica empleando un medio físico que propaga señales de pulsos.",
       "Incorporar una señal digital de pulsos a señales analógicas que se transmiten en un medio físico.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 285,
+    id: 283,
     title:
       "Se desea enviar por un medio físico dos señales PCM multiplexadas en el tiempo. Una de las señales se corresponde con un canal de comunicación a 36 Kbps y la otra con un canal de 96 Kbps. El medio físico transmitirá bits de información a una velocidad de,",
     choices: ["132 Kbps.", "96 Kbps.", "36 Kbps.", "3456 Kbps."],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 286,
+    id: 284,
     title:
       "El empleo de pares de hilos de cobre trenzados para la transmisión de señales permite evitar,",
     choices: [
@@ -3431,11 +3410,11 @@ const questionsData: QuestionData[] = [
       "El ruido térmico.",
       "La interferencia de señales externas al cable.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 287,
+    id: 285,
     title:
       "La transmisión de señales digitales de pulsos a una velocidad de 100 Mbps y distancias de 100 metros es posible empleando,",
     choices: [
@@ -3444,11 +3423,11 @@ const questionsData: QuestionData[] = [
       "Cable par trenzado categoría 3.",
       "Cable par trenzado blindado.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 288,
+    id: 286,
     title: "El efecto de la dispersión intermodal en fibras ópticas es mayor,",
     choices: [
       "En las fibras monomodo.",
@@ -3456,11 +3435,11 @@ const questionsData: QuestionData[] = [
       "Al aumentar la distancia de la comunicación.",
       "Al aumentar la potencia del haz de luz del emisor.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 289,
+    id: 287,
     title:
       "La interconexión de dos redes LAN en un entorno industrial donde existen gran cantidad de equipos eléctricos precisa como medio físico,",
     choices: [
@@ -3469,11 +3448,11 @@ const questionsData: QuestionData[] = [
       "Cable coaxial de 75 Ω.",
       "Par trenzado UTP.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 290,
+    id: 288,
     title:
       "El servicio más rápido ofrecido por la capa de enlace cuando en el medio físico no se producen errores es el,",
     choices: [
@@ -3482,11 +3461,11 @@ const questionsData: QuestionData[] = [
       "Servicio no orientado a conexión confirmado.",
       "Servicio orientado a conexión no confirmado.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 291,
+    id: 289,
     title:
       "La técnica de detección de errores empleando códigos de redundancia cíclica (CRC) se fundamenta en,",
     choices: [
@@ -3495,11 +3474,11 @@ const questionsData: QuestionData[] = [
       "Enviar junto a los datos el resto de la división de la secuencia de los bits de datos entre los bits de un polinomio generador.",
       "Enviar junto a los datos la diferencia entre los bits de datos y los bits del polinomio generador.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 292,
+    id: 290,
     title:
       "El error de duplicación en el control del flujo a nivel de enlace puede producirse en el protocolo,",
     choices: [
@@ -3508,11 +3487,11 @@ const questionsData: QuestionData[] = [
       "Protocolo de ventana deslizante.",
       "En ninguno de los protocolos de control del flujo anteriores.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 293,
+    id: 291,
     title: "El protocolo de nivel de enlace HDLC se caracteriza por,",
     choices: [
       "Emplear tramas no numeradas para el control del flujo emisor-receptor.",
@@ -3520,11 +3499,11 @@ const questionsData: QuestionData[] = [
       "Emplear tramas de información y supervisión para el control del flujo emisor-receptor.",
       "Emplear el control del flujo de parada y espera para la recuperación de errores.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 294,
+    id: 292,
     title:
       "El establecimiento de los parámetros del nivel de red en una enlace PPP se realiza empleando,",
     choices: [
@@ -3533,11 +3512,11 @@ const questionsData: QuestionData[] = [
       "El protocolo CHAP.",
       "No es posible establecer parámetros del nivel de red con un protocolo de nivel de enlace.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 295,
+    id: 293,
     title:
       "Si se desea realizar la interconexión de dos redes con direccionamiento privado a través de Internet, es cierto que,",
     choices: [
@@ -3546,11 +3525,11 @@ const questionsData: QuestionData[] = [
       "Es necesario que los routers de acceso a Internet empleen NAT.",
       "No es posible, es necesario siempre el direccionamiento público.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 296,
+    id: 294,
     title:
       "Qué situación NO es indicio de presencia de congestión en una red de comunicaciones ?",
     choices: [
@@ -3559,11 +3538,11 @@ const questionsData: QuestionData[] = [
       "Porcentaje de uso de CPU para encaminamiento en los routers del 70%.",
       "Fragmentación de paquetes IP en los routers de la red.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 297,
+    id: 295,
     title:
       "El intercambio de información de encaminamiento en el protocolo BGP se realiza,",
     choices: [
@@ -3572,11 +3551,11 @@ const questionsData: QuestionData[] = [
       "Intercambiando paquetes TCP con dirección destino 255.255.255.255.",
       "Intercambiando paquetes UDP con una dirección destino de multicast.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 298,
+    id: 296,
     title: "La versión 2 de RIP tiene en común con la versión 1 que,",
     choices: [
       "Emplean la misma dirección IP de destino en los paquetes de información.",
@@ -3584,11 +3563,11 @@ const questionsData: QuestionData[] = [
       "Emplean conexiones UDP para el intercambio de información.",
       "Intercambian sólo los destinos que han modificado su coste en la tabla de rutas.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 299,
+    id: 297,
     title: "Una conexión a una VPN empleando PPTP se caracteriza por,",
     choices: [
       "Asegurar que ningún paquete de datos del túnel se pierde en el mismo.",
@@ -3596,84 +3575,84 @@ const questionsData: QuestionData[] = [
       "Verificar la autenticidad del origen del túnel con el protocolo GRE.",
       "Autenticar al usuario que realiza la conexión VPN con el protocolo TCP.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 300,
+    id: 298,
     title:
-      "En relación a la tecnología de transmisión empleada en las redes de computadores...",
+      "En relación a la tecnología de transmisión empleada en las redes de computadores",
     choices: [
       "En las redes de difusión no se permite el uso de mensajes de broadcast.",
       "En las redes punto a punto no se pueden emplear mensajes de multicast.",
       "Los mensajes multicast llegan a todas las máquinas de una red.",
       "Ninguna de las anteriores es correcta.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 301,
+    id: 299,
     title:
       "La velocidad de modulación para la señal representada en la figura es:",
     choices: ["3 baudios.", "2 bps.", "1 baudio.", "6 baudios."],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 302,
+    id: 300,
     title:
-      "Con respecto al modelo genérico de transferencia de información entre capas...",
+      "Con respecto al modelo genérico de transferencia de información entre capas",
     choices: [
       "La ICI forma parte de los datos transferidos entre capas.",
       "La PCI no forma parte de los datos transferidos entre capas.",
       "Al conjunto ICI + SDU no se le denomina PDU.",
       "El SAP es lo mismo que la SDU.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 303,
+    id: 301,
     title:
       "Teniendo en cuenta la encapsulación de protocolos del modelo OSI. Imagina que 001 es el código de la cabecera de presentación, 101 es el código de la cabecera de sesión, 100 es el código de la cabecera de enlace, 000 es el código de la cabecera de transporte y 111 el de red. Si se envía el dato 01 al medio, el código que se formará en el cable será:",
     choices: [
       "00110100011110001.",
       "10011100010100101.",
       "00110100010001111.",
-      "00100011110110010",
+      "00100011110110010.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 304,
+    id: 302,
     title:
-      "El filtrado por dirección MAC a realizar en un Router WIFI para evitar dar acceso a la red a individuos no autorizados...",
+      "El filtrado por dirección MAC a realizar en un Router WIFI para evitar dar acceso a la red a individuos no autorizados",
     choices: [
       "Corresponde con un filtrado a nivel físico.",
       "Corresponde con un filtrado a nivel de enlace.",
       "No permite visualizar ningún dato de nuestra red.",
       "Ninguna de las anteriores es correcta.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 305,
+    id: 303,
     title:
-      "Las redes de Petri se definen como sistemas de especificación de protocolos...",
+      "Las redes de Petri se definen como sistemas de especificación de protocolos",
     choices: [
       "De ningún modo pueden ser empleadas para la validación de protocolos.",
       "Si una transición se activa, entonces todos los testigos de sus lugares de entrada pasan a los lugares de salida.",
       "Pueden modelar situaciones de concurrencia y sincronización.",
       "El grafo de alcanzabilidad siempre es finito.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 306,
+    id: 304,
     title:
       "Especificación, validación y verificación son conceptos relacionados con el diseño e implementación de protocolos de comunicación. Concretamente:",
     choices: [
@@ -3682,32 +3661,31 @@ const questionsData: QuestionData[] = [
       "La validación es necesaria en protocolos de comunicación.",
       "Si se especifica un protocolo posteriormente no se podría validar.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 307,
+    id: 305,
     title:
-      "Si se ha enviado la trama 100100001 al cable que une dos ordenadores y el polinomio generador empleado en emisor y receptor es x3+x2+1.  El CRC será:",
+      "Si se ha enviado la trama 100100001 al cable que une dos ordenadores y el polinomio generador empleado en emisor y receptor es x3+x2+1. El CRC será:",
     choices: ["000.", "001.", "100.", "110."],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 308,
-    title:
-      "En relación a la fibra óptica y su uso como medio de transmisión...",
+    id: 306,
+    title: "En relación a la fibra óptica y su uso como medio de transmisión",
     choices: [
       "La fibra de índice discreto posee mejor calidad que la fibra monomodo.",
       "La fibra, en general, permite una mayor separación entre repetidores, frente a otros dispositivos de transmisión.",
       "El Diodo Laser presenta peor prestación como emisor que el diodo infrarrojo IRED.",
       "Su principal desventaja es que no puede ir bajo tierra.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 309,
+    id: 307,
     title:
       "Teóricamente, una señal compuesta periódica que se lanzase desde un emisor a un receptor estaría formada:",
     choices: [
@@ -3716,11 +3694,11 @@ const questionsData: QuestionData[] = [
       "Por un número limitado de funciones armónicas de diferente amplitud y frecuencia.",
       "Por un número ilimitado de funciones armónicas de diferente amplitud y frecuencia.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 310,
+    id: 308,
     title:
       "En la transmisión de caracteres por un cable de datos que presenta un ancho de banda igual a 1350Hz, podemos asegurar que:",
     choices: [
@@ -3729,11 +3707,11 @@ const questionsData: QuestionData[] = [
       "Ningún armónico podrá circular por el medio.",
       "Si la velocidad de envío es inferior a 32bps se podrá enviar el armónico 32.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 311,
+    id: 309,
     title:
       "Qué información sobre el concepto de ancho de banda de un medio de transmisión no es cierta?",
     choices: [
@@ -3742,11 +3720,11 @@ const questionsData: QuestionData[] = [
       "Se mide en unidades de Hertzios.",
       "Limita la velocidad de envío de datos.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 312,
+    id: 310,
     title:
       "Si la Potencia de una señal (PS) es de 100W y la Potencia del ruido (PN) es de 2W, la atenuación producida en el medio será de:",
     choices: [
@@ -3755,45 +3733,44 @@ const questionsData: QuestionData[] = [
       "0.",
       "No se puede calcular con estos datos.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 313,
+    id: 311,
     title:
-      "Qué relacion Señal/Ruido debe tener un medio físico para lograr que la velocidad de transmisión de Shanon sea superior a la velocidad de Nyquist? (Se emplean 8 niveles de señalización).",
+      "Qué relacion Señal/Ruido debe tener un medio físico para lograr que la velocidad de transmisión de Shanon sea superior a la velocidad de Nyquist? (Se emplean 8 niveles de señalización)",
     choices: [
       "0.",
       "13db.",
       "63.",
       "El doble de potencia de señal respecto al ruido.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 314,
-    title:
-      "Con respecto a la señalización empleada en una red de computadores...",
+    id: 312,
+    title: "Con respecto a la señalización empleada en una red de computadores",
     choices: [
       "Una LAN tipo Ethernet emplea normalmente modulación analógica.",
       "Una LAN token ring hace uso de una variación diferencial de Manchester.",
       "NRZ no es una señalización binaria.",
       "ASK se refiere a cambios de amplitud en lo que se conoce como modulación digital.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 315,
+    id: 313,
     title:
-      "Con los datos que se muestran en la siguiente gráfica se puede deducir que se trataría de  una modulación...",
+      "Con los datos que se muestran en la siguiente gráfica se puede deducir que se trataría de una modulación",
     choices: ["2-PSK.", "3-PSK.", "4-PSK.", "16-PSK."],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 316,
+    id: 314,
     title:
       "En relación a la modulación PCM, se puede afirmar que si el Bseñal= Bmedio entonces:",
     choices: [
@@ -3802,11 +3779,11 @@ const questionsData: QuestionData[] = [
       "No se puede cuantizar la señal.",
       "T=1/2Bmedio.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 317,
+    id: 315,
     title:
       "En relación a la modulación DM o Modulación Delta, se sabe que la señal se aproxima mediante una función escalera en donde:",
     choices: [
@@ -3815,24 +3792,24 @@ const questionsData: QuestionData[] = [
       "La salida de la modulación delta es una señal generalmente de entre 2 y 4 niveles.",
       "Si aumenta la frecuencia de muestreo, mayor precisión se logra y también mayor es la velocidad de envío de datos.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 318,
+    id: 316,
     title:
-      "En la multiplexación por división en el tiempo TDM, las ranuras temporales se asignan a las distintas fuentes de manera estática o dinámica...",
+      "En la multiplexación por división en el tiempo TDM, las ranuras temporales se asignan a las distintas fuentes de manera estática o dinámica",
     choices: [
       "TDM síncrono distribuye las ranuras de forma dinámica, dejando celdas vacías si no transmite datos.",
       "TDM asíncrono se corresponde con una modulación por división en frecuencias.",
       "En el estándar norteamericano, la línea T básica posee una velocidad inferior a 2Mbps.",
       "Ninguna de las anteriores es cierta.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 319,
+    id: 317,
     title:
       "Se ha recibido la trama 001 en un receptor. Según el mecanismo de Hamming para detectar y corregir errores, y teniendo en cuenta que la paridad es par, podemos afirmar que:",
     choices: [
@@ -3841,11 +3818,11 @@ const questionsData: QuestionData[] = [
       "La trama posee error y éste se encuentra en el bit de la posición 3.",
       "No se puede saber si esta trama tiene error con el método de Hamming.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 320,
+    id: 318,
     title:
       "Si los paquetes de un mensaje digital siguen el mismo camino del emisor al receptor, estamos trabajando con:",
     choices: [
@@ -3854,11 +3831,11 @@ const questionsData: QuestionData[] = [
       "Conmutación de paquetes y circuitos virtuales.",
       "Conmutación de paquetes y datagramas.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 321,
+    id: 319,
     title:
       "El cable de par trenzado es un medio de transmisión empleado en las redes, y es sabido que:",
     choices: [
@@ -3867,37 +3844,37 @@ const questionsData: QuestionData[] = [
       "El cable de par trenzado de 75 ohmios sólo transmite en su interior señales digitales.",
       "El cable de par trenzado de 50 ohmios se emplea en la transmisión de señales digitales.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 322,
+    id: 320,
     title:
-      "En relación a los algoritmos de encaminamiento presentes en el nivel de red OSI...",
+      "En relación a los algoritmos de encaminamiento presentes en el nivel de red OSI",
     choices: [
       "Todos tienen la prioridad de minimizar el número de redes por los que pasará un paquete (métrica) hasta que llegue a su destino.",
       "Al contrario que Bellman-Ford, Dijkstra permite el cálculo, en un único paso, del camino de coste mínimo entre todas las combinaciones de nodos.",
       "Al contrario que Dijkstra, Bellman-Ford puede elegir como trayectoria óptima aquella que presente mayor coste siempre que tenga un menor número de saltos.",
       "Nunca se calculan para encaminamiento dinámico.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 323,
+    id: 321,
     title:
-      "El protocolo de ventana deslizante es utilizado por diferentes protocolos de comunicación, así como por el nivel de enlace del modelo OSI. Si disponemos de 4 bits para la numeración de tramas, entonces el tamaño máximo de la ventana...",
+      "El protocolo de ventana deslizante es utilizado por diferentes protocolos de comunicación, así como por el nivel de enlace del modelo OSI. Si disponemos de 4 bits para la numeración de tramas, entonces el tamaño máximo de la ventana",
     choices: [
       "Será de 16 para el receptor y 15 para el emisor.",
       "Será de 15 para el receptor y 14 para el emisor.",
       "Será de 15 para ambos equipos.",
       "Será de 16 para ambos equipos.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 324,
+    id: 322,
     title:
       "En la delimitación por carácteres especiales, si por el medio físico circula la trama que se muestra a continuación, ¿Qué es lo que está sucediendo?",
     choices: [
@@ -3906,11 +3883,11 @@ const questionsData: QuestionData[] = [
       "Los caracteres K M P no son válidos y no llegarán al receptor como datos.",
       "No corresponde con una delimitación de caracteres sino de bits.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 325,
+    id: 323,
     title:
       "Sobre el encaminamiento de paquetes en una red de datagramas es cierto que,",
     choices: [
@@ -3919,11 +3896,11 @@ const questionsData: QuestionData[] = [
       "Se emplea una tecnología de difusión para interconectar todos los equipos de la red.",
       "Los paquetes dirigidos a una dirección de broadcast son reenviados a todos los routers de la red.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 326,
+    id: 324,
     title:
       "Si en una red de difusión un paquete dirigido a la dirección MAC de broadcast sufre una colisión, es cierto que,",
     choices: [
@@ -3932,11 +3909,11 @@ const questionsData: QuestionData[] = [
       "El paquete no será reenviado ya que va dirigido a la dirección de broadcast.",
       "No es posible, pues los paquetes de broadcast nunca sufren colisiones.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 327,
+    id: 325,
     title: "La tecnología de difusión no es apropiada para redes WAN ya que,",
     choices: [
       "Los errores en los medios de difusión son muy frecuentes.",
@@ -3944,11 +3921,11 @@ const questionsData: QuestionData[] = [
       "Las redes de difusión emplean velocidades de transmisión muy pequeñas.",
       "El elevado número de equipos que interconecta provocaría un estado de colisión permanente.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 328,
+    id: 326,
     title:
       "Las redes WAN proporcionan a los usuarios velocidades inferiores a las de las redes LAN ya que,",
     choices: [
@@ -3957,11 +3934,11 @@ const questionsData: QuestionData[] = [
       "La tasa de error en el medio físico es mayor en las LAN que en las WAN.",
       "Las redes WAN no emplean la fibra óptica como medio de transmisión.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 329,
+    id: 327,
     title:
       "Indica qué mecanismo permite ofrecer una calidad de servicio (QoS) en una red de comunicaciones,",
     choices: [
@@ -3970,11 +3947,11 @@ const questionsData: QuestionData[] = [
       "El reparto de la velocidad de transferencia del medio físico entre los equipos.",
       "Monitorizar los tipos de paquetes transmitidos en el medio físico.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 330,
+    id: 328,
     title: "En una arquitectura de red de n niveles, es cierto que,",
     choices: [
       "Existe comunicación horizontal entre la capa n y la n-1 del otro extremo.",
@@ -3982,11 +3959,11 @@ const questionsData: QuestionData[] = [
       "Un número elevado de niveles aumenta la velocidad de transmisión.",
       "Un número reducido de niveles hace más difícil la detección de errores.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 331,
+    id: 329,
     title:
       "El intercambio de PDU’s entre entidades pares del nivel n se realiza,",
     choices: [
@@ -3995,11 +3972,11 @@ const questionsData: QuestionData[] = [
       "Enviándolas al nivel n+1 incorporando una ICI.",
       "Enviándolas al nivel n-1 como PCI’s.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 332,
+    id: 330,
     title:
       "Si una SDU es fragmentada al enviarla del nivel n al n-1, es cierto que,",
     choices: [
@@ -4008,11 +3985,11 @@ const questionsData: QuestionData[] = [
       "Sólo el primer fragmento incorpora la cabecera ICI.",
       "Las SDU’s no se fragmentan nunca.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 333,
+    id: 331,
     title:
       "Si un equipo con arquitectura TCP/IP establece una conexión al servicio SMTP y otra al servicio HTTP de un mismo servidor, es cierto que,",
     choices: [
@@ -4021,11 +3998,11 @@ const questionsData: QuestionData[] = [
       "Las dos conexiones tienen diferente puerto origen.",
       "Las dos conexiones tienen diferentes direcciones IP origen.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 334,
+    id: 332,
     title:
       "Si un equipo A en una red TCP/IP sobre Ethernet establece una conexión TCP a otro equipo B, los paquetes de datos TCP enviados de A a B se caracterizan por,",
     choices: [
@@ -4034,11 +4011,11 @@ const questionsData: QuestionData[] = [
       "Los paquetes enviados tienen diferentes direcciones MAC en la cabecera Ethernet.",
       "Los paquetes enviados tienen los mismos valores de Identificación en la cabecera IP.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 335,
+    id: 333,
     title:
       "Si dos segmentos Ethernet se interconectan empleando un puente es cierto que,",
     choices: [
@@ -4047,11 +4024,11 @@ const questionsData: QuestionData[] = [
       "Los paquetes de broadcast de un segmento pueden provocar colisiones en el otro.",
       "No se producen colisiones nunca.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 336,
+    id: 334,
     title:
       "La velocidad máxima de transmisión que puede emplearse en un medio físico depende de,",
     choices: [
@@ -4060,11 +4037,11 @@ const questionsData: QuestionData[] = [
       "Los datos incorporados en los paquetes de datos.",
       "El tipo de código de detección de errores empleado.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 337,
+    id: 335,
     title:
       "Por qué causa una señal NO puede transmitirse por un medio físico ?",
     choices: [
@@ -4073,11 +4050,11 @@ const questionsData: QuestionData[] = [
       "Porque el ancho de banda del medio no es el adecuado para el ancho de banda de la señal.",
       "Porque los armónicos principales de una señal están dentro del ancho de banda del medio.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 338,
+    id: 336,
     title:
       "Qué tipo de señalización en banda base es la más adecuada para mantener la sincronización ?",
     choices: [
@@ -4086,11 +4063,11 @@ const questionsData: QuestionData[] = [
       "Codificación QAM.",
       "Codificación binaria unipolar con retorno a cero.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 339,
+    id: 337,
     title:
       "Si quiero aumentar la velocidad de transmisión con una señal de tipo QAM es necesario,",
     choices: [
@@ -4099,11 +4076,11 @@ const questionsData: QuestionData[] = [
       "No es posible sin cambiar el tipo de codificación de la señal.",
       "Disminuyendo la relación señal-ruido en el medio físico.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 340,
+    id: 338,
     title:
       "La normativa de multiplexión en el tiempo europea (E1) y la de EEUU-Japón (T1) se diferencian en que,",
     choices: [
@@ -4112,11 +4089,11 @@ const questionsData: QuestionData[] = [
       "La normativa de EEUU-Japón emplea una velocidad mayor que la europea.",
       "El número de canales de voz en una trama es diferente.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 341,
+    id: 339,
     title:
       "Si en una red Ethernet a 10 Mbps se emplea un cableado UTP de categoría 5, es cierto que,",
     choices: [
@@ -4125,11 +4102,11 @@ const questionsData: QuestionData[] = [
       "Podrá emplearse el mismo cableado para transmitir a 100 Mbps.",
       "No se podrá transmitir información, pues el cable no lo permite.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 342,
+    id: 340,
     title:
       "Indica en qué situación es necesario el empleo de la fibra óptica como medio físico de transmisión,",
     choices: [
@@ -4138,11 +4115,11 @@ const questionsData: QuestionData[] = [
       "Distancias de menos de 100 metros y velocidades de 100 Mbps.",
       "Distancias de 200 metros y velocidades de 10 Mbps.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 343,
+    id: 341,
     title:
       "Si disponemos de una red inalámbrica de infraestructura con un switch Ethernet de hasta 100 Mbps y puntos de acceso inalámbricos a 54 Mbps, es cierto que,",
     choices: [
@@ -4151,11 +4128,11 @@ const questionsData: QuestionData[] = [
       "No podemos incorporar equipos en el segmento Ethernet a 1000 Mbps.",
       "No es posible emplear tarjetas inalámbricas de 11 Mbps y 54 Mbps en la misma red.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 344,
+    id: 342,
     title:
       "Un operador de comunicaciones desea interconectar un router situado en la Isla de Pascua (Chile) con su sede en Europa. La infraestructura más rentable es,",
     choices: [
@@ -4164,11 +4141,11 @@ const questionsData: QuestionData[] = [
       "Enlace inalámbrico a 54 Mbps.",
       "Enlace inalámbrico a 11 Mbps, pues permite alcanzar mayores distancias que el de 45 Mbps.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 345,
+    id: 343,
     title:
       "El servicio más lento ofrecido por la capa de enlace cuando en el medio físico no se producen errores es el,",
     choices: [
@@ -4177,11 +4154,11 @@ const questionsData: QuestionData[] = [
       "Servicio no orientado a conexión confirmado.",
       "Servicio orientado a conexión no confirmado.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 346,
+    id: 344,
     title:
       "La técnica de detección de errores empleando paridad se caracteriza por,",
     choices: [
@@ -4190,11 +4167,11 @@ const questionsData: QuestionData[] = [
       "Detectar siempre errores en un número par de bits.",
       "Permitir detectar siempre errores en ráfaga.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 347,
+    id: 345,
     title:
       "El error de duplicación en el control del flujo a nivel de enlace se produce cuando,",
     choices: [
@@ -4203,11 +4180,11 @@ const questionsData: QuestionData[] = [
       "El emisor envía el mismo bloque de datos con numeración distinta.",
       "El receptor interpreta como datos diferentes el reenvío de un paquete.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 348,
+    id: 346,
     title:
       "El tamaño de la ventana del emisor en una protocolo de ventana deslizante selectivo es,",
     choices: [
@@ -4216,11 +4193,11 @@ const questionsData: QuestionData[] = [
       "Siempre mayor que la ventana del receptor.",
       "De tamaño fijo a valor 1.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 349,
+    id: 347,
     title:
       "En el protocolo de nivel de enlace HDLC , el establecimiento de un enlace balanceado se realiza transmitiendo paquetes de,",
     choices: [
@@ -4229,24 +4206,24 @@ const questionsData: QuestionData[] = [
       "No numerados.",
       "No es posible establecer conexiones con el protocolo HDLC.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 350,
+    id: 348,
     title:
-      "La autenticación  de un usuario empleando el protocolo PPP se realiza,",
+      "La autenticación de un usuario empleando el protocolo PPP se realiza,",
     choices: [
       "Después de establecer la sesión PPP.",
       "Empleando el protocolo LCP.",
       "Después de realizar la negociación NCP.",
       "Empleando el protocolo IP.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 351,
+    id: 349,
     title:
       "Cómo puede corregirse el congestionamiento cuando éste aparece en una red TCP/IP ?",
     choices: [
@@ -4255,11 +4232,11 @@ const questionsData: QuestionData[] = [
       "Aumentando el número de entradas en las tablas de rutas.",
       "Reduciendo el flujo de entrada de paquetes en la red.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 352,
+    id: 350,
     title:
       "Si se accede a un servidor web que se encuentra en un equipo dentro de una red privada, los equipos de Internet tienen que establecer una conexión a,",
     choices: [
@@ -4268,19 +4245,19 @@ const questionsData: QuestionData[] = [
       "El puerto 1080 de la dirección pública del router de la red privada.",
       "El puerto 1080 de la dirección privada del equipo que tiene el servicio web.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 353,
+    id: 351,
     title:
       "Si en una red se desea emplear un protocolo de encaminamiento que tenga en cuenta la velocidad de comunicación en los enlaces se empleará,",
     choices: ["BGP.", "RIP v1.", "RIP v2.", "OSPF."],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 354,
+    id: 352,
     title:
       "Si dos routers establecen 4 túneles GRE entre ellos, es cierto que,",
     choices: [
@@ -4289,89 +4266,53 @@ const questionsData: QuestionData[] = [
       "Cada túnel establecido tendrá un identificador ‘key’ distinto.",
       "Dos routers sólo pueden establecer un túnel GRE.",
     ],
-    solution: "-",
+    solution: "c",
+    explanation: "",
+  },
+  {
+    id: 353,
+    title:
+      "El espectro de potencias de la señal compuesta s(t) = [sen(4¡ift) + cos( 4¡ift)] + (1/2). [sen(8¡ift) + cos(8¡ift)],",
+    choices: [
+      "Es 1.41 para la primera ftecuencia.",
+      "Es 0.5 para la segunda ftecuencia.",
+      "Es 0.5 para la tercera ftecuencia.",
+      "Es 0.7 para la cuarta frecuencia.",
+    ],
+    solution: "d",
+    explanation: "",
+  },
+  {
+    id: 354,
+    title:
+      "En una arquitectura de red que sigue el modelo de referencia OSI/ISO",
+    choices: [
+      "La capa del nivel transporte proporciona servicios a la capa del nivel de red.",
+      "La capa del nivel de enlace proporciona servicios a la capa del nivel de transporte.",
+      "La PDU del nivel N contiene la PCI del nivel N y la SDU del nivel N-lo.",
+      "La IDU del nivel N contiene la PCI y la ICI del nivel N-l.",
+    ],
+    solution: "c",
     explanation: "",
   },
   {
     id: 355,
-    title: "Una red punto a punto ...",
-    choices: [
-      "Es una red cuya tecnología de transmisión emplea un enlace directo entre dosdispositivos.",
-      "Es una red cuyo nivel fisico se estructura en una topología de bus.",
-      "Es una red en la que los dispositivos emplean protocolo ETHERNET de nivel de enlace.",
-      "Es una red de conmutación de circuitos con la propiedad de envío de tramas broadcast.",
-    ],
-    solution: "-",
+    title:
+      "Si en un medio físico se transmite una señal con una potencia de 19mW y a cierta distancia se miden 3mW, la perdida expresada en decibelios es:",
+    choices: ["3dB.", "6dB.", "8dB.", "l2dB."],
+    solution: "c",
     explanation: "",
   },
   {
     id: 356,
-    title: "Una red con topología en anillo ...",
-    choices: [
-      "Especifica sus protocolos y arquitectura en el estándar IEEE 802.5.",
-      "Se emplea, generalmente, más en la construcción de redes WAN que en la de redes MAN.",
-      "Es más eficiente que una topología en bus cuando se emplea en redes LAN grandes.",
-      "Emplea conexiones punto a punto a nivel de enlace, de ahí que el coste de su implantaciónsea menos elevado que en una topología en bus.",
-    ],
-    solution: "-",
+    title:
+      "El espectro de un canal está situado entre 1.5MHz y 4Mhz, ¿cuántos niveles de señalización se necesitarán para conseguir una velocidad de transmisión máxima de 5Mbps?",
+    choices: ["2.", "4.", "8.", "16."],
+    solution: "a",
     explanation: "",
   },
   {
     id: 357,
-    title:
-      "El espectro de potencias de la señal compuestas(t) = [sen(4¡ift) + cos( 4¡ift)] + (1/2). [sen(8¡ift) + cos(8¡ift)],",
-    choices: [
-      "Es 1.41 para la primera ftecuencia.",
-      "Es 0.5 para la segunda ftecuencia.",
-      "Es 0.5 para la tercera ftecuencia",
-      "Es 0.7 para la cuarta frecuencia.",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 358,
-    title:
-      "En una arquitectura de red que sigue el modelo de referencia OSI/ISO ....",
-    choices: [
-      "La capa del nivel transporte proporciona servicios a la capa del nivel de red.",
-      "La capa del nivel de enlace proporciona servicios a la capa del nivel de transporte.",
-      "La PDU del nivel N contiene la PCI del nivel N y la SDU del nivel N-lo",
-      "La IDU del nivel N contiene la PCI y la ICI del nivel N-l.",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 359,
-    title:
-      "Si en un medio físico se transmite una señal con una potencia de 19mW y a ciertadistancia se miden 3mW, la perdida expresada en decibelios es:",
-    choices: ["3dB.", "6dB.", "8dB.", "l2dB."],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 360,
-    title:
-      "El espectro de un canal está situado entre 1.5MHz y 4Mhz, ¿cuántos niveles deseñalización se necesitarán para conseguir una velocidad de transmisión máxima de 5Mbps?",
-    choices: ["2.", "4.", "8.", "16."],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 361,
-    title: "Es falso que la modulación PSK:",
-    choices: [
-      "Tiene diferentes variantes en función del número de niveles que se emplean para modular.",
-      "Es más sensible a errores de ganancia que la modulación ASK.",
-      "Es una modulación analógica.",
-      "Transmite una señal modulada que se obtiene de modificar una señal portadora con unamoduladora.",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 362,
     title: "Para codificar la secuencia de bits '10100110' se ha empleado:",
     choices: [
       "Una codificación banda base Manchester.",
@@ -4379,225 +4320,225 @@ const questionsData: QuestionData[] = [
       "Una codificación banda base RZ bipolar.",
       "Una codificación banda base Manchester diferencial.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 363,
+    id: 358,
     title: "El siguiente diagrama de fase corresponde a:",
     choices: [
-      "Una modulación QPSK que emplea 8 ángulos de fase .",
+      "Una modulación QPSK que emplea 8 ángulos de fase.",
       "Una modulación QAM que emplea 8 amplitudes.",
       "Una modulación QAM que emplea 4 ángulos de fase y 2 amplitudes.",
       "Una modulación QPSK que emplea 2 ángulos de fase y 4 amplitudes.",
     ],
-    solution: "-",
+    solution: "c",
+    explanation: "",
+  },
+  {
+    id: 359,
+    title:
+      "Según la forma de onda de la figura que se desplaza en un medio físico, se puede afirmar que se trata de una modulación",
+    choices: ["FSK-ASK.", "PSK-FSK.", "QPSK.", "ASK-PSK."],
+    solution: "a",
+    explanation: "",
+  },
+  {
+    id: 360,
+    title: "La fibra óptica multimodo de índice gradual,",
+    choices: [
+      "Tiene un núcleo de diámetro del orden de la longitud de onda de la señal transmitida.",
+      "Tiene un índice de reftacción variable dentro del conductor y éste siempre es superior en la parte más alejada del núcleo del conductor.",
+      "Soporta velocidades de cientos de Gigabips para decenas de kilómetros.",
+      "Nunca necesita de repetidores.",
+    ],
+    solution: "c",
+    explanation: "",
+  },
+  {
+    id: 361,
+    title: "De las redes WIFI del tipo 802.11g, es falso que:",
+    choices: [
+      "Emplea el método de modulación de la 802.11a.",
+      "Opera en la banda de 2.4Ghz al igual que la 802.11 b.",
+      "Emplea códigos de encriptación WEP de 64bits encriptar las comunicaciones.",
+      "Permite alcanzar velocidades máximas de 54Mbps. como única posibilidad para.",
+    ],
+    solution: "c",
+    explanation: "",
+  },
+  {
+    id: 362,
+    title:
+      "Se quieren enviar 3 señales de voz cada una de ellas con un ancho de banda de 4Khz por un único canal. Si se emplea multiplexación FDM, el ancho de banda del canal para transmistir debe de ser:",
+    choices: [
+      "12 kHz.",
+      "un valor entre 12000 Hz Y24000 Hz.",
+      ">12000 Hz.",
+      "8Khz.",
+    ],
+    solution: "c",
+    explanation: "",
+  },
+  {
+    id: 363,
+    title:
+      "Se dispone de 4 emisores que quieren enviar paquetes por un único canal empleando multiplexación TDM sincrona. Si el tiempo de transmisión de un paquete es de 1ms, y se considera que una estación tiene datos a enviar cuando B su ranura de tiempo no es blanca, entonces, el tiempo de ' ocupación del canal es:",
+    choices: ["16 ms.", "7 ms.", "4 ms.", "Ninguna de las anteriores."],
+    solution: "a",
     explanation: "",
   },
   {
     id: 364,
     title:
-      "Según la forma de onda de la figura que se desplaza en un medio físico, se puede afirmarque se trata de una modulación",
-    choices: ["FSK-ASK.", "PSK-FSK.", "QPSK.", "ASK-PSK."],
-    solution: "-",
+      "De un cable de par trenzado del tipo STP que cumple el estándar EIA-568-A, es cierto que:",
+    choices: [
+      "Es más sensible a procesos de atenuación en la señal que un UTP de categoría 3.",
+      "Si es de categoría 5 soporta velocidades de transmisión entorno a los independientemente de la distancia que haya entre dispositivos.",
+      "La velocidad de transmisión que soporta es independiente del paso de trenzado.",
+      "Ninguna de las anteriores.",
+    ],
+    solution: "d",
     explanation: "",
   },
   {
     id: 365,
-    title: "La fibra óptica multimodo de índice gradual,",
-    choices: [
-      "Tiene un núcleo de diámetro del orden de la longitud de onda de la señal transmitida.",
-      "Tiene un índice de reftacción variable dentro del conductor y éste siempre es superior en laparte más alejada del núcleo del conductor.",
-      "Soporta velocidades de cientos de Gigabips para decenas de kilómetros.",
-      "Nunca necesita de repetidores.",
-    ],
-    solution: "-",
+    title:
+      "Cuál es la secuencia de bits a añadir tras los datos, si el Emisor desea enviar la cadena de datos '101110', sabiendo que Emisor y Receptor emplean el polinomio generador G(x)= x3+1?",
+    choices: ["011.", "0011.", "1001.", "111."],
+    solution: "a",
     explanation: "",
   },
   {
     id: 366,
-    title: "De las redes WIFI del tipo 802.11g, es falso que:",
+    title:
+      "Se sabe que el Receptor ha recibido la secuencia de bits 11011 y además se sabe que el Emisor emplea el código Hamming con paridad par que se asocia a un conjunto de palabras de datos de 2 bits. ¿Cuál es el bit erróneo recibido?",
     choices: [
-      "Emplea el método de modulación de la 802.11a.",
-      "Opera en la banda de 2.4Ghz al igual que la 802.11 b.",
-      "Emplea códigos de encriptación WEP de 64bitsencriptar las comunicaciones.",
-      "Permite alcanzar velocidades máximas de 54Mbps.como única posibilidad para",
+      "El bit erróneo es el cuarto.",
+      "El bit erróneo es el primero.",
+      "El bit erróneo es el quinto.",
+      "El bit erróneo es el segundo.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
     id: 367,
     title:
-      "Se quieren enviar 3 señales de voz cada una de ellas con un ancho de banda de 4Khz porun único canal. Si se emplea multiplexación FDM, el ancho de banda del canal paratransmistir debe de ser:",
+      "Respecto a la delimitación de tramas por bits especiales, es falso que:",
     choices: [
-      "12 kHz.",
-      "un valor entre 12000 Hz Y24000 Hz.",
-      ">12000 Hz.",
-      "8Khz",
+      "Se emplee en las cabeceras y colas de las tramas simultáneamente.",
+      "Use bits de relleno para evitar que secuencias de bits especiales puedan aparecer como datos.",
+      "Determine el tamaño de la trama en función de una estimación de tiempo obtenida a partir del retardo que tarda la trama en llegar desde emisor hasta receptor.",
+      "Tiene como objetivo delimitar el inicio y fin de la trama de datos.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
     id: 368,
     title:
-      "Se dispone de 4 emisores que quieren enviarpaquetes por un único canal empleando multiplexaciónTDM sincrona. Si el tiempo de transmisión de un paquete es de1ms, y se considera que una estación tiene datos a enviar cuando Bsu ranura de tiempo no es blanca, entonces, el tiempo de 'ocupación del canal es:",
-    choices: ["16 ms.", "7 ms.", "4 ms.", "Ninguna de las anteriores."],
-    solution: "-",
+      "Si la probabilidad de que una trama de 8 bits llegue al receptor con un error en 1 bit es 0.002, ¿cuál es la probabilidad de que la trama llegue sin errores al receptor?",
+    choices: ["0.998.", "0.984.", "0.016.", "Ninguna de las anteriores."],
+    solution: "b",
     explanation: "",
   },
   {
     id: 369,
-    title:
-      "De un cable de par trenzado del tipo STP que cumple el estándar EIA-568-A, es ciertoque:",
-    choices: [
-      "Es más sensible a procesos de atenuación en la señal que un UTP de categoría 3.",
-      "Si es de categoría 5 soporta velocidades de transmisión entorno a losindependientemente de la distancia que haya entre dispositivos.",
-      "La velocidad de transmisión que soporta es independiente del paso de trenzado.",
-      "Ninguna de las anteriores.",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 370,
-    title:
-      "Cuál es la secuencia de bits a añadir tras los datos, si el Emisor desea enviar la cadenade datos '101110', sabiendo que Emisor y Receptor emplean el polinomio generador G(x)=x3+1?",
-    choices: ["011", "0011", "1001", "111"],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 371,
-    title:
-      "Se sabe que el Receptor ha recibido la secuencia de bits 11011 y además se sabe que elEmisor emplea el código Hamming con paridad par que se asocia a un conjunto de palabrasde datos de 2 bits. ¿Cuál es el bit erróneo recibido?",
-    choices: [
-      "El bit erróneo es el cuarto",
-      "El bit erróneo es el primero",
-      "El bit erróneo es el quinto",
-      "El bit erróneo es el segundo",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 372,
-    title:
-      "Respecto a la delimitación de tramas por bits especiales, es falso que:",
-    choices: [
-      "Se emplee en las cabeceras y colas de las tramas simultáneamente.",
-      "Use bits de relleno para evitar que secuencias de bits especiales puedan aparecer comodatos.",
-      "Determine el tamaño de la trama en función de una estimación de tiempo obtenida apartir del retardo que tarda la trama en llegar desde emisor hasta receptor",
-      "Tiene como objetivo delimitar el inicio y fin de la trama de datos.",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 373,
-    title:
-      "Si la probabilidad de que una trama de 8 bits llegue al receptor con un error en 1 bit es0.002, ¿cuál es la probabilidad de que la trama llegue sin errores al receptor?",
-    choices: ["0.998", "0.984", "0.016", "Ninguna de las anteriores"],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 374,
     title: "Una trama HDLC cuyos cuatro primeros bits sean '1011' es:",
     choices: [
-      "Una trama de información que indica que el número de secuencia enviado es '011'",
+      "Una trama de información que indica que el número de secuencia enviado es '011'.",
       "Una trama de supervisión que indica el rechazo de tramas.",
       "Una trama no numerada de conexión en modo Balanceado Asíncrono.",
       "Una trama no numerada de desconexión.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 375,
+    id: 370,
     title: "Respecto al protocolo BDLC se puede afirmar que:",
     choices: [
       "Es un protocolo del nivel de red.",
       "No necesita de un campo FCS 'Frame Check Sequence'.",
       "Emplea delimitación de trama por caracteres especiales.",
-      "Emplea protocolo de ventana deslizante para gestionartramas.",
+      "Emplea protocolo de ventana deslizante para gestionar tramas.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 376,
-    title: "El protocolo PPP es falso que:el envío y recepción de",
+    id: 371,
+    title: "El protocolo PPP es falso que: el envío y recepción de",
     choices: [
       "Emplee paquetes LCP y NCP para autentificar el usuario.",
       "Emplee paquetes LCP para negociar la conexión del nivel de enlace.",
       "Emplee paquetes LCP para liberar el enlace de datos.",
       "Emplee paquetes NCP para negociar los parámetros del nivel de red.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 377,
-    title: "Respecto al protocolo RlP es falso que:",
+    id: 372,
+    title: "Respecto al protocolo RIP es falso que:",
     choices: [
       "Emplee paquetes UDP dirigidos al puerto 520.",
       "Se puedan indicar hasta 25 rutas por mensaje.",
       "Sea un protocolo de encaminamiento dinámico empleado en redes WAN.",
-      "Se envíen los paquetes a la dirección multicast 224.0.0.9",
+      "Se envíen los paquetes a la dirección multicast 224.0.0.9.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 378,
+    id: 373,
     title: "Para controlar la congestión de paquetes en una red LAN:",
     choices: [
       "Se puede limitar la velocidad de recepción de paquetes de los nodos receptores.",
-      "Se puede aumentar la velocidad de envío de los nodos emisores mediante paquetes deobstrucción.",
+      "Se puede aumentar la velocidad de envío de los nodos emisores mediante paquetes de obstrucción.",
       "Se puede enviar un paquete hacia el emisor con los bits de congestión desactivados.",
-      "Se puede asignar un crédito máximo a la tasa de bits que se pueden enviar por partedel emisor.",
+      "Se puede asignar un crédito máximo a la tasa de bits que se pueden enviar por parte del emisor.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 379,
+    id: 374,
     title:
-      "Se está aplicando el algoritmo de Dijkstra para generar el camino de mínimo coste ypoder emplear ese criterio para un algoritmo de encaminamiento. Si se está evaluando laiteración i=3 con T={1,2,3}. Se puede afirmar que:",
+      "Se está aplicando el algoritmo de Dijkstra para generar el camino de mínimo coste y poder emplear ese criterio para un algoritmo de encaminamiento. Si se está evaluando la iteración i=3 con T={1,2,3}. Se puede afirmar que:",
     choices: [
-      "Sólo el coste L(3) ha variado con respecto a la iteración anterior",
-      "Sólo el coste L(5) ha variado con respecto a la iteración anterior",
-      "Sólo el coste L(6) ha variado con respecto a la iteración anterior",
+      "Sólo el coste L(3) ha variado con respecto a la iteración anterior.",
+      "Sólo el coste L(5) ha variado con respecto a la iteración anterior.",
+      "Sólo el coste L(6) ha variado con respecto a la iteración anterior.",
       "Ninguna de las anteriores.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 380,
+    id: 375,
     title:
-      "Dado el esquema de nodos de red de la figura, ¿Cuántos paquetes habrán llegado al nodo6 al finalizar el segundo salto, si se aplica la técnica de encaminamiento por inundaciónsiendo el nodo 1 quien inicia el encaminamiento?",
+      "Dado el esquema de nodos de red de la figura, ¿Cuántos paquetes habrán llegado al nodo 6 al finalizar el segundo salto, si se aplica la técnica de encaminamiento por inundación siendo el nodo 1 quien inicia el encaminamiento?",
     choices: ["1 paquete.", "2 paquetes.", "3 paquetes.", "4 paquetes."],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 381,
+    id: 376,
     title:
-      "Si los paquetes de un mismo mensaje no siguen el mismo camino desde el emisor alreceptor, estamos trabajando con:",
+      "Si los paquetes de un mismo mensaje no siguen el mismo camino desde el emisor al receptor, estamos trabajando con:",
     choices: [
       "Conmutación de circuitos.",
       "Conmutación de ventanas deslizantes.",
       "Conmutación de paquetes del tipo circuitos virtual es.",
       "Conmutación de paquetes del tipo datagramas.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 382,
+    id: 377,
     title: "El empleo de la multidifusión en una red LAN permite,",
     choices: [
       "El envío de información a todas las estaciones de la red transmitiendo un paquete.",
@@ -4605,11 +4546,11 @@ const questionsData: QuestionData[] = [
       "El envío de información a una sola estación de la red transmitiendo más de un paquete.",
       "El envío de información a un grupo de estaciones de la red transmitiendo más de un paquete.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 383,
+    id: 378,
     title:
       "El empleo de circuitos virtuales en una red de conmutación de paquetes se caracteriza por,",
     choices: [
@@ -4618,11 +4559,11 @@ const questionsData: QuestionData[] = [
       "Determinar un camino a través de los nodos de la red para que los paquetes alcancen su destino.",
       "Especificar en cada paquete el origen y el destino para que los nodos intermedios determinen un camino en la red para cada paquete transmitido.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 384,
+    id: 379,
     title:
       "Si en una red de conmutación de paquetes basada en circuitos virtuales un nodo deja de funcionar es cierto que,",
     choices: [
@@ -4631,19 +4572,19 @@ const questionsData: QuestionData[] = [
       "Ningún circuito virtual deja de funcionar, los nodos modifican automáticamente el camino que no funciona.",
       "Los paquetes de un circuito virtual son redirigidos a través de otro circuito virtual.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 385,
+    id: 380,
     title:
       "La interconexión de una red de difusión y una red punto a punto que emplean la arquitectura TCP/IP, ha de realizarse con,",
     choices: ["Un repetidor.", "Un puente.", "Un router.", "Una pasarela."],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 386,
+    id: 381,
     title:
       "La comunicación vertical en una arquitectura de red se caracteriza porque,",
     choices: [
@@ -4652,11 +4593,11 @@ const questionsData: QuestionData[] = [
       "Se establece entre las capas pares de la arquitectura.",
       "Se establece entre las capas n+1 y n-1 de la arquitectura.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 387,
+    id: 382,
     title:
       "Si la capa n de una arquitectura de red no puede emplear los servicios de la capa n-1, es cierto que",
     choices: [
@@ -4665,11 +4606,11 @@ const questionsData: QuestionData[] = [
       "La capa n-1 no puede comunicarse con su entidad par.",
       "La capa n puede comunicarse con su entidad par.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 388,
+    id: 383,
     title:
       "La IDU del nivel n (que se envía al nivel n-1) incorpora en su campo de datos,",
     choices: [
@@ -4678,11 +4619,11 @@ const questionsData: QuestionData[] = [
       "La PCI del nivel n-1.",
       "La PCI del nivel n.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 389,
+    id: 384,
     title: "La fragmentación en un protocolo del nivel n se produce cuando,",
     choices: [
       "La SDU del nivel n+1 no cabe dentro de la PDU del nivel n.",
@@ -4690,11 +4631,11 @@ const questionsData: QuestionData[] = [
       "La SDU del nivel n+1 no cabe dentro de la PDU del nivel n-1.",
       "La SDU del nivel n no cabe dentro de la PDU del nivel n+1.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 390,
+    id: 385,
     title:
       "El nivel de red en la arquitectura de red OSI NO presenta la característica de,",
     choices: [
@@ -4703,19 +4644,19 @@ const questionsData: QuestionData[] = [
       "Detectar errores en los bits de los paquetes transmitidos en un medio físico.",
       "Identificar las estaciones que existen en la red de comunicaciones.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 391,
+    id: 386,
     title:
       "En una red con arquitectura TCP/IP, ¿ qué nivel de la arquitectura permite detectar errores en la transmisión de paquetes en el medio físico ?",
     choices: ["Acceso a la red.", "Interred.", "Transporte.", "Aplicación."],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 392,
+    id: 387,
     title:
       "El acceso a un servidor web, un servidor de correo y un servidor ftp que se encuentran en una misma máquina es posible gracias a,",
     choices: [
@@ -4724,19 +4665,11 @@ const questionsData: QuestionData[] = [
       "La existencia de varias direcciones IP para una misma máquina de Internet.",
       "La existencia de un mismo puerto TCP para los servicios de web, de correo y ftp.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 393,
-    title:
-      "Si se desea transmitir información a través de un medio físico empleando una señal de pulsos con 8 niveles y a una velocidad de 90000 bps, el medio físico necesita un ancho de banda mínimo de,",
-    choices: ["30000 Hz.", "15000 Hz.", "90000 Hz.", "5625 Hz."],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 394,
+    id: 388,
     title:
       "La velocidad de transmisión de una señal de pulsos en un medio físico NO aumenta si,",
     choices: [
@@ -4745,11 +4678,11 @@ const questionsData: QuestionData[] = [
       "Aumenta el número de niveles de la señal.",
       "Aumenta el número de pulsos transmitidos por segundo de la señal.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 395,
+    id: 389,
     title:
       "La codificación en banda base que más problemas de sincronización presenta es,",
     choices: [
@@ -4758,11 +4691,11 @@ const questionsData: QuestionData[] = [
       "Codificación binaria con retorno a cero bipolar.",
       "Codificación Manchester.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 396,
+    id: 390,
     title:
       "Qué tipo de modulación analógica permite transmitir información a mayor velocidad ?",
     choices: [
@@ -4771,19 +4704,19 @@ const questionsData: QuestionData[] = [
       "Modulación PSK.",
       "Modulación QAM.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 397,
+    id: 391,
     title:
       "Si dos señales PCM (8 bits en la cuantización) que modulan señales analógicas de 4000 Hz de ancho de banda quieren ser transmitidas empleando TDM, se precisa un canal que permita transmitir a una velocidad de,",
     choices: ["64000 bps.", "16000 bps.", "128000 bps.", "32000 bps."],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 398,
+    id: 392,
     title:
       "La interconexión de equipos dentro de un entorno industrial (con presencia de ruido electromagnético debido a máquinas eléctricas en funcionamiento) a velocidades 100 Mbps requiere el empleo de,",
     choices: [
@@ -4792,11 +4725,11 @@ const questionsData: QuestionData[] = [
       "Cable UTP categoría 5.",
       "Cable STP.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 399,
+    id: 393,
     title:
       "El tipo de fibra óptica que presenta menos alteraciones en la señal al aumentar la distancia es,",
     choices: [
@@ -4805,11 +4738,11 @@ const questionsData: QuestionData[] = [
       "La fibra óptica monomodo.",
       "Ninguna, todas las fibras distorsionan la señal de la misma forma al aumentar la distancia.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 400,
+    id: 394,
     title: "Las redes de comunicación inalámbricas se caracterizan por,",
     choices: [
       "Ser compatibles con las redes satelitales al emplear la misma frecuencia.",
@@ -4817,11 +4750,11 @@ const questionsData: QuestionData[] = [
       "Permitir transmitir información a 100 Mbps.",
       "Precisar de un mecanismo de reparto del medio físico.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 401,
+    id: 395,
     title:
       "Si en un protocolo orientado a carácter aparece en el campo de datos la secuencia de caracteres DLE STX DLE DLE, se sustituirá por la secuencia,",
     choices: [
@@ -4830,11 +4763,11 @@ const questionsData: QuestionData[] = [
       "DLE DLE STX DLE DLE DLE DLE.",
       "DLE STX DLE DLE DLE.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 402,
+    id: 396,
     title:
       "La detección de errores empleando la técnica de paridad por filas y columnas se caracteriza por,",
     choices: [
@@ -4843,11 +4776,11 @@ const questionsData: QuestionData[] = [
       "Permite detectar errores sólo en columnas.",
       "Permite detectar dos errores en cualquier posición de la matriz.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 403,
+    id: 397,
     title:
       "En un protocolo de ventana deslizante de envío continuo con repetición selectiva es cierto que,",
     choices: [
@@ -4856,11 +4789,11 @@ const questionsData: QuestionData[] = [
       "La ventana del emisor tiene un tamaño que no varía durante el funcionamiento del protocolo.",
       "La ventana del receptor tiene un tamaño menor que el número de secuencias de numeración.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 404,
+    id: 398,
     title:
       "Si en un protocolo de parada y espera sin numeración de datos ni de ACK’s se pierde una confirmación, es cierto que",
     choices: [
@@ -4869,11 +4802,11 @@ const questionsData: QuestionData[] = [
       "El receptor reenvía el ACK perdido.",
       "El emisor y receptor quedan bloqueados.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 405,
+    id: 399,
     title: "El protocolo HDLC NO presenta la característica de,",
     choices: [
       "Control del flujo con ventana deslizante.",
@@ -4881,11 +4814,11 @@ const questionsData: QuestionData[] = [
       "Delimitación de tramas como en los protocolos orientados a bit.",
       "Autenticación en el establecimiento de conexiones.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 406,
+    id: 400,
     title:
       "El protocolo PPP NO gestiona entre los extremos de la comunicación,",
     choices: [
@@ -4894,11 +4827,11 @@ const questionsData: QuestionData[] = [
       "La autenticación de los usuarios.",
       "El formato de los paquetes PPP.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 407,
+    id: 401,
     title:
       "En una red LAN que disponga de un direccionamiento IP privado, es cierto que:",
     choices: [
@@ -4907,11 +4840,11 @@ const questionsData: QuestionData[] = [
       "Cualquier máquina de Internet puede establecer una conexión a una dirección IP privada de la red LAN.",
       "El encaminamiento modifica la cabecera IP de los paquetes de la red LAN en todos los routers entre el origen y el destino.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 408,
+    id: 402,
     title:
       "Cuál de las siguientes situaciones indica a un router que existe congestión en la red ?",
     choices: [
@@ -4920,11 +4853,11 @@ const questionsData: QuestionData[] = [
       "Un router recibe mensajes Source Quench.",
       "Un router detecta que el uso de su CPU para el encaminamiento es del 25%.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 409,
+    id: 403,
     title:
       "Un router que emplea BGP para establecer sus tablas de encaminamiento se caracteriza por,",
     choices: [
@@ -4933,11 +4866,11 @@ const questionsData: QuestionData[] = [
       "Establecer conexiones con el resto de routers BGP de Internet.",
       "Determinar las rutas óptimas entre los diferentes destinos en Internet.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 410,
+    id: 404,
     title:
       "Si un router envía un mensaje RIP versión 1 en una red LAN Ethernet, el paquete emplea como dirección MAC de destino,",
     choices: [
@@ -4946,11 +4879,11 @@ const questionsData: QuestionData[] = [
       "La dirección 224.0.0.9.",
       "Una dirección MAC de multidifusión.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 411,
+    id: 405,
     title:
       "Si un paquete IP atraviesa un túnel entre dos routers, su tiempo de vida TTL se decrementa en,",
     choices: [
@@ -4959,11 +4892,11 @@ const questionsData: QuestionData[] = [
       "En ninguna unidad, ya que el túnel es transparente.",
       "En el número de saltos que existan entre los dos routers que establecen el túnel.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 412,
+    id: 406,
     title:
       "El empleo de multidifusión en una red LAN de bus común se caracteriza por,",
     choices: [
@@ -4972,11 +4905,11 @@ const questionsData: QuestionData[] = [
       "La transmisión de un paquete de datos a todas los equipos de la red.",
       "La transmisión de un paquete de datos a cada uno de los equipos de la red.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 413,
+    id: 407,
     title: "Indica qué afirmación es FALSA en relación a una red de difusión,",
     choices: [
       "El número medio de colisiones en la red aumenta al incrementarse el número de equipos.",
@@ -4984,11 +4917,11 @@ const questionsData: QuestionData[] = [
       "El direccionamiento físico es suficiente para identificar los equipos que intercambian datos.",
       "La tasa de error en el medio físico es menor que en las redes WAN.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 414,
+    id: 408,
     title:
       "El intercambio de paquetes entre dos equipos en una red de conmutación de paquetes con circuitos virtuales se caracteriza porque,",
     choices: [
@@ -4997,11 +4930,11 @@ const questionsData: QuestionData[] = [
       "El tiempo de encaminamiento es menor que en una red de datagramas.",
       "Es necesario un mecanismo de ordenamiento de los paquetes recibidos.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 415,
+    id: 409,
     title:
       "La existencia de una dirección origen y destino en la cabecera de red de los paquetes intercambiados en una red de datagramas es necesaria para,",
     choices: [
@@ -5010,11 +4943,11 @@ const questionsData: QuestionData[] = [
       "Realizar un control eficiente de la congestión en la red.",
       "Conseguir un encaminamiento más rápido que en las redes de circuitos virtuales.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 416,
+    id: 410,
     title:
       "En una red de conmutación de paquetes con datagramas, un paquete que se retrasa al seguir un camino distinto del resto provoca que,",
     choices: [
@@ -5023,11 +4956,11 @@ const questionsData: QuestionData[] = [
       "La capa de red reordene el paquete en el lugar que le corresponda.",
       "La capa de enlace almacene el paquete temporalmente para reordenarlo.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 417,
+    id: 411,
     title:
       "La comunicación vertical en una arquitectura de red OSI se realiza,",
     choices: [
@@ -5036,11 +4969,11 @@ const questionsData: QuestionData[] = [
       "Intercambiando SDU’s entre capas adyacentes.",
       "Intercambiando ICI’s entre capas pares.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 418,
+    id: 412,
     title:
       "Si el nivel n de una arquitectura de red ofrece un servicio fiable al nivel superior n+1, el nivel que corrige la pérdida de un paquete enviado entre la capa n y su capa par es,",
     choices: [
@@ -5049,11 +4982,11 @@ const questionsData: QuestionData[] = [
       "El nivel n-1 de la arquitectura.",
       "Si el servicio es fiable en el nivel n no puede producirse la pérdida de ningún paquete.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 419,
+    id: 413,
     title:
       "Si la capa de red (IP) en la arquitectura TCP/IP fragmenta la información procedente del nivel superior, los paquetes transmitidos en el medio físico presentan,",
     choices: [
@@ -5062,11 +4995,11 @@ const questionsData: QuestionData[] = [
       "Cabecera IP y del nivel superior a IP en todos los fragmentos transmitidos.",
       "Cabecera IP en todos los fragmentos transmitidos.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 420,
+    id: 414,
     title:
       "En el establecimiento de una conexión TCP entre dos equipos es cierto que,",
     choices: [
@@ -5075,11 +5008,11 @@ const questionsData: QuestionData[] = [
       "Los paquetes de control (SYN, ACK,...) con errores son reenviados por el protocolo IP.",
       "Todas las afirmaciones anteriores son falsas.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 421,
+    id: 415,
     title:
       "El número máximo de conexiones TCP que puede establecer un equipo es,",
     choices: [
@@ -5088,19 +5021,19 @@ const questionsData: QuestionData[] = [
       "Limitado al rango de numeración de los puertos.",
       "Ilimitado, depende de la memoria disponible en el sistema.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 422,
+    id: 416,
     title:
       "Qué dispositivo de interconexión NO permite el paso a través de él de paquetes IP dirigidos a la dirección IP de broadcast de una red ?",
     choices: ["Repetidor.", "Puente.", "Router.", "Switch."],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 423,
+    id: 417,
     title: "La transmisión correcta de una señal de pulsos se consigue cuando,",
     choices: [
       "La potencia de la señal recibida es la misma que la de la transmitida.",
@@ -5108,11 +5041,11 @@ const questionsData: QuestionData[] = [
       "El espectro de frecuencia de la señal recibida es el mismo que el de la transmitida.",
       "La información recibida es la misma que la transmitida.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 424,
+    id: 418,
     title:
       "La velocidad de transmisión máxima en un medio físico NO depende de,",
     choices: [
@@ -5121,11 +5054,11 @@ const questionsData: QuestionData[] = [
       "La relación señal-ruido del medio físico.",
       "El número de niveles empleado en la codificación.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 425,
+    id: 419,
     title:
       "La modulación es un mecanismo de transmisión de información que permite,",
     choices: [
@@ -5134,11 +5067,11 @@ const questionsData: QuestionData[] = [
       "Adecuar el ancho de banda de la señal moduladora al ancho de banda del medio físico.",
       "Aumentar el ancho de banda de la señal modulada.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 426,
+    id: 420,
     title:
       "La modulación analógica que es menos sensible al ruido en el medio físico es,",
     choices: [
@@ -5147,27 +5080,27 @@ const questionsData: QuestionData[] = [
       "La modulación por cambio de fase y frecuencia.",
       "La modulación por cambio de fase y amplitud.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 427,
+    id: 421,
     title:
       "Si un módem emplea una modulación QAM (16 niveles) con una señal portadora de 4000 Hz, la velocidad de transmisión que se consigue es,",
     choices: ["4000 bps.", "16000 bps.", "32000 bps.", "64000 bps."],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 428,
+    id: 422,
     title:
       "Se desea enviar por un medio físico una señal PCM que codifique un canal de audio de alta calidad. El ancho de banda del canal de audio es de 100 KHz y se desea una calidad de 256 niveles de amplitud. La señal PCM será transmitida en el medio físico a una velocidad de,",
     choices: ["100 Kbps.", "800 Kbps.", "1.6 Mbps.", "256 Mbps."],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 429,
+    id: 423,
     title: "Qué tipo de medio físico no presenta diafonía (ruido cruzado) ?",
     choices: [
       "Cable UTP categoría 3.",
@@ -5175,11 +5108,11 @@ const questionsData: QuestionData[] = [
       "Cable STP.",
       "Fibra óptica multimodo.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 430,
+    id: 424,
     title:
       "Sobre las redes inalámbricas del tipo 802.11b y 802.11g es cierto que,",
     choices: [
@@ -5188,11 +5121,11 @@ const questionsData: QuestionData[] = [
       "Precisan de un mecanismo de reparto del medio físico.",
       "Precisan de una infraestructura de cable para su funcionamiento.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 431,
+    id: 425,
     title:
       "En una fibra óptica monomodo, la velocidad máxima de transmisión NO depende de,",
     choices: [
@@ -5201,11 +5134,11 @@ const questionsData: QuestionData[] = [
       "La longitud de la fibra óptica.",
       "El número de longitudes de onda multiplexadas en el haz.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 432,
+    id: 426,
     title: "La técnica de contienda CSMA-CD se caracteriza por,",
     choices: [
       "Detectar colisiones en el medio físico antes de que se produzcan.",
@@ -5213,11 +5146,11 @@ const questionsData: QuestionData[] = [
       "Transmitir siempre la información sin comprobar si el medio físico está libre.",
       "Detectar las colisiones de manera más rápida que en otras técnicas de contienda.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 433,
+    id: 427,
     title:
       "La delimitación de paquetes en el nivel de enlace se caracteriza por,",
     choices: [
@@ -5226,24 +5159,24 @@ const questionsData: QuestionData[] = [
       "Reducir la tasa de error en el medio físico.",
       "Permitir detectar colisiones en el medio físico.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 434,
+    id: 428,
     title:
-      "El grado del polinomio generador empleado en los códigos de redundancia cíclica (CRC)  NO afecta a,",
+      "El grado del polinomio generador empleado en los códigos de redundancia cíclica (CRC) NO afecta a,",
     choices: [
       "El número de bits del resto en la operación de división de polinomios.",
       "La cantidad de información redundante en el paquete de información.",
       "La cantidad de errores en ráfaga que pueden detectarse.",
       "La frecuencia con que se producen errores en el medio físico.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 435,
+    id: 429,
     title:
       "El funcionamiento del protocolo HDLC en modo de ventana deslizante selectivo se controla empleando,",
     choices: [
@@ -5252,11 +5185,11 @@ const questionsData: QuestionData[] = [
       "Tramas de supervisión SREJ.",
       "Tramas de supervisión REJ.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 436,
+    id: 430,
     title:
       "Si en un protocolo de ventana deslizante se reduce el tamaño de la ventana del emisor se consigue que,",
     choices: [
@@ -5265,11 +5198,11 @@ const questionsData: QuestionData[] = [
       "El receptor pueda confirmar más paquetes de información.",
       "El receptor se congestione al recibir más paquetes de información.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 437,
+    id: 431,
     title:
       "Cuando dos redes con direccionamiento IP privado intercambian paquetes IP empleando un túnel es cierto que,",
     choices: [
@@ -5278,11 +5211,11 @@ const questionsData: QuestionData[] = [
       "La cabecera IP de los paquetes con direccionamiento privado es modificada en el túnel.",
       "El túnel proporciona un enlace punto a punto virtual entre ambas redes.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 438,
+    id: 432,
     title:
       "Qué situación puede provocar un aumento de la congestión en una red de comunicaciones ?",
     choices: [
@@ -5291,11 +5224,11 @@ const questionsData: QuestionData[] = [
       "Un porcentaje de uso de CPU para encaminamiento en los routers del 70%.",
       "La reducción del tráfico que emplea el protocolo UDP en la red.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 439,
+    id: 433,
     title:
       "El intercambio de información de encaminamiento en el protocolo OSPF se realiza,",
     choices: [
@@ -5304,11 +5237,11 @@ const questionsData: QuestionData[] = [
       "Intercambiando paquetes con dirección destino 255.255.255.255.",
       "Intercambiando paquetes con una dirección destino de multicast.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 440,
+    id: 434,
     title:
       "La creación de un túnel PPTP entre un cliente y un servidor de túneles NO emplea,",
     choices: [
@@ -5317,11 +5250,11 @@ const questionsData: QuestionData[] = [
       "Paquetes IPCP.",
       "Paquetes TCP.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 441,
+    id: 435,
     title: "Una conexión a una VPN empleando L2TP se caracteriza por,",
     choices: [
       "Asegurar que ningún paquete L2TP de control del túnel se pierde en el mismo.",
@@ -5329,11 +5262,11 @@ const questionsData: QuestionData[] = [
       "Verificar la autenticidad del origen del túnel con el protocolo GRE.",
       "Autenticar al usuario que realiza la conexión VPN con el protocolo IPCP.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 442,
+    id: 436,
     title:
       "El empleo de la tecnología de redes punto a punto para las redes WAN se caracteriza por,",
     choices: [
@@ -5342,11 +5275,11 @@ const questionsData: QuestionData[] = [
       "La transmisión de un único paquete para enviar información a todos los nodos de la red.",
       "La tolerancia a fallos que presenta si existen varios caminos a un determinado destino.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 443,
+    id: 437,
     title:
       "La transmisión de información en una red LAN de difusión se caracteriza por,",
     choices: [
@@ -5355,11 +5288,11 @@ const questionsData: QuestionData[] = [
       "El empleo de algoritmos de encaminamiento para los equipos en los extremos de la red.",
       "Precisar de un esquema de direccionamiento implícito.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 444,
+    id: 438,
     title:
       "Las unidades de datos del interfaz (IDU’s) que intercambian dos niveles pares del nivel n de una arquitectura,",
     choices: [
@@ -5368,11 +5301,11 @@ const questionsData: QuestionData[] = [
       "Emplean la información de control del interfaz (ICI) para enviar la información a la capa par.",
       "No existen, las entidades pares no intercambian IDU’s.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 445,
+    id: 439,
     title:
       "La realización de un servicio ofrecido por la capa n de una arquitectura de red precisa de,",
     choices: [
@@ -5381,11 +5314,11 @@ const questionsData: QuestionData[] = [
       "El intercambio de PDU’s entre las entidades pares del nivel n+1.",
       "El intercambio de IDU’s entre las entidades pares del nivel n-1.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 446,
+    id: 440,
     title:
       "La fragmentación de una SDU procedente del nivel n+1 en una arquitectura de red se realiza,",
     choices: [
@@ -5394,11 +5327,11 @@ const questionsData: QuestionData[] = [
       "Añadiendo a cada fragmento de la SDU una PCI del nivel n.",
       "Añadiendo a cada fragmento de la SDU una ICI del nivel n+1.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 447,
+    id: 441,
     title:
       "La capa de transporte en la arquitectura TCP/IP se caracteriza por,",
     choices: [
@@ -5407,11 +5340,11 @@ const questionsData: QuestionData[] = [
       "Gestionar una comunicación fiable estableciendo circuitos virtuales extremo a extremo con el protocolo TCP.",
       "Proporcionar siempre a la capa de aplicación una comunicación no segura, debido al funcionamiento con datagramas de la subred.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 448,
+    id: 442,
     title:
       "La potencia de cada armónico en el espectro de frecuencias de una señal digital a transmitir por un medio físico depende,",
     choices: [
@@ -5420,11 +5353,11 @@ const questionsData: QuestionData[] = [
       "De la relación señal-ruido en el medio físico.",
       "De la información digital que contenga la señal.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 449,
+    id: 443,
     title:
       "La modulación analógica que permite la transmisión de señales con mayor calidad y mejor aprovechamiento del medio físico es,",
     choices: [
@@ -5433,11 +5366,11 @@ const questionsData: QuestionData[] = [
       "La modulación por cambio de frecuencia.",
       "La modulación por cambio de fase y amplitud.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 450,
+    id: 444,
     title:
       "La velocidad de transferencia necesaria en un medio físico para transmitir señales moduladas digitalmente, como PCM, depende de,",
     choices: [
@@ -5446,11 +5379,11 @@ const questionsData: QuestionData[] = [
       "La frecuencia de muestreo y el número de niveles de la señal moduladora.",
       "El ancho de banda del medio físico y la frecuencia de muestreo.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 451,
+    id: 445,
     title:
       "La codificación en banda base que menos problemas de sincronización presenta es,",
     choices: [
@@ -5459,11 +5392,11 @@ const questionsData: QuestionData[] = [
       "Codificación binaria con retorno a cero bipolar.",
       "Codificación Manchester.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 452,
+    id: 446,
     title:
       "Indicar cual de las siguientes características NO se corresponde con una red de área local:",
     choices: [
@@ -5472,11 +5405,11 @@ const questionsData: QuestionData[] = [
       "Interconecta equipos cercanos geográficamente.",
       "La red Token Ring (IEEE 802.5) se trata de una red de área local.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 453,
+    id: 447,
     title: "Las redes de conmutación de circuitos se caracterizan porque:",
     choices: [
       "La información a transmitir se fragmenta en unidades de información pequeña denominadas paquetes.",
@@ -5484,11 +5417,11 @@ const questionsData: QuestionData[] = [
       "La comunicación origen-destino se realiza a través de una canal fijo y dedicado.",
       "Es el esquema empleado en Internet.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 454,
+    id: 448,
     title:
       "Cuál de las siguientes funciones NO corresponde al nivel de transporte del modelo OSI?",
     choices: [
@@ -5497,11 +5430,11 @@ const questionsData: QuestionData[] = [
       "Gestiona varias conexiones simultáneas con el host remoto.",
       "Realiza el encaminamiento de la información desde el origen al destino.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 455,
+    id: 449,
     title:
       "El intercambio de PDU’s entre entidades pares del nivel n en el modelo OSI permite:",
     choices: [
@@ -5510,11 +5443,11 @@ const questionsData: QuestionData[] = [
       "La solicitud de servicios ofrecidos por la capa n+1.",
       "La realización de servicios solicitados con IDU’s enviadas a la capa n-1.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 456,
+    id: 450,
     title:
       "En el modelo de arquitectura de red OSI, la fragmentación en un nivel n se produce cuando:",
     choices: [
@@ -5523,11 +5456,11 @@ const questionsData: QuestionData[] = [
       "El nivel no puede incorporar la ICI en la Unidad de Datos del Servicio.",
       "El nivel no puede incorporar la PCI en la Unidad de Datos del Protocolo.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 457,
+    id: 451,
     title:
       "En cuanto a las primitivas de servicio definidas por los niveles del modelo OSI, ¿Cuál de las siguientes afirmaciones es cierta?:",
     choices: [
@@ -5536,11 +5469,11 @@ const questionsData: QuestionData[] = [
       "Un servicio confiable es aquél en el que el receptor realiza un acuse de la recepción del mensaje.",
       "Se emplea una primitiva de petición cuando se avisa a la entidad de un evento en la realización de un servicio.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 458,
+    id: 452,
     title:
       "En relación a los dispositivos para la interconexión de redes se puede afirmar que:",
     choices: [
@@ -5549,11 +5482,11 @@ const questionsData: QuestionData[] = [
       "Una pasarela no puede conectar redes que tengan distinto nivel de red.",
       "Un repetidor es capaz de interconectar redes con distinto nivel de enlace.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 459,
+    id: 453,
     title: "Una transición en una red de Petri se caracteriza porque:",
     choices: [
       "Sólo puede existir una transición habilitada en la red de Petri en un momento dado.",
@@ -5561,11 +5494,11 @@ const questionsData: QuestionData[] = [
       "La habilitación de la transición es indeterminista: puede estar o no habilitada.",
       "El disparo de la transición es indeterminista: puede estar o no disparada.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 460,
+    id: 454,
     title:
       "Cuál de las siguientes funciones NO corresponde al nivel físico del modelo OSI?",
     choices: [
@@ -5574,11 +5507,11 @@ const questionsData: QuestionData[] = [
       "Especifica el modo en que el emisor y el receptor se sincronizan.",
       "Dado un canal físico, establece un enlace lógico libre de errores.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 461,
+    id: 455,
     title:
       "Indicar cual de las siguientes afirmaciones relativas al análisis de señales mediante series de Fourier es cierta:",
     choices: [
@@ -5587,27 +5520,27 @@ const questionsData: QuestionData[] = [
       "Un medio de transmisión atenúa en la misma proporción a todos los armónicos.",
       "La velocidad de transmisión es la misma que la velocidad de modulación para ancho de banda telefónico.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 462,
+    id: 456,
     title:
       "Considérese un medio de transmisión con un ancho de banda de 300 Hz y una frecuencia superior de corte de 450Hz. A partir de la señal representada en la figura. ¿Cuántos armónicos se transmitirán?",
     choices: ["1.", "2.", "3.", "4."],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 463,
+    id: 457,
     title:
       "Considérese que por un medio de transmisión de ancho de banda igual a 20 Hz se transmite una señal a 20 baudios. Teniendo en cuenta que se emplea modulación QAM con 16 combinaciones ¿Cuántos armónicos se transmitirán como máximo?:",
     choices: ["1.", "2.", "3.", "4."],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 464,
+    id: 458,
     title:
       "Comparando la modulación por cambio de fase con la modulación por cambio de frecuencia y amplitud se puede afirmar que:",
     choices: [
@@ -5616,32 +5549,32 @@ const questionsData: QuestionData[] = [
       "En la modulación por cambio de fase aparece más de un espectro de la señal moduladora.",
       "En el espectro de potencia de la señal modulada por cambio de fase no aparece una componente en la frecuencia de la portadora.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 465,
+    id: 459,
     title:
       "Indicar cual de las siguientes afirmaciones relativas al efecto del ruido en la velocidad de transmisión es FALSA:",
     choices: [
       "Empleando pares de hilos de cobre trenzados para la transmisión de señales se puede evitar la atenuación de la señal.",
       "El límite de velocidad máxima establecido por el teorema de Nyquist puede superarse aumentando el número de niveles de la señal transmitida.",
-      "La velocidad límite establecida por el teorema de Nyquist no puede alcanzarse en la realidad si es superior al del teorema de Shannon .",
+      "La velocidad límite establecida por el teorema de Nyquist no puede alcanzarse en la realidad si es superior al del teorema de Shannon.",
       "El ruido de impulso puede deberse a ruido electromagnético generado por máquinas.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 466,
+    id: 460,
     title:
       "Se desea enviar por un medio físico dos señales PCM multiplexadas en el tiempo. Una de las señales corresponde con un canal de comunicación de 64 Kbps y la otra con un canal de 120 Kbps. El medio físico transmitirá bits de información a una velocidad de",
     choices: ["64 Kbps.", "120 Kbps.", "184 Kbps.", "7680 Kbps."],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 467,
+    id: 461,
     title:
       "En cuanto a los medios de transmisión utilizados en redes de área local, se puede afirmar que es FALSO:",
     choices: [
@@ -5650,11 +5583,11 @@ const questionsData: QuestionData[] = [
       "El empleo de hubs ofrece una topología en bus, pero facilitando la interconexión.",
       "La utilización de fibra óptica ofrece un gran ancho de banda, aunque dificulta la interconexión.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 468,
+    id: 462,
     title:
       "Relativo a los principales tipos de fibras ópticas empleados para la interconexión de ordenadores se puede afirmar que:",
     choices: [
@@ -5663,11 +5596,11 @@ const questionsData: QuestionData[] = [
       "En las fibras ópticas de índice de salto no aparece distorsión intramodal.",
       "La velocidad de transmisión en una fibra óptica es independiente de la codificación empleada.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 469,
+    id: 463,
     title:
       "En cuanto a las técnicas de contienda empleadas para compartir el medio en LANs es cierto que:",
     choices: [
@@ -5676,11 +5609,11 @@ const questionsData: QuestionData[] = [
       "Los equipos realizan el envío de datos por turnos.",
       "Este método de acceso al medio es empleado fundamentalmente en topologías tipo anillo.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 470,
+    id: 464,
     title:
       "La delimitación de tramas realizada a nivel de enlace tiene por objetivo:",
     choices: [
@@ -5689,11 +5622,11 @@ const questionsData: QuestionData[] = [
       "Establecer un sistema de detección de errores.",
       "Realizar la sincronización entre emisor y receptor.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 471,
+    id: 465,
     title:
       "El protocolo de nivel de enlace que funcione rápidamente, con pocos recursos y sin pérdida de datos debe proporcionar un servicio:",
     choices: [
@@ -5702,11 +5635,11 @@ const questionsData: QuestionData[] = [
       "Servicio orientado a conexión sin reconocimiento.",
       "Servicio no orientado a conexión con reconocimiento.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 472,
+    id: 466,
     title:
       "Sobre el tamaño de la ventana de receptor en un protocolo de ventana deslizante:",
     choices: [
@@ -5715,11 +5648,11 @@ const questionsData: QuestionData[] = [
       "Cuanto menor sea, mejor es el aprovechamiento del medio físico.",
       "El tamaño de ventana es directamente proporcional a la cantidad de memoria libre.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 473,
+    id: 467,
     title:
       "El protocolo de control de flujo que consigue un mayor aprovechamiento del medio físico es:",
     choices: [
@@ -5728,11 +5661,11 @@ const questionsData: QuestionData[] = [
       "Protocolo de ventana deslizante de envío no continuo.",
       "Protocolo de ventana deslizante con parada y espera.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 474,
+    id: 468,
     title:
       "El protocolo de nivel de enlace HDLC NO presenta la característica de:",
     choices: [
@@ -5741,24 +5674,24 @@ const questionsData: QuestionData[] = [
       "Control del flujo con un protocolo de ventana deslizante no selectivo.",
       "Control del flujo con un protocolo de parada y espera.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 475,
+    id: 469,
     title:
       "La capa de red del modelo OSI funcionando como circuitos virtuales se caracteriza por:",
     choices: [
-      "Implica la utilización de encaminamiento fijo para establecer el mismo camino virtual para conectar el mismo origen con el mismo destino",
+      "Implica la utilización de encaminamiento fijo para establecer el mismo camino virtual para conectar el mismo origen con el mismo destino.",
       "Es empleado fundamentalmente en redes orientadas a conexión.",
       "Es más tolerante a fallos que las redes orientadas a datagramas.",
       "El modelo OSI no recoge la posibilidad de que en el nivel de red se implementen circuitos virtuales.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 476,
+    id: 470,
     title:
       "Indicar cual de las siguientes afirmaciones relativas al algoritmo de encaminamiento por inundación es FALSA:",
     choices: [
@@ -5767,32 +5700,32 @@ const questionsData: QuestionData[] = [
       "Se pueden emplear mecanismos limitadores como contador de salto para evitar congestión.",
       "En determinados algoritmos se emplean cuando no se dispone de información previa de la topología de la red.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 477,
+    id: 471,
     title:
       "Cuál es el código de Hamming para la secuencia de datos ‘00’ si se emplea paridad impar?",
-    choices: ["11111", "01010", "11111", "11010"],
-    solution: "-",
+    choices: ["11111.", "01010.", "11111.", "11010."],
+    solution: "d",
     explanation: "",
   },
   {
-    id: 478,
+    id: 472,
     title:
-      "Con respecto al modelo genérico de transferencia de información entre capas...",
+      "Con respecto al modelo genérico de transferencia de información entre capas",
     choices: [
       "La PCI es la información de control del interfaz.",
       "La IDU y el SAP forman la PDU.",
       "El SAP se corresponde con la cabecera de cada servicio.",
       "La IDU esta formada por la SDU y la ICI.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 479,
+    id: 473,
     title: "En relación al modelo OSI, se puede afirmar que:",
     choices: [
       "Establecer y liberar conexiones extremo-extremo es propio del nivel de sesión.",
@@ -5800,45 +5733,44 @@ const questionsData: QuestionData[] = [
       "El reensamblado se realiza a nivel de transporte.",
       "La criptografía y compresión de datos es típica del nivel de enlace.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 480,
+    id: 474,
     title:
       "Cuál será el periodo de muestreo de una señal analógica que se ha digitalizado a una velocidad de 4200 bps, con 6 bits por muestra?",
     choices: ["0 Hz.", "7000 segundos.", "0.0014 segundos.", "3500 Hz."],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 481,
-    title:
-      "Con respecto a las técnicas de modulación de analógico a digital...",
+    id: 475,
+    title: "Con respecto a las técnicas de modulación de analógico a digital",
     choices: [
       "PCM diferencial requiere un ancho de banda menor que DM.",
       "DM codifica la información analógica muestreada, en cada instante de muestreo, con un único bit.",
       "El ruido de cuantización ocurre cuando la señal varía demasiado rápido.",
       "PCM es la técnica que menor ancho de banda requiere.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 482,
+    id: 476,
     title:
       "En relación a la multiplexación de señales y las técnicas de modulación en línea, se puede afirmar:",
     choices: [
       "ADSL es un ejemplo de técnica combinada TDM y 32-QAM.",
       "Las líneas T (americanas) son un ejemplo de técnica combinada ASK y TDM.",
-      "Las líneas E (europeas) respresentan un modelo de servicio combinado PCM y TDM. ",
+      "Las líneas E (europeas) respresentan un modelo de servicio combinado PCM y TDM.",
       "Ninguna de las anteriores es correcta.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 483,
+    id: 477,
     title: "En la codificación en Banda Base, es cierto que:",
     choices: [
       "En RZ bipolar se tiene 1 elemento de datos por 2 elementos de señal.",
@@ -5846,48 +5778,48 @@ const questionsData: QuestionData[] = [
       "Manchester diferencial necesita menor ancho de banda que NRZ.",
       "En Manchester diferencial, si Vt=2 bps, entonces, la Vm=1 baudios.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 484,
+    id: 478,
     title:
-      "La figura adjunta representa una señal senoidal analógica que se propaga según un patrón repetitivo. Podemos afirmar que la señal posee...",
+      "La figura adjunta representa una señal senoidal analógica que se propaga según un patrón repetitivo. Podemos afirmar que la señal posee",
     choices: [
       "Una fase de 0º.",
-      "Un desfase de 90º. ",
-      "Una fase de 180º",
+      "Un desfase de 90º.",
+      "Una fase de 180º.",
       "Un desfase de 270º.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 485,
+    id: 479,
     title: "Un ejemplo de sistema de modulación QAM válido sería:",
     choices: [
-      "32-QAM, en donde se presentan 4 amplitudes posibles y 8 fases posibles. ",
+      "32-QAM, en donde se presentan 4 amplitudes posibles y 8 fases posibles.",
       "8-QAM, en donde se cuadriplica la velocidad de transmisión (quadbit).",
-      "64-QAM, en donde se presentan 32 frecuencias y 2 amplitudes diferentes",
+      "64-QAM, en donde se presentan 32 frecuencias y 2 amplitudes diferentes.",
       "Ninguna de las anteriores es cierta.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 486,
+    id: 480,
     title: "De todos los medios de transmisión guiados, se podría afirmar que:",
     choices: [
       "La categoría 6, recientemente estadarizada, posee únicamente 2 pares de cable de par trenzado.",
       "La categoría 2 permite hasta 10Mbps de velocidad de transmisión.",
       "La categoría 4 correponde a un par trenzado STP.",
-      "La categoría 5 posee 4 pares de cable de par trenzado. ",
+      "La categoría 5 posee 4 pares de cable de par trenzado.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 487,
+    id: 481,
     title:
       "En relación a los estándares de redes inalámbricas presentes en la actualidad, es cierto que:",
     choices: [
@@ -5896,70 +5828,75 @@ const questionsData: QuestionData[] = [
       "801.11a fue el estandar europeo hasta hace pocos años.",
       "802.11g está estandarizado y se emplea en Europa.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 488,
-    title: "En la señalización empleada en una red de computadores...",
+    id: 482,
+    title: "En la señalización empleada en una red de computadores",
     choices: [
       "Los enlaces transoceánicos de una red WAN emplean, normalmente, codificación Manchester.",
-      "Podemos afirmar que Manchester será empleado en una gran mayoría de redes LAN. ",
+      "Podemos afirmar que Manchester será empleado en una gran mayoría de redes LAN.",
       "NRZ bipolar es la codificación elegida en LAN token ring.",
       "NRZ es un ejemplo de codificación en Ethernet.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 489,
+    id: 483,
     title:
       "Actualmente, la transmisión básica en banda modulada de señal analógica puede dividirse en ASK, FSK y PSK. En relación a estas técnicas, podemos señalar que:",
     choices: [
-      "Hacen uso de una portadora analógica y una señal moduladora digital. ",
+      "Hacen uso de una portadora analógica y una señal moduladora digital.",
       "PSK se corresponde con el cambio de frecuencia de la onda para representar diferentes señales.",
       "ASK es muy eficaz, pues no le afecta el ruido electromagnético (cambios de amplitud).",
       "FSK se corresponde con modulación por desplazamiento en fase.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 490,
+    id: 484,
     title:
       "En relación a la delimitación por bits especiales presente en el nivel de Enlace del modelo OSI:",
     choices: [
       "El código a incluir al inicio y fin de la trama se corresponde con ‘0111110’.",
       "El código a incluir al inicio y fin de la trama se corresponde con ‘10000001’.",
-      "Si se desea enviar 5 ‘1’ seguidos en los datos debe colocarse un ‘0’ tras el quinto ‘1’. ",
+      "Si se desea enviar 5 ‘1’ seguidos en los datos debe colocarse un ‘0’ tras el quinto ‘1’.",
       "Si se desea enviar 6 ‘1’ seguidos en los datos debe colocarse un ‘0’ tras el sexto ‘1’.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 491,
+    id: 485,
     title:
       "Se pide obtener calcular el CRC en una trama que ha sido recibida en el equipo receptor. El polinomio generador es x5+x2+1 y los datos son 100101001. El CRC será:",
-    choices: ["01001. ", "001011.", "00001. ", "No se puede obtener."],
-    solution: "-",
+    choices: [
+      "01001.",
+      "001011.",
+      "00001.",
+      "No se puede obtener.",
+    ],
+    solution: "a",
     explanation: "",
   },
   {
-    id: 492,
+    id: 486,
     title:
       "La trama HDLC del nivel de enlace define un campo de control con 8 bits. Se puede afirmar que:",
     choices: [
       "10001100 indica la presencia de una trama no numerada.",
       "01001100 nos informa de la presencia de una trama de supervisión.",
       "10011111 será el campo de contol de una trama de información.",
-      "00000100 es el código presente en una trama de información ",
+      "00000100 es el código presente en una trama de información",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 493,
+    id: 487,
     title:
       "PPP es un protocolo de nivel de enlace normalizado que permite una comunicación de enlace entre dos equipos. Es cierto que:",
     choices: [
@@ -5968,52 +5905,52 @@ const questionsData: QuestionData[] = [
       "Mediante CHAP se consigue una dirección IP válida.",
       "PPP no soporta el envío de otros protocolos en su interior.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 494,
+    id: 488,
     title:
       "En el protocolo de ventana deslizante, si se dispone de 5 bits para la numeración de tramas, el tamaño máximo de la ventana será de:",
     choices: ["32.", "31.", "16.", "15."],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 495,
+    id: 489,
     title: "En relación al encaminamiento de datos, es cierto que:",
     choices: [
       "El encaminamiento estático requiere mayor procesamiento en los nodos que el dinámico.",
       "Es una tarea asignada al nivel de sesión de OSI.",
-      "Bellman-Ford se emplea para encaminamiento estático. ",
+      "Bellman-Ford se emplea para encaminamiento estático.",
       "Dijkstra se utiliza como algoritmo dinámico de coste mínimo.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 496,
+    id: 490,
     title:
-      "Qué velocidad de transmisión (bps) se alcanzaría en un medio de ancho de banda B=5000Hz y una relación (S/N)db  igual a 20dB?",
-    choices: ["386 baudios.", "33291 bps. ", "21960 bps.", "0 bps."],
-    solution: "-",
+      "Qué velocidad de transmisión (bps) se alcanzaría en un medio de ancho de banda B=5000Hz y una relación (S/N)db igual a 20dB?",
+    choices: ["386 baudios.", "33291 bps.", "21960 bps.", "0 bps."],
+    solution: "b",
     explanation: "",
   },
   {
-    id: 497,
+    id: 491,
     title:
       "Con respecto a una señal representada en series de Fourier, se puede afirmar que:",
     choices: [
-      "Los diferentes términos armónicos no poseen igual energía o información de la señal original. ",
+      "Los diferentes términos armónicos no poseen igual energía o información de la señal original.",
       "Los armónicos impares ofrecen mayor información de la señal original que los armónicos pares.",
       "La frecuencia del armónico número 1 es exactamente igual al valor de frecuencia 10.",
       "La frecuencia de los primeros armónicos es más elevada que la frecuencia de los últimos armónicos.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 498,
+    id: 492,
     title:
       "En relación a los tipos de comunicación utilizados más comúnmente en redes se puede afirmar que:",
     choices: [
@@ -6022,11 +5959,11 @@ const questionsData: QuestionData[] = [
       "En una red de difusión tipo bus no puede emplearse transmisión síncrona.",
       "Un interfaz síncrono requiere de unos pulsos de sincronización al principio de la trama para sincronizar el origen y el destino.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 499,
+    id: 493,
     title:
       "Indicar cual de las siguientes afirmaciones relativas a la transmisión de datos en una WAN es cierta:",
     choices: [
@@ -6035,11 +5972,11 @@ const questionsData: QuestionData[] = [
       "Los datagramas son orientados a la transmisión de datos y los circuitos virtuales son adecuados tanto para datos como para señales analógicas digitalizadas.",
       "Empleando conmutación de paquetes se establece un camino físico fijo tras la conexión.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 500,
+    id: 494,
     title:
       "Cuál de las siguiente funciones del modelo OSI NO la realiza la capa indicada?:",
     choices: [
@@ -6048,11 +5985,11 @@ const questionsData: QuestionData[] = [
       "Red: Evitar congestión en los routers.",
       "Enlace: Su función depende de si se utiliza datagramas, circuitos virtuales o conmutación de circuitos.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 501,
+    id: 495,
     title:
       "En cuanto a los protocolos y servicios establecidos por el modelo OSI se puede afirmar que:",
     choices: [
@@ -6061,11 +5998,11 @@ const questionsData: QuestionData[] = [
       "La Unidad de Datos de Interfaz constituye la información que se transmite entre capas pares.",
       "En el nivel 1 la PDU está compuesta por las PCI introducidas por cada capa y la SDU de usuario.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 502,
+    id: 496,
     title:
       "En cuanto a la utilización de redes de Petri para la especificación de protocolos, es FALSO que:",
     choices: [
@@ -6074,11 +6011,11 @@ const questionsData: QuestionData[] = [
       "Pueden existir varias transiciones habilitadas que se disparan simultáneamente.",
       "Una transición se habilita cuando todos los lugares de donde provienen arcos de entrada tienen, al menos, una marca.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 503,
+    id: 497,
     title:
       "Respecto al estudio de señales empleando el desarrollo en serie de Fourier es cierto que:",
     choices: [
@@ -6087,37 +6024,37 @@ const questionsData: QuestionData[] = [
       "El ancho de banda de un medio de comunicación representa el rango de frecuencias de señales de ruido que no afectan al medio.",
       "En general, a la hora de reconstruir una señal, es mejor emplear los armónicos de mayor orden.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 504,
+    id: 498,
     title:
-      "Según el teorema de Nyquist, calcular cuál será la velocidad de transmisión máxima de un medio con ancho de banda de 12 KHz y una modulación QAM con 8 combinaciones.",
+      "Según el teorema de Nyquist, calcular cuál será la velocidad de transmisión máxima de un medio con ancho de banda de 12 KHz y una modulación QAM con 8 combinaciones",
     choices: [
       "36 Kbps.",
       "72 Kbps.",
       "192 Kbps.",
       "Ninguna de las anteriores.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 505,
+    id: 499,
     title:
-      "Calcular, para el mismo medio del ejercicio anterior, cual será la velocidad de transmisión máxima considerando una relación señal ruido de 500.",
+      "Calcular, para el mismo medio del ejercicio anterior, cual será la velocidad de transmisión máxima considerando una relación señal ruido de 500",
     choices: [
       "10,7 Kbps.",
       "107,6 Kbps.",
       "2033 Kbps.",
       "Ninguna de las anteriores.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 506,
+    id: 500,
     title:
       "En cuanto a la codificación de información en banda base se puede afirmar que:",
     choices: [
@@ -6126,18 +6063,18 @@ const questionsData: QuestionData[] = [
       "Existen codificaciones en banda base que incluyen sincronización.",
       "En banda base la señal que transporta la información a transmitir se denomina moduladora.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 507,
+    id: 501,
     title: "Indicar cuál de las siguientes codificaciones NO es correcta:",
-    choices: ["NRZ bipolar.", "AMI.", "Manchester diferencial.", "RZ"],
-    solution: "-",
+    choices: ["NRZ bipolar.", "AMI.", "Manchester diferencial.", "RZ."],
+    solution: "c",
     explanation: "",
   },
   {
-    id: 508,
+    id: 502,
     title:
       "Indicar cual de las siguientes propiedades relativas a la modulación analógica de señales digitales es FALSA:",
     choices: [
@@ -6146,11 +6083,11 @@ const questionsData: QuestionData[] = [
       "Tanto en modulación por cambio de frecuencia como en la modulación por cambio de amplitud la mayor potencia está concentrada en la componente de la portadora.",
       "Al emplear codificación por desplazamiento en amplitud el espectro de la señal original queda duplicado.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 509,
+    id: 503,
     title:
       "Dado un medio con un ancho de banda de 4 KHz por el que se envía una señal con un ancho de banda de 200 Hz, determinar el rango en el que debería encontrarse la frecuencia de muestreo teniendo en cuenta el teorema de muestreo y que se consideran 8 bits por muestra:",
     choices: [
@@ -6159,11 +6096,11 @@ const questionsData: QuestionData[] = [
       "400 ≥ fm ≥ 50.",
       "Ninguno de los anteriores.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 510,
+    id: 504,
     title:
       "Respecto a los cables coaxiales empleados como medios de transmisión en redes locales se puede afirmar que:",
     choices: [
@@ -6172,11 +6109,11 @@ const questionsData: QuestionData[] = [
       "El cable coaxial fino permite una velocidad de 10 Mbps a una distancia de 500 m.",
       "La principal desventaja de los cables coaxiales frente a los pares trenzados es que los primeros son poco fiables y sensibles al ruido.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 511,
+    id: 505,
     title:
       "Indicar cual de las siguientes afirmaciones relativas al principio de funcionamiento de las fibras ópticas es cierta:",
     choices: [
@@ -6185,11 +6122,11 @@ const questionsData: QuestionData[] = [
       "El recubrimiento de la fibra óptica ha de tener un índice de refracción menor que el núcleo.",
       "La ley de Snell relaciona el ancho de banda del medio con el número de haces que permite transmitir.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 512,
+    id: 506,
     title:
       "Cuando distintos equipos comparten un mismo medio físico se puede afirmar que:",
     choices: [
@@ -6198,11 +6135,11 @@ const questionsData: QuestionData[] = [
       "Las redes tipo Token ring emplean compartición basada en selección centralizada.",
       "Las técnicas de contienda tipo ALOHA requieren escuchar el medio antes de realizar la transmisión de datos.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 513,
+    id: 507,
     title:
       "Indicar cual de las siguientes funciones NO realiza el nivel de enlace del modelo OSI:",
     choices: [
@@ -6211,11 +6148,11 @@ const questionsData: QuestionData[] = [
       "Reconocimiento de tramas.",
       "Control de flujo.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 514,
+    id: 508,
     title: "La delimitación de tramas por violación de código consiste en:",
     choices: [
       "Emplean codificaciones de bits que no corresponden a 1 o 0 para delimitar la trama.",
@@ -6223,19 +6160,19 @@ const questionsData: QuestionData[] = [
       "Delimitar las tramas por su duración considerando emisor y receptor sincronizados.",
       "Se emplean bytes reservados al inicio y final de la trama.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 515,
+    id: 509,
     title:
       "Qué tipo de direccionamiento se emplea en una red en anillo tipo Token Ring?",
     choices: ["Implícito.", "Explícito.", "Preselección.", "Maestro-esclavo."],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 516,
+    id: 510,
     title:
       "La técnica de detección de errores empleando códigos de redundancia cíclica (CRC) se fundamenta en:",
     choices: [
@@ -6244,19 +6181,19 @@ const questionsData: QuestionData[] = [
       "Detecta únicamente errores en ráfagas de longitud menor que r (siendo r la longitud del CRC).",
       "Enviar junto a los datos a transmitir los bits asociados a los coeficientes de un polinomio generador.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 517,
+    id: 511,
     title:
       "Dado un código con distancia Hamming 7. ¿Cuántos errores puede corregir?:",
     choices: ["2.", "3.", "7.", "15."],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 518,
+    id: 512,
     title:
       "El protocolo de parada y espera con numeración solo en las tramas de datos se caracteriza por:",
     choices: [
@@ -6265,11 +6202,11 @@ const questionsData: QuestionData[] = [
       "Presentar duplicación de mensajes en la numeración par de los paquetes.",
       "Realizar siempre el reenvío de los paquetes con numeración par.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 519,
+    id: 513,
     title:
       "El aprovechamiento óptimo de una canal que emplea un protocolo de ventana deslizante a nivel de enlace se consigue:",
     choices: [
@@ -6278,23 +6215,11 @@ const questionsData: QuestionData[] = [
       "Permitiendo que el receptor tenga un tamaño de ventana igual al número de secuencias de la numeración.",
       "Permitiendo que el emisor alcance el tamaño máximo de su ventana cuando reciba el primer paquete de ACK.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 520,
-    title: "En una arquitectura de red de n niveles, es cierto que:",
-    choices: [
-      "Existe comunicación horizontal entre la capa n y la n-1 del otro extremo.",
-      "Existe comunicación vertical entre la capa n-1 y la n+1.",
-      "Un número elevado de niveles aumenta la velocidad de transmisión.",
-      "Un número reducido de niveles hace más difícil la detección de errores.",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 521,
+    id: 514,
     title:
       "Las unidades de datos de interfaz (IDU’s) que intercambian dos niveles pares del nivel n de una arquitectura:",
     choices: [
@@ -6303,24 +6228,11 @@ const questionsData: QuestionData[] = [
       "Emplean la información de control del interfaz (ICI) para enviar la información a la capa par.",
       "Ninguna, las entidades pares no intercambian IDU’s.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 522,
-    title:
-      "Si una SDU es fragmentada al enviarla del nivel n al n-1, es cierto que:",
-    choices: [
-      "Es necesario incorporar una cabecera ICI a cada fragmento.",
-      "Es necesario incorporar una cabecera PCI a cada fragmento.",
-      "Sólo el primer fragmento incorpora la cabecera ICI.",
-      "Las SDU’s no se fragmentan nunca.",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 523,
+    id: 515,
     title:
       "Relativo a las máquinas de estados finitos para modelar protocolos de red se puede afirmar que:",
     choices: [
@@ -6329,11 +6241,11 @@ const questionsData: QuestionData[] = [
       "Un estado debe tener por lo menos una transición a otro estado.",
       "Una máquina de estados finitos puede tener varios estados iniciales.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 524,
+    id: 516,
     title: "Una red de Petri se caracteriza porque:",
     choices: [
       "Sólo puede existir una transición habilitada en la red de Petri en un momento dado.",
@@ -6341,19 +6253,19 @@ const questionsData: QuestionData[] = [
       "Las transiciones se disparan en base a eventos de entrada a los lugares.",
       "En el estado inicial únicamente existirá una marca en un lugar de la red.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 525,
+    id: 517,
     title:
       "Supóngase que se transmiten un total de 8 bits a una velocidad de 640 bps por un medio que tiene una frecuencia inicial y final de corte de 100 Hz y 600 Hz respectivamente. ¿Cuántos armónicos dejará pasar el medio?:",
     choices: ["6.", "7.", "8.", "Ninguno de los anteriores."],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 526,
+    id: 518,
     title:
       "La ventaja de la codificación Manchester frente a la codificación binaria bipolar es:",
     choices: [
@@ -6362,11 +6274,11 @@ const questionsData: QuestionData[] = [
       "Disminuir el efecto del ruido en la interpretación de la señal.",
       "Ninguna de las anteriores es cierta.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 527,
+    id: 519,
     title:
       "Dada la siguiente señal que se transmite por el medio físico: Se puede afirmar que:",
     choices: [
@@ -6375,11 +6287,11 @@ const questionsData: QuestionData[] = [
       "Se emplea modulación por variación en amplitud.",
       "Se emplea modulación por variación en fase.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 528,
+    id: 520,
     title:
       "Considérese que se aplica PCM para codificar una señal analógica en una señal digital con una velocidad de modulación de 127 muestras por segundo y que se emplea el esquema que se muestra en la siguiente figura: Se puede afirmar que:",
     choices: [
@@ -6388,24 +6300,24 @@ const questionsData: QuestionData[] = [
       "Empleando PCM se obtiene una velocidad de transmisión final de 496 bps.",
       "Empleando PCM se obtiene una velocidad de transmisión final de 508 bps.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 529,
+    id: 521,
     title:
-      "Considerando la siguiente multiplexión multinivel: Determinar la Velocidad de transmisión que deberá presentar la trama de salida indicada en el esquema.",
+      "Considerando la siguiente multiplexión multinivel: Determinar la Velocidad de transmisión que deberá presentar la trama de salida indicada en el esquema",
     choices: [
       "2,048 Mpbs.",
       "8,192 Mbps.",
       "64 Kbps.",
       "Ninguna de las anteriores.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 530,
+    id: 522,
     title:
       "Indicar cual de las siguientes afirmaciones relativas a los medios de transmisión es FALSA:",
     choices: [
@@ -6414,11 +6326,11 @@ const questionsData: QuestionData[] = [
       "Con par trenzado puede superarse la velocidad de 100 Mbps en LANs.",
       "Las fibras ópticas presentan una atenuación significativamente menor que los cables coaxiales y pares trenzados.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 531,
+    id: 523,
     title:
       "Cuál de las siguientes funciones NO corresponden a una entidad de nivel de enlace del modelo OSI?:",
     choices: [
@@ -6427,11 +6339,11 @@ const questionsData: QuestionData[] = [
       "Coordina como acceden las distintas máquinas al medio físico para realizar la comunicación.",
       "Lleva a cabo el control de flujo para coordinar la velocidad de transmisión del emisor con la de recepción del destino.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 532,
+    id: 524,
     title:
       "Supóngase que un determinado receptor recibe la trama de datos 11011 y que emplea el polinomio generador x+1 para determinar empleando comprobación de errores mediante redundancia cíclica. Se puede afirmar que:",
     choices: [
@@ -6440,11 +6352,11 @@ const questionsData: QuestionData[] = [
       "Los datos recibidos son correctos.",
       "Con la información proporcionada no se puede determinar si los bits recibidos son o no correctos.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 533,
+    id: 525,
     title:
       "Se dispone de un código compuesto por las siguientes palabras-código: 0000000000, 0110101010, 0001010111, 1111111111. El nivel de enlace hará corresponder cada una de las palabras-código respectivamente con las siguientes palabras de datos: 00, 01, 10, 11. Se puede afirmar que empleando este código es posible:",
     choices: [
@@ -6453,19 +6365,19 @@ const questionsData: QuestionData[] = [
       "Corregir errores hasta en 2 bits.",
       "Detectar errores hasta en 10 bits.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 534,
+    id: 526,
     title:
       "Considerando que se emplea paridad par, ¿Cuál será el código Hamming asociado a la palabra de datos 0110101?:",
     choices: ["10001100101.", "00001100101.", "0110101.", "Otro."],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 535,
+    id: 527,
     title:
       "En muchas ocasiones el algoritmo empleado para la detección de errores a nivel de enlace depende del BER del medio de transmisión. ¿Qué mide este parámetro?:",
     choices: [
@@ -6474,11 +6386,11 @@ const questionsData: QuestionData[] = [
       "Probabilidad de que, utilizando un algoritmo para la detección de errores, una trama llegue con uno o más errores no detectados.",
       "Probabilidad de que un bit recibido sea erróneo.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 536,
+    id: 528,
     title:
       "Considerando un protocolo de ventana deslizante con numeración de 3 bits y los conceptos que se muestran en la siguiente figura en la que se representa la ventana del receptor, se puede afirmar que:",
     choices: [
@@ -6487,11 +6399,11 @@ const questionsData: QuestionData[] = [
       "El tamaño de la ventana de recepción se mantiene constante durante toda la conexión y permite almacenar 5 tramas.",
       "Las tramas marcadas con ? se han perdido.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 537,
+    id: 529,
     title:
       "El protocolo de ventana deslizante de envío continuo con repetición no selectiva se caracteriza por:",
     choices: [
@@ -6500,36 +6412,36 @@ const questionsData: QuestionData[] = [
       "El emisor rechaza las tramas de confirmación que no se correspondan con la última que envió.",
       "El receptor debe recibir las tramas en orden.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 538,
-    title: "Qué mide la cadencia eficaz del protocolo de parada y espera?.",
+    id: 530,
+    title: "Qué mide la cadencia eficaz del protocolo de parada y espera?",
     choices: [
       "Mide la relación entre los bits de datos transmitidos y el tiempo medio necesario para enviar un paquete de forma correcta.",
       "Mide la utilización del canal considerando información redundante y de control pero sin la existencia de errores, es decir, sin necesidad de retransmitir las tramas incorrectas.",
       "Mide la relación entre la longitud total de la trama a nivel de enlace y el tiempo de propagación de la trama por el medio.",
       "Mide la relación entre la longitud total del campo de datos de la trama y el tiempo de transmisión de la trama por el medio.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 539,
+    id: 531,
     title:
       "En relación al acceso al medio empleando CSMA/CD se puede afirmar que:",
     choices: [
       "El equipo emisor tiene que acabar de transmitir la trama de datos para detectar la colisión.",
-      "La colisión es el evento  que habilita a las estaciones para transmitir.",
+      "La colisión es el evento que habilita a las estaciones para transmitir.",
       "Las estaciones esperan un turno para realizar la transmisión de datos.",
       "Detecta colisiones en el medio más rápido que CSMA.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 540,
+    id: 532,
     title: "El protocolo HDLC se caracteriza por:",
     choices: [
       "Emplear tramas no numeradas para el control del flujo emisor-receptor.",
@@ -6537,11 +6449,11 @@ const questionsData: QuestionData[] = [
       "Emplear tramas de información y supervisión para el control del flujo emisor-receptor.",
       "Emplear el control del flujo de parada y espera para la recuperación de errores.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 541,
+    id: 533,
     title:
       "Indicar cual de las siguientes afirmaciones relativas a los servicios ofrecidos por el nivel de red al nivel de transporte es FALSA:",
     choices: [
@@ -6550,11 +6462,11 @@ const questionsData: QuestionData[] = [
       "Cuando la capa de red se basa en datagramas la responsabilidad de encaminar recae sobre los nodos de la red.",
       "En un nivel de red que emplea circuitos virtuales la decisión de encaminamiento se toma sólo una vez en cada establecimiento de conexión entre origen y destino.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 542,
+    id: 534,
     title:
       "El error de duplicación en el control de flujo a nivel de enlace puede producirse en el protocolo:",
     choices: [
@@ -6563,11 +6475,11 @@ const questionsData: QuestionData[] = [
       "Protocolo de ventana deslizante.",
       "En ninguno de los protocolos de control de flujo anteriores.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 543,
+    id: 535,
     title:
       "Comparando la arquitectura de red TCP/IP con la OSI/ISO se cumple que:",
     choices: [
@@ -6576,11 +6488,11 @@ const questionsData: QuestionData[] = [
       "A diferencia de TCP/IP, el modelo OSI se emplea para redes LAN y no en redes WAN.",
       "El protocolo de transporte de ambos niveles define cómo se utilizan los servicios que ofrece el nivel de red para el intercambio de PDUs de transporte.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 544,
+    id: 536,
     title: "En una arquitectura de red de n niveles, es FALSO que:",
     choices: [
       "La PCI (información de control de protocolo de TCP/IP) en el nivel de enlace de una trama ethernet está constituida por campos como dirección MAC origen, dirección MAC destino y tipo de trama, pero dentro de la PCI no se incluye el CRC.",
@@ -6588,11 +6500,11 @@ const questionsData: QuestionData[] = [
       "Entre las características definidas por un determinado protocolo cabe citar: direccionamiento, control de errores, tipo de envío (simplex, dúplex), control de flujo o multiplexión.",
       "Los servicios que ofrece una determinada capa pueden ser orientados a conexión o no orientados a conexión.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 545,
+    id: 537,
     title:
       "En cuanto a las propiedades de una red de área extendida se puede afirmar que:",
     choices: [
@@ -6601,11 +6513,11 @@ const questionsData: QuestionData[] = [
       "La arquitectura TCP/IP está basada en datagramas y el modelo OSI en circuitos virtuales.",
       "Empleando circuitos virtuales, en una misma conexión las tramas pueden seguir distintos caminos para comunicar un mismo origen con un mismo destino.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 546,
+    id: 538,
     title:
       "Sabiendo que se cumple que G(dB) = 20 log G siendo G la ganancia de una señal. ¿Qué significa que para la frecuencia superior de corte, una señal tenga una ganancia de -3dB y que para la frecuencia inferior de corte la ganancia sea nula?",
     choices: [
@@ -6614,11 +6526,11 @@ const questionsData: QuestionData[] = [
       "Que el ancho de banda de la señal es de 20 Hz.",
       "En el ancho de banda los armónicos tendrán una amplitud de 0,7.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 547,
+    id: 539,
     title:
       "Supóngase que se transmite de forma periódica el carácter ‘a’ por un medio con un ancho de banda de 1000 Hz a una velocidad de 1000bps. En la siguiente figura se representa la señal original y la obtenida en el receptor. Se puede afirmar que:",
     choices: [
@@ -6627,11 +6539,11 @@ const questionsData: QuestionData[] = [
       "Aplicando el teorema de Nyquist se obtiene una velocidad máxima de 4000 bps.",
       "La frecuencia fundamental de la señal es de 1000Hz.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 548,
+    id: 540,
     title:
       "Supóngase que a la señal de la figura anterior se le añade ruido de forma que la relación señal ruido es de 4 dB. Se cumple que:",
     choices: [
@@ -6640,11 +6552,11 @@ const questionsData: QuestionData[] = [
       "No se podrá alcanzar la velocidad máxima establecida por el teorema de Nyquist.",
       "El ruido podría eliminarse con un filtro pasa banda.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 549,
+    id: 541,
     title:
       "Comparando los modos de transmisión síncronos y asíncronos en redes de área local, se puede afirmar que:",
     choices: [
@@ -6653,11 +6565,11 @@ const questionsData: QuestionData[] = [
       "En general, aplicando una transmisión asíncrona se consiguen velocidades de transmisión mayores.",
       "La comunicación asíncrona es empleada habitualmente en las interfaces DTE-DCE.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 550,
+    id: 542,
     title:
       "Considérese la distribución del ancho de banda en ADSL según se muestra en la siguiente figura: Si la señal del enlace ascendente, para convertirlo a digital, se muestrea con una frecuencia de 400 Hz antes de enviarla y la banda de seguridad es de 100 Hz. Se puede afirmar que:",
     choices: [
@@ -6666,11 +6578,11 @@ const questionsData: QuestionData[] = [
       "El enlace ascendente puede aislarse del resto de enlaces mediante un filtro pasa banda considerando una frecuencia inferior y superior de corte de 23 Hz y 250 Hz respectivamente.",
       "No se puede aislar el enlace ascendente ya que se mezclará en el canal con el enlace descendente.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 551,
+    id: 543,
     title:
       "Una codificación en banda base es la 4B5B según la cual bloques de datos de 4 bits se codifican en bloques de datos de 5 bits. ¿Cuál de las siguientes es una utilidad de este tipo de codificaciones?",
     choices: [
@@ -6679,19 +6591,19 @@ const questionsData: QuestionData[] = [
       "Encriptar la información por motivos de seguridad.",
       "Este tipo de codificaciones carecen de utilidad práctica.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 552,
+    id: 544,
     title:
       "Dado el siguiente esquema donde se representa un proceso de modulación: Sabiendo que um es la señal moduladora, up la portadora y uM la modulada. ¿Qué tipo de modulación se está realizando?:",
     choices: ["Modulación PSK.", "Modulación QPSK.", "Modulación QAM.", "PCM."],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 553,
+    id: 545,
     title:
       "En el nivel físico de un acceso a una red WAN basado en multiplexión de canales de voz, los bits se organizan en tramas como esta: Una trama de 180 bits se envía a una velocidad de 360Kbps. La trama tiene 60 bits en el campo de control, 4 bytes en el campo CRC y transporta entre sus bits de información un canal de control de 16Kbps y otro de 32 Kbps. ¿Cuántos bits tiene cada canal de control?",
     choices: [
@@ -6700,19 +6612,19 @@ const questionsData: QuestionData[] = [
       "CANAL 1: 10 bits, CANAL 2: 20 bits.",
       "Otro.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 554,
+    id: 546,
     title:
       "Cuál de los siguientes cables emplearías para una red LAN Gigabit ethernet?",
     choices: ["Coaxial fino.", "UTP-3.", "UTP-5e.", "UTP-7."],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 555,
+    id: 547,
     title:
       "Relativo a los principales tipos de fibras ópticas empleados para la interconexión de ordenadores se puede afirmar que:",
     choices: [
@@ -6721,11 +6633,11 @@ const questionsData: QuestionData[] = [
       "Existen estándares de redes LAN a 10 Gbps que emplean fibras ópticas.",
       "La velocidad de transmisión en una fibra óptica es independiente de la codificación empleada.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 556,
+    id: 548,
     title:
       "Para que un protocolo de nivel de enlace funcione rápidamente, con pocos recursos y sin pérdida de datos debe proporcionar un servicio:",
     choices: [
@@ -6734,19 +6646,19 @@ const questionsData: QuestionData[] = [
       "Servicio orientado a conexión sin reconocimiento.",
       "Servicio no orientado a conexión con reconocimiento.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 557,
+    id: 549,
     title:
       "El nivel de enlace de un protocolo de red introduce un código de redundancia cíclica en las tramas empleando el polinomio generador x+1. Sabiendo que los datos a enviar (sin el CRC) es 1011, se puede afirmar que la trama final enviada será:",
     choices: ["10110.", "10111.", "101101.", "101111."],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 558,
+    id: 550,
     title:
       "Considérese que un protocolo de nivel de enlace emplea parada y espera con numeración de datos pero no de confirmaciones. Si se pierde la primera trama de datos, ¿cuál de las siguientes afirmaciones es correcta?",
     choices: [
@@ -6755,11 +6667,11 @@ const questionsData: QuestionData[] = [
       "Al nivel de red del receptor no le llegarán tramas de datos duplicadas pero puede haber una pérdida de sincronización entre emisor y receptor.",
       "El receptor no recibirá correctamente ni la primera ni la segunda trama de datos.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 559,
+    id: 551,
     title:
       "El protocolo de ventana deslizante de envío continuo con repetición selectiva se caracteriza porque:",
     choices: [
@@ -6768,11 +6680,11 @@ const questionsData: QuestionData[] = [
       "El emisor rechaza las tramas de confirmación que no se correspondan con la última de datos que envió.",
       "El receptor debe recibir las tramas ordenadas.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 560,
+    id: 552,
     title:
       "Dado el método de control de acceso al medio representado en la siguiente figura: Este método se trata:",
     choices: [
@@ -6781,11 +6693,11 @@ const questionsData: QuestionData[] = [
       "CSMA/CD.",
       "Ninguno de los anteriores.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 561,
+    id: 553,
     title:
       "Indicar cual de las siguientes afirmaciones relativas al protocolo HDLC es FALSA:",
     choices: [
@@ -6794,24 +6706,24 @@ const questionsData: QuestionData[] = [
       "HDLC emplea ventana deslizante con envío continuo.",
       "El receptor puede emplear tramas de supervisión para confirmar o rechazar tramas de datos.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 562,
+    id: 554,
     title:
-      "Supóngase que se emplea HDLC en modo asíncrono balanceado sobre un canal semiduplex.  Considerando que el tamaño de ventana del emisor es 5, que la del receptor es 2, y que el emisor envía 5 tramas consecutivamente (I0, I1, I2, I3, I4), se puede afirmar que:",
+      "Supóngase que se emplea HDLC en modo asíncrono balanceado sobre un canal semiduplex. Considerando que el tamaño de ventana del emisor es 5, que la del receptor es 2, y que el emisor envía 5 tramas consecutivamente (I0, I1, I2, I3, I4), se puede afirmar que:",
     choices: [
       "El emisor enviará tres confirmaciones: una con número de secuencia 2, otra con número de secuencia 4 y otra con número de secuencia 5.",
       "El emisor enviará I0 e I1 y quedará a la espera de su confirmación.",
       "El receptor enviará una única confirmación indicando el número de secuencia 5.",
       "El receptor descartará las tramas I2, I3 e I4.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 563,
+    id: 555,
     title:
       "Cuál de las siguientes afirmaciones relativas al protocolo PPP es FALSA?",
     choices: [
@@ -6820,11 +6732,11 @@ const questionsData: QuestionData[] = [
       "PPP se emplea cuando se quiere establecer una conexión entre un usuario y un proveedor de servicios de ADSL.",
       "PPP utiliza el mismo control de enlace de datos de alto nivel que HDLC.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 564,
+    id: 556,
     title:
       "Indicar cual de las siguientes características de los protocolos de encaminamiento basados en vector de distancia y basados en estado del enlace es cierta:",
     choices: [
@@ -6833,19 +6745,19 @@ const questionsData: QuestionData[] = [
       "OSPF es un ejemplo de protocolo basado en vector de distancias.",
       "RIP es un ejemplo de protocolo basado en estado del enlace.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 565,
+    id: 557,
     title:
       "En el siguiente esquema se representa la topología de una red en la que se ha introducido los costes en los enlaces que unen cada uno de los equipos. ¿Cuál es el valor del conjunto T después de 4 iteraciones considerando que el nodo inicial es el nodo “1”?",
     choices: ["1,2,5,6.", "1,2,4,5.", "1,2,5,3.", "1,2,3,4."],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 566,
+    id: 558,
     title:
       "Cuál de las siguientes es una característica del algoritmo de Bellman-Ford?",
     choices: [
@@ -6854,11 +6766,11 @@ const questionsData: QuestionData[] = [
       "Se trata de un algoritmo basado en estado del enlace.",
       "Emplea tablas de encaminamiento estáticas para determinar las rutas óptimas.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 567,
+    id: 559,
     title:
       "Indicar cuál de las siguientes afirmaciones NO se puede aplicar a una arquitectura de red:",
     choices: [
@@ -6867,11 +6779,11 @@ const questionsData: QuestionData[] = [
       "Los elementos de un nivel que dialogan con otros elementos del mismo nivel son las denominadas entidades.",
       "Una arquitectura de red se puede definir como el conjunto de capas y protocolos que constituyen un sistema de comunicaciones.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 568,
+    id: 560,
     title:
       "En el modelo de arquitectura de red OSI, la fragmentación en un nivel n se produce cuando:",
     choices: [
@@ -6880,24 +6792,24 @@ const questionsData: QuestionData[] = [
       "Cuando el tamaño de la PDU de nivel n+1 es mayor que la longitud máxima de SDU establecida para el nivel n.",
       "El nivel n+1 establece un tamaño de SDU para que no se produzca fragmentación en el nivel n.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 569,
+    id: 561,
     title:
       "Cuál de las siguientes afirmaciones relativas al modelo de referencia OSI es FALSA?",
     choices: [
       "El nivel físico es el único que se encarga de especificar el modo en que el emisor y el receptor se sincronizan.",
       "El nivel de enlace supervisa la entrega de bloques de datos entre dos dispositivos unidos por un enlace.",
       "El nivel de red asegura la entrega de bloques de datos entre dos dispositivos cualesquiera comunicados a través de uno o más enlaces distintos.",
-      "En el nivel de transporte se establecen controles de conexión, controles de flujo y controles de errores extremo a extremo",
+      "En el nivel de transporte se establecen controles de conexión, controles de flujo y controles de errores extremo a extremo.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 570,
+    id: 562,
     title:
       "Indicar cual de las siguientes afirmaciones relativas al análisis de la transmisión de señales por un medio con ancho de banda limitado (frecuencia inicial fi y frecuencia superior fs) es cierta:",
     choices: [
@@ -6906,27 +6818,27 @@ const questionsData: QuestionData[] = [
       "La distorsión de retardo se produce cuando la velocidad de propagación tiende a ser mayor cerca de la frecuencia central y disminuir al acercarse a los extremos fi y fs.",
       "Habitualmente la ganancia de los medios de transmisión reales es 1 entre fi y fs.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 571,
+    id: 563,
     title:
       "Considérese que sobre un medio de comunicación se aplica un filtro pasa banda con frecuencia inicial de corte de 100 Hz y frecuencia superior 4500 Hz. Sabiendo que el nivel de ruido para todo el ancho de banda comprendido entre ambas frecuencias es de 30 dB. ¿A qué velocidad máxima aproximada podrá realizarse la transmisión de datos?",
     choices: ["39868.", "43856.", "57262.", "Otra."],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 572,
+    id: 564,
     title:
       "En las siguientes figuras se representan la codificación digital de un carácter y su espectro de potencias respectivamente. Supóngase que un determinado dispositivo receptor requiere que la potencia acumulada por la amplitud de los armónicos sea de al menos 1 W. y que la señal se transmite a 256 bps. Se puede afirmar que el ancho de banda del medio debe ser de al menos:",
     choices: ["256 Hz.", "128 Hz.", "96 Hz.", "64 Hz."],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 573,
+    id: 565,
     title: "En cuanto a las codificaciones en banda base se puede afirmar que:",
     choices: [
       "La información a transmitir se envía empleando una codificación de línea, es decir sin necesidad de realizar modificaciones para enviarla por el medio.",
@@ -6934,19 +6846,19 @@ const questionsData: QuestionData[] = [
       "La codificación bipolar es aquella que se emplea cuando en la amplitud de la señal todos los niveles se encuentran a un mismo lado del eje de tiempo.",
       "La codificación multinivel es aquella que permite la sincronización origen-destino.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 574,
+    id: 566,
     title:
       "Indicar la codificación en banda base que se está empleando en la siguiente señal:",
     choices: ["2T3B.", "8B6T.", "3B2T.", "Manchester diferencial."],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 575,
+    id: 567,
     title:
       "El empleo de la modulación analógica para la transmisión de información está justificado:",
     choices: [
@@ -6955,11 +6867,11 @@ const questionsData: QuestionData[] = [
       "Siempre que los armónicos de mayor orden de la señal estén fuera del ancho de banda del medio físico.",
       "Cuando el ancho de banda del medio físico no sea infinito.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 576,
+    id: 568,
     title:
       "El empleo de la modulación digital para la transmisión de información está justificado:",
     choices: [
@@ -6968,11 +6880,11 @@ const questionsData: QuestionData[] = [
       "Cuando sea necesario integrar información analógica en un medio de transmisión digital.",
       "Siempre que la señal moduladora sea digital.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 577,
+    id: 569,
     title:
       "Considérese las señales PCM nombradas como A, B y C en la Figura 1. Para las tres señales se define un periodo de muestreo T de 125μs, pero mientras que A y B definen muestras de 8 bits cada una, C emplea muestras de 16 bits. Determinar: i) la velocidad de transmisión de cada señal. ii) Al emplear un esquema de multiplexión para transmitir estas tres señales, determinar cual sería la velocidad de transmisión requerida por la trama final",
     choices: [
@@ -6981,11 +6893,11 @@ const questionsData: QuestionData[] = [
       "i) A = B = 64 Kbps, C = 128 Kbps ii) 128 Kbps.",
       "Otro.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 578,
+    id: 570,
     title:
       "Comparando los pares trenzados UTP categoría 3, 5 y 6, se puede afirmar que:",
     choices: [
@@ -6994,11 +6906,11 @@ const questionsData: QuestionData[] = [
       "El UTP de categoría 3 admite mayores velocidades al encontrarse apantallado.",
       "Las fibras ópticas permiten distancias menores, menor ancho de banda y menor velocidad de transmisión que estos tres cables.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 579,
+    id: 571,
     title:
       "Indicar cual de las siguientes afirmaciones relativas a las normativas IEEE para redes inalámbricas WiFi es cierta:",
     choices: [
@@ -7007,11 +6919,11 @@ const questionsData: QuestionData[] = [
       "Las ondas electromagnéticas empleadas utilizan propagación ionosférica.",
       "Las ondas electromagnéticas empleadas utilizan propagación superficial.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 580,
+    id: 572,
     title:
       "Cuál de las siguientes funciones NO corresponde al nivel de enlace del modelo OSI?:",
     choices: [
@@ -7020,19 +6932,19 @@ const questionsData: QuestionData[] = [
       "Realiza funciones de control de flujo.",
       "En el caso de líneas conmutadas realiza todos los procesos necesarios para el establecimiento del circuito (marcación, conmutación, etc.).",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 581,
+    id: 573,
     title:
-      "Calcular el CRC resultante si el emisor quiere enviar la cadena de datos ‘10100110’ usando como polinomio generador G(x) = x2 + x + 1.",
+      "Calcular el CRC resultante si el emisor quiere enviar la cadena de datos ‘10100110’ usando como polinomio generador G(x) = x2 + x + 1",
     choices: ["011.", "11.", "00.", "Otro."],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 582,
+    id: 574,
     title:
       "En relación a los códigos Hamming para la corrección de errores se puede afirmar que:",
     choices: [
@@ -7041,11 +6953,11 @@ const questionsData: QuestionData[] = [
       "Un código generado con el algoritmo de Hamming permite corregir errores en ráfaga.",
       "El algoritmo de Hamming es un método para generar un código de distancia 3 para cualquier conjunto de k bits de datos.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 583,
+    id: 575,
     title:
       "Considerando a la relación entre el tiempo de propagación y el tiempo de transmisión y que este último tiempo vale 1 segundo, indicar cual de las siguientes afirmaciones relativas a la eficiencia del protocolo de parada y espera es cierta:",
     choices: [
@@ -7054,11 +6966,11 @@ const questionsData: QuestionData[] = [
       "La eficiencia del canal NO depende del valor de a.",
       "La relación entre la distancia del enlace y la velocidad de propagación es 1.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 584,
+    id: 576,
     title:
       "El protocolo de ventana deslizante de envío continuo con repetición NO selectiva se caracteriza porque:",
     choices: [
@@ -7067,11 +6979,11 @@ const questionsData: QuestionData[] = [
       "Cuando se producen errores tiene una mejor eficiencia que el protocolo de ventana deslizante de envío continuo con repetición selectiva.",
       "El receptor debe recibir las tramas ordenadas.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 585,
+    id: 577,
     title:
       "Dado el método de control de acceso al medio representado en la siguiente figura: Este método se trata:",
     choices: [
@@ -7080,11 +6992,11 @@ const questionsData: QuestionData[] = [
       "CSMA/CD.",
       "Ninguno de los anteriores.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 586,
+    id: 578,
     title:
       "El protocolo de nivel de enlace HDLC NO presenta la característica de:",
     choices: [
@@ -7093,11 +7005,11 @@ const questionsData: QuestionData[] = [
       "Control de flujo con un protocolo de ventana deslizante selectivo.",
       "Control de flujo con un protocolo de ventana deslizante no selectivo.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 587,
+    id: 579,
     title:
       "Indicar cuál de las siguientes características NO es propia de una red basada en conmutación de circuitos:",
     choices: [
@@ -7106,11 +7018,11 @@ const questionsData: QuestionData[] = [
       "Independientemente de los retardos en cada nodo de la WAN los datos se reciben en el mismo orden que en el que se envían.",
       "Se garantiza la entrega de la información sin errores al destino.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 588,
+    id: 580,
     title:
       "El establecimiento de circuitos virtuales en una subred NO precisa de:",
     choices: [
@@ -7119,11 +7031,11 @@ const questionsData: QuestionData[] = [
       "Una comunicación entre los diferentes nodos de la red para establecer la ruta de los paquetes en cada comunicación.",
       "El encaminamiento de los paquetes dependiendo del circuito virtual al que pertenecen.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 589,
+    id: 581,
     title: "En cuanto a los protocolos de encaminamiento se puede afirmar que:",
     choices: [
       "Empleando encaminamiento por inundación garantiza que los datos enviados por un nodo origen alcanzarán al destino por la ruta óptima.",
@@ -7131,32 +7043,32 @@ const questionsData: QuestionData[] = [
       "En los protocolos basaos en estado del enlace la ruta calculada por un nodo depende de la calculada por otro.",
       "Los protocolos de Gateway interior se emplean en redes WAN.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 590,
+    id: 582,
     title:
       "En el siguiente esquema se representa la topología de una red en la que se ha introducido los costes en los enlaces que unen cada uno de los equipos. ¿Cuál es el valor del conjunto T después de 4 iteraciones considerando que el nodo inicial es el nodo “1”?",
     choices: ["1, 5, 4.", "1, 5, 4, 3, 2.", "1, 5, 4, 2, 3.", "Otro."],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 591,
+    id: 583,
     title:
-      "Se requiere compartir un medio físico por varios ETD para transferencia de información entre todos ellos usando una técnica de acceso multiple con detección de portadora. Además,  se desea que la técnica usada evite las colisiones que se producen si dos estaciones comienzan a transmistir en el mismo instante de tiempo. En ese caso, se puede afirmar que el método más adecuado para implementar esa técnica por su eficacia en el aprovechamiento del medio es:",
+      "Se requiere compartir un medio físico por varios ETD para transferencia de información entre todos ellos usando una técnica de acceso multiple con detección de portadora. Además, se desea que la técnica usada evite las colisiones que se producen si dos estaciones comienzan a transmistir en el mismo instante de tiempo. En ese caso, se puede afirmar que el método más adecuado para implementar esa técnica por su eficacia en el aprovechamiento del medio es:",
     choices: [
-      "FDM",
-      "TDM",
-      "Cualquiera de las modalidades de CSMA persistente",
-      "CSMA/CD",
+      "FDM.",
+      "TDM.",
+      "Cualquiera de las modalidades de CSMA persistente.",
+      "CSMA/CD.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 592,
+    id: 584,
     title:
       "De acuerdo a la técnica de compartición del medio empleada en algunas redes LAN se puede afirmar que:",
     choices: [
@@ -7165,70 +7077,70 @@ const questionsData: QuestionData[] = [
       "Una red wifi IEE 802.11 emplea un método de reserva centralizada.",
       "Una red óptica FDDI emplea el método CSMA p-persistente.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 593,
+    id: 585,
     title:
       "En una comunicación en la que un ETD autorizado conecta con un proveedor de servicios, ISP, para acceder a sus servicios mediante un proceso de autentificación de usuario, la secuencia de paquetes PPP con información encriptada que se genera está formada por:",
     choices: [
-      "‘Challenge’-CHAP (desde ETD a ISP), ‘Response’-CHAP (desde ISP a ETD)",
-      "‘Challenge’-CHAP (desde ISP a ETD), ‘Response’-CHAP (desde ETD a ISP), ‘Success’-CHAP (desde ISP a ETD)",
-      "‘Challenge’-PAP (desde ETD a ISP), ‘Success’- PAP (desde ISP a ETD)",
-      "‘Configure Request’-LCP (desde ETD a ISP), ‘Configure ACK’-LCP (desde ISP a ETD), ‘Termintate Request’-LCP (desde ETD a ISP)",
+      "‘Challenge’-CHAP (desde ETD a ISP), ‘Response’-CHAP (desde ISP a ETD).",
+      "‘Challenge’-CHAP (desde ISP a ETD), ‘Response’-CHAP (desde ETD a ISP), ‘Success’-CHAP (desde ISP a ETD).",
+      "‘Challenge’-PAP (desde ETD a ISP), ‘Success’- PAP (desde ISP a ETD).",
+      "‘Configure Request’-LCP (desde ETD a ISP), ‘Configure ACK’-LCP (desde ISP a ETD), ‘Termintate Request’-LCP (desde ETD a ISP).",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 594,
+    id: 586,
     title: "Un ejemplo de protocolo para LAN basado en vector de distancia es:",
-    choices: ["RIP", "OSPF", "EIGRP", "BGP"],
-    solution: "-",
+    choices: ["RIP.", "OSPF.", "EIGRP.", "BGP."],
+    solution: "a",
     explanation: "",
   },
   {
-    id: 595,
+    id: 587,
     title:
       "Se sabe que en una LAN, un nodo encaminador denotado por A puede encaminar hasta un ETD a través de cualquiera de sus nodos adyacentes (B, C y D) y para el cálculo de la ruta y de la métrica asociada, A usa el protocolo OSPF en modo ToS8. De acuerdo a la información estadística de mínimo coste facilitada en la tabla para tres posibles parámetros de métrica, ¿cuál sería la puerta de enlace por defecto, más adecuada, para transmitir al ETD y cuál sería su métrica asociada?",
     choices: [
-      "Nodo B con métrica 1",
-      "Nodo C con métrica 1",
-      "Nodo C con métrica 4",
-      "Cualquiera de los nodos es valido (B, C o y D, con métrica 1)",
+      "Nodo B con métrica 1.",
+      "Nodo C con métrica 1.",
+      "Nodo C con métrica 4.",
+      "Cualquiera de los nodos es valido (B, C o y D, con métrica 1).",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 596,
+    id: 588,
     title:
       "Cuando el protocolo OSPF se activa en una LAN formada por una única área (es decir toda la LAN está constituida por una sóla unidad jerarquica) es similar al protocolo RIP en que ambos:",
     choices: [
-      "Emplean paquetes de multidifusión dirigidos a  la IP de destino 224.0.0.5",
+      "Emplean paquetes de multidifusión dirigidos a la IP de destino 224.0.0.5.",
       "Intercambian paquetes con actualizaciones de ruta entre nodos vecinos adyacentes mediante la técnica de difusión.",
       "Emplean el algoritmo de Dijkstra para calcular la ruta de coste mínimo.",
       "Se encapsulan como paquetes de datos de la capa de transporte, haciendo uso del protocolo UDP.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 597,
+    id: 589,
     title:
-      "Se dispone de una topología de red como la de la figura, donde las tablas de encaminamiento de sus nodos encaminadores se actualizan con el protocolo RIP. ¿Cuáles serán las nuevas entradas que incorporará el Router4 después de que el Router3 mande un ‘RIP-Response’ por el interfaz 10.3.0.3? Inicialmente, las tablas de encaminamiento de los Router3, Router4 y Router5, antes del ‘RIP-Response’, son las mínimas posibles para transmitir por los enlaces a los que se encuentran directamente conectados y la métrica de esos enlaces es 1 en todos los casos.",
+      "Se dispone de una topología de red como la de la figura, donde las tablas de encaminamiento de sus nodos encaminadores se actualizan con el protocolo RIP. ¿Cuáles serán las nuevas entradas que incorporará el Router4 después de que el Router3 mande un ‘RIP-Response’ por el interfaz 10.3.0.3? Inicialmente, las tablas de encaminamiento de los Router3, Router4 y Router5, antes del ‘RIP-Response’, son las mínimas posibles para transmitir por los enlaces a los que se encuentran directamente conectados y la métrica de esos enlaces es 1 en todos los casos",
     choices: [
-      "Destino: 10.2.0.0/16, Gw: 10.3.0.3, Métrica: 1",
-      "Destino: 10.2.0.0/16, Gw: 10.3.0.3, Métrica: 2",
-      "Destino: 10.2.0.0/16, Gw: 10.3.0.3, Métrica: 2 y Destino: 10.3.0.0/16, Gw: 10.3.0.3, Métrica: 2",
+      "Destino: 10.2.0.0/16, Gw: 10.3.0.3, Métrica: 1.",
+      "Destino: 10.2.0.0/16, Gw: 10.3.0.3, Métrica: 2.",
+      "Destino: 10.2.0.0/16, Gw: 10.3.0.3, Métrica: 2 y Destino: 10.3.0.0/16, Gw: 10.3.0.3, Métrica: 2.",
       "El Router 4 no modificará su tabla de encaminamiento.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 598,
+    id: 590,
     title:
       "En una arquitectura de red en la cual se emplea el protocolo de encaminamiento OSPF es FALSO que:",
     choices: [
@@ -7237,40 +7149,40 @@ const questionsData: QuestionData[] = [
       "Se pueden emplear 5 servicios ToS distintos para calcular la métrica que determine los mecanismos de actualización de las tablas de encaminamiento.",
       "Los routers que hacen de nodos ABR pertenecen al área backbone y son los encargados de calcular la mejor ruta y propagarla al resto de routers de la red.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 599,
+    id: 591,
     title:
       "Se quiere implementar un sistema de comunicaciones que tenga un ancho de banda de 50Khz y que consiga una relación S/NdB de 2dB. ¿Cuál será la capacidad máxima del canal de comunicación?",
     choices: ["≈ 137 Kbps.", "≈ 68.5 Kbps.", "≈ 116 Kbps.", "≈ 232 Kbps."],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 600,
+    id: 592,
     title:
       "La codificación PCM diferencial de la señal analógica muestreada como se indica en la figura con un periodo de muestreo Tm y cuantificada empleando el menor número de bits posible, es:",
     choices: [
-      "‘101010111001000100110010’",
-      "‘101010010010101’",
-      "‘00010100’",
+      "‘101010111001000100110010’.",
+      "‘101010010010101’.",
+      "‘00010100’.",
       "Ninguna de las anteriores.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 601,
+    id: 593,
     title:
       "Se ha enviado la trama 100100001 al medio físico. Si el polinomio generador empleado es 1101 entonces el CRC calculado en el destino será:",
-    choices: ["0001", "001", "010", "Ninguno de los anteriores."],
-    solution: "-",
+    choices: ["0001.", "001.", "010.", "Ninguno de los anteriores."],
+    solution: "b",
     explanation: "",
   },
   {
-    id: 602,
+    id: 594,
     title: "Las redes 802.3 con tecnología Ethernet:",
     choices: [
       "Son redes punto a punto.",
@@ -7278,11 +7190,11 @@ const questionsData: QuestionData[] = [
       "Son redes con topología en estrella cuando conectan máquinas a través de un SWITCH.",
       "Son WAN de difusión.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 603,
+    id: 595,
     title: "Respecto a los códigos de Reed-Solomon, es FALSO que:",
     choices: [
       "Sean una técnica de corrección de errores óptima para transmisiones en redes de alta velocidad.",
@@ -7290,11 +7202,11 @@ const questionsData: QuestionData[] = [
       "El número de bits que puede corregir con un código de RS(255,239) es de 8.",
       "El número de símbolos de redundancia r para un código RS(255, 239) es de 16.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 604,
+    id: 596,
     title:
       "Sobre la delimitación temporal de las tramas que se lleva a cabo en el nivel de enlace, se puede afirmar que:",
     choices: [
@@ -7303,32 +7215,32 @@ const questionsData: QuestionData[] = [
       "No emplea cabeceras y colas.",
       "Utiliza caracteres especiales para delimitar las tramas.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 605,
+    id: 597,
     title:
       "En una señal periódica compuesta que está formada por tres armónicos seno y dónde el primero tiene una frecuencia de 100Hz y una amplitud de 5, el segundo tiene una frecuencia de 200Hz y una amplitud de 5 y el tercero tiene una frecuencia de 300Hz y una amplitud de 5 se puede afirmar que la potencia de la señal es:",
-    choices: ["5", "15", "8.66", "700"],
-    solution: "-",
+    choices: ["5.", "15.", "8.66.", "700."],
+    solution: "b",
     explanation: "",
   },
   {
-    id: 606,
+    id: 598,
     title:
-      "Respecto al ancho de banda, B, de una conexión ADSL convencional  se puede afirmar que:",
+      "Respecto al ancho de banda, B, de una conexión ADSL convencional se puede afirmar que:",
     choices: [
       "Está dividido en 2 canales que emplean un filtro paso alto para señal telefónica y un filtro paso bajo para la señal de datos.",
       "Está dividido en 3 canales. Un canal para señales de datos ascendentes, un canal para señal de datos descendentes y un canal para señal telefónica.",
-      "Está dividido en 3 canales que emplean un filtro paso banda para la señal telefónica, un filtro paso bajo para la señal ascendente y paso alta para la señal descendente",
+      "Está dividido en 3 canales que emplean un filtro paso banda para la señal telefónica, un filtro paso bajo para la señal ascendente y paso alta para la señal descendente.",
       "Es superior al de una red Ethernet y por eso no se emplean filtros paso bajo.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 607,
+    id: 599,
     title:
       "En una LAN con tecnología Ethernet 1000BaseT que soporta velocidades de 1000Mbps en distancias inferiores a 100m, el cableado más económico empleado es:",
     choices: [
@@ -7337,11 +7249,11 @@ const questionsData: QuestionData[] = [
       "Par trenzado UTP de categoria 6e.",
       "Par trenzado UTP de categoria 3.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 608,
+    id: 600,
     title:
       "Dos redes LAN, A de tecnología 100BaseT4 y B de tecnología 1000BaseT, se unen a un dispositivo ROUTER. Si todo el sistema de cableado es de la misma longitud, 100m para cada LAN, entonces:",
     choices: [
@@ -7350,11 +7262,11 @@ const questionsData: QuestionData[] = [
       "A recibirá datos procedentes del B a una velocidad máxima de 100Mbps.",
       "B recibirá datos procedentes del A a una velocidad máxima de 400Mbps.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 609,
+    id: 601,
     title: "La fibra óptica multimodo de indice gradual es cierto que:",
     choices: [
       "Transmite, simultáneamente, varios haces de luz y además se produce una importante dispersión de estos pulsos de luz como consecuencia de los múltples ángulos de reflexión que se emplean en el proceso de propagación.",
@@ -7362,11 +7274,11 @@ const questionsData: QuestionData[] = [
       "Transmite un único haz a lo largo del eje de la fibra óptica.",
       "Proporciona mayor ancho de banda que la fibra óptica multimodo de índice discreto o índice de salto.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 610,
+    id: 602,
     title: "La velocidad de modulación es:",
     choices: [
       "Es proporcional al numero de bits que se quieren transmitir.",
@@ -7374,11 +7286,11 @@ const questionsData: QuestionData[] = [
       "La velocidad de transmisión cuando el medio tiene atenuación.",
       "Es inversamente proporcional al ancho de banda del canal y directamente proporcional al ruido existente en la línea.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 611,
+    id: 603,
     title: "La codificación QPSK se caracteriza porque:",
     choices: [
       "Permite enviar datos digitales mediante señales analógicas empleando amplitudes distintas en la señal modulada.",
@@ -7386,11 +7298,11 @@ const questionsData: QuestionData[] = [
       "Es una variante de la modulacón PSK que permite codificar datos de 2 bits en señales analógicas con distinta fase.",
       "Es una modulación que emplea 4 fases distintas que forman desplazamientos de 45º.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 612,
+    id: 604,
     title:
       "El concepto anglosajón ‘piggybacking’ aplicado a un protocolo de parada y espera consiste en emplear:",
     choices: [
@@ -7399,11 +7311,11 @@ const questionsData: QuestionData[] = [
       "Una ventana deslizante para proporcionar un flujo continuo de información mejorando así, el aprovechamiento del canal de comunicación.",
       "Una misma trama para enviar datos y asentiminentos y conseguir así un mejor aprovechamiento del canal de comunicación.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 613,
+    id: 605,
     title:
       "En una arquitectura OSI/ISO el control de flujo extremo a extremo y el reensamblado de paquetes para mensajes de datos procedentes del nivel de aplicación se produce en:",
     choices: [
@@ -7412,11 +7324,11 @@ const questionsData: QuestionData[] = [
       "La capa o nivel de red.",
       "La capa o nivel de enlace.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 614,
+    id: 606,
     title: "El empleo de la difusión en una red LA5 permite,",
     choices: [
       "El envío de información a todas las estaciones de la red transmitiendo un paquete.",
@@ -7424,45 +7336,19 @@ const questionsData: QuestionData[] = [
       "El envío de información a una sola estación de la red transmitiendo más de un paquete.",
       "El envío de información a un grupo de estaciones de la red transmitiendo más de un paquete.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 615,
-    title:
-      "El empleo de datagramas en una red de conmutación de paquetes se caracteriza por,",
-    choices: [
-      "En las redes de conmutación de paquetes no se emplean datagramas, se establecen circuitos físicos.",
-      "Especificar en cada paquete los nodos intermedios que debe atravesar para alcanzar su destino.",
-      "Determinar un camino a través de los nodos de la red para que los paquetes alcancen su destino.",
-      "Especificar en cada paquete el origen y el destino para que los nodos intermedios determinen un camino en la red para cada paquete transmitido.",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 616,
-    title:
-      "Si en una red de conmutación de paquetes basada en datagramas, un nodo deja de funcionar es cierto que,",
-    choices: [
-      "Sólo los paquetes en tránsito en el nodo no alcanzarán su destino.",
-      "Todos los paquetes que hayan pasado por ese nodo han de ser reenviados.",
-      "Todas las estaciones de la red quedan incomunicadas.",
-      "Las estaciones que emplean ese nodo para intercambiar paquetes han de determinar una nueva ruta para sus destinos.",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 617,
+    id: 607,
     title:
       "La interconexión de dos redes punto a punto que emplean la arquitectura TCP/IP, ha de realizarse con,",
     choices: ["Un repetidor.", "Un puente.", "Un router.", "Una pasarela."],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 618,
+    id: 608,
     title:
       "Si la capa n de una arquitectura de red puede comunicarse con su entidad par, es FALSO que",
     choices: [
@@ -7471,11 +7357,11 @@ const questionsData: QuestionData[] = [
       "La capa n-1 puede comunicarse con su entidad par.",
       "La capa n puede emplear los servicios de la capa n-1.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 619,
+    id: 609,
     title:
       "La PDU del nivel n (que se envía a la entidad para del nivel n) incorpora en su campo de datos,",
     choices: [
@@ -7484,11 +7370,11 @@ const questionsData: QuestionData[] = [
       "La PCI del nivel n-1.",
       "La PCI del nivel n+1.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 620,
+    id: 610,
     title:
       "El nivel de transporte en la arquitectura de red OSI presenta la característica de,",
     choices: [
@@ -7497,27 +7383,19 @@ const questionsData: QuestionData[] = [
       "Detectar errores en los bits de los paquetes transmitidos en un medio físico.",
       "Identificar las estaciones que existen en la red de comunicaciones.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 621,
+    id: 611,
     title:
       "En una red con arquitectura TCP/IP, ¿ qué nivel más bajo de la arquitectura permite detectar que un paquete no ha alcanzado su destino ?",
     choices: ["Acceso a la red.", "Interred.", "Transporte.", "Aplicación."],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 622,
-    title:
-      "Si se desea transmitir información a través de un medio físico empleando una señal de pulsos con 4 niveles y a una velocidad de 90000 bps, el medio físico necesita un ancho de banda mínimo de,",
-    choices: ["30000 Hz.", "45000 Hz.", "90000 Hz.", "22500 Hz."],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 623,
+    id: 612,
     title:
       "Una señal que es transmitida por un medio físico se distorsiona si,",
     choices: [
@@ -7526,11 +7404,11 @@ const questionsData: QuestionData[] = [
       "Aumenta la velocidad de transmisión de la señal.",
       "Disminuye el número de niveles en la señal.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 624,
+    id: 613,
     title:
       "La codificación en banda base que menos problemas de sincronización presenta es,",
     choices: [
@@ -7539,58 +7417,45 @@ const questionsData: QuestionData[] = [
       "Codificación binaria con retorno a cero unipolar.",
       "Codificación Manchester.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 625,
-    title:
-      "Qué tipo de modulación analógica permite transmitir información a mayor velocidad si se emplea un mismo ancho de banda ?",
-    choices: [
-      "Modulación ASK.",
-      "Modulación PSK.",
-      "Modulación FSK.",
-      "Modulación QPSK.",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 626,
+    id: 614,
     title:
       "Qué velocidad de transmisión es necesaria para enviar a través de un medio físico DOS señales analógicas de 100 KHz de ancho de banda empleando una modulación PCM de 6 bits ?",
     choices: ["12800 Kbps.", "25600 Kbps.", "1200 Kbps.", "2400 Kbps."],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 627,
+    id: 615,
     title:
-      "El grado del polinomio generador empleado en los códigos de redundancia cíclica (CRC)  5O afecta a,",
+      "El grado del polinomio generador empleado en los códigos de redundancia cíclica (CRC) 5O afecta a,",
     choices: [
       "El número de bits del resto en la operación de división de polinomios.",
       "La cantidad de información redundante en el paquete de información.",
       "La cantidad de errores en ráfaga que pueden detectarse.",
       "La frecuencia con que se producen errores en el medio físico.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 628,
+    id: 616,
     title:
-      "Qué factores 5O provocan un aumento de la congestión en una red TCP/IP ?",
+      "Qué factores NO provocan un aumento de la congestión en una red TCP/IP ?",
     choices: [
       "Valores de MTU diferentes en toda la red.",
       "Tablas de encaminamiento muy complejas.",
       "Porcentaje de uso de la CPU de los routers para encaminamiento inferiores al 40%.",
       "El empleo de protocolos sin control del flujo como UDP.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 629,
+    id: 617,
     title:
       "Si una red local emplea el mecanismo 5AT en su router de acceso a Internet, es cierto que",
     choices: [
@@ -7599,260 +7464,247 @@ const questionsData: QuestionData[] = [
       "Los equipos de Internet pueden establecer conexiones con los equipos de la red interna.",
       "Los equipos de la red interna no pueden establecer conexiones con equipos de Internet.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 630,
+    id: 618,
     title:
       "En una red formada por 4 dispositivos enrutadores, donde cada dispositivo se une con los otros tres mediante enlaces PPP se puede afirmar que es:",
     choices: [
-      "Una red de difusión con topología en anillo",
-      "Una red de difusión de tipo Ethernet",
-      "Una red multipunto con topología en Malla",
-      "Ninguna de las anteriores es cierta",
+      "Una red de difusión con topología en anillo.",
+      "Una red de difusión de tipo Ethernet.",
+      "Una red multipunto con topología en Malla.",
+      "Ninguna de las anteriores es cierta.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 631,
+    id: 619,
     title:
       "La red que emplea tecnología ADSL para unir una vivienda con un proveedor de servicios de Internet (ISP) se puede catalogar como:",
     choices: [
-      "LAN con topología en estrella",
-      "MAN con topología en malla",
-      "WAI con topología punto a punto",
-      "Ninguna de las anteriores",
+      "LAN con topología en estrella.",
+      "MAN con topología en malla.",
+      "WAN con topología punto a punto.",
+      "Ninguna de las anteriores.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 632,
+    id: 620,
     title:
       "En relación a una red Ethernet con tecnología 100BaseTX se puede afirmar que:",
     choices: [
-      "Soporta una velocidad máxima superior a 100BaseT4",
-      "Emplea 4 pares de par trenzado de categoría UTP3",
-      "No permite el uso de HUBs",
-      "Emplea par trenzado no apantallado de categoría 5 y permite alcanzar velocidades de 100Mbps a distancias máximas de 100metros",
+      "Soporta una velocidad máxima superior a 100BaseT4.",
+      "Emplea 4 pares de par trenzado de categoría UTP3.",
+      "No permite el uso de HUBs.",
+      "Emplea par trenzado no apantallado de categoría 5 y permite alcanzar velocidades de 100Mbps a distancias máximas de 100metros.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 633,
+    id: 621,
     title:
       "Dada la palabra de datos ‘0110110’ determina la palabra-código asociada que se transmitiría considerando que se emplea paridad par y el algoritmo de Hamming en emisor y receptor",
-    choices: ["00001100110", "00011100110", "01101100000", "00001100111"],
-    solution: "-",
+    choices: ["00001100110.", "00011100110.", "01101100000.", "00001100111."],
+    solution: "a",
     explanation: "",
   },
   {
-    id: 634,
+    id: 622,
     title:
       "Dos dispositivos A y B se conectan mediante una línea semiduplex y se comunican empleando un procolo HDLC en modo Iormal no Balenceado con ventana deslizante con numeración de 2 bits en emisor y receptor. Si una vez establecida y confirmada correctamente la comunicación A->B, A envía las 4 primeras tramas de un fichero y ninguna tiene errores, entonces:",
     choices: [
       "B enviará RR 0.",
       "B enviará RR 4.",
-      "B enviará SREJ 3",
-      "B enviará RNR 4",
+      "B enviará SREJ 3.",
+      "B enviará RNR 4.",
     ],
-    solution: "-",
+    solution: "a",
+    explanation: "",
+  },
+  {
+    id: 623,
+    title: "En relación a la modulación PSK se puede afirmar que:",
+    choices: [
+      "Es una modulación analógica en amplitud donde la señal portadora modifica su valor en función del valor de una señal moduladora.",
+      "Es una modulación en fase con señal moduladora digital y señal portadora analógica.",
+      "Es una modulación en fase que permite codificar hasta 2 bits por elemento de señal.",
+      "Es una modulación en frecuencia y en fase con señal moduladora digital y portadora digital.",
+    ],
+    solution: "b",
+    explanation: "",
+  },
+  {
+    id: 624,
+    title:
+      "Si se quiere enviar el caracter ‘a’, desde un emisor a un receptor unidos por un medio analógico de ancho de banda limitado, ¿cuál es el número mínimo de armónicos que requiere el emisor para la representación de la secuencia digital de ‘a’ de modo que que el receptor pueda obtener una reconstrucción adecuada que permita la correcta interpretación del caracter?",
+    choices: [
+      "El número de armónicos es indiferente ya que la reconstrucción en el receptor no depende del número de armónicos que se emplean para la representación de la señal por el emisor.",
+      "Infinitos armónicos.",
+      "Dependerá de la frecuencia fundamental de la señal y del ancho de banda del medio por el que se envía.",
+      "Ocho armónicos es suficiente ya que el carácter ‘a’ ocupa 8 bits.",
+    ],
+    solution: "c",
+    explanation: "",
+  },
+  {
+    id: 625,
+    title:
+      "La codificación PCM diferencial de la señal analógica muestreada, desde el instante t=0, como se indica en la figura con un periodo de muestreo Tm y cuantificada empleando el menor número de bits posible, es:",
+    choices: [
+      "‘10010100101100111010’.",
+      "‘101110010101010000’.",
+      "‘10101’.",
+      "Ninguna de las anteriores.",
+    ],
+    solution: "a",
+    explanation: "",
+  },
+  {
+    id: 626,
+    title: "Un método de compartición del medio como CSMA/CD es FALSO que:",
+    choices: [
+      "Mejora el aprovechamiento del canal de transmisión respecto a las variantes de CSMA persistentes.",
+      "Realiza prevención de colisiones.",
+      "Emplea mecanismos de detección de colisiones.",
+      "Se implementa para redes IEEE 802.3 con topología en bus.",
+    ],
+    solution: "b",
+    explanation: "",
+  },
+  {
+    id: 627,
+    title:
+      "Se sabe que en una LAI, un nodo encaminador denotado por A puede encaminar hasta un ETD a través de cualquiera de sus nodos adyacentes (B, C y D) y para el cálculo de la ruta y de la métrica asociada, A usa el protocolo OSPF en modo ToS8. De acuerdo a la información estadística de mínimo coste facilitada en la tabla para tres posibles parámetros de métrica, ¿cuál sería la puerta de enlace por defecto, más adecuada, para transmitir al ETD y cuál sería su métrica asociada?",
+    choices: [
+      "Nodo B con métrica 1.",
+      "Iodo C con métrica 2.",
+      "Nodo D con métrica 1.",
+      "Cualquiera de los nodos es valido (B, C o y D, con métrica 7).",
+    ],
+    solution: "b",
+    explanation: "",
+  },
+  {
+    id: 628,
+    title:
+      "Cuál de los siguientes medios de tranmisión es el más adecuado para emplear como medio en una comunicación en una red con tecnología Ethernet?",
+    choices: [
+      "Un medio con un nivel de atenuación de 20dB por línea de comunicación.",
+      "Un medio donde la relación de perdida de potencia entre las señales de la salida, una vez que llegan al receptor, y las señales de la entrada, antes de ser transmitidas, es de 50.",
+      "Un medio sin atenuación pero con un nivel de ruido medio entorno a los 1dB de relación señal-ruido.",
+      "Un medio con un nivel de atenuación de 10dB y un nivel de ruido medio de 5dB de relación señal-ruido.",
+    ],
+    solution: "b",
+    explanation: "",
+  },
+  {
+    id: 629,
+    title:
+      "Si la relación entre el tiempo de propagación y el tiempo de transmisión de la trama es de 1.6 entonces ¿cuál será el tamaño de la ventana de emisor para conseguir una eficiencia igual o superior al 50%?",
+    choices: ["4.", "3.", "2.", "1."],
+    solution: "b",
+    explanation: "",
+  },
+  {
+    id: 630,
+    title:
+      "Se considera la codificación IRZ y Manchester de la secuencia binaria ‘11111’ y se sabe que la duración total de dicha señal es de 5µs em ambos casos. Comparando las velocidades de modulación y transmisión en ambas codificaciones, se puede afirmar que:",
+    choices: [
+      "La velocidad de modulación y la velocidad de transmisión son iguales cuando se emplea Manchester.",
+      "La velocidad de modulación es mayor si se emplea Manchester que si se emplea IRZ.",
+      "La velocidad de transmisión es menor si se emplea NRZ que si se emplea Manchester.",
+      "La velocidad de modulación es menor que la velocidad de transmisión cuando se emplea NRZ.",
+    ],
+    solution: "b",
+    explanation: "",
+  },
+  {
+    id: 631,
+    title:
+      "Atendiendo a las funciones que se pueden implementar en los protocolos de nivel de enlace se puede FALSO que:",
+    choices: [
+      "PPP implementa funciones para el establecimiento del enlace lógico.",
+      "HDLC implementa funciones de control de flujo.",
+      "Ethernet implementa direccionamiento de tramas y control de errores.",
+      "xDSL implementa únicamente transmisión half-duplex.",
+    ],
+    solution: "d",
+    explanation: "",
+  },
+  {
+    id: 632,
+    title:
+      "Una señal transmitida por una única fibra óptica de tipo multimodo de índice gradual es FALSO que:",
+    choices: [
+      "Pueda llegar a alcanzar una velocidad superior a la que alcanzaria en una fibra óptica monomodo.",
+      "Se propague en el interior de la fibra óptica a menor velocidad que si lo hiciera en una fibra óptica similar pero de índice de salto.",
+      "Se propaga gracias al fenómeno de refracción y su trayectoria de propagación depende del índice de refracción del material con el que está construida.",
+      "Es inmune al ruido electromagnético y presenta menor atenuación de señal que la que presentaría si se empleara como medio de transmisión un par trenzado apantallado del tipo CAT5e.",
+    ],
+    solution: "a",
+    explanation: "",
+  },
+  {
+    id: 633,
+    title: "Un ejemplo de protocolo para LAI basado en estado de enlace es:",
+    choices: ["RIP.", "OSPF.", "EIGRP.", "BGP."],
+    solution: "b",
+    explanation: "",
+  },
+  {
+    id: 634,
+    title:
+      "Sobre la delimitación temporal de las tramas que se lleva a cabo en el nivel de enlace, es cierto que:",
+    choices: [
+      "Se emplea en TDM.",
+      "Emplea cabecera y cola para indicar el número de bits que posee la trama y comprobar errores en la transmisión.",
+      "Emplea un campo FCS de verificación de errores.",
+      "No requiere conocer el tamaño de la trama que se envía.",
+    ],
+    solution: "a",
     explanation: "",
   },
   {
     id: 635,
-    title: "En relación a la modulación PSK se puede afirmar que:",
-    choices: [
-      "Es una modulación analógica en amplitud donde la señal portadora modifica su valor en función del valor de una señal moduladora",
-      "Es una modulación en fase con señal moduladora digital y señal portadora analógica",
-      "Es una modulación en fase que permite codificar hasta 2 bits por elemento de señal",
-      "Es una modulación en frecuencia y en fase con señal moduladora digital y portadora digital",
-    ],
-    solution: "-",
+    title:
+      "Cuál es el número de bits que se puede corregir con un código Reed-Solomon RS(127,101) si cada símbolo está compuesto por 1 byte?",
+    choices: ["208.", "104.", "26.", "13."],
+    solution: "b",
     explanation: "",
   },
   {
     id: 636,
-    title:
-      "Si se quiere enviar el caracter ‘a’, desde un emisor a un receptor unidos por un medio analógico de ancho de banda limitado, ¿cuál es el número mínimo de armónicos que requiere el emisor para la representación de la secuencia digital de ‘a’ de modo que que el receptor pueda obtener una reconstrucción adecuada que permita la correcta interpretación del caracter?",
+    title: "Una LAI con tecnología IEEE 802.11n es cierto que:",
     choices: [
-      "El número de armónicos es indiferente ya que la reconstrucción en el receptor no depende del número de armónicos que se emplean para la representación de la señal por el emisor",
-      "Infinitos armónicos",
-      "Dependerá de la frecuencia fundamental de la señal y del ancho de banda del medio por el que se envía",
-      "Ocho armónicos es suficiente ya que el carácter ‘a’ ocupa 8 bits",
+      "Es compatible con las redes 802.11g pero no es compatible con las redes 802.11b.",
+      "Sólo puede funcionar en una banda de frecuencias de 5Ghz.",
+      "Permite alcanzar velocidades de transmisión superiores a 5 veces las que se consigue con el estándar 802.11g.",
+      "Nunca interferiría en las frecuencias de uso del Bluetooh.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
     id: 637,
     title:
-      "La codificación PCM diferencial de la señal analógica muestreada, desde el instante t=0, como se indica en la figura con un periodo de muestreo Tm y cuantificada empleando el menor número de bits posible, es:",
+      "En un protocolo de control de flujo del tipo ‘parada y espera’ es imposible gestionar el flujo de tramas cuando:",
     choices: [
-      "‘10010100101100111010’",
-      "‘101110010101010000’",
-      "‘10101’",
-      "Ninguna de las anteriores",
+      "Se produce pérdida de tramas de datos.",
+      "Las tramas de datos recibidas en el receptor contienen un error en 1 bit de datos.",
+      "Se produce duplicidad de tramas de datos y perdida de sincronización.",
+      "No se numeran las tramas de confirmación o asentimiento.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
     id: 638,
-    title: "Un método de compartición del medio como CSMA/CD es FALSO que:",
-    choices: [
-      "Mejora el aprovechamiento del canal de transmisión respecto a las variantes de CSMA persistentes",
-      "Realiza prevención de colisiones",
-      "Emplea mecanismos de detección de colisiones",
-      "Se implementa para redes IEEE 802.3 con topología en bus",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 639,
-    title:
-      "Se sabe que en una LAI, un nodo encaminador denotado por A puede encaminar hasta un ETD a través de cualquiera de sus nodos adyacentes (B, C y D) y para el cálculo de la ruta y de la métrica asociada, A usa el protocolo OSPF en modo ToS8. De acuerdo a la información estadística de mínimo coste facilitada en la tabla para tres posibles parámetros de métrica, ¿cuál sería la puerta de enlace por defecto, más adecuada, para transmitir al ETD y cuál sería su métrica asociada?",
-    choices: [
-      "Nodo B con métrica 1",
-      "Iodo C con métrica 2",
-      "Nodo D con métrica 1",
-      "Cualquiera de los nodos es valido (B, C o y D, con métrica 7)",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 640,
-    title:
-      "Cuál de los siguientes medios de tranmisión es el más adecuado para emplear como medio en una comunicación en una red con tecnología Ethernet?",
-    choices: [
-      "Un medio con un nivel de atenuación de 20dB por línea de comunicación.",
-      "Un medio donde la relación de perdida de potencia entre las señales de la salida, una vez que llegan al receptor, y las señales de la entrada, antes de ser transmitidas, es de 50",
-      "Un medio sin atenuación pero con un nivel de ruido medio entorno a los 1dB de relación señal-ruido.",
-      "Un medio con un nivel de atenuación de 10dB y un nivel de ruido medio de 5dB de relación señal-ruido.",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 641,
-    title:
-      "Si la relación entre el tiempo de propagación y el tiempo de transmisión de la trama es de 1.6 entonces ¿cuál será el tamaño de la ventana de emisor para conseguir una eficiencia igual o superior al 50%?",
-    choices: ["4", "3", "2", "1"],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 642,
-    title:
-      "Se considera la codificación IRZ y Manchester de la secuencia binaria ‘11111’ y se sabe que la duración total de dicha señal es de 5µs em ambos casos. Comparando las velocidades de modulación y transmisión en ambas codificaciones, se puede afirmar que:",
-    choices: [
-      "La velocidad de modulación y la velocidad de transmisión son iguales cuando se emplea Manchester",
-      "La velocidad de modulación es mayor si se emplea Manchester que si se emplea IRZ",
-      "La velocidad de transmisión es menor si se emplea NRZ que si se emplea Manchester",
-      "La velocidad de modulación es menor que la velocidad de transmisión cuando se emplea NRZ",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 643,
-    title:
-      "Atendiendo a las funciones que se pueden implementar en los protocolos de nivel de enlace se puede FALSO que:",
-    choices: [
-      "PPP implementa funciones para el establecimiento del enlace lógico",
-      "HDLC implementa funciones de control de flujo",
-      "Ethernet implementa direccionamiento de tramas y control de errores",
-      "xDSL implementa únicamente transmisión half-duplex",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 644,
-    title:
-      "Se dispone de una topología de red como la de la figura, donde las tablas de encaminamiento de sus nodos encaminadores se actualizan con el protocolo RIP. ¿Cuáles serán las nuevas entradas que incorporará el Router3 después de que el Router5 mande un ‘RIP-Response’ por el interfaz 10.3.0.5? Inicialmente, las tablas de encaminamiento de los Router3, Router4 y Router5, antes del ‘RIP-Response’, son las mínimas posibles para transmitir por los enlaces a los que se encuentran directamente conectados y la métrica de esos enlaces es 1 en todos los casos.",
-    choices: [
-      "Destino: 10.5.0.0/16, Gw: 10.3.0.5, Métrica: 2",
-      "Destino: 10.5.0.0/16, Gw: 10.5.0.5, Métrica: 2",
-      "Destino: 10.5.0.0/16, Gw: 10.3.0.5, Métrica: 2 y Destino: 10.3.0.0/16, Gw: 10.3.0.5, Métrica: 2",
-      "El Router 3 no modificará su tabla de encaminamiento.",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 645,
-    title:
-      "Una señal transmitida por una única fibra óptica de tipo multimodo de índice gradual es FALSO que:",
-    choices: [
-      "Pueda llegar a alcanzar una velocidad superior a la que alcanzaria en una fibra óptica monomodo",
-      "Se propague en el interior de la fibra óptica a menor velocidad que si lo hiciera en una fibra óptica similar pero de índice de salto",
-      "Se propaga gracias al fenómeno de refracción y su trayectoria de propagación depende del índice de refracción del material con el que está construida",
-      "Es inmune al ruido electromagnético y presenta menor atenuación de señal que la que presentaría si se empleara como medio de transmisión un par trenzado apantallado del tipo CAT5e",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 646,
-    title: "Un ejemplo de protocolo para LAI basado en estado de enlace es:",
-    choices: ["RIP", "OSPF", "EIGRP", "BGP"],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 647,
-    title:
-      "Sobre la delimitación temporal de las tramas que se lleva a cabo en el nivel de enlace, es cierto que:",
-    choices: [
-      "Se emplea en TDM",
-      "Emplea cabecera y cola para indicar el número de bits que posee la trama y comprobar errores en la transmisión",
-      "Emplea un campo FCS de verificación de errores",
-      "No requiere conocer el tamaño de la trama que se envía",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 648,
-    title:
-      "Cuál es el número de bits que se puede corregir con un código Reed-Solomon RS(127,101) si cada símbolo está compuesto por 1 byte?",
-    choices: ["208", "104", "26", "13"],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 649,
-    title: "Una LAI con tecnología IEEE 802.11n es cierto que:",
-    choices: [
-      "Es compatible con las redes 802.11g pero no es compatible con las redes 802.11b",
-      "Sólo puede funcionar en una banda de frecuencias de 5Ghz",
-      "Permite alcanzar velocidades de transmisión superiores a 5 veces las que se consigue con el estándar 802.11g",
-      "Nunca interferiría en las frecuencias de uso del Bluetooh",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 650,
-    title:
-      "En un protocolo de control de flujo del tipo ‘parada y espera’ es imposible gestionar el flujo de tramas cuando:",
-    choices: [
-      "Se produce pérdida de tramas de datos",
-      "Las tramas de datos recibidas en el receptor contienen un error en 1 bit de datos",
-      "Se produce duplicidad de tramas de datos y perdida de sincronización",
-      "Io se numeran las tramas de confirmación o asentimiento",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 651,
     title:
       "El empleo de la tecnología punto a punto para las redes WA6 se caracteriza por,",
     choices: [
@@ -7861,11 +7713,11 @@ const questionsData: QuestionData[] = [
       "La transmisión de un único paquete para enviar información a todos los nodos de la red.",
       "La tolerancia a fallos que presenta si existen varios caminos a un determinado destino.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 652,
+    id: 639,
     title:
       "La transmisión de información en una red LA6 de difusión se caracteriza por,",
     choices: [
@@ -7874,11 +7726,11 @@ const questionsData: QuestionData[] = [
       "El empleo de algoritmos de encaminamiento para el intercambio de paquetes.",
       "Establecer caminos en la red entre cada par de equipos.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 653,
+    id: 640,
     title:
       "La realización de un servicio ofrecido por la capa n de una arquitectura de red OSI precisa de,",
     choices: [
@@ -7887,11 +7739,11 @@ const questionsData: QuestionData[] = [
       "El intercambio de PDU’s entre las entidades pares del nivel n+1.",
       "El intercambio de IDU’s entre las entidades pares del nivel n-1.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 654,
+    id: 641,
     title:
       "La capa de transporte en la arquitectura TCP/IP se caracteriza por,",
     choices: [
@@ -7900,11 +7752,11 @@ const questionsData: QuestionData[] = [
       "Establecer conexiones a múltiples destino empleando el mismo puerto cliente.",
       "Proporcionar siempre a la capa de aplicación una comunicación no segura, debido al funcionamiento con datagramas de la capa de red.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 655,
+    id: 642,
     title:
       "En el modelo de arquitectura de red TCP/IP, los paquetes de datos que se transmiten en el nivel físico,",
     choices: [
@@ -7913,11 +7765,11 @@ const questionsData: QuestionData[] = [
       "Incorporan siempre la cabecera del protocolo IP.",
       "Incorporan siempre la cabecera del protocolo TCP.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 656,
+    id: 643,
     title:
       "La interconexión de dos redes LA6 Ethernet a través de una red con arquitectura TCP/IP se consigue,",
     choices: [
@@ -7926,11 +7778,11 @@ const questionsData: QuestionData[] = [
       "Empleando dos pasarelas, una en cada LAN.",
       "Empleando dos repetidores, uno en cada LAN.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 657,
+    id: 644,
     title:
       "La velocidad máxima de transmisión que puede emplearse en un medio físico 6O depende de,",
     choices: [
@@ -7939,11 +7791,11 @@ const questionsData: QuestionData[] = [
       "La relación señal-ruido del medio físico.",
       "El número de niveles empleado en la codificación.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 658,
+    id: 645,
     title: "La modulación digital por código de pulsos (PCM) permite,",
     choices: [
       "Transmitir señales analógicas a través de un medio digital sin ninguna pérdida de información.",
@@ -7951,11 +7803,11 @@ const questionsData: QuestionData[] = [
       "Transmitir información analógica empleando un medio físico que transmite señales de pulsos.",
       "Incorporar una señal digital de pulsos a señales analógicas que se transmiten en un medio físico.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 659,
+    id: 646,
     title:
       "La interconexión de dos redes LA6 en un entorno industrial donde existen gran cantidad de equipos eléctricos precisa como medio físico,",
     choices: [
@@ -7964,11 +7816,11 @@ const questionsData: QuestionData[] = [
       "Cable coaxial de 75 Ω.",
       "Par trenzado UTP.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 660,
+    id: 647,
     title:
       "Qué situación 6O es indicio de presencia de congestión en una red de comunicaciones ?",
     choices: [
@@ -7977,11 +7829,11 @@ const questionsData: QuestionData[] = [
       "Porcentaje de uso de CPU para encaminamiento en los routers del 70%.",
       "Fragmentación de paquetes IP en los routers de la red.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 661,
+    id: 648,
     title:
       "Sobre el algoritmo de encaminamiento OSPF empleado en un SA (Sistema Autónomo) es cierto que,",
     choices: [
@@ -7990,23 +7842,23 @@ const questionsData: QuestionData[] = [
       "Un router OSPF puede informar a sus vecinos de cambios en las características de sus enlaces.",
       "Al emplear la multidifusión, los paquetes enviados por un router OSPF de un SA llegan a todos los routers OSPF del SA.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 662,
-    title: "Una conexión a una VP6 empleando PPTP se caracteriza por,",
+    id: 649,
+    title: "Una conexión a una VPN empleando PPTP se caracteriza por,",
     choices: [
       "Asegurar que ningún paquete de datos del túnel se pierde en el mismo.",
       "Emplear una conexión UDP para controlar la comunicación.",
       "Verificar la autenticidad del origen del túnel con el protocolo GRE.",
       "Autenticar al usuario que realiza la conexión VPN con el protocolo TCP.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 663,
+    id: 650,
     title:
       "Si un paquete TCP con datos (segmento TCP) llega al equipo de destino con un error en el checksum de la cabecera IP, es cierto que,",
     choices: [
@@ -8015,19 +7867,19 @@ const questionsData: QuestionData[] = [
       "El equipo de destino envía un paquete TCP ACK con la última secuencia recibida correctamente.",
       "El equipo que envío el paquete TCP lo reenviará esperando el ACK de la secuencia correspondiente.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 664,
+    id: 651,
     title:
       "Durante una conexión TCP (ver figura) el cliente envía un segmento (1) con ACK, número de secuencia 4020 y 320 bytes de datos. Después el servidor envía un segmento (2) con ACK y 546 bytes de datos. Finalmente, el cliente envía otro segmento (3) con número de ACK 2034 y 598 bytes de datos. Si no hay errores en la transmisión, ¿Qué número de secuencia tiene el segmento 2?",
     choices: ["1436.", "4618.", "1488.", "4340."],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 665,
+    id: 652,
     title:
       "Respecto al control de flujo en el nivel de enlace del modelo de referencia OSI, se puede afirmar que:",
     choices: [
@@ -8036,11 +7888,11 @@ const questionsData: QuestionData[] = [
       "Emplear ventana deslizante permite siempre el reenvío, únicamente, de la trama que ha llegado con errores.",
       "Si una trama llega con errores, el emisor tendrá que esperar a que salte un temporizador para volver a enviarla.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 666,
+    id: 653,
     title: "La comunicación vertical entre capas de una arquitectura de red:",
     choices: [
       "Se produce a través del intercambio de unidades denominadas IDU.",
@@ -8048,11 +7900,11 @@ const questionsData: QuestionData[] = [
       "Se produce a través del intercambio de unidades denominadas PDU.",
       "Se gestiona a través de los protocolos.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 667,
+    id: 654,
     title: "La cabecera de una trama en una red 802.11:",
     choices: [
       "Permite definir tres tipos distintos de tramas: gestión, control y datos.",
@@ -8060,11 +7912,11 @@ const questionsData: QuestionData[] = [
       "No permite la fragmentación de paquetes. Si es necesario fragmentar se encargará el protocolo IP.",
       "Establece un tamaño mínimo de 46 bytes de datos a enviar en la trama.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 668,
+    id: 655,
     title:
       "En una industria con mucho ruido magnético se dispone de una LAN formada por 20 equipos conectados a un conmutador. La mitad de los equipos de la red están conectados con cables UTP cat3 y la otra mitad con cables UTP cat6. ¿Qué técnica es la más adecuada para el envío de tramas en el conmutador?:",
     choices: [
@@ -8073,11 +7925,11 @@ const questionsData: QuestionData[] = [
       "Cut through.",
       "Cualquiera de los anteriores.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 669,
+    id: 656,
     title: "El modelo de referencia OSI, es cierto que:",
     choices: [
       "Es anterior al modelo de referencia TCP/IP.",
@@ -8085,11 +7937,11 @@ const questionsData: QuestionData[] = [
       "Define sus protocolos a través de las RFC del IAB.",
       "Ninguna de las anteriores es cierta.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 670,
+    id: 657,
     title:
       "Si a través de un medio físico se transmite la secuencia ‘10011’ codificada como se indica en la figura, entonces se puede afirmar que el modo de transmisión utilizado es del tipo:",
     choices: [
@@ -8098,11 +7950,11 @@ const questionsData: QuestionData[] = [
       "Asíncrono mediante una línea de comunicación.",
       "Asíncrono mediante dos líneas de comunicación.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 671,
+    id: 658,
     title:
       "En una LAN con tecnología GigabitEthernet donde se necesita al menos 250Mhz de ancho de banda para transmitir, se recomienda el empleo de un cable:",
     choices: [
@@ -8111,11 +7963,11 @@ const questionsData: QuestionData[] = [
       "Par trenzado UTP de categoría 3.",
       "Par trenzado UTP de categoría 5.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 672,
+    id: 659,
     title: "El protocolo de transporte TCP:",
     choices: [
       "Permite controlar la congestión de las redes de comunicación a través del campo ventana.",
@@ -8123,11 +7975,11 @@ const questionsData: QuestionData[] = [
       "Realiza control con rechazo selectivo gracias a los temporizadores que se emplean en el emisor.",
       "Permite controlar la congestión de las redes de comunicación a través de la ventana del emisor.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 673,
+    id: 660,
     title:
       "El número de armónicos que representan una señal analógica que se envía por un medio físico que soporta transmisión simplex, es cierto que depende de:",
     choices: [
@@ -8136,11 +7988,11 @@ const questionsData: QuestionData[] = [
       "La fase de la señal que se transmite.",
       "La longitud de la trama de nivel de enlace.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 674,
+    id: 661,
     title:
       "Respecto a los mecanismos de modulación empleados en LAN se puede afirmar que:",
     choices: [
@@ -8149,11 +8001,11 @@ const questionsData: QuestionData[] = [
       "Ethernet y Token Ring emplean Manchester.",
       "Ethernet emplea RZ bipolar y Token Ring emplea 4B5B.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 675,
+    id: 662,
     title: "Es FALSO que el nivel de enlace del modelo de referencia OSI:",
     choices: [
       "Se divide en dos subniveles: LLC y MAC.",
@@ -8161,11 +8013,11 @@ const questionsData: QuestionData[] = [
       "Permite el direccionamiento lógico de equipos para la interconexión de redes.",
       "Presenta mecanismos para la detección y corrección de errores de las tramas enviadas.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 676,
+    id: 663,
     title:
       "Comparando protocolos de encaminamiento y el modo en cómo éstos calculan la ruta óptima se puede afirmar que:",
     choices: [
@@ -8174,11 +8026,11 @@ const questionsData: QuestionData[] = [
       "RIP emplea paquetes TCP multicast.",
       "OSPF se emplea para encaminamiento dinámico en la red WAN.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 677,
+    id: 664,
     title:
       "Cuál de las siguientes NO es una de las características del protocolo de nivel de transporte TCP?",
     choices: [
@@ -8187,24 +8039,24 @@ const questionsData: QuestionData[] = [
       "Realiza una transmisión orientada a conexión.",
       "Permite el envío a múltiples destinatarios.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 678,
+    id: 665,
     title:
       "La codificación PCM de la señal analógica muestreada como se indica en la figura y cuantificada empleando el menor número de bits posible, es:",
     choices: [
-      "‘01000’",
-      "‘110001010000110011’",
-      "‘001101010010001’",
+      "‘01000’.",
+      "‘110001010000110011’.",
+      "‘001101010010001’.",
       "Ninguna de las anteriores.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 679,
+    id: 666,
     title:
       "Qué codificación se emplea en el siguiente gráfico para enviar al medio la secuencia binaria 10101100?",
     choices: [
@@ -8213,24 +8065,24 @@ const questionsData: QuestionData[] = [
       "Manchester diferencial.",
       "2B1T.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 680,
+    id: 667,
     title:
       "Si una máquina con Ipv4 172.20.41.241 se quiere configurar como si dispusiera de dirección Ipv6, ¿cuál de las siguientes direcciones NO sería adecuada para asignar a la máquina?",
     choices: [
-      "::AC:14:29:F1",
-      "0000:0000:0000:0000:00AC:0014:0029:00F1",
-      "::172:20:41:241",
-      "AC:14:29:F1:172:20:41:241",
+      "::AC:14:29:F1.",
+      "0000:0000:0000:0000:00AC:0014:0029:00F1.",
+      "::172:20:41:241.",
+      "AC:14:29:F1:172:20:41:241.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 681,
+    id: 668,
     title:
       "Si se comparan varias tecnologías xDSL asimétricas, respecto a la velocidad máxima que soportan y la distancia a la que soportan dicha velocidad, es cierto que:",
     choices: [
@@ -8239,11 +8091,11 @@ const questionsData: QuestionData[] = [
       "ADSL2 es siempre la tecnología menos recomendable por sus bajas prestaciones.",
       "En VDSL mejora la velocidad de bajada si se compara con ADSL2, pero no mejora la velocidad de subida.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 682,
+    id: 669,
     title: "Respecto a la tecnología ADSL es FALSO que:",
     choices: [
       "Emplea un ‘splitter’ para separar señales telefónicas analógicas de señales de datos moduladas.",
@@ -8251,11 +8103,11 @@ const questionsData: QuestionData[] = [
       "El encapsulamiento más usado entre el cliente y el ISP esté basado en PPPoA o PPPoE.",
       "En su versión ADSL2+ soporta velocidades muy superiores a los 24Mbps para distancias superiores a 3Km.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 683,
+    id: 670,
     title: "Las redes FDDI:",
     choices: [
       "Utilizan el formato de anillo doble para establecer un enlace full-duplex.",
@@ -8263,11 +8115,11 @@ const questionsData: QuestionData[] = [
       "Utilizan la codificación 4B5B.",
       "Emplean paso de testigo con bits de prioridades y reserva.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 684,
+    id: 671,
     title:
       "Cuando una máquina de una red, denominada cliente, intenta obtener de manera dinámica una dirección IP a través del protocolo DHCPv4, entonces es cierto que:",
     choices: [
@@ -8276,11 +8128,11 @@ const questionsData: QuestionData[] = [
       "Inicialmente, la máquina cliente envía un ICMP del tipo ‘Router Solicitation’ a una dirección de Multicast y la maquina servidora responde con un ICMP del tipo ‘Router Advertisement’ que incluye una dirección IP libre.",
       "Inicialmente, la máquina servidora envía un ICMP del tipo ‘Router Solicitation’ a una dirección de Multicast, facilitando direcciones IP libres. No es necesario que el cliente solicite nada.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 685,
+    id: 672,
     title:
       "Se dispone de un enlace ADSL que une una LAN con una WAN. Respecto al ancho de banda, B, del medio físico empleado en la LAN, se puede afirmar que:",
     choices: [
@@ -8289,88 +8141,24 @@ const questionsData: QuestionData[] = [
       "Está dividido en 3 canales. Un canal para señales de datos ascendentes, un canal para señal de datos descendentes y un canal para señal telefónica.",
       "Está dividido en 4 canales. Un canal para señales de datos ascendentes, un canal para señal de datos descendentes, un canal para señal telefónica ascendente y otro canal para la señal telefónica descendente.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 686,
+    id: 673,
     title:
-      "Sobre el encaminamiento de paquetes en una red de datagramas es cierto que,",
-    choices: [
-      "El intercambio de paquetes entre los nodos de la red es más lento que en las redes basadas en circuitos virtuales.",
-      "Los paquetes intercambiados incorporan una etiqueta que indica el camino que tienen que seguir en la red.",
-      "Se emplea una tecnología de difusión para interconectar todos los equipos de la red.",
-      "Los paquetes dirigidos a una dirección de broadcast son reenviados a todos los routers de la  red.",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 687,
-    title:
-      "Si  en una red de difusión un paquete dirigido a la dirección MAC de broadcast sufre una colisión, es cierto que,",
-    choices: [
-      "Todas las estaciones que detecten la colisión reenviarán el paquete.",
-      "El paquete será reenviado por la estación que lo transmitió.",
-      "El paquete no será reenviado ya que va dirigido a la dirección de broadcast.",
-      "No es posible, pues los paquetes de broadcast nunca sufren colisiones.",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 688,
-    title: "La tecnología de difusión no es apropiada para redes WAN ya que,",
-    choices: [
-      "Los errores en los medios de difusión son muy frecuentes.",
-      "El encaminamiento en una red de difusión es más lento que en una WAN punto a punto.",
-      "Las redes de difusión emplean velocidades de transmisión muy pequeñas.",
-      "El  elevado  número  de  equipos  que  interconecta  provocaría  un  estado  de  colisión permanente.",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 689,
-    title:
-      "Las redes WAN proporcionan a los usuarios velocidades inferiores a las de las redes LAN ya  que,",
-    choices: [
-      "La velocidad de transmisión en un enlace punto a punto de una red WAN es menor que en un segmento de difusión de una LAN.",
-      "Un enlace punto a punto en una WAN se reparte entre más usuarios que en un segmento de  una LAN.",
-      "La tasa de error en el medio físico es mayor en las LAN que en las WAN.",
-      "Las redes WAN no emplean la fibra óptica como medio de transmisión.",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 690,
-    title:
-      "Indica  qué  mecanismo  permite  ofrecer  una  calidad  de  servicio  (QoS)  en  una  red  de comunicaciones,",
-    choices: [
-      "La autenticación de usuarios que acceden a la red.",
-      "Aumentar el número de colisiones en el medio físico.",
-      "El reparto de la velocidad de transferencia del medio físico entre los equipos.",
-      "Monitorizar los tipos de paquetes transmitidos en el medio físico.",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 691,
-    title:
-      "Si dos equipos con arquitectura TCP/IP establecen una conexión cada uno al servicio  HTTP de un mismo servidor en Internet, es cierto que,",
+      "Si dos equipos con arquitectura TCP/IP establecen una conexión cada uno al servicio HTTP de un mismo servidor en Internet, es cierto que,",
     choices: [
       "Las dos conexiones pueden emplear el mismo número de puerto origen.",
       "Las dos conexiones emplean diferentes números de puerto destino.",
       "Las dos conexiones emplean diferentes direcciones IP destino.",
       "Las dos conexiones emplean la misma dirección IP origen.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 692,
+    id: 674,
     title:
       "Si un paquete del protocolo HTTP tiene que ser fragmentado por TCP en dos paquetes para enviarlo a la capa par TCP del otro extremo, es cierto que",
     choices: [
@@ -8379,50 +8167,24 @@ const questionsData: QuestionData[] = [
       "Los dos paquetes incorporan cabecera TCP.",
       "Los dos paquetes no incorporan cabecera TCP.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 693,
+    id: 675,
     title:
-      "Qué  tipo  de  señalización  en  banda  base  es  la  más  adecuada  para  mantener  la sincronización ?",
-    choices: [
-      "Codificación QPSK.",
-      "Codificación Manchester.",
-      "Codificación QAM.",
-      "Codificación binaria unipolar con retorno a cero.",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 694,
-    title:
-      "La  normativa  de  multiplexión  en  el  tiempo  europea  (E1)  y  la  de  EEUU-Japón  (T1)  se diferencian en que,",
-    choices: [
-      "La velocidad de transmisión empleada en un canal de voz es diferente.",
-      "El tiempo empleado en la transmisión de una trama básica es diferente.",
-      "La normativa de EEUU-Japón emplea una velocidad mayor que la europea.",
-      "El número de canales de voz en una trama es diferente.",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 695,
-    title:
-      "Indica en qué situación sólo es  posible  el  empleo de la  fibra óptica como medio  físico de  transmisión,",
+      "Indica en qué situación sólo es posible el empleo de la fibra óptica como medio físico de transmisión,",
     choices: [
       "Distancias de menos de 100 metros y bajas velocidades.",
       "Distancias de menos de 100 metros y ruido electromagnético elevado.",
       "Distancias de menos de 100 metros y velocidades de 100 Mbps.",
       "Distancias de 100 metros y velocidades de 10 Mbps.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 696,
+    id: 676,
     title: "El empleo de fibra óptica de tipo índice gradual permite,",
     choices: [
       "Mayores distancias de comunicación que la fibra multimodo.",
@@ -8430,58 +8192,37 @@ const questionsData: QuestionData[] = [
       "Mayores velocidades de transmisión que la fibra monomodo.",
       "Mayor inmunidad al ruido electromagnético que la fibra multimodo.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 697,
+    id: 677,
     title:
       "Un operador de comunicaciones desea interconectar físicamente un router situado en la Isla de Pascua (Chile) con un router de su sede en Europa. La infraestructura más adecuada desde el punto de vista económico es,",
     choices: [
       "Cableado de fibra óptica oceánico.",
       "Enlace satelital.",
       "Enlace inalámbrico a 54 Mbps.",
-      "Enlace inalámbrico a 11 Mbps,  pues  permite  alcanzar mayores  distancias  que el  de 45 Mbps.",
+      "Enlace inalámbrico a 11 Mbps, pues permite alcanzar mayores distancias que el de 45 Mbps.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 698,
+    id: 678,
     title:
-      "En el  protocolo de nivel  de enlace HDLC ,  el  establecimiento de un enlace balanceado se realiza transmitiendo paquetes de,",
-    choices: [
-      "Información.",
-      "Supervisión.",
-      "No numerados.",
-      "No es posible establecer conexiones con el protocolo HDLC.",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 699,
-    title:
-      "La autenticación  de un usuario al establecer un enlace PPP se realiza,",
+      "La autenticación de un usuario al establecer un enlace PPP se realiza,",
     choices: [
       "Antes de realizar la negociación LCP.",
       "Empleando el protocolo PAP.",
       "Después de realizar la negociación NCP.",
       "Empleando el protocolo IP.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 700,
-    title:
-      "Si  en una red se  desea emplear  un protocolo de encaminamiento  que tenga en cuenta la velocidad de comunicación en los enlaces se empleará,",
-    choices: ["BGP.", "RIP v1.", "RIP v2.", "OSPF."],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 701,
+    id: 679,
     title:
       "Sobre el valor del MSS que se establece en una conexión TCP es cierto que,",
     choices: [
@@ -8490,32 +8231,32 @@ const questionsData: QuestionData[] = [
       "Se puede modificar empleando el valor del campo MSS en los paquetes RST.",
       "Se modifica en función del valor del retardo en la recepción de paquetes ACK.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 702,
+    id: 680,
     title:
       "Sobre el control del flujo de datos empleado en el protocolo TCP es cierto que,",
     choices: [
       "El algoritmo de Karn permite determinar un tiempo de espera de ACK para los reenvíos.",
-      "El tiempo de espera del ACK de un paquete de datos se modifica siempre en función del  retardo en el último ACK recibido.",
+      "El tiempo de espera del ACK de un paquete de datos se modifica siempre en función del retardo en el último ACK recibido.",
       "La ventana de congestión permite aumentar rápidamente el flujo de envío tras la recepción de un ACK.",
       "El tamaño de la ventana de congestión siempre es mayor que el tamaño de la ventana que informa el receptor.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 703,
+    id: 681,
     title:
       "Durante una conexión TCP (ver figura) el cliente envía un segmento (1) con ACK, número de secuencia 4020 y 320 bytes de datos. Después el servidor envía un segmento (2) con ACK y 546 bytes de datos. Finalmente, el cliente envía otro segmento (3) con número de ACK 2034 y 598 bytes de datos. Si no hay errores en la transmisión, ¿Qué número de ACK tiene el segmento 2?",
     choices: ["1436.", "4618.", "1488.", "4340."],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 704,
+    id: 682,
     title:
       "Para la comunicación horizontal entre las n-ésimas capas de una arquitectura de red:",
     choices: [
@@ -8524,11 +8265,11 @@ const questionsData: QuestionData[] = [
       "El nodo receptor obtendrá el ICI procedente de la capa inferior (n-1) y tras procesar el PCI de la capa correspondiente (n), enviará a la capa superior (n+1) el PDU correspondiente.",
       "El nodo emisor generará una PDU formada por la SDU del nivel superior (n+1) y la PCI del nivel correspondiente (n).",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 705,
+    id: 683,
     title: "Las redes de área extendida:",
     choices: [
       "Suelen disponer de un medio con mucho mayor ancho de banda que la suma de las redes de área local que interconectan.",
@@ -8536,11 +8277,11 @@ const questionsData: QuestionData[] = [
       "Se crean ampliando en como mucho 25 nuevos equipos una red de área local.",
       "Pueden ser públicas y privadas.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 706,
+    id: 684,
     title:
       "Si se desea utilizar CSMA/CD como técnica de control de acceso al medio se debe saber que:",
     choices: [
@@ -8549,11 +8290,11 @@ const questionsData: QuestionData[] = [
       "Se producirán continuamente colisiones ya que cuando un equipo quiere enviar datos los envía sin escuchar el medio.",
       "No habrá nunca colisiones porque los equipos sólo envían datos cuando obtienen permiso del equipo supervisor de la red.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 707,
+    id: 685,
     title:
       "Dos equipos se conectan entre sí formando una red 802.11 ad-hoc, en este tipo de redes:",
     choices: [
@@ -8562,11 +8303,11 @@ const questionsData: QuestionData[] = [
       "Se puede garantizar el envío de tramas en un tiempo determinado.",
       "Es posible enviar tramas con requisitos temporales empleando la técnica PCF.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 708,
+    id: 686,
     title:
       "Respecto a la técnica de control de acceso al medio empleada por las redes 802.11, es FALSO que:",
     choices: [
@@ -8575,11 +8316,11 @@ const questionsData: QuestionData[] = [
       "Entre dos envíos consecutivos de tramas por parte de un equipo, el tiempo de espera será menor si la segunda trama a enviar es una trama de control que si es una trama de datos.",
       "Puede haber colisión en el envío de las tramas.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 709,
+    id: 687,
     title:
       "Si a través de un medio físico se desea transmitir la secuencia ‘10011’ y para ello se emplean dos líneas de comunicación entonces, se puede afirmar que el modo de transmisión utilizado es Síncrono si:",
     choices: [
@@ -8588,23 +8329,23 @@ const questionsData: QuestionData[] = [
       "Por una línea se envía la secuencia completa y por la otra línea una señal de reloj.",
       "Por una línea se envía la secuencia completa y por la otra no se envía nada hasta que no se llene el buffer de entrada de la línea que se está empleando para enviar.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 710,
+    id: 688,
     title: "Respecto a la fibra óptica es FALSO que:",
     choices: [
       "Se emplea en LANs de alta velocidad para interconectar conmutadores.",
       "Sea un medio que es inmune a las interferencias electromagnéticas.",
       "Puede transmitir electricidad para alimentar dispositivos.",
-      "Se emplea en enlaces troncales de LANs, que requieren gran capacidad de ancho de banda",
+      "Se emplea en enlaces troncales de LANs, que requieren gran capacidad de ancho de banda.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 711,
+    id: 689,
     title:
       "En una LAN con tecnología Ethernet donde se necesita al menos 100Mhz de ancho de banda para transmitir a distancias de 100m, se recomienda el empleo de un cable igual o superior a:",
     choices: [
@@ -8613,11 +8354,11 @@ const questionsData: QuestionData[] = [
       "Par trenzado UTP de categoría 5e.",
       "Par trenzado UTP de categoría 6.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 712,
+    id: 690,
     title: "La técnica de “Rotación cronometrada del testigo”:",
     choices: [
       "Permite definir distintas prioridades para los equipos conectados al anillo.",
@@ -8625,11 +8366,11 @@ const questionsData: QuestionData[] = [
       "Permite calcular el tiempo que un equipo tiene para transmitir en función de un tiempo fijado por el administrador de la red y el tiempo que el testigo tarda en volver al equipo.",
       "Permite calcular el tiempo que un equipo tiene para transmitir en función únicamente del tiempo que tarda el testigo en volver al equipo.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 713,
+    id: 691,
     title: "El “frame bursting” es:",
     choices: [
       "Una técnica que emplean las redes conmutadas para mejorar la velocidad que permite el CSMA/CD.",
@@ -8637,11 +8378,11 @@ const questionsData: QuestionData[] = [
       "Una trama de control utilizada en las 802.4 para cambiar la velocidad de envío.",
       "Ninguna de las anteriores es cierta.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 714,
+    id: 692,
     title:
       "La codificación Manchester diferencial se suele emplear en redes LAN con tecnología:",
     choices: [
@@ -8650,11 +8391,11 @@ const questionsData: QuestionData[] = [
       "Ethernet y Token Ring emplean Manchester.",
       "Ethernet emplea RZ bipolar y Token Ring emplea 4B5B.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 715,
+    id: 693,
     title:
       "Si se debe decidir entre emplear el protocolo de nivel de transporte TCP o el protocolo UDP, ¿en qué caso se debe elegir TCP de los que se indican a continuación?:",
     choices: [
@@ -8663,11 +8404,11 @@ const questionsData: QuestionData[] = [
       "Envíos de mensajes RIP.",
       "Envíos para aplicaciones en tiempo real como voz sobre IP.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 716,
+    id: 694,
     title:
       "En referencia a los protocolos de encaminamiento que hemos visto en clase y el modo en cómo éstos calculan la ruta óptima, es FALSO que:",
     choices: [
@@ -8676,11 +8417,11 @@ const questionsData: QuestionData[] = [
       "OSPF determina la ruta óptima empleando como métrica el retardo de paquetes.",
       "OSPF determina la ruta óptima empleando como métrica la capacidad de los enlaces.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 717,
+    id: 695,
     title: "Cuando se transmite un segmento TCP con el bit URG puesto a 1:",
     choices: [
       "El receptor pondrá a disposición de la aplicación los datos apuntados por el campo “Urgent Offset”, únicamente cuando ésta se los pida.",
@@ -8688,32 +8429,19 @@ const questionsData: QuestionData[] = [
       "Los datos apuntados por el campo “Urgent Offset” se quieren entregar a la aplicación remota sin esperar a que ésta los pida.",
       "Todos los bytes de datos que lleva el segmento son datos urgentes y se envían lo antes posible.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 718,
-    title:
-      "La codificación PCM de la señal analógica muestreada como se indica en la figura y cuantificada empleando el menor número de bits posible, es:",
-    choices: [
-      "‘01000’",
-      "‘110 101 110 000 010 011’",
-      "‘001 101 010 010 001’",
-      "Ninguna de las anteriores.",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 719,
+    id: 696,
     title:
       "Qué codificación se emplea en el siguiente gráfico para enviar al medio la secuencia binaria 01010011?",
-    choices: ["RZ bipolar.", "Manchester", "Manchester diferencial.", "AMI."],
-    solution: "-",
+    choices: ["RZ bipolar.", "Manchester.", "Manchester diferencial.", "AMI."],
+    solution: "d",
     explanation: "",
   },
   {
-    id: 720,
+    id: 697,
     title: "A diferencia de Ipv4, el protocolo Ipv6 se caracteriza porque:",
     choices: [
       "Requiere del protocolo de transporte TCP para garantizar un flujo constante de datos.",
@@ -8721,23 +8449,23 @@ const questionsData: QuestionData[] = [
       "La fragmentación solo se realiza en el equipo origen, y no en los routers intermedios de la red.",
       "No requiere de nivel de enlace para transmitir datos entre equipos de una misma red.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 721,
+    id: 698,
     title: "Si se comparan varias tecnologías xDSL asimétricas, es cierto que:",
     choices: [
-      "ADSL2 mejora la codificación ADSL empleando QAM con más niveles",
+      "ADSL2 mejora la codificación ADSL empleando QAM con más niveles.",
       "VDSL permite velocidades máximas descendentes superiores a ADSL2+ cuando se transmite a distancias superiores a 2Km.",
       "La tecnología VDSL emplea medios físicos con ancho de banda de 30Mhz.",
       "ADSL es una tecnología asimétrica que ajusta la velocidad de transmisión en función de la calidad de la señal.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 722,
+    id: 699,
     title: "La codificación QAM se caracteriza porque:",
     choices: [
       "Permite enviar datos digitales mediante señales analógicas, empleando frecuencias distintas en la señal modulada.",
@@ -8745,11 +8473,11 @@ const questionsData: QuestionData[] = [
       "Es una modulación que emplea distintas amplitudes y desplazamientos de fase.",
       "Es una variante de la modulación MPSK que permite codificar datos de 3 bits en señales analógicas con distinta fase.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 723,
+    id: 700,
     title: "Respecto a la tecnología ADSL se puede afirmar que:",
     choices: [
       "Emplea un ‘splitter’ para modular señales.",
@@ -8757,11 +8485,11 @@ const questionsData: QuestionData[] = [
       "Se puede emplear el protocolo PPPoE para encapsular tramas Ethernet sobre PPP.",
       "Para unir el router del cliente con el Modem ADSL se emplea par trenzado y para unir el router ISP con el DSLAM se emplea fibra óptica.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 724,
+    id: 701,
     title: "Las redes FDDI:",
     choices: [
       "Utilizan el formato de anillo doble para establecer un enlace full-dúplex.",
@@ -8769,11 +8497,11 @@ const questionsData: QuestionData[] = [
       "Utilizan la codificación Manchester diferencial.",
       "Emplean paso de testigo con bits de prioridades y reserva.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 725,
+    id: 702,
     title:
       "Atendiendo al formato de paquetes IP de la versión 4 y de la versión 6, es FALSO que:",
     choices: [
@@ -8782,11 +8510,11 @@ const questionsData: QuestionData[] = [
       "Ipv6 a diferencia de Ipv4, ya no emplea el campo longitud de cabecera (HL).",
       "Ipv6 a diferencia de Ipv4, emplea un campo de cabecera de extensión de datos.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 726,
+    id: 703,
     title: "La red de telefonía básica RTB es una red:",
     choices: [
       "Orientada a conexión y de conmutación de paquetes con circuitos virtuales conmutados.",
@@ -8794,11 +8522,11 @@ const questionsData: QuestionData[] = [
       "Orientada a conexión y de conmutación de paquetes con circuitos virtuales permanentes.",
       "Ninguna de las anteriores.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 727,
+    id: 704,
     title:
       "La técnica de multidifusión empleada en redes de computadores se caracteriza por,",
     choices: [
@@ -8807,11 +8535,11 @@ const questionsData: QuestionData[] = [
       "Permitir el envío de un paquete de información a un grupo de estaciones en la red.",
       "Permitir la difusión de un paquete de información en redes WAN.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 728,
+    id: 705,
     title:
       "La comunicación en una red WAN que emplea la técnica de circuitos virtuales se caracteriza por,",
     choices: [
@@ -8820,11 +8548,11 @@ const questionsData: QuestionData[] = [
       "Reducir los retardos en el establecimiento de los circuitos de las redes telefónicas.",
       "Establecer caminos de circulación en la red para cada paquete de datos transmitido.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 729,
+    id: 706,
     title:
       "Si se detecta un error en el funcionamiento del nivel n de una arquitectura de red podemos asegurar que,",
     choices: [
@@ -8833,11 +8561,11 @@ const questionsData: QuestionData[] = [
       "No existe ningún fallo en los niveles inferiores al n.",
       "Siempre existe un fallo en algún nivel superior al n.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 730,
+    id: 707,
     title:
       "La capa de transporte en la arquitectura TCP/IP se caracteriza por,",
     choices: [
@@ -8846,11 +8574,11 @@ const questionsData: QuestionData[] = [
       "Gestionar una comunicación fiable estableciendo circuitos virtuales extremo a extremo con el protocolo TCP.",
       "Proporcionar siempre a la capa de aplicación una comunicación no segura, debido al funcionamiento con datagramas de la subred.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 731,
+    id: 708,
     title:
       "La fragmentación de una PDU en la capa de red de la arquitectura OSI produce,",
     choices: [
@@ -8859,11 +8587,11 @@ const questionsData: QuestionData[] = [
       "Varias PDU’s con cabeceras del protocolo de transporte en todas ellas.",
       "Varias PDU’s con cabeceras del protocolo de aplicación en todas ellas.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 732,
+    id: 709,
     title: "El nivel de enlace en la arquitectura de red OSI proporciona,",
     choices: [
       "Un canal físico libre de errores a la capa de transporte.",
@@ -8871,11 +8599,11 @@ const questionsData: QuestionData[] = [
       "Una comunicación extremo a extremo libre de errores para la capa de aplicación.",
       "Evitar que se produzcan errores en la capa física.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 733,
+    id: 710,
     title:
       "La velocidad máxima de transmisión de una señal digital de pulsos por un medio físico NO depende de,",
     choices: [
@@ -8884,45 +8612,37 @@ const questionsData: QuestionData[] = [
       "El número de niveles de la señal.",
       "La relación señal ruido del medio físico.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 734,
+    id: 711,
     title:
-      "La codificación binaria bipolar y la Manchester  tienen la característica común de,",
+      "La codificación binaria bipolar y la Manchester tienen la característica común de,",
     choices: [
       "Emplear los mismos niveles de voltaje en la señal.",
       "Interpretar la información por el valor de amplitud de la señal.",
       "Interpretar la información por los cambios en el tipo de transiciones de la señal.",
       "Incorporar información de sincronización en la propia señal.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 735,
+    id: 712,
     title:
-      "Se desea enviar por un medio físico dos señales PCM multiplexadas en el tiempo. Una de las señales se corresponde con un canal de comunicación a 64 Kbps y la otra con un canal de 96 Kbps. El medio físico transmitirá bits de información a una velocidad de,",
-    choices: ["128 Kbps.", "96 Kbps.", "64 Kbps.", "160 Kbps."],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 736,
-    title:
-      "Indica en cuál de los siguientes medios físicos el efecto de la dispersión intramodal es mayor.",
+      "Indica en cuál de los siguientes medios físicos el efecto de la dispersión intramodal es mayor",
     choices: [
       "Cable UTP categoría 3.",
       "Cable UTP categoría 5.",
       "Fibra óptica monomodo.",
       "Fibra óptica multimodo.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 737,
+    id: 713,
     title:
       "Los protocolos de nivel de enlace orientados a carácter se caracterizan por,",
     choices: [
@@ -8931,11 +8651,11 @@ const questionsData: QuestionData[] = [
       "Presentar menos errores en el medio físico que los orientados a bit.",
       "Añadir información redundante en el campo de datos de nivel de enlace.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 738,
+    id: 714,
     title:
       "Si dos estaciones utilizan el protocolo PPP como protocolo de nivel de enlace es cierto que,",
     choices: [
@@ -8944,11 +8664,11 @@ const questionsData: QuestionData[] = [
       "Las dos estaciones intercambian datos con un protocolo de parada y espera.",
       "Es posible detectar errores en los bits de los paquetes transmitidos.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 739,
+    id: 715,
     title:
       "Si una red local emplea el mecanismo NAT en su router de acceso a Internet, es cierto que",
     choices: [
@@ -8957,11 +8677,11 @@ const questionsData: QuestionData[] = [
       "Los equipos de Internet pueden establecer conexiones con direcciones IP de los equipos de la red interna.",
       "Los equipos de la red interna no pueden establecer conexiones con equipos de Internet.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 740,
+    id: 716,
     title:
       "Si un paquete UDP con datos llega al equipo de destino con un error en el checksum de la cabecera IP, es cierto que,",
     choices: [
@@ -8970,366 +8690,366 @@ const questionsData: QuestionData[] = [
       "El protocolo UDP en el equipo que envío el paquete lo reenvía correctamente.",
       "La aplicación del equipo que envío el paquete UDP debe reenviar la información.",
     ],
-    solution: "-",
+    solution: "d",
+    explanation: "",
+  },
+  {
+    id: 717,
+    title: "El número de armónicos de una señal a transmitir:",
+    choices: [
+      "Depende de la atenuación máxima que soporta la señal.",
+      "Es función de la potencia.",
+      "Es siempre infinito para fibra óptica.",
+      "Está limitado por el ancho de banda del medio físico que la transporta.",
+    ],
+    solution: "d",
+    explanation: "",
+  },
+  {
+    id: 718,
+    title:
+      "Si se dispone de un medio físico y éste no se puede modificar, entonces:",
+    choices: [
+      "No se puede incrementar la velocidad de transmisión, porque ésta depende únicamente del ancho de banda B del medio físico.",
+      "Se puede incrementar la velocidad de transmisión si se consigue aumentar la atenuación.",
+      "Se puede incrementar la velocidad de transmisión si se aumenta el número de cambios de señal de nuestro dispositivo modulador.",
+      "No se puede incrementar la velocidad de transmisión salvo que utilicemos alguna técnica de multiplexación como TDM.",
+    ],
+    solution: "c",
+    explanation: "",
+  },
+  {
+    id: 719,
+    title:
+      "A la hora de elegir una técnica para la codificación de la transmisión de datos, se puede afirmar que:",
+    choices: [
+      "La codificación NRZ no incorpora sincronización.",
+      "La codificación Manchester no presenta sincronización.",
+      "No importa el medio físico que se utilice para la transmisión, se debe elegir la técnica en función, únicamente, de si ésta permite sincronización o no.",
+      "Si se elige banda modulada, no se tendrá que adaptar la información que se desea transmitir.",
+    ],
+    solution: "a",
+    explanation: "",
+  },
+  {
+    id: 720,
+    title:
+      "Si se requiere escoger una técnica de modulación de una señal digital para transmitirla mediante una señal analógica, es cierto que:",
+    choices: [
+      "La modulación ASK modifica la amplitud de la señal moduladora en función de la señal portadora.",
+      "La modulación PSK modifica la fase de la señal portadora en función de la señal modulada.",
+      "La modulación BSK modifica el ancho de banda en función de la señal moduladora.",
+      "La modulación QAM modifica la amplitud y la fase de la señal portadora.",
+    ],
+    solution: "d",
+    explanation: "",
+  },
+  {
+    id: 721,
+    title: "La tecnología 100BaseFX:",
+    choices: [
+      "Permite alcanzar los 1000Mbps en banda modulada sobre fibra óptica.",
+      "Permite alcanzar los 100Mbps en banda modulada sobre fibra óptica.",
+      "Permite alcanzar los 100Mbps en banda base sobre fibra óptica.",
+      "Permite alcanzar los 100Mbps en banda base sobre cable de par trenzado.",
+    ],
+    solution: "c",
+    explanation: "",
+  },
+  {
+    id: 722,
+    title:
+      "Respecto a las ondas de radio para la transmisión de datos en redes de computadores, es cierto que:",
+    choices: [
+      "Es un medio físico que permite comunicaciones en banda base.",
+      "Proporcionan un medio físico de gran calidad que ofrece velocidades de 100Mbps con el estándar 802.11n.",
+      "El ancho de banda del medio se divide en canales de 20 MHz de ancho de banda.",
+      "Al ser un medio físico no compartido, permite la transmisión sin que se empleen mecanismos de acceso al medio del tipo contienda.",
+    ],
+    solution: "c",
+    explanation: "",
+  },
+  {
+    id: 723,
+    title:
+      "Si se debe elegir entre una técnica de encaminamiento para gestionar una red de carga variable y con cierta tolerancia a fallos se elegirá preferiblemente:",
+    choices: [
+      "Un encaminamiento por inundación.",
+      "Un encaminamiento estático.",
+      "Un encaminamiento adaptativo distribuido.",
+      "Un encaminamiento adaptativo centralizado.",
+    ],
+    solution: "c",
+    explanation: "",
+  },
+  {
+    id: 724,
+    title:
+      "Cuál de las siguientes direcciones del protocolo IPv6 está escrita correctamente?:",
+    choices: [
+      "2001:0db8::0000:1319::0070:7334.",
+      "2001:0dq8:85a3:0000:1319:8a2e:0070:7334.",
+      "::AC:14:2B:E6.",
+      "2001:0db8:85a3:0000:13194:8a2e:0070:7334.",
+    ],
+    solution: "c",
+    explanation: "",
+  },
+  {
+    id: 725,
+    title:
+      "Cuando se necesita obtener, automáticamente, una dirección de red para una máquina que se acaba de conectar:",
+    choices: [
+      "Se utiliza el protocolo DHCP en IPv6 y el protocolo Neighbor Discovery en IPv4.",
+      "Se utiliza el protocolo DNS en IPv6 y el protocolo DHCP en IPv4.",
+      "Se utiliza el protocolo DHCP en IPv4 e IPv6 y el protocolo DNS en IPv4.",
+      "Se utiliza el protocolo DHCP en IPv4 e IPv6 y el protocolo Neighbor Discovery en IPv6.",
+    ],
+    solution: "b",
+    explanation: "",
+  },
+  {
+    id: 726,
+    title: "ADSL es un acceso a Internet:",
+    choices: [
+      "Que utiliza la técnica TDM para la multiplexación de la señal de voz, los datos de subida y los datos de bajada.",
+      "Que utiliza el cable coaxial para transmitir voz, datos y televisión.",
+      "Incompatible con RDSI debido al solapamiento de frecuencias.",
+      "Que envía la señal de voz y datos mediante señales digitales.",
+    ],
+    solution: "c",
+    explanation: "",
+  },
+  {
+    id: 727,
+    title:
+      "Cuál de las siguientes afirmaciones relativas a las distintas tecnologías xDSL es FALSA?:",
+    choices: [
+      "El envío de datos desde el cliente al ISP siempre es menor que el envío en el sentido contrario.",
+      "VDSL permite el envío de voz digital.",
+      "IDSL es más lento que ADSL, pero permite llegar a distancias 10 veces mayores.",
+      "ADSL2 permite utilizar el ancho de banda reservado para telefonía.",
+    ],
+    solution: "a",
+    explanation: "",
+  },
+  {
+    id: 728,
+    title: "Para controlar la congestión de paquetes en una LAN:",
+    choices: [
+      "Se puede aumentar la velocidad de envío de los nodos emisores mediante paquetes de obstrucción.",
+      "Se puede limitar la velocidad de envío de paquetes de los nodos emisores.",
+      "Se puede enviar un paquete hacia el emisor con los bits de congestión desactivados.",
+      "Se puede asignar un crédito máximo a la tasa de bits que se puede recibir por parte del receptor.",
+    ],
+    solution: "b",
+    explanation: "",
+  },
+  {
+    id: 729,
+    title:
+      "Atendiendo al tipo de redes y topologías vistas en clase es FALSO que:",
+    choices: [
+      "Una red con topología en bus permita enviar mensajes multicast a un conjunto de máquinas.",
+      "Una red con topología en malla esté formada por varios enlaces punto a punto por máquina.",
+      "Una red con topología en estrella que emplea un concentrador de tipo SWITCH permita enviar mensajes broadcast a un conjunto de máquinas.",
+      "Un BRIDGE permita conectar dos LANs con distinta topología de red y nivel de enlace.",
+    ],
+    solution: "d",
+    explanation: "",
+  },
+  {
+    id: 730,
+    title:
+      "Se quiere implementar un sistema de comunicaciones que tenga un ancho de banda de 3000Hz y que consiga una relación S/NdB de 35dB. ¿Cuál será la capacidad máxima del canal de comunicación?",
+    choices: ["≈ 69.7Kbps.", "≈ 34.8Kbps.", "≈ 31Kbps.", "≈ 15.5Kbps."],
+    solution: "b",
+    explanation: "",
+  },
+  {
+    id: 731,
+    title:
+      "Cuál sería el medio físico más adecuado para realizar la conexión en una LAN, de modo que las comunicaciones queden aisladas, lo mejor posible, de las interferencias electromagnéticas y de los problemas de ruido por diafonía?",
+    choices: [
+      "Par trenzado UTP 3.",
+      "Par trenzado UTP 5.",
+      "Par trenzado UTP 6.",
+      "Par trenzado STP.",
+    ],
+    solution: "d",
+    explanation: "",
+  },
+  {
+    id: 732,
+    title:
+      "Dada la siguiente codificación en PCM diferencial ‘110101001010001110111110110’ averigua cuál es la máxima diferencia entre dos muestras consecutivas de la señal original, si se sabe que se ha cuantificado con 3 bits",
+    choices: [
+      "La diferencia es de 0 niveles de tensión.",
+      "La diferencia es de 1 niveles de tensión.",
+      "La diferencia es de 2 niveles de tensión.",
+      "La diferencia es de 3 niveles de tensión.",
+    ],
+    solution: "d",
+    explanation: "",
+  },
+  {
+    id: 733,
+    title:
+      "La codificación PCM de la señal analógica muestreada desde el instante t=0, como se indica en la figura y cuantificada empleando el menor número de bits posible, es:",
+    choices: [
+      "‘0101101001010101010110100111’.",
+      "‘010111010000000001011101’.",
+      "‘0000101011010000000010101111’.",
+      "‘010111011000100001011101’.",
+    ],
+    solution: "a",
+    explanation: "",
+  },
+  {
+    id: 734,
+    title:
+      "Determina cuál de las siguientes afirmaciones respecto a la siguiente codificación banda base es FALSA:",
+    choices: [
+      "Puede corresponder a una codificación Manchester para la secuencia binaria ‘0100110’.",
+      "Puede corresponder a una codificación NRZ bipolar para la secuencia binaria ‘10011010010110’ siempre y cuando la duración del bit sea la mitad que la empleada en Manchester.",
+      "Siempre corresponde a una codificación Manchester diferencial para la secuencia binaria ‘0110101’.",
+      "Nunca corresponderá a una codificación RZ bipolar.",
+    ],
+    solution: "c",
+    explanation: "",
+  },
+  {
+    id: 735,
+    title:
+      "Es FALSO que la métrica que emplean los protocolos de encaminamiento para calcular la ruta óptima entre un nodo origen y un nodo destino se pueda determinar a partir del:",
+    choices: [
+      "Número de redes por los que habría que pasar en la ruta.",
+      "La velocidad de transmisión máxima que soportan los posibles enlaces que intervendrían en la ruta.",
+      "Un valor ponderado obtenido a partir del ancho de banda de los enlaces que intervendrían en la ruta.",
+      "El número de routers o encaminadores que se pueden configurar como puerta de enlace de cada encaminador o nodo intermedio.",
+    ],
+    solution: "d",
+    explanation: "",
+  },
+  {
+    id: 736,
+    title:
+      "Respecto a la delimitación de tramas que se lleva a cabo en el nivel de enlace, se puede afirmar que:",
+    choices: [
+      "Ethernet no emplea delimitador de final o cola para indicar el final de la trama.",
+      "Ethernet emplea un delimitador de comienzo por bits especiales para indicar comienzo de trama.",
+      "Token Ring no emplea delimitador de comienzo y de final para delimitar la trama.",
+      "La RDSI emplea delimitador de bits especiales para indicar comienzo y final de trama.",
+    ],
+    solution: "b",
+    explanation: "",
+  },
+  {
+    id: 737,
+    title:
+      "Durante una conexión TCP (ver figura) el cliente envía un segmento (1) con ACK, número de secuencia 1400 y 300 bytes de datos. Después el servidor envía un segmento (2) con ACK y 550 bytes de datos. Finalmente, el cliente envía otro segmento (3) con número de ACK 2300 y 350 bytes de datos. Si no hay errores en la transmisión, ¿Qué número de secuencia tiene el segmento 2? (Por errata, se ha anulada, y se ha dado 0.3p a todos)",
+    choices: ["1700.", "1750.", "2000.", "2050."],
+    solution: "b",
+    explanation: "",
+  },
+  {
+    id: 738,
+    title: "En un conmutador ‘store and forward’ NO es cierto que:",
+    choices: [
+      "Permita conectar dispositivos con distintas velocidades.",
+      "Use buffers para guardar y procesar las tramas antes de reenviarlas.",
+      "Tenga latencias inferiores a 7microsegundos en el reenvío de tramas.",
+      "Comprueba errores en tramas haciendo uso del CRC.",
+    ],
+    solution: "c",
+    explanation: "",
+  },
+  {
+    id: 739,
+    title:
+      "En una FDDI como la de la figura, si la máquina C desea enviar datos a D, entonces es cierto que cuando la trama que circula llegue a C, C procederá de la siguiente manera:",
+    choices: [
+      "C no podrán enviar datos ya que el medio está ocupado y dejará pasar la trama que circula como está.",
+      "C modificará el campo de prioridad de la trama que circula, para reservar y enviar más tarde.",
+      "C sacará la trama del medio y construirá una nueva B‐D C‐D T (de cabecera a cola).",
+      "C sacará la trama del medio y construirá una nueva A‐C B‐D T C‐D (de cabecera a cola).",
+    ],
+    solution: "c",
+    explanation: "",
+  },
+  {
+    id: 740,
+    title: "En el protocolo CSMA/CA es cierto que:",
+    choices: [
+      "No se requiere conocer el tiempo de interframe para controlar el acceso al medio.",
+      "No se requiere conocer el tiempo de ranura para controlar el acceso al medio.",
+      "No se requiere conocer la longitud de la trama para controlar el acceso al medio.",
+      "Se requiere conocer el tiempo de interframe, el tiempo de ranura, la longitud de la trama y un parámetro aleatorio para controlar el acceso al medio.",
+    ],
+    solution: "d",
     explanation: "",
   },
   {
     id: 741,
-    title: "El número de armónicos de una señal a transmitir:",
-    choices: [
-      "Depende de la atenuación máxima que soporta la señal",
-      "Es función de la potencia",
-      "Es siempre infinito para fibra óptica",
-      "Está limitado por el ancho de banda del medio físico que la transporta",
-    ],
-    solution: "-",
+    title:
+      "Si una red está formada por dos LAN, A y B, y éstas se conectan mediante un BRIDGE y a su vez A interconecta máquinas mediante un HUB y B mediante un SWITCH, se puede afirmar que la topología de la red es:",
+    choices: ["Bus.", "Estrella.", "Anillo.", "Ninguna de las anteriores."],
+    solution: "d",
     explanation: "",
   },
   {
     id: 742,
     title:
-      "Si se dispone de un medio físico y éste no se puede modificar, entonces:",
+      "Respecto al nivel de enlace de una LAN se puede afirmar que si está es una",
     choices: [
-      "No se puede incrementar la velocidad de transmisión, porque ésta depende únicamente del ancho de banda B del medio físico",
-      "Se puede incrementar la velocidad de transmisión si se consigue aumentar la atenuación",
-      "Se puede incrementar la velocidad de transmisión si se aumenta el número de cambios de señal de nuestro dispositivo modulador",
-      "No  se  puede  incrementar  la  velocidad  de  transmisión  salvo  que  utilicemos  alguna  técnica  de multiplexación como TDM",
+      "Token Ring, entonces realiza control del enlace lógico e implementa dos tipos de tramas distintas, datos y testigo.",
+      "Ethernet, entonces no realiza control del enlace lógico e implementa dos tipos de tramas distintas, datos y ACKs.",
+      "WiFi, entonces realiza control del enlace lógico e implementa tres tipos de tramas distintas, gestión, control y datos.",
+      "FDDI, entonces realiza control del enlace lógico e implementa un solo tipo de trama, llamada datos.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
     id: 743,
-    title:
-      "A la hora de elegir una técnica para la codificación de la transmisión de datos, se puede afirmar que:",
-    choices: [
-      "La codificación NRZ no incorpora sincronización",
-      "La codificación Manchester no presenta sincronización",
-      "No importa el medio físico que se utilice para la transmisión, se debe elegir la técnica en función, únicamente, de si ésta permite sincronización o no",
-      "Si se elige banda modulada, no se tendrá que adaptar la información que se desea transmitir",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 744,
-    title:
-      "Si se requiere escoger una técnica de modulación de una señal digital para transmitirla mediante una señal analógica, es cierto que:",
-    choices: [
-      "La modulación ASK modifica la amplitud de la señal moduladora en función de la señal portadora",
-      "La modulación PSK modifica la fase de la señal portadora en función de la señal modulada",
-      "La modulación BSK modifica el ancho de banda en función de la señal moduladora",
-      "La modulación QAM modifica la amplitud y la fase de la señal portadora",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 745,
-    title: "La tecnología 100BaseFX:",
-    choices: [
-      "Permite alcanzar los 1000Mbps en banda modulada sobre fibra óptica",
-      "Permite alcanzar los 100Mbps en banda modulada sobre fibra óptica",
-      "Permite alcanzar los 100Mbps en banda base sobre fibra óptica",
-      "Permite alcanzar los 100Mbps en banda base sobre cable de par trenzado",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 746,
-    title:
-      "Respecto a las ondas de radio para la transmisión de datos en redes de computadores, es cierto que:",
-    choices: [
-      "Es un medio físico que permite comunicaciones en banda base",
-      "Proporcionan un medio físico de gran calidad que ofrece velocidades de 100Mbps con el estándar 802.11n",
-      "El ancho de banda del medio se divide en canales de 20 MHz de ancho de banda",
-      "Al ser un medio físico no compartido, permite  la transmisión sin que se empleen mecanismos de acceso al medio del tipo contienda",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 747,
-    title:
-      "Si se debe elegir entre una técnica de encaminamiento para gestionar una red de carga variable y con cierta tolerancia a fallos se elegirá preferiblemente:",
-    choices: [
-      "Un encaminamiento por inundación",
-      "Un encaminamiento estático",
-      "Un encaminamiento adaptativo distribuido",
-      "Un encaminamiento adaptativo centralizado",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 748,
-    title:
-      "Cuál de las siguientes direcciones del protocolo IPv6 está escrita correctamente?:",
-    choices: [
-      "2001:0db8::0000:1319::0070:7334",
-      "2001:0dq8:85a3:0000:1319:8a2e:0070:7334",
-      "::AC:14:2B:E6",
-      "2001:0db8:85a3:0000:13194:8a2e:0070:7334",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 749,
-    title:
-      "Cuando se necesita obtener, automáticamente, una dirección de red para una máquina que se acaba de conectar:",
-    choices: [
-      "Se utiliza el protocolo DHCP en IPv6 y el protocolo Neighbor Discovery en IPv4",
-      "Se utiliza el protocolo DNS en IPv6 y el protocolo DHCP en IPv4",
-      "Se utiliza el protocolo DHCP en IPv4 e IPv6 y el protocolo DNS en IPv4",
-      "Se utiliza el protocolo DHCP en IPv4 e IPv6 y el protocolo Neighbor Discovery en IPv6",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 750,
-    title: "ADSL es un acceso a Internet:",
-    choices: [
-      "Que utiliza la técnica TDM para la multiplexación de la señal de voz, los datos de subida y los datos de bajada.",
-      "Que utiliza el cable coaxial para transmitir voz, datos y televisión",
-      "Incompatible con RDSI debido al solapamiento de frecuencias",
-      "Que envía la señal de voz y datos mediante señales digitales",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 751,
-    title:
-      "Cuál de las siguientes afirmaciones relativas a las distintas tecnologías xDSL es FALSA?:",
-    choices: [
-      "El envío de datos desde el cliente al ISP siempre es menor que el envío en el sentido contrario",
-      "VDSL permite el envío de voz digital",
-      "IDSL es más lento que ADSL, pero permite llegar a distancias 10 veces mayores",
-      "ADSL2 permite utilizar el ancho de banda reservado para telefonía",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 752,
-    title: "Para controlar la congestión de paquetes en una LAN:",
-    choices: [
-      "Se  puede  aumentar  la  velocidad  de  envío  de  los  nodos  emisores  mediante  paquetes  de obstrucción.",
-      "Se puede limitar la velocidad de envío de paquetes de los nodos emisores",
-      "Se puede enviar un paquete hacia el emisor con los bits de congestión desactivados",
-      "Se puede asignar un crédito máximo a la tasa de bits que se puede recibir por parte del receptor",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 753,
-    title:
-      "Atendiendo al tipo de redes y topologías vistas en clase es FALSO que:",
-    choices: [
-      "Una red con topología en bus permita enviar mensajes multicast a un conjunto de máquinas",
-      "Una red con topología en malla esté formada por varios enlaces punto a punto por máquina",
-      "Una  red  con  topología en estrella que emplea un  concentrador de  tipo  SWITCH permita enviar mensajes broadcast a un conjunto de máquinas",
-      "Un BRIDGE permita conectar dos LANs con distinta topología de red y nivel de enlace",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 754,
-    title:
-      "Se quiere implementar un sistema de comunicaciones que tenga un ancho de banda de 3000Hz y que consiga una relación S/NdB de 35dB. ¿Cuál será la capacidad máxima del canal de comunicación?",
-    choices: ["≈ 69.7Kbps", "≈ 34.8Kbps", "≈ 31Kbps", "≈ 15.5Kbps"],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 755,
-    title:
-      "Cuál sería el   medio  físico más adecuado para  realizar  la conexión en una LAN, de modo que  las comunicaciones  queden  aisladas,  lo  mejor  posible,  de  las  interferencias  electromagnéticas  y  de  los problemas de ruido por diafonía?",
-    choices: [
-      "Par trenzado UTP 3",
-      "Par trenzado UTP 5",
-      "Par trenzado UTP 6",
-      "Par trenzado STP",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 756,
-    title:
-      "Dada la siguiente codificación en PCM diferencial ‘110101001010001110111110110’ averigua cuál es la  máxima  diferencia  entre  dos  muestras  consecutivas  de  la  señal  original,  si  se  sabe  que  se  ha cuantificado con 3 bits.",
-    choices: [
-      "La diferencia es de 0 niveles de tensión",
-      "La diferencia es de 1 niveles de tensión",
-      "La diferencia es de 2 niveles de tensión",
-      "La diferencia es de 3 niveles de tensión",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 757,
-    title:
-      "La codificación PCM de  la señal analógica muestreada desde el  instante  t=0, como se  indica en  la figura y cuantificada empleando el menor número de bits posible, es:",
-    choices: [
-      "‘0101101001010101010110100111’",
-      "‘010111010000000001011101’",
-      "‘0000101011010000000010101111’",
-      "‘010111011000100001011101’",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 758,
-    title:
-      "Determina  cuál de  las  siguientes  afirmaciones  respecto  a  la  siguiente  codificación banda base  es FALSA:",
-    choices: [
-      "Puede corresponder a una codificación Manchester para la secuencia binaria ‘0100110’",
-      "Puede corresponder a una codificación NRZ bipolar para  la  secuencia binaria  ‘10011010010110’ siempre y cuando la duración del bit sea la mitad que la empleada en Manchester",
-      "Siempre  corresponde  a  una  codificación  Manchester  diferencial  para  la  secuencia  binaria ‘0110101’",
-      "Nunca corresponderá a una codificación RZ bipolar",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 759,
-    title:
-      "Es FALSO que la métrica que emplean los protocolos de encaminamiento para calcular la ruta óptima entre un nodo origen y un nodo destino se pueda determinar a partir del:",
-    choices: [
-      "Número de redes por los que habría que pasar en la ruta",
-      "La velocidad de transmisión máxima que soportan los posibles enlaces que intervendrían en la ruta",
-      "Un valor ponderado obtenido a partir del ancho de banda de  los enlaces que  intervendrían en  la ruta",
-      "El número de routers o encaminadores que se pueden configurar como puerta de enlace de cada encaminador o nodo intermedio",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 760,
-    title:
-      "Respecto a la delimitación de tramas que se lleva a cabo en el nivel de enlace, se puede afirmar que:",
-    choices: [
-      "Ethernet no emplea delimitador de final o cola para indicar el final de la trama",
-      "Ethernet emplea un delimitador de comienzo por bits especiales para indicar comienzo de trama",
-      "Token Ring no emplea delimitador de comienzo y de final para delimitar la trama",
-      "La RDSI emplea delimitador de bits especiales para indicar comienzo y final de trama",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 761,
-    title:
-      "Durante  una  conexión  TCP  (ver  figura)  el  cliente  envía  un  segmento  (1)  con  ACK,  número  de secuencia 1400 y 300 bytes de datos. Después el servidor envía un segmento (2) con ACK y 550 bytes de datos. Finalmente, el cliente envía otro segmento (3) con número de ACK 2300 y 350 bytes de datos. Si no hay errores en  la  transmisión,  ¿Qué número de  secuencia  tiene el  segmento 2?  (Por errata,  se ha anulada, y se ha dado 0.3p a todos)",
-    choices: ["1700.", "1750.", "2000.", "2050."],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 762,
-    title: "En un conmutador ‘store and forward’ NO es cierto que:",
-    choices: [
-      "Permita conectar dispositivos con distintas velocidades",
-      "Use buffers para guardar y procesar las tramas antes de reenviarlas",
-      "Tenga latencias inferiores a 7microsegundos en el reenvío de tramas",
-      "Comprueba errores en tramas haciendo uso del CRC",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 763,
-    title:
-      "En una FDDI como  la de  la  figura, si  la máquina C desea enviar datos a D, entonces es cierto que cuando la trama que circula llegue a C, C procederá de la siguiente manera:",
-    choices: [
-      "C no podrán enviar datos ya que el medio está ocupado y dejará pasar la trama que circula como está",
-      "C modificará el campo de prioridad de la trama que circula, para reservar y enviar más tarde",
-      "C sacará la trama del medio y construirá una nueva B‐D C‐D T (de cabecera a cola)",
-      "C sacará la trama del medio y construirá una nueva A‐C B‐D T C‐D (de cabecera a cola)",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 764,
-    title: "En el protocolo CSMA/CA es cierto que:",
-    choices: [
-      "No se requiere conocer el tiempo de interframe para controlar el acceso al medio.",
-      "No se requiere conocer el tiempo de ranura para controlar el acceso al medio.",
-      "No se requiere conocer la longitud de la trama para controlar el acceso al medio.",
-      "Se requiere conocer el tiempo de interframe, el tiempo de ranura, la longitud de la trama y un parámetro aleatorio para controlar el acceso al medio.",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 765,
-    title:
-      "Si una red está formada por dos LAN, A y B, y éstas se conectan mediante un BRIDGE y a su vez A interconecta máquinas mediante un HUB y B mediante un SWITCH, se puede afirmar que la topología de la red es:",
-    choices: ["Bus.", "Estrella.", "Anillo.", "Ninguna de las anteriores"],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 766,
-    title:
-      "Respecto al nivel de enlace de una LAN se puede afirmar que si está es una...",
-    choices: [
-      "Token Ring, entonces  realiza control del enlace lógico e implementa dos tipos de tramas distintas, datos y testigo",
-      "Ethernet, entonces no realiza control del enlace lógico e implementa dos tipos de tramas distintas, datos y ACKs",
-      "WiFi,  entonces  realiza  control  del  enlace  lógico  e  implementa  tres  tipos  de  tramas  distintas, gestión, control y datos",
-      "FDDI, entonces realiza control del enlace lógico e implementa un solo tipo de trama, llamada datos",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 767,
-    title: "El protocolo HDLC 5O presenta la característica de,",
+    title: "El protocolo HDLC NO presenta la característica de,",
     choices: [
       "Control del flujo con ventana deslizante.",
       "Reenvío de paquetes erróneos.",
       "Delimitación de tramas como en los protocolos orientados a bit.",
       "Autenticación en el establecimiento de conexiones.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 768,
+    id: 744,
     title:
-      "El protocolo PPP 5O gestiona entre los extremos de la comunicación,",
+      "El protocolo PPP NO gestiona entre los extremos de la comunicación,",
     choices: [
       "La configuración del protocolo IP.",
       "El inicio de sesión de un usuario.",
       "La autenticación de los usuarios.",
       "El formato de los paquetes PPP.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 769,
+    id: 745,
     title:
-      "En una red LA5 que disponga de un direccionamiento IP privado, es cierto que:",
+      "En una red LAN que disponga de un direccionamiento IP privado, es cierto que:",
     choices: [
       "No se pueden intercambiar con Internet paquetes IP con direcciones IP privadas.",
       "El mecanismo de NAT modifica la dirección IP de destino de los paquetes que salen de la red LAN hacia Internet.",
       "Cualquier máquina de Internet puede establecer una conexión a una dirección IP privada de la red LAN.",
       "El encaminamiento modifica la cabecera IP de los paquetes de la red LAN en todos los routers entre el origen y el destino.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 770,
+    id: 746,
     title:
       "Si un router envía un mensaje RIP versión 1 en una red LA5 Ethernet, el paquete emplea como dirección MAC de destino,",
     choices: [
@@ -9338,942 +9058,787 @@ const questionsData: QuestionData[] = [
       "La dirección 224.0.0.9.",
       "Una dirección MAC de multidifusión.",
     ],
-    solution: "-",
+    solution: "a",
+    explanation: "",
+  },
+  {
+    id: 747,
+    title:
+      "Qué ancho de banda se necesita para implementar un sistema de comunicaciones que tenga una capacidad máxima de canal de 50 Mbps empleando un medio que tiene una relación S/NdB de 35 dB?",
+    choices: ["≈ 1.07 Mhz.", "≈ 2.15Mhz.", "≈ 4.30 Mhz.", "≈ 7.14 Mhz."],
+    solution: "c",
+    explanation: "",
+  },
+  {
+    id: 748,
+    title:
+      "Si un medio físico emplea una señal de reloj, la cual se transmite por una línea distinta de la línea por la que se transmite la señal que codifica secuencias de datos digitales, entonces se puede afirmar que el modo de transmisión es:",
+    choices: [
+      "Síncrono y se suele emplear en interfaces para comunicar DTE‐DCE.",
+      "Síncrono y se suele emplear en redes LAN.",
+      "Asíncrono y se suele emplear en interfaces para comunicar DTE‐DCE.",
+      "Asíncrono y se suele emplear en redes LAN.",
+    ],
+    solution: "a",
+    explanation: "",
+  },
+  {
+    id: 749,
+    title:
+      "Si el ancho de banda de un medio físico es de 20Mhz, ¿cuál es el número máximo de armónicos que se pueden transmitir si se sabe que la frecuencia fundamental de la señal a enviar es de 500Khz?",
+    choices: ["10000.", "40.", "25.", "Infinitos."],
+    solution: "b",
+    explanation: "",
+  },
+  {
+    id: 750,
+    title:
+      "La codificación PCM diferencial de la señal analógica muestreada desde el instante t=0 como se indica en la figura y cuantificada empleando el menor número de bits posible, es:",
+    choices: [
+      "‘101010001011010000’.",
+      "‘011101010101110’.",
+      "‘10100’.",
+      "Ninguna de las anteriores.",
+    ],
+    solution: "b",
+    explanation: "",
+  },
+  {
+    id: 751,
+    title:
+      "De acuerdo al estándar EIA‐568‐A se puede afirmar que un cable de categoría 5e, se caracteriza por ser un:",
+    choices: [
+      "Par trenzado UTP que permite alcanzar velocidades de hasta 100Mbps sobre 100 metros.",
+      "Par trenzado UTP que permite alcanzar velocidades de hasta 1000Mbps sobre 100 metros.",
+      "Par trenzado UTP que permite alcanzar velocidades de hasta 10Gbps sobre 50 metros.",
+      "Par trenzado FTP (S‐UTP) que permite alcanzar velocidades de hasta 10 Gbps sobre 100 metros.",
+    ],
+    solution: "b",
+    explanation: "",
+  },
+  {
+    id: 752,
+    title:
+      "Si el medio físico de una LAN‐Ethernet está compuesto por una fibra óptica monomodo y no hay dispositivos de interconexión de tipo HUB o SWITCH o BRIDGE, se puede afirmar que a igualdad en velocidad:",
+    choices: [
+      "La fibra óptica multimodo de índice discreto permitiría transmitir a más distancia.",
+      "La fibra óptica multimodo de índice gradual permitiría transmitir a más distancia.",
+      "Se conseguiría transmitir a más distancia que si éste estuviera compuesto de UTP 6.",
+      "Un medio inalámbrico basado en el estándar 802.11g permitiría transmitir a más distancia.",
+    ],
+    solution: "c",
+    explanation: "",
+  },
+  {
+    id: 753,
+    title: "Una modulación banda base 8B6T es una:",
+    choices: [
+      "Modulación multinivel que codifica 8 bits como 6 elementos distintos de señal compuestos por combinaciones de 2 valores de tensión distintos.",
+      "Modulación multinivel que codifica 2 bits como 8 elementos distintos de señal compuestos por combinaciones de 6 valores de tensión distintos.",
+      "Es un tipo de modulación NRZ bipolar para codificar 8 bits con 6 flancos de subida o bajada.",
+      "Modulación multinivel que codifica patrones de 8 bits como 6 elementos distintos de señal compuestos por combinaciones de 3 valores de tensión distintos.",
+    ],
+    solution: "c",
+    explanation: "",
+  },
+  {
+    id: 754,
+    title:
+      "Atendiendo a los conceptos de encapsulamiento y direccionamiento, se puede afirmar que un router perteneciente a una LAN con el protocolo OSPF activo, envía:",
+    choices: [
+      "A todos los nodos adyacentes de la LAN paquetes UDP dirigidos a 224.0.0.9.",
+      "A todos los nodos de una misma área de la LAN paquetes IP dirigidos a 224.0.0.5.",
+      "A todos los nodos adyacentes de la LAN paquetes IP dirigidos a 224.0.0.10.",
+      "A todos los ‘routers’ de una misma área de la LAN paquetes UDP dirigidos a 224.0.0.7.",
+    ],
+    solution: "b",
+    explanation: "",
+  },
+  {
+    id: 755,
+    title:
+      "Atendiendo a los conceptos de cálculo de ruta y métrica asociada, se puede afirmar que un ‘router’ perteneciente a una LAN con el protocolo RIP activo:",
+    choices: [
+      "Emplea el algoritmo de Bellman‐Ford para determinar la ruta de coste mínimo, haciendo uso de una métrica basada en el número de segmentos de red que se tienen que atravesar para alcanzar un destino.",
+      "Emplea el algoritmo de Dijkstra para determinar la ruta de coste mínimo, haciendo uso de una métrica basada en las capacidades de transmisión de los enlaces.",
+      "Emplea el algoritmo de Dijkstra para determinar la ruta de coste mínimo, haciendo uso de una métrica basada en los retardos que se producen en los enlaces.",
+      "Emplea el algoritmo de Bellman‐Ford para determinar la ruta de coste mínimo, haciendo uso de una métrica basada en el ancho de banda de los enlaces.",
+    ],
+    solution: "a",
+    explanation: "",
+  },
+  {
+    id: 756,
+    title: "Es FALSO que el protocolo IPv6 se diferencia de IPv4 en que",
+    choices: [
+      "Usa direcciones de 16 bytes frente a 4 bytes de IPv4.",
+      "Si el datagrama es superior a la MTU, sólo fragmenta en el equipo origen, y no en los ‘routers’ intermedios de la red como en IPv4.",
+      "Dispone de mecanismos de autentificación y encriptación a diferencia de IPv4 que no los tiene y requiere de protocolos auxiliares como IPSEC.",
+      "Emplea un campo en la cabecera para establecer control de calidad de servicio QoS.",
+    ],
+    solution: "d",
+    explanation: "",
+  },
+  {
+    id: 757,
+    title: "En IPv6 una dirección unicast global almacena información de:",
+    choices: [
+      "La Zona geográfica (continente, país), proveedores de internet y/o empresas globales (nacionales, regionales), empresas y/o proveedores locales de internet, así como de la información del interfaz de red.",
+      "La Zona geográfica (continente, país), así como proveedores de internet y/o empresas globales (nacionales, regionales).",
+      "Proveedores de internet y/o empresas globales (nacionales, regionales), así como de empresas y/o proveedores locales de internet.",
+      "Proveedores locales de internet, así como de la información del interfaz de red.",
+    ],
+    solution: "a",
+    explanation: "",
+  },
+  {
+    id: 758,
+    title:
+      "Cuando una máquina de una red, denominada cliente, intenta obtener de manera dinámica una dirección IP a través del protocolo DHCPv4, entonces es cierto que:",
+    choices: [
+      "Inicialmente, la máquina cliente envía un DHCPv4 ‘Discover’ a la dirección IP del servidor DHCP y la maquina servidora responde con un DHCPv4 ‘Offer’ que incluye una dirección IP libre.",
+      "Inicialmente, la máquina cliente envía un paquete DHCPv4 ‘Discover’ a BROADCAST y la máquina servidora responde con un paquete DHCPv4 ‘Offer’ que incluye una dirección IP libre.",
+      "Inicialmente, la máquina servidora DHCPv4 envía un paquete ‘Discover’ a BROADCAST facilitando direcciones IP libres. No es necesario que el cliente solicite nada.",
+      "Inicialmente, la máquina servidora DHCPv4 envía un paquete ‘Discover’ encapsulado en un trama Ethernet con la dirección MAC destino del cliente, en el que se encapsula la IP asignada.",
+    ],
+    solution: "b",
+    explanation: "",
+  },
+  {
+    id: 759,
+    title:
+      "Para interconectar los niveles superiores de una LAN y una WAN, ambas con arquitecturas de red distintas, por ejemplo en el caso de un LAN domestica conectándose a un ISP, se requiere de:",
+    choices: [
+      "Un Puente (‘Bridge’).",
+      "Un Conmutador (‘Switch’).",
+      "Un Encaminador (‘Router’).",
+      "Una Pasarela (‘Gateway’).",
+    ],
+    solution: "d",
+    explanation: "",
+  },
+  {
+    id: 760,
+    title:
+      "Qué protocolo de nivel de transporte se emplea en una aplicación de sincronización de tiempo por internet?",
+    choices: ["TCP.", "IP.", "ICMP.", "UDP."],
+    solution: "d",
+    explanation: "",
+  },
+  {
+    id: 761,
+    title:
+      "Cuál de las siguientes NO es una función del nivel de transporte de la arquitectura TCP/IP?",
+    choices: [
+      "Fragmentar los paquetes de datos en los distintos ‘routers’ por los que tiene que pasar el paquete hasta llegar al destino.",
+      "Multiplexar datos de varias instancias del nivel de aplicación.",
+      "Controlar el flujo de datos de la comunicación.",
+      "Controlar los errores en el envío de datos en comunicaciones orientadas a conexión cliente‐ servidor.",
+    ],
+    solution: "a",
+    explanation: "",
+  },
+  {
+    id: 762,
+    title: "Es cierto que la ventana deslizante que utiliza TCP:",
+    choices: [
+      "Utiliza un ‘timeout’ para desconectar cliente y servidor si el ACK de una trama tarda mucho en llegar.",
+      "No permite controlar el flujo de datos de la comunicación.",
+      "Trabaja con un flujo de bytes, no con paquetes o tramas.",
+      "Es incapaz de informar de errores en la comunicación.",
+    ],
+    solution: "c",
+    explanation: "",
+  },
+  {
+    id: 763,
+    title: "LLC es:",
+    choices: [
+      "Un subnivel de la capa de enlace.",
+      "Un subnivel de la capa de aplicación.",
+      "Un protocolo de la capa de enlace.",
+      "Un protocolo de la capa de aplicación.",
+    ],
+    solution: "a",
+    explanation: "",
+  },
+  {
+    id: 764,
+    title:
+      "Las redes WiFi utilizan como técnica de control de acceso al medio una técnica:",
+    choices: [
+      "Por reserva.",
+      "Por contienda.",
+      "Por selección.",
+      "Ninguna de las anteriores.",
+    ],
+    solution: "b",
+    explanation: "",
+  },
+  {
+    id: 765,
+    title: "En una red Ethernet 802.3:",
+    choices: [
+      "Se asegura el envío de las tramas.",
+      "Se permite asegurar un tiempo máximo de envío de una trama.",
+      "Se emplea una topología en anillo.",
+      "Ninguna de las anteriores es cierta.",
+    ],
+    solution: "d",
+    explanation: "",
+  },
+  {
+    id: 766,
+    title:
+      "La cabecera de una trama de una LAN IEEE 802.11, consta de campos para:",
+    choices: [
+      "Dos direcciones MAC.",
+      "Cuatro direcciones MAC.",
+      "Tres direcciones MAC.",
+      "Tres direcciones IP.",
+    ],
+    solution: "b",
+    explanation: "",
+  },
+  {
+    id: 767,
+    title: "Una colisión en una red Ethernet 802.3:",
+    choices: [
+      "Es imposible que se produzca.",
+      "Permite asegurar un tiempo máximo de envío de una trama.",
+      "Obligará al equipo que ha detectado la colisión a esperar un tiempo antes de intentar de nuevo el envío.",
+      "Ocurre muy raras veces, siempre dependiendo de la velocidad de transmisión del medio físico.",
+    ],
+    solution: "c",
+    explanation: "",
+  },
+  {
+    id: 768,
+    title:
+      "Una vivienda se encuentra situada a 2.5km de la central telefónica de servicios DSL, si se desea contratar un servicio que garantice una velocidad máxima de 20Mbps, la mejor opción precio‐ prestaciones de acuerdo a los servicios y características vistas en clase, sería:",
+    choices: ["VDSL2.", "VDSL.", "ADSL2+.", "ADSL."],
+    solution: "c",
+    explanation: "",
+  },
+  {
+    id: 769,
+    title:
+      "Si una conexión ADSL emplea encapsulamiento PPPoE entre PC del cliente y ‘router’ del proveedor de servicios de internet (ISP) para enviar un paquete TCP, entonces la pila de protocolos que emplean los interfaces del modem ADSL, I1: Interfaz LAN‐par trenzado e I2: Interfaz ADSL‐cable telefónico, son:",
+    choices: [
+      "Ethernet+IP+TCP (I1) y ATM+AAL5+LLC+PPP (I2).",
+      "Ethernet+IP+TCP (I1) y Ethernet+IP+TCP (I2).",
+      "Ethernet+PPPoE+PPP+IP+TCP (I1) y Ethernet+PPPoE+PPP+IP+TCP (I2).",
+      "Ethernet+PPPoE+PPP+IP+TCP (I1) y ATM+AAL5+LLC+Ethernet+PPPoE+PPP+IP+TCP (I2).",
+    ],
+    solution: "d",
+    explanation: "",
+  },
+  {
+    id: 770,
+    title: "Para realizar el control de congestión en TCP:",
+    choices: [
+      "Se emplean las ventanas del emisor y del receptor.",
+      "Se emplea sólo la ventana del receptor.",
+      "No se puede realizar control de congestión utilizando TCP.",
+      "Se emplea una ventana de congestión en emisor que se ajusta en función de los paquetes perdidos.",
+    ],
+    solution: "d",
     explanation: "",
   },
   {
     id: 771,
     title:
-      "Qué ancho de banda  se necesita para  implementar un  sistema de  comunicaciones que  tenga una capacidad máxima de canal de 50 Mbps empleando un medio que tiene una relación S/NdB de 35 dB?",
-    choices: ["≈ 1.07 Mhz.", "≈ 2.15Mhz.", "≈ 4.30 Mhz.", "≈ 7.14 Mhz."],
-    solution: "-",
+      "La capa de transporte en la arquitectura TCP/IP se caracteriza por,",
+    choices: [
+      "Emplear un protocolo de control del flujo basado en la técnica de ventana deslizante.",
+      "Aumentar el aprovechamiento del medio físico empleando el control del flujo basado en CSMA/CA.",
+      "Gestionar una comunicación fiable estableciendo un encaminamiento basado en conmutación de paquetes.",
+      "Proporcionar siempre a la capa de aplicación una comunicación no segura, debido al funcionamiento con datagramas de la subred.",
+    ],
+    solution: "a",
     explanation: "",
   },
   {
     id: 772,
     title:
-      "Si un medio físico emplea una señal de reloj, la cual se transmite por una línea distinta de la línea por la que se transmite la señal que codifica secuencias de datos digitales, entonces se puede afirmar que el modo de transmisión es:",
+      "El acceso a un servidor web, un servidor de correo y un servidor ftp que se encuentran en una misma máquina es posible gracias a,",
     choices: [
-      "Síncrono y se suele emplear en interfaces para comunicar DTE‐DCE.",
-      "Síncrono y se suele emplear en redes LAN.",
-      "Asíncrono y se suele emplear en interfaces para comunicar DTE‐DCE.",
-      "Asíncrono y se suele emplear en redes LAN.",
+      "La multiplexación de conexiones que proporciona la capa de red en TCP/IP.",
+      "La multiplexación de conexiones que proporciona la capa de transporte en TCP/IP.",
+      "La existencia de varias direcciones IP para una misma máquina de Internet.",
+      "La existencia de un mismo puerto TCP para los servicios de web, de correo y ftp.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
     id: 773,
     title:
-      "Si el ancho de banda de un medio físico es de 20Mhz, ¿cuál es el número máximo de armónicos que se pueden transmitir si se sabe que la frecuencia fundamental de la señal a enviar es de 500Khz?",
-    choices: ["10000.", "40.", "25.", "Infinitos."],
-    solution: "-",
+      "La atenuación que sufre una señal al transmitirse por un medio físico NO depende de,",
+    choices: [
+      "La distancia en la línea de comunicación.",
+      "El ancho de banda del medio físico.",
+      "La relación señal‐ruido del medio físico.",
+      "El número de niveles empleado en la codificación.",
+    ],
+    solution: "d",
     explanation: "",
   },
   {
     id: 774,
     title:
-      "La codificación PCM diferencial de la señal analógica muestreada desde el instante t=0 como se indica en la figura y cuantificada empleando el menor número de bits posible, es:",
-    choices: [
-      "‘101010001011010000’",
-      "‘011101010101110’",
-      "‘10100’",
-      "Ninguna de las anteriores.",
-    ],
-    solution: "-",
+      "Qué velocidad de transmisión se requiere para enviar a través de un medio físico 2 señales analógicas de 100 KHz de ancho de banda empleando una modulación PCM de 6 bits?",
+    choices: ["25600 Kbps.", "12800 Kbps.", "2400 Kbps.", "1200 Kbps."],
+    solution: "c",
     explanation: "",
   },
   {
     id: 775,
     title:
-      "De acuerdo al estándar EIA‐568‐A se puede afirmar que un cable de categoría 5e, se caracteriza por ser un:",
+      "La codificación binaria bipolar RZ y la Manchester diferencial tienen la característica común de,",
     choices: [
-      "Par trenzado UTP que permite alcanzar velocidades de hasta 100Mbps sobre 100 metros.",
-      "Par trenzado UTP que permite alcanzar velocidades de hasta 1000Mbps sobre 100 metros.",
-      "Par trenzado UTP que permite alcanzar velocidades de hasta 10Gbps sobre 50 metros.",
-      "Par trenzado FTP (S‐UTP) que permite alcanzar velocidades de hasta 10 Gbps sobre 100 metros.",
+      "Emplear siempre los mismos niveles de voltaje en la codificación de los elementos de señal.",
+      "Interpretar la información por el valor de amplitud de la señal.",
+      "Codificar los datos binarios como cambios de tipo de transición de señal.",
+      "Incorporar información de sincronización en la propia señal.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
     id: 776,
-    title:
-      "Si  el medio  físico de una  LAN‐Ethernet  está  compuesto por una  fibra óptica monomodo  y no hay dispositivos  de  interconexión  de  tipo HUB  o  SWITCH  o  BRIDGE,  se  puede  afirmar  que  a  igualdad  en velocidad:",
+    title: "Las técnicas de contienda se caracterizan por,",
     choices: [
-      "La fibra óptica multimodo de índice discreto permitiría transmitir a más distancia.",
-      "La fibra óptica multimodo de índice gradual permitiría transmitir a más distancia.",
-      "Se conseguiría transmitir a más distancia que si éste estuviera compuesto de UTP 6.",
-      "Un medio inalámbrico basado en el estándar 802.11g permitiría transmitir a más distancia.",
+      "Establecer turnos para transmitir información en el medio físico.",
+      "La existencia de colisiones en la solicitud de turnos en el proceso de transmisión.",
+      "Impedir que se produzcan colisiones en el medio físico.",
+      "Establecer un mecanismo de transmisión cuando se ha producido una colisión.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
     id: 777,
-    title: "La codificación QAM vista en clase se caracteriza porque:",
+    title:
+      "La pérdida de un paquete de datos en un protocolo de parada y espera sin numeración de ACK’s provoca,",
     choices: [
-      "A  diferencia  de MFSK, QAM  sólo modifica  la  fase  para  codificar  varios  bits  como  elemento  de señal.",
-      "A diferencia de QPSK, se transmiten menor número de bits por unidad de tiempo.",
-      "Modifica la fase y amplitud de una señal portadora haciendo uso de una señal moduladora.",
-      "Proporciona menor velocidad de modulación que una codificación en banda modulada ASK.",
+      "Un error de duplicación.",
+      "Un error de sincronización.",
+      "El reenvío de la trama perdida.",
+      "El reenvío indefinido del mismo paquete al receptor.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
     id: 778,
-    title: "Una modulación banda base 8B6T es una:",
+    title:
+      "La codificación PCM de la señal analógica muestreada desde el instante t=0, como se indica en la figura y cuantificada empleando el menor número de bits posible, es:",
     choices: [
-      "Modulación multinivel que codifica 8 bits como 6 elementos distintos de  señal compuestos por combinaciones de 2 valores de tensión distintos.",
-      "Modulación multinivel que codifica 2 bits como 8 elementos distintos de  señal compuestos por combinaciones de 6 valores de tensión distintos.",
-      "Es un tipo de modulación NRZ bipolar para codificar 8 bits con 6 flancos de subida o bajada.",
-      "Modulación multinivel  que  codifica  patrones  de  8  bits  como  6  elementos  distintos  de  señal compuestos por combinaciones de 3 valores de tensión distintos.",
+      "‘0110100001000100011010010110’.",
+      "‘001011000000001000111011’.",
+      "‘0110001011000000001000111011’.",
+      "Ninguna de las anteriores es cierta.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
     id: 779,
-    title:
-      "Atendiendo a los conceptos de encapsulamiento y direccionamiento, se puede afirmar que un router perteneciente a una LAN con el protocolo OSPF activo, envía:",
+    title: "ADSL es un acceso a Internet:",
     choices: [
-      "A todos los nodos adyacentes de la LAN paquetes UDP dirigidos a 224.0.0.9",
-      "A todos los nodos de una misma área de la LAN paquetes IP dirigidos a 224.0.0.5",
-      "A todos los nodos adyacentes de la LAN paquetes IP dirigidos a 224.0.0.10",
-      "A todos los ‘routers’ de una misma área de la LAN paquetes UDP dirigidos a 224.0.0.7",
+      "Que utiliza el cable par trenzado UTP‐3 o superior para transmitir voz y datos.",
+      "Que utiliza la técnica FDM para la multiplexación de señales.",
+      "Que envía la señal de voz y datos mediante señales digitales.",
+      "No permite la corrección de errores en su versión ADSL2+.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
     id: 780,
     title:
-      "Atendiendo a los conceptos de cálculo de ruta y métrica asociada, se puede afirmar que un ‘router’ perteneciente a una LAN con el protocolo RIP activo:",
+      "Cuál de las siguientes afirmaciones relativas a la tecnología ADSL sobre ATM con AAL5 es FALSA?:",
     choices: [
-      "Emplea el algoritmo de Bellman‐Ford para determinar la ruta de coste mínimo, haciendo uso de una métrica  basada  en  el  número  de  segmentos  de  red  que  se  tienen  que  atravesar  para alcanzar un destino.",
-      "Emplea el algoritmo de Dijkstra para determinar  la  ruta de  coste mínimo, haciendo uso de una métrica basada en las capacidades de transmisión de los enlaces.",
-      "Emplea el algoritmo de Dijkstra para determinar  la  ruta de  coste mínimo, haciendo uso de una métrica basada en los retardos que se producen en los enlaces.",
-      "Emplea el algoritmo de Bellman‐Ford para determinar  la ruta de coste mínimo, haciendo uso de una métrica basada en el ancho de banda de los enlaces.",
+      "En la capa de enlace de la LAN, entre modem‐router y máquinas de usuario, no se emplea control del enlace lógico LLC.",
+      "Entre el módem ADSL y el proveedor (ISP) se encapsulan paquetes PPP sobre ATM con AAL5, según RFC 2684.",
+      "La trama de datos que llega al ISP tiene varios niveles de encapsulamiento de nivel de enlace entre ellos Ethernet.",
+      "El DSLAM emplea interfaces con niveles físicos distintos para conectar módems con proveedor (ISP).",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
     id: 781,
-    title: "Es FALSO que el protocolo IPv6 se diferencia de IPv4 en que",
-    choices: [
-      "Usa direcciones de 16 bytes frente a 4 bytes de IPv4.",
-      "Si el datagrama es superior a  la MTU, sólo  fragmenta en el equipo origen, y no en  los  ‘routers’ intermedios de la red como en IPv4.",
-      "Dispone de mecanismos de autentificación y encriptación a diferencia de IPv4 que no los tiene y requiere de protocolos auxiliares como IPSEC.",
-      "Emplea un campo en la cabecera para establecer control de calidad de servicio QoS.",
-    ],
-    solution: "-",
+    title:
+      "Durante una conexión TCP (ver figura) el cliente envía un segmento (1) con flag ACK áctivo, número de secuencia 1100 y 250 bytes de datos. Después el servidor envía un segmento (2) con flag ACK áctivo y 350 bytes de datos. Finalmente, el cliente envía otro segmento (3) con número de ACK 2000 y 200 bytes de datos. Si no hay errores en la transmisión, ¿Qué número de secuencia tiene el segmento 2?",
+    choices: ["1700.", "1650.", "1350.", "1100."],
+    solution: "b",
     explanation: "",
   },
   {
     id: 782,
-    title: "En IPv6 una dirección unicast global almacena información de:",
+    title: "Respecto a la técnica de ‘Slow‐Start’ de TCP/IP es FALSO que:",
     choices: [
-      "La  Zona  geográfica  (continente,  país),  proveedores  de  internet  y/o  empresas  globales (nacionales,  regionales),  empresas  y/o  proveedores  locales  de  internet,  así  como  de  la información del interfaz de red.",
-      "La Zona geográfica  (continente, país), así como proveedores de  internet y/o empresas globales (nacionales, regionales).",
-      "Proveedores de  internet y/o empresas globales  (nacionales,  regionales), así como de empresas y/o proveedores locales de internet.",
-      "Proveedores locales de internet, así como de la información del interfaz de red.",
+      "Se emplea para controlar el flujo de información cuando la ventana del receptor es muy pequeña comparada con la del emisor.",
+      "Consiste en enviar paquetes de datos cuyo valor de MSS se va incrementando poco a poco hasta que la ventana de congestión supera a la de flujo.",
+      "Requiere un temporizador de retransmisión en el caso de que se produzcan errores de perdida de paquetes.",
+      "Es dependiente del tamaño de ventana del emisor.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
     id: 783,
     title:
-      "Cuando una máquina de una  red, denominada  cliente,  intenta obtener de manera dinámica una dirección IP a través del protocolo DHCPv4, entonces es cierto que:",
+      "Cuál de las siguientes direcciones del protocolo IPv6 está escrita correctamente?:",
     choices: [
-      "Inicialmente, la máquina cliente envía un DHCPv4 ‘Discover’ a la dirección IP del servidor DHCP y la maquina servidora responde con un DHCPv4 ‘Offer’ que incluye una dirección IP libre.",
-      "Inicialmente, la máquina cliente envía un paquete DHCPv4 ‘Discover’ a BROADCAST y la máquina servidora responde con un paquete DHCPv4 ‘Offer’ que incluye una dirección IP libre.",
-      "Inicialmente,  la máquina servidora DHCPv4 envía un paquete ‘Discover’ a BROADCAST facilitando direcciones IP libres. No es necesario que el cliente solicite nada.",
-      "Inicialmente, la máquina servidora DHCPv4 envía un paquete ‘Discover’ encapsulado en un trama Ethernet con la dirección MAC destino del cliente, en el que se encapsula la IP asignada.",
+      "FE80::B827:2D7A:EFE7::F669.",
+      "FE80::B827:2D7A:EFE7:F669.",
+      "0000:0000:172:17:34:79.",
+      "FE80:B827:2D7A:EFE7:F669.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
     id: 784,
     title:
-      "Para  interconectar  los niveles superiores de una LAN y una WAN, ambas con arquitecturas de red distintas, por ejemplo en el caso de un LAN domestica conectándose a un ISP, se requiere de:",
+      "Cuando se necesita obtener, automáticamente, una dirección de red IPv6 para una máquina que se acaba de conectar a una red:",
     choices: [
-      "Un Puente (‘Bridge’).",
-      "Un Conmutador (‘Switch’).",
-      "Un Encaminador (‘Router’).",
-      "Una Pasarela (‘Gateway’).",
+      "Se utiliza el protocolo DHCP y se hace uso de 4 paquetes: DISCOVERY, OFFER, REQUEST y ACK.",
+      "Se utiliza la técnica ND (Neighbor Discovery) y se hace uso de 4 paquetes ICMP: SOLICIT, ADVERTISE, REQUEST y REPLY.",
+      "Se utiliza la técnica ND (Neighbor Discovery) y se hace uso de 3 paquetes de tipos ‘Router Solicitation’ y ‘Router Advertisement’.",
+      "Se utiliza el protocolo DHCP y se hace uso de 4 paquetes: 2 Broadcast y 2 Unicast.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
     id: 785,
-    title:
-      "Qué protocolo de nivel de transporte se emplea en una aplicación de sincronización de tiempo por internet?",
-    choices: ["TCP.", "IP.", "ICMP.", "UDP."],
-    solution: "-",
+    title: "Es cierto que el algoritmo de Dijkstra se emplea en una LAN para:",
+    choices: [
+      "Obtener el camino de coste mínimo basándose en la métrica asociada a los enlaces.",
+      "Obtener el camino que emplea menor número de enlaces para alcanzar el destino.",
+      "Configurar las tablas de encaminamiento de un router que sólo tiene activo el protocolo RIP.",
+      "Configurar las tablas de encaminamiento de un router cuando éste no tiene activo algún protocolo del tipo EGP.",
+    ],
+    solution: "a",
     explanation: "",
   },
   {
     id: 786,
-    title:
-      "Cuál de las siguientes NO es una función del nivel de transporte de la arquitectura TCP/IP?",
+    title: "Las tramas de control de una LAN 802.5 se caracterizan porque:",
     choices: [
-      "Fragmentar  los  paquetes  de  datos  en  los  distintos  ‘routers’  por  los  que  tiene  que  pasar  el paquete hasta llegar al destino.",
-      "Multiplexar datos de varias instancias del nivel de aplicación.",
-      "Controlar el flujo de datos de la comunicación.",
-      "Controlar  los  errores  en  el  envío  de  datos  en  comunicaciones  orientadas  a  conexión  cliente‐servidor.",
+      "Viajan como tramas de datos con información de todas las capas de la arquitectura de red.",
+      "Se emplean para incorporar nuevos equipos a la red y para establecer estaciones monitoras.",
+      "Representan el turno de transmisión y dan acceso al medio por turnos.",
+      "Están sujetas al bit de reserva del subcampo control de acceso de la trama ‘Token’.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
     id: 787,
-    title: "Es cierto que la ventana deslizante que utiliza TCP:",
+    title:
+      "Si se quiere interconectar entre sí varias máquinas de distintas velocidades, todas ellas formando una LAN local con topología en estrella, lo más adecuado es usar un:",
     choices: [
-      "Utiliza un  ‘timeout’ para desconectar cliente y  servidor  si el ACK de una  trama  tarda mucho en llegar.",
-      "No permite controlar el flujo de datos de la comunicación.",
-      "Trabaja con un flujo de bytes, no con paquetes o tramas.",
-      "Es incapaz de informar de errores en la comunicación.",
+      "‘Bridge’ porque permite reenviar tramas entre sus puertos y no requiere de protocolos adicionales para detectar y evitar bucles.",
+      "‘Switch’ del tipo ‘Pass Through’ porque es posible indicar colisiones.",
+      "‘Switch’ del tipo ‘Store & Forward’ porque emplea buffers.",
+      "‘Hub’ porque es el más económico y emplea una malla conmutada que favorece las transmisiones.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
     id: 788,
-    title: "LLC es:",
+    title:
+      "Cuál sería el par trenzado más adecuado para realizar la conexión en una LAN‐FastEthernet de distancia máxima 100m, priorizando el menor coste económico sin perjuicio de que se alcancen las especificaciones necesarias?",
     choices: [
-      "Un subnivel de la capa de enlace.",
-      "Un subnivel de la capa de aplicación.",
-      "Un protocolo de la capa de enlace.",
-      "Un protocolo de la capa de aplicación.",
+      "Par trenzado UTP 3.",
+      "Par trenzado UTP 4.",
+      "Par trenzado UTP 5.",
+      "Par trenzado UTP 5e.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
     id: 789,
-    title:
-      "Las redes WiFi utilizan como técnica de control de acceso al medio una técnica:",
+    title: "En LANs la fibra óptica como medio físico ofrece:",
     choices: [
-      "Por reserva.",
-      "Por contienda.",
-      "Por selección.",
-      "Ninguna de las anteriores.",
+      "Mayor inmunidad al ruido y a las interferencias externas que el par trenzado UTP‐6.",
+      "Menor complejidad de instalación y mantenimiento que un cable coaxial.",
+      "Posibilidad de transmitir corriente eléctrica para alimentar dispositivos.",
+      "Transmisión simultánea de señales en ambos sentidos (dúplex) en un único hilo.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
     id: 790,
-    title: "En una red Ethernet 802.3:",
+    title:
+      "En una arquitectura OSI, la función de control de flujo entre los dos extremos de la comunicación, fuente y destino, se realiza como norma general en el nivel:",
     choices: [
-      "Se asegura el envío de las tramas.",
-      "Se permite asegurar un tiempo máximo de envío de una trama.",
-      "Se emplea una topología en anillo.",
-      "Ninguna de las anteriores es cierta.",
+      "Nivel de Enlace.",
+      "Nivel de Transporte.",
+      "Nivel de Sesión.",
+      "Nivel de Presentación.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
     id: 791,
     title:
-      "La cabecera de una trama de una LAN IEEE 802.11, consta de campos para:",
+      "Qué tipo de modulación analógica NO permite codificar más de un bit por elemento de señal?",
     choices: [
-      "Dos direcciones MAC.",
-      "Cuatro direcciones MAC.",
-      "Tres direcciones MAC.",
-      "Tres direcciones IP.",
+      "Modulación ASK.",
+      "Modulación QAM.",
+      "Modulación MPSK.",
+      "Modulación MFSK.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
     id: 792,
-    title: "Una colisión en una red Ethernet 802.3:",
+    title:
+      "La atenuación es un tipo de perturbación que caracteriza los errores que se producen en un medio de transmisión y es FALSO que,",
     choices: [
-      "Es imposible que se produzca.",
-      "Permite asegurar un tiempo máximo de envío de una trama.",
-      "Obligará al equipo que ha detectado la colisión a esperar un tiempo antes de intentar de nuevo el envío.",
-      "Ocurre muy raras veces, siempre dependiendo de la velocidad de transmisión del medio físico.",
+      "Consista en un decremento de la amplitud de los diferentes armónicos que componen la señal que se transmite.",
+      "Se mida en decibelios.",
+      "Limita la reconstrucción de la señal en el receptor.",
+      "Sea un parámetro que se incrementa proporcionalmente con la frecuencia.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
     id: 793,
-    title: "En una red Token Ring 802.4, la estación monitora:",
+    title:
+      "Es FALSO que una codificación digital válida para la señal analógica muestreada desde el instante t=0, como se indica en la figura y cuantificada empleando el menor número de bits posible, sea representada como:",
     choices: [
-      "Genera una trama testigo cada cierto tiempo para que los equipos puedan enviar datos.",
-      "Elimina las tramas perdidas por el anillo cuando no lo hace la propia estación emisora.",
-      "Marca el bit M de la trama testigo, pero no de las tramas de datos.",
-      "Vigila y gestiona la inclusión de nuevas estaciones al anillo.",
+      "PCM ‘0110 0111 0101 0100 0101 1000 0110’.",
+      "PCM diferencial ‘0001 1010 1001 0001 0011 1010’.",
+      "Delta modulación ‘100110’.",
+      "TDM ‘00110 00111 00101 00100 00101 01000 00110’.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
     id: 794,
-    title:
-      "Una  vivienda  se  encuentra  situada  a  2.5km  de  la  central  telefónica de  servicios DSL,  si  se desea contratar  un  servicio  que  garantice  una  velocidad  máxima  de  20Mbps,  la  mejor  opción  precio‐prestaciones de acuerdo a los servicios y características vistas en clase, sería:",
-    choices: ["VDSL2.", "VDSL.", "ADSL2+.", "ADSL."],
-    solution: "-",
+    title: "El protocolo Ethernet es cierto que,",
+    choices: [
+      "Es un protocolo de nivel físico que define la tecnología del medio físico que se emplea.",
+      "Es un protocolo de nivel de enlace con control de flujo y pérdida de datos por errores en el canal.",
+      "Es un protocolo de nivel de enlace con control de detección de errores en los datos.",
+      "Es un protocolo de nivel de enlace que se emplea para direccionar máquinas en redes localizadas en distintos segmentos de red conectadas entre sí por enrutadores.",
+    ],
+    solution: "c",
     explanation: "",
   },
   {
     id: 795,
     title:
-      "Si una conexión ADSL emplea encapsulamiento PPPoE entre PC del cliente y ‘router’ del proveedor de servicios de internet (ISP) para enviar un paquete TCP, entonces la pila de protocolos que emplean los interfaces del modem ADSL, I1: Interfaz LAN‐par trenzado e I2: Interfaz ADSL‐cable telefónico, son:",
+      "Las redes del tipo X.25, Frame Relay y ATM se pueden catalogar como:",
     choices: [
-      "Ethernet+IP+TCP (I1) y ATM+AAL5+LLC+PPP (I2).",
-      "Ethernet+IP+TCP (I1) y Ethernet+IP+TCP (I2).",
-      "Ethernet+PPPoE+PPP+IP+TCP (I1) y Ethernet+PPPoE+PPP+IP+TCP (I2).",
-      "Ethernet+PPPoE+PPP+IP+TCP (I1) y ATM+AAL5+LLC+Ethernet+PPPoE+PPP+IP+TCP (I2).",
+      "WANs de conmutación de circuitos.",
+      "WANs de conmutación de paquetes.",
+      "LANs de circuitos virtuales.",
+      "MANs con medio inalámbrico.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
     id: 796,
-    title: "Para realizar el control de congestión en TCP:",
+    title:
+      "Según la EIA 568, el cable UTP de categoría 6 es el mínimo recomendado para usar en redes con tecnología,",
     choices: [
-      "Se emplean las ventanas del emisor y del receptor.",
-      "Se emplea sólo la ventana del receptor.",
-      "No se puede realizar control de congestión utilizando TCP.",
-      "Se  emplea  una  ventana  de  congestión  en  emisor  que  se  ajusta  en  función  de  los  paquetes perdidos.",
+      "Ethernet.",
+      "Fast Ethernet.",
+      "GigaBit Ethernet.",
+      "Paso rápido de testigo en anillo, FDDI.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
     id: 797,
-    title:
-      "Qué tipo de modulación analógica permite transmitir información a mayor velocidad?",
+    title: "Un proceso FDM requiere del empleo de,",
     choices: [
-      "Modulación ASK",
-      "Modulación FSK",
-      "Modulación PSK",
-      "Modulación QAM",
+      "Filtros paso banda en el emisor.",
+      "Filtros paso banda en el receptor.",
+      "Filtros paso banda en emisor y receptor.",
+      "No requiere uso de filtros paso banda.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
     id: 798,
     title:
-      "El empleo de la tecnología de redes punto a punto para las redes WAN se caracteriza por,",
-    choices: [
-      "Su bajo coste económico de cableado frente a la tecnología de difusión",
-      "La comunicación directa a nivel de enlace entre cualquier par de nodos de la red",
-      "La transmisión de un único paquete para enviar información a todos los nodos de la red",
-      "La tolerancia a fallos que presenta si existen varios caminos a un determinado destino",
-    ],
-    solution: "-",
+      "Si el ancho de banda de un medio con dos canales es de 100Hz y el canal de subida (transmisión) se sitúa en la parte baja del espectro de frecuencias y ocupa el 20% de éste, ¿Cuál es la frecuencia portadora requerida para la señal de bajada (recepción)?",
+    choices: ["10Hz.", "40Hz.", "50Hz.", "60Hz."],
+    solution: "d",
     explanation: "",
   },
   {
     id: 799,
     title:
-      "La técnica de multidifusión empleada en redes de computadores se caracteriza por,",
+      "Es cierto que los protocolos de encaminamiento dinámico como RIP y OSPF,",
     choices: [
-      "Permitir a una estación recibir un paquete de varios remitentes",
-      "Permitir el envío de varios paquetes a una misma estación de la red",
-      "Permitir el envío de un paquete de información a un grupo de estaciones en la red",
-      "Permitir la difusión de un paquete de información en redes WAN",
+      "Se basan ambos en métricas calculadas por vector de distancia.",
+      "Se emplean, usualmente, sólo en redes de área extendida.",
+      "Emplean direcciones multicast distintas.",
+      "Emplean el mismo algoritmo de actualización de rutas para determinar el camino óptimo entre nodos.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
     id: 800,
     title:
-      "Si en una red de conmutación de paquetes basada en circuitos virtuales un nodo deja de funcionar es cierto que,",
+      "Respecto a las redes de área local 802.3 definidas por el IEEE (Ethernet), es FALSO que,",
     choices: [
-      "Sólo los circuitos establecidos a través de ese nodo dejan de funcionar",
-      "Todos los circuitos establecidos en la red dejan de funcionar",
-      "Ningún circuito virtual deja de funcionar, los nodos modifican automáticamente el camino que no funciona",
-      "Los paquetes de un circuito virtual son redirigidos a través de otro circuito virtual",
+      "Emplean la técnica CSMA/CD para el control de acceso al medio.",
+      "Emplea la técnica de ‘frame bursting’ para mejorar la velocidad haciendo uso de cable UTP‐5.",
+      "Utilizan un control de acceso al medio con escucha, con detección de colisión.",
+      "Conforman una red con buen rendimiento para bajo tráfico.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
     id: 801,
     title:
-      "La capa de transporte en la arquitectura TCP/IP se caracteriza por,",
+      "En una industria con mucho ruido magnético se dispone de una LAN formada por 10 equipos conectados a un conmutador. La mitad de los equipos de la red están conectados con cables UTP cat3 y la otra mitad con cables UTP cat5. ¿Qué técnica es la más adecuada para el envío de tramas en el conmutador?",
     choices: [
-      "Emplear un protocolo de control del flujo basado en la técnica de ventana deslizante",
-      "Aumentar el aprovechamiento del medio físico empleando el control del flujo basado en CSMA/CA",
-      "Gestionar una comunicación fiable estableciendo un encaminamiento basado en conmutación de paquetes",
-      "Proporcionar  siempre  a  la  capa  de  aplicación  una  comunicación  no  segura,  debido  al funcionamiento con datagramas de la subred",
+      "Cut through.",
+      "Fragment free.",
+      "Store‐and‐forward.",
+      "Cualquiera de los anteriores es igual de válida sin ofrecer ventajas frente a las otras.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
     id: 802,
     title:
-      "El acceso a un servidor web, un servidor de correo y un servidor ftp que se encuentran en una misma máquina es posible gracias a,",
+      "Cuál de los siguientes dispositivos se requiere para interconectar dos LANs con la misma tecnología Ethernet que se encuentran ubicadas a varias decenas de kilómetros y además comparten recursos físicos y mismo direccionamiento, a través de enlaces WAN punto a punto?",
     choices: [
-      "La multiplexación de conexiones que proporciona la capa de red en TCP/IP",
-      "La multiplexación de conexiones que proporciona la capa de transporte en TCP/IP",
-      "La existencia de varias direcciones IP para una misma máquina de Internet",
-      "La existencia de un mismo puerto TCP para los servicios de web, de correo y ftp",
+      "Conmutador (‘Switch’).",
+      "Encaminador (‘Router’).",
+      "HUB.",
+      "Puente (‘Bridge’).",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
     id: 803,
     title:
-      "La atenuación que sufre una señal al transmitirse por un medio físico NO depende de,",
+      "La comunicación horizontal entre dos dispositivos que usan la misma arquitectura de red se caracteriza porque,",
     choices: [
-      "La distancia en la línea de comunicación",
-      "El ancho de banda del medio físico",
-      "La relación señal‐ruido del medio físico",
-      "El número de niveles empleado en la codificación",
+      "Se establece entre las capas que son adyacentes en la arquitectura.",
+      "Se establece entre la capa n y la capa par n‐1 de la arquitectura.",
+      "Se establece entre entidades pares o capas del mismo nivel de la arquitectura.",
+      "Se establece entre las capas n+1 y n‐1 de la arquitectura.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
     id: 804,
-    title:
-      "Qué  velocidad  de  transmisión  se  requiere  para  enviar  a  través  de  un  medio  físico  2  señales analógicas de 100 KHz de ancho de banda empleando una modulación PCM de 6 bits?",
-    choices: ["25600 Kbps.", "12800 Kbps.", "2400 Kbps.", "1200 Kbps."],
-    solution: "-",
+    title: "Sobre el funcionamiento del protocolo TCP es cierto que,",
+    choices: [
+      "Dispone de un mecanismo para controlar la congestión basado en el identificador ISN.",
+      "No es posible interceptar conexiones TCP averiguando los números de secuencia de los paquetes.",
+      "El establecimiento de conexión siempre es bidireccional.",
+      "La liberación de conexión siempre es bidireccional.",
+    ],
+    solution: "c",
     explanation: "",
   },
   {
     id: 805,
     title:
-      "La codificación binaria bipolar RZ y la Manchester diferencial  tienen la característica común de,",
+      "En un intercambio de datos con TCP, el emisor reenvía un segmento de datos si,",
     choices: [
-      "Emplear siempre los mismos niveles de voltaje en la codificación de los elementos de señal",
-      "Interpretar la información por el valor de amplitud de la señal",
-      "Codificar los datos binarios como cambios de tipo de transición de señal",
-      "Incorporar información de sincronización en la propia señal",
+      "Expira el tiempo de espera del ACK del segmento.",
+      "El retardo del ACK del segmento anterior es muy elevado.",
+      "El receptor envía un ACK con el campo tamaño de ventana a valor 0.",
+      "El tamaño de ventana del emisor es 0.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
     id: 806,
-    title: "Las técnicas de contienda se caracterizan por,",
+    title: "Sobre el funcionamiento del protocolo UDP es cierto que,",
     choices: [
-      "Establecer turnos para transmitir información en el medio físico",
-      "La existencia de colisiones en la solicitud de turnos en el proceso de transmisión",
-      "Impedir que se produzcan colisiones en el medio físico",
-      "Establecer un mecanismo de transmisión cuando se ha producido una colisión",
+      "Emplea un control de flujo de parada y espera.",
+      "El receptor detecta bloques de datos recibidos con errores.",
+      "El emisor reenvía bloques de datos que no han llegado al receptor.",
+      "Establece una conexión unidireccional.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
     id: 807,
-    title:
-      "La pérdida de un paquete de datos en un protocolo de parada y espera  sin numeración de ACK’s provoca,",
+    title: "Sobre un acceso ADSL para conectividad a Internet es cierto que,",
     choices: [
-      "Un error de duplicación",
-      "Un error de sincronización",
-      "El reenvío de la trama perdida",
-      "El reenvío indefinido del mismo paquete al receptor",
+      "El canal ascendente y descendente pueden ser simétricos con la tecnología ADSL2+.",
+      "Un concentrador DSLAM gestiona un circuito virtual entre el abonado y la centralita.",
+      "Un concentrador DSLAM realizan funciones de modulación/demodulación.",
+      "ADSL proporciona un enlace físico de datos entre el abonado y el ISP.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
     id: 808,
-    title:
-      "La codificación PCM de  la señal analógica muestreada desde el  instante  t=0, como se  indica en  la figura y cuantificada empleando el menor número de bits posible, es:",
+    title: "Sobre el protocolo IPv6 es cierto que,",
     choices: [
-      "‘0110100001000100011010010110’",
-      "‘001011000000001000111011’",
-      "‘0110001011000000001000111011’",
-      "Ninguna de las anteriores es cierta",
+      "Es totalmente compatible con el protocolo IPv4.",
+      "Emplea las mismas clases de direcciones IP que la versión 4.",
+      "Permite la fragmentación de paquetes IP en el origen.",
+      "No dispone del mecanismo de multidifusión.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
     id: 809,
-    title: "ADSL es un acceso a Internet:",
+    title:
+      "La conectividad entre un equipo con IPv4 y otro con IPv6 puede realizarse,",
     choices: [
-      "Que utiliza el cable par trenzado UTP‐3 o superior para transmitir voz y datos",
-      "Que utiliza la técnica FDM para la multiplexación de señales",
-      "Que envía la señal de voz y datos mediante señales digitales",
-      "No permite la corrección de errores en su versión ADSL2+",
+      "Directamente, pues su esquema de direccionamiento es compatible.",
+      "Convirtiendo las direcciones IPv4 a IPv6 y viceversa.",
+      "Estableciendo túneles intermedios.",
+      "No es posible, los dos extremos de la comunicación deben soportar la misma versión de IP.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
     id: 810,
-    title:
-      "Cuál de las siguientes afirmaciones relativas a la tecnología ADSL sobre ATM con AAL5 es FALSA?:",
+    title: "Sobre las redes de anillo FDDI es cierto que,",
     choices: [
-      "En la capa de enlace de la LAN, entre modem‐router y máquinas de usuario, no se emplea control del enlace lógico LLC",
-      "Entre el módem ADSL y el proveedor (ISP) se encapsulan paquetes PPP sobre ATM con AAL5, según RFC 2684",
-      "La  trama de datos que  llega al  ISP  tiene varios niveles de encapsulamiento de nivel de enlace entre ellos  Ethernet",
-      "El DSLAM  emplea  interfaces  con niveles  físicos distintos para  conectar módems  con proveedor (ISP)",
+      "Emplean un doble anillo para duplicar la velocidad de transmisión respecto Token Ring.",
+      "Emplean la fibra óptica para conseguir una velocidad de transmisión de 100 Mbps.",
+      "No permiten tolerancia ante fallos en una fibra.",
+      "El formato del paquete FDDI es compatible con el de Token Ring.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
     id: 811,
-    title:
-      "Durante una conexión TCP (ver figura) el cliente envía un segmento (1) con flag ACK áctivo, número de  secuencia 1100 y 250 bytes de datos. Después el  servidor envía un  segmento  (2)  con  flag ACK áctivo y 350 bytes de datos. Finalmente, el cliente envía otro segmento (3) con número de ACK 2000 y  200  bytes  de  datos.  Si  no  hay  errores  en  la  transmisión,  ¿Qué  número  de  secuencia  tiene  el segmento 2?",
-    choices: ["1700", "1650", "1350", "1100"],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 812,
-    title: "Respecto a la técnica de ‘Slow‐Start’ de TCP/IP es FALSO que:",
-    choices: [
-      "Se  emplea  para  controlar  el  flujo  de  información  cuando  la  ventana  del  receptor  es  muy pequeña comparada con la del emisor",
-      "Consiste en enviar paquetes de datos cuyo valor de MSS se va incrementando poco a poco hasta que la ventana de congestión supera a la de flujo",
-      "Requiere un temporizador de retransmisión en el caso de que se produzcan errores de perdida de paquetes",
-      "Es dependiente del tamaño de ventana del emisor",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 813,
-    title:
-      "Cuál de las siguientes direcciones del protocolo IPv6 está escrita correctamente?:",
-    choices: [
-      "FE80::B827:2D7A:EFE7::F669",
-      "FE80::B827:2D7A:EFE7:F669",
-      "0000:0000:172:17:34:79",
-      "FE80:B827:2D7A:EFE7:F669",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 814,
-    title:
-      "Cuando se necesita obtener, automáticamente, una dirección de red IPv6 para una máquina que se acaba de conectar a una red:",
-    choices: [
-      "Se utiliza el protocolo DHCP y se hace uso de 4 paquetes: DISCOVERY, OFFER, REQUEST y ACK",
-      "Se  utiliza  la  técnica  ND  (Neighbor  Discovery)  y  se  hace  uso  de  4  paquetes  ICMP:  SOLICIT, ADVERTISE, REQUEST y REPLY",
-      "Se  utiliza  la  técnica  ND  (Neighbor  Discovery)  y  se  hace  uso  de  3  paquetes  de  tipos  ‘Router Solicitation’ y ‘Router Advertisement’",
-      "Se utiliza el protocolo DHCP y se hace uso de 4 paquetes: 2 Broadcast y 2 Unicast",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 815,
-    title: "Es cierto que el algoritmo de Dijkstra se emplea en una LAN para:",
-    choices: [
-      "Obtener el camino de coste mínimo basándose en la métrica asociada a los enlaces",
-      "Obtener el camino que emplea menor número de enlaces para alcanzar el destino",
-      "Configurar las tablas de encaminamiento de un router que sólo tiene activo el protocolo RIP",
-      "Configurar las tablas de encaminamiento de un router cuando éste no tiene activo algún protocolo del tipo EGP",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 816,
-    title: "Las tramas de control de una LAN 802.5 se caracterizan porque:",
-    choices: [
-      "Viajan como tramas de datos con información de todas las capas de la arquitectura de red",
-      "Se emplean para incorporar nuevos equipos a la red y para establecer estaciones monitoras",
-      "Representan el turno de transmisión y dan acceso al medio por turnos",
-      "Están sujetas al bit de reserva del subcampo control de acceso de la trama ‘Token’",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 817,
-    title:
-      "Si se quiere  interconectar entre sí varias máquinas de distintas velocidades,  todas ellas  formando una LAN local con topología en estrella, lo más adecuado es usar un:",
-    choices: [
-      "‘Bridge’ porque permite reenviar tramas entre sus puertos y no requiere de protocolos adicionales para detectar y evitar bucles",
-      "‘Switch’ del tipo ‘Pass Through’ porque es posible indicar colisiones",
-      "‘Switch’ del tipo ‘Store & Forward’ porque emplea buffers",
-      "‘Hub’ porque es el más económico y emplea una malla conmutada que favorece las transmisiones",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 818,
-    title:
-      "Cuál  sería el   par  trenzado más adecuado para  realizar  la  conexión en una  LAN‐FastEthernet de distancia máxima 100m, priorizando el menor coste económico sin perjuicio de que se alcancen las especificaciones necesarias?",
-    choices: [
-      "Par trenzado UTP 3",
-      "Par trenzado UTP 4",
-      "Par trenzado UTP 5",
-      "Par trenzado UTP 5e",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 819,
-    title: "En LANs la fibra óptica como medio físico ofrece:",
-    choices: [
-      "Mayor inmunidad al ruido y a las interferencias externas que el par trenzado UTP‐6",
-      "Menor complejidad de instalación y mantenimiento que un cable coaxial",
-      "Posibilidad de transmitir corriente eléctrica para alimentar dispositivos",
-      "Transmisión simultánea de señales en ambos sentidos (dúplex) en un único hilo",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 820,
-    title:
-      "En una arquitectura OSI,  la función de control de flujo entre  los dos extremos de  la comunicación, fuente y destino, se realiza como norma general en el nivel:",
-    choices: [
-      "Nivel de Enlace",
-      "Nivel de Transporte",
-      "Nivel de Sesión",
-      "Nivel de Presentación",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 821,
-    title:
-      "Qué tipo de modulación analógica NO permite codificar más de un bit por elemento de señal?",
-    choices: [
-      "Modulación ASK",
-      "Modulación QAM",
-      "Modulación MPSK",
-      "Modulación MFSK",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 822,
-    title:
-      "La atenuación es un tipo de perturbación que caracteriza los errores que se producen en un medio de transmisión y es FALSO que,",
-    choices: [
-      "Consista en un decremento de la amplitud de los diferentes armónicos que componen la señal que se transmite",
-      "Se mida en decibelios",
-      "Limita la reconstrucción de la señal en el receptor",
-      "Sea un parámetro que se incrementa proporcionalmente con la frecuencia",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 823,
-    title:
-      "Es FALSO que una  codificación digital válida para  la  señal analógica muestreada desde el  instante t=0,  como  se  indica  en  la  figura  y  cuantificada  empleando  el menor  número  de  bits  posible,  sea representada como:",
-    choices: [
-      "PCM ‘0110 0111 0101 0100 0101 1000 0110’",
-      "PCM diferencial ‘0001 1010 1001 0001 0011 1010’",
-      "Delta modulación ‘100110’",
-      "TDM ‘00110 00111 00101 00100 00101 01000 00110’",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 824,
-    title: "El protocolo Ethernet es cierto que,",
-    choices: [
-      "Es un protocolo de nivel físico que define la tecnología del medio físico que se emplea",
-      "Es un protocolo de nivel de enlace con control de flujo y pérdida de datos por errores en el canal",
-      "Es un protocolo de nivel de enlace con control de detección de errores en los datos",
-      "Es un protocolo de nivel de enlace que se emplea para direccionar máquinas en redes localizadas en distintos segmentos de red conectadas entre sí por enrutadores",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 825,
-    title:
-      "Determina  cuál de  las  siguientes  afirmaciones  respecto  a  la  siguiente  codificación banda base es FALSA:",
-    choices: [
-      "Puede corresponder a una codificación Manchester para la secuencia binaria ‘0100110’",
-      "Puede  corresponder a una  codificación NRZ bipolar para  la  secuencia binaria  ‘10011010010110’ siempre y cuando la duración del bit sea la mitad que la empleada en Manchester",
-      "Siempre  corresponde  a  una  codificación  Manchester  diferencial  para  la  secuencia  binaria ‘0110101’",
-      "Nunca corresponderá a una codificación RZ bipolar",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 826,
-    title:
-      "Las redes del tipo X.25, Frame Relay y ATM se pueden catalogar como:",
-    choices: [
-      "WANs de conmutación de circuitos",
-      "WANs de conmutación de paquetes",
-      "LANs de circuitos virtuales",
-      "MANs con medio inalámbrico",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 827,
-    title:
-      "Según  la EIA 568, el cable UTP de categoría 6 es el mínimo  recomendado para usar en  redes con tecnología,",
-    choices: [
-      "Ethernet",
-      "Fast Ethernet",
-      "GigaBit Ethernet",
-      "Paso rápido de testigo en anillo, FDDI",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 828,
-    title:
-      "Se quiere  implementar un sistema de comunicaciones que  tenga un ancho de banda de 1500Hz y que consiga una relación S/NdB de 40dB. ¿Cuál será la capacidad máxima del canal de comunicación?",
-    choices: ["≈ 39.8Kbps.", "≈ 19.9Kbps.", "≈ 9.9Kbps.", "≈ 8Kbps."],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 829,
-    title: "Un proceso FDM requiere del empleo de,",
-    choices: [
-      "Filtros paso banda en el emisor",
-      "Filtros paso banda en el receptor",
-      "Filtros paso banda en emisor y receptor",
-      "No requiere uso de filtros paso banda",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 830,
-    title:
-      "Si el ancho de banda de un medio con dos canales es de 100Hz y el canal de subida (transmisión) se sitúa  en  la parte baja del  espectro de  frecuencias  y ocupa  el 20% de  éste,  ¿Cuál es  la  frecuencia portadora requerida para la señal de bajada (recepción)?",
-    choices: ["10Hz.", "40Hz.", "50Hz.", "60Hz."],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 831,
-    title:
-      "Es cierto que los protocolos de encaminamiento dinámico como RIP y OSPF,",
-    choices: [
-      "Se basan ambos en métricas calculadas por vector de distancia",
-      "Se emplean, usualmente, sólo en redes de área extendida",
-      "Emplean direcciones multicast distintas",
-      "Emplean el mismo algoritmo de actualización de  rutas para determinar el  camino óptimo entre nodos",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 832,
-    title:
-      "Respecto a las redes de área local 802.3 definidas por el IEEE (Ethernet), es FALSO que,",
-    choices: [
-      "Emplean la técnica CSMA/CD para el control de acceso al medio",
-      "Emplea la técnica de ‘frame bursting’ para mejorar la velocidad haciendo uso de cable UTP‐5",
-      "Utilizan un control de acceso al medio con escucha, con detección de colisión",
-      "Conforman una red con buen rendimiento para bajo tráfico",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 833,
-    title:
-      "En  una  industria  con mucho  ruido magnético  se  dispone  de  una  LAN  formada  por  10  equipos conectados a un conmutador. La mitad de  los equipos de  la  red están conectados con cables UTP cat3 y la otra mitad con cables UTP cat5. ¿Qué técnica es la más adecuada para el envío de tramas en el conmutador?",
-    choices: [
-      "Cut through",
-      "Fragment free",
-      "Store‐and‐forward",
-      "Cualquiera de los anteriores es igual de válida sin ofrecer ventajas frente a las otras",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 834,
-    title: "A diferencia de Ipv4, el protocolo Ipv6 se caracteriza porque,",
-    choices: [
-      "Requiere del protocolo de transporte TCP para garantizar un flujo constante de datos",
-      "No permite emplear datagramas de más de 64Kbytes",
-      "La fragmentación solo se realiza en el equipo origen, y no en los routers intermedios de la red",
-      "No requiere de nivel de enlace para transmitir datos entre equipos de una misma red",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 835,
-    title:
-      "Si se comparan varias tecnologías xDSL asimétricas, respecto a la velocidad máxima que soportan y la distancia a la que soportan dicha velocidad, es cierto que",
-    choices: [
-      "Para distancias inferiores a 1Km la tecnología que proporciona mejores prestaciones es ADSL2+",
-      "La tecnología VDSL2 define medios físicos con ancho de banda muy superior al de ADSL2+",
-      "ADSL2 es siempre la tecnología menos recomendable por sus bajas prestaciones",
-      "En VDSL mejora  la velocidad de bajada si se compara con ADSL2, pero no mejora  la velocidad de subida",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 836,
-    title:
-      "Cuál de los siguientes dispositivos se requiere para interconectar dos LANs con la misma tecnología Ethernet que se encuentran ubicadas a varias decenas de kilómetros y además comparten recursos físicos y mismo direccionamiento, a través de enlaces WAN punto a punto?",
-    choices: [
-      "Conmutador (‘Switch’)",
-      "Encaminador (‘Router’)",
-      "HUB",
-      "Puente (‘Bridge’)",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 837,
-    title:
-      "El empleo de datagramas en una red de conmutación de paquetes se caracteriza por,",
-    choices: [
-      "En  las  redes  de  conmutación  de  paquetes  no  se  emplean  datagramas,  se  establecen  circuitos físicos",
-      "Especificar en cada paquete los nodos intermedios que debe atravesar para alcanzar su destino",
-      "Determinar un camino a través de los nodos de la red para que los paquetes alcancen su destino",
-      "Especificar en cada paquete el origen y el destino para que los nodos intermedios determinen un camino en la red para cada paquete transmitido",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 838,
-    title:
-      "La  comunicación  horizontal  entre  dos  dispositivos  que  usan  la  misma  arquitectura  de  red  se caracteriza porque,",
-    choices: [
-      "Se establece entre las capas que son adyacentes en la arquitectura",
-      "Se establece entre la capa n y la capa par n‐1 de la arquitectura",
-      "Se establece entre entidades pares o capas del mismo nivel de la arquitectura",
-      "Se establece entre las capas n+1 y n‐1 de la arquitectura",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 839,
-    title: "Sobre el funcionamiento del protocolo TCP es cierto que,",
-    choices: [
-      "Dispone de un mecanismo para controlar la congestión basado en el identificador ISN",
-      "No es posible interceptar conexiones TCP averiguando los números de secuencia de los paquetes",
-      "El establecimiento de conexión siempre es bidireccional",
-      "La liberación de conexión siempre es bidireccional",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 840,
-    title:
-      "En un intercambio de datos con TCP, el emisor reenvía un segmento de datos si,",
-    choices: [
-      "Expira el tiempo de espera del ACK del segmento",
-      "El retardo del ACK del segmento anterior es muy elevado",
-      "El receptor envía un ACK con el campo tamaño de ventana a valor 0",
-      "El tamaño de ventana del emisor es 0",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 841,
-    title: "Sobre el funcionamiento del protocolo UDP es cierto que,",
-    choices: [
-      "Emplea un control de flujo de parada y espera",
-      "El receptor detecta bloques de datos recibidos con errores",
-      "El emisor reenvía bloques de datos que no han llegado al receptor",
-      "Establece una conexión unidireccional",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 842,
-    title: "Sobre un acceso ADSL para conectividad a Internet es cierto que,",
-    choices: [
-      "El canal ascendente y descendente pueden ser simétricos con la tecnología ADSL2+",
-      "Un concentrador DSLAM gestiona un circuito virtual entre el abonado y la centralita",
-      "Un concentrador DSLAM realizan funciones de modulación/demodulación",
-      "ADSL proporciona un enlace físico de datos entre el abonado y el ISP",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 843,
-    title: "Sobre el protocolo IPv6 es cierto que,",
-    choices: [
-      "Es totalmente compatible con el protocolo IPv4",
-      "Emplea las mismas clases de direcciones IP que la versión 4",
-      "Permite la fragmentación de paquetes IP en el origen",
-      "No dispone del mecanismo de multidifusión",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 844,
-    title:
-      "La conectividad entre un equipo con IPv4 y otro con IPv6 puede realizarse,",
-    choices: [
-      "Directamente, pues su esquema de direccionamiento es compatible",
-      "Convirtiendo las direcciones IPv4 a IPv6 y viceversa",
-      "Estableciendo túneles intermedios",
-      "No es posible, los dos extremos de la comunicación deben soportar la misma versión de IP",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 845,
-    title: "Sobre las redes de anillo FDDI es cierto que,",
-    choices: [
-      "Emplean un doble anillo para duplicar la velocidad de transmisión respecto Token Ring",
-      "Emplean la fibra óptica para conseguir una velocidad de transmisión de 100 Mbps",
-      "No permiten tolerancia ante fallos en una fibra",
-      "El formato del paquete FDDI es compatible con el de Token Ring",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 846,
-    title: "El empleo de la difusión en una red LAN permite,",
-    choices: [
-      "El envío de información a todas las estaciones de la red transmitiendo un paquete.",
-      "El envío de información a un grupo de estaciones de la red transmitiendo un paquete.",
-      "El envío de información a una sola estación de la red transmitiendo más de un paquete.",
-      "El envío de información a un grupo de estaciones de la red transmitiendo más de un paquete.",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 847,
-    title:
-      "La interconexión de dos redes Ethernet conectadas a través de una WAN con arquitectura TCP/IP, ha de realizarse con,",
-    choices: ["Un repetidor.", "Un puente.", "Un router.", "Una pasarela."],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 848,
     title:
       "En una arquitectura de red, la PDU de la capa n (que se envía a la entidad par de la capa n) incorpora en su campo de datos,",
     choices: [
@@ -10282,11 +9847,11 @@ const questionsData: QuestionData[] = [
       "La PCI de la capa n-1.",
       "La PCI de la capa n+1.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 849,
+    id: 812,
     title: "La fragmentación en un protocolo de la capa n se produce cuando,",
     choices: [
       "La SDU de la capa n+1 no cabe dentro de la PDU de la capa n.",
@@ -10294,19 +9859,19 @@ const questionsData: QuestionData[] = [
       "La SDU de la capa n+1 no cabe dentro de la PDU de la capa n-1.",
       "La SDU de la capa n no cabe dentro de la PDU de la capa n+1.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 850,
+    id: 813,
     title:
       "En una red con arquitectura TCP/IP, ¿ qué nivel de la arquitectura permite realizar un control del flujo extremo a extremo ?",
     choices: ["Enlace.", "Red.", "Transporte.", "Aplicación."],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 851,
+    id: 814,
     title:
       "En un protocolo de ventana deslizante de envío continuo con repetición selectiva es cierto que,",
     choices: [
@@ -10315,11 +9880,11 @@ const questionsData: QuestionData[] = [
       "La ventana del emisor tiene un tamaño que no varía durante el funcionamiento del protocolo.",
       "La ventana del receptor sólo permite recibir una única trama de datos.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 852,
+    id: 815,
     title:
       "Sobre las normativas Ethernet 802.3 y Ethernet DIX (Ethernet II), es cierto que",
     choices: [
@@ -10328,11 +9893,11 @@ const questionsData: QuestionData[] = [
       "Ethernet 802.3 detecta colisiones y Ethernet DIX no.",
       "La velocidad máxima de transmisión en Ethernet DIX es mayor que en Ethernet 802.3.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 853,
+    id: 816,
     title:
       "El número máximo de conmutadores Ethernet que podemos conectar en cascada está limitador por:",
     choices: [
@@ -10341,24 +9906,24 @@ const questionsData: QuestionData[] = [
       "En modo half-duplex la limitación está en el número de colisiones que se produzcan.",
       "En modo half-duplex la limitación son 254 segmentos conectados en cascada.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 854,
+    id: 817,
     title:
-      "Indica en qué normativa Ethernet no se incorpora el campo Preámbulo en la cabecera Ethernet.",
+      "Indica en qué normativa Ethernet no se incorpora el campo Preámbulo en la cabecera Ethernet",
     choices: [
       "Ethernet 100baseFX.",
       "Ethernet 100baseTX.",
       "Ethernet 10baseT.",
-      "Todas las normativas Ethernet  incorporan el campo Préambulo en la cabecera Ethernet.",
+      "Todas las normativas Ethernet incorporan el campo Préambulo en la cabecera Ethernet.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 855,
+    id: 818,
     title:
       "Sobre el funcionamiento de un conmutador Ethernet VLAN es cierto que,",
     choices: [
@@ -10367,11 +9932,11 @@ const questionsData: QuestionData[] = [
       "Los paquetes de difusión de una VLAN son reenviados sólo a los puertos de acceso del conmutador.",
       "Los paquetes de difusión de una VLAN nunca son reenviados a un puerto troncal.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 856,
+    id: 819,
     title:
       "Indica en qué normativa Ethernet NO se emplean bits de sincronización adicionales a los datos en la trama Ethernet,",
     choices: [
@@ -10380,34 +9945,34 @@ const questionsData: QuestionData[] = [
       "Ethernet 100BaseFX.",
       "Ethernet 1000BaseLX.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 857,
+    id: 820,
     title:
       "Qué mecanismo de seguridad Wi-Fi no puede realizar una autenticación basada en una contraseña compartida PSK ?",
     choices: ["WEP.", "WPA-Personal.", "WPA2-Personal.", "WPA2-Enterprise."],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 858,
+    id: 821,
     title: "Qué algoritmo de cifrado emplea WPA2 ?",
     choices: ["RSA.", "TKIP.", "IPSEC.", "AES."],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 859,
+    id: 822,
     title:
       "Qué mecanismo de autenticación WiFi permite proporcionar una clave de cifrado MK empleando un servidor RADIUS ?",
     choices: ["TKIP.", "EAP/TLS.", "PEAP.", "CHAP."],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 860,
+    id: 823,
     title: "Sobre el protocolo IPv6 es cierto que,",
     choices: [
       "Tiene un tamaño de cabecera fijo de 40 bytes.",
@@ -10415,24 +9980,24 @@ const questionsData: QuestionData[] = [
       "No existen direcciones de difusión IPv6.",
       "Una dirección IPv6 de un dispositivo es la misma independientemente del operador de red al que se encuentre conectado.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 861,
+    id: 824,
     title:
-      "La  comunicación  en  una  red  WAN  que  emplea  la  técnica  de  circuitos  virtuales  secaracteriza por,",
+      "La comunicación en una red WAN que emplea la técnica de circuitos virtuales se caracteriza por,",
     choices: [
-      "Proporcionar  una  transmisión  de  datos  con  menos  retardos  que  con  la  técnica  dedatagramas.",
+      "Proporcionar una transmisión de datos con menos retardos que con la técnica de datagramas.",
       "Presentar mayor tolerancia a fallos en los nodos de la red que con la técnica de datagramas.",
-      "Modificar la ruta que sigue un paquete en la red sin necesidad de establecer un nuevocamino entre origen y destino.",
+      "Modificar la ruta que sigue un paquete en la red sin necesidad de establecer un nuevo camino entre origen y destino.",
       "Establecer caminos de circulación en la red para cada paquete de datos transmitido.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 862,
+    id: 825,
     title:
       "La realización de un servicio ofrecido por la capa n de una arquitectura de red precisa de,",
     choices: [
@@ -10441,24 +10006,11 @@ const questionsData: QuestionData[] = [
       "El intercambio de PDU’s entre las entidades pares del nivel n+1.",
       "El intercambio de IDU’s entre las entidades pares del nivel n.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 863,
-    title:
-      "La interconexión de dos redes LAN Ethernet a través de una red con arquitectura TCP/IPse consigue,",
-    choices: [
-      "Empleando dos routers, uno en cada LAN.",
-      "Empleando dos puentes, uno en cada LAN.",
-      "Empleando dos pasarelas, una en cada LAN.",
-      "Empleando dos repetidores, uno en cada LAN.",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 864,
+    id: 826,
     title: "La capa de red de la arquitectura TCP/IP se caracteriza por,",
     choices: [
       "Realizar un encaminamiento de los paquetes de información mediante circuitos virtuales.",
@@ -10466,75 +10018,37 @@ const questionsData: QuestionData[] = [
       "Definir un direccionamiento para los equipos en la red.",
       "Establecer flujos fiables de información.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 865,
+    id: 827,
     title:
-      "En  el  modelo  de  arquitectura  de  red  TCP/IP,  los  paquetes  de  datos  que  generan  lasaplicaciones y que se intercambian a nivel físico,",
+      "En el modelo de arquitectura de red TCP/IP, los paquetes de datos que generan las aplicaciones y que se intercambian a nivel físico,",
     choices: [
       "Incorporan siempre las cabeceras de todos los protocolos de la arquitectura de red.",
       "Incorporan siempre la cabecera del protocolo IP.",
       "Incorporan siempre la cabecera del protocolo IP y TCP.",
       "Incorporan siempre la cabecera del protocolo IP y UDP.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 866,
+    id: 828,
     title:
-      "La transmisión de señales de información en banda base a través de un medio físico deancho de banda B se caracteriza por:",
+      "La transmisión de señales de información en banda base a través de un medio físico de ancho de banda B se caracteriza por:",
     choices: [
       "Permitir la transmisión de cualquier señal de datos a través del medio físico.",
-      "Transmitir las componentes frecuenciales de la señal de información que están dentro delancho de banda del medio.",
-      "Reducir a B el número de componentes frecuenciales de la señal que son transmitidas através del medio.",
+      "Transmitir las componentes frecuenciales de la señal de información que están dentro del ancho de banda del medio.",
+      "Reducir a B el número de componentes frecuenciales de la señal que son transmitidas a través del medio.",
       "No es posible incorporar información de sincronización en la señal transmitida.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 867,
-    title: "La modulación analógica por cambio en amplitud permite,",
-    choices: [
-      "Transmitir  cualquier  señal  de información a través de un medio físico con 4000 Hz deancho de banda.",
-      "Reducir la relación señal-ruido en el medio físico de transmisión.",
-      "Adecuar el ancho de banda de la señal moduladora al ancho de banda del medio físico.",
-      "Aumentar el ancho de banda de la señal moduladora.",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 868,
-    title:
-      "La  modulación  analógica  que  permite  la  transmisión  de  señales  con mayor calidad  ymejor aprovechamiento del medio físico es,",
-    choices: [
-      "La modulación por cambio de amplitud y frecuencia.",
-      "La modulación por cambio de amplitud.",
-      "La modulación por cambio de frecuencia.",
-      "La modulación por cambio de fase y amplitud.",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 869,
-    title:
-      "La  velocidad  de  transferencia  necesaria  en  un  medio  físico  para  transmitir  señalesmoduladas digitalmente, como PCM, depende de,",
-    choices: [
-      "El ancho de banda de la señal moduladora y su relación señal-ruido.",
-      "La frecuencia de muestreo y el número de niveles empleado en la cuantización.",
-      "La frecuencia de muestreo y el número de niveles de la señal moduladora.",
-      "El ancho de banda del medio físico y la frecuencia de muestreo.",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 870,
+    id: 829,
     title: "El efecto de la dispersión intermodal en fibras ópticas es mayor,",
     choices: [
       "En las fibras monomodo.",
@@ -10542,24 +10056,24 @@ const questionsData: QuestionData[] = [
       "Al aumentar la distancia de la comunicación.",
       "Al aumentar la potencia del haz de luz del emisor.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 871,
+    id: 830,
     title:
-      "Determina el medio físico más adecuado a emplear en un entorno industrial donde existeuna gran cantidad de máquinas eléctricas en funcionamiento:",
+      "Determina el medio físico más adecuado a emplear en un entorno industrial donde existe una gran cantidad de máquinas eléctricas en funcionamiento:",
     choices: [
       "Cable UTP categoría 3.",
       "Cable STP.",
       "Cable UTP categoría 5.",
       "Cable UTP categoría 6.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 872,
+    id: 831,
     title:
       "Sobre la comunicación inalámbrica empleando ondas electromagnéticas, es cierto que:",
     choices: [
@@ -10568,176 +10082,176 @@ const questionsData: QuestionData[] = [
       "Las comunicaciones satelitales emplean frecuencias de 100 MHz.",
       "Las ondas electromagnéticas tienen todas el mismo alcance en distancia.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 873,
+    id: 832,
     title:
-      "Indica dónde se introduce el  campo Secuencia de Verificación de Trama (SVT) en unprotocolo de nivel de enlace:",
+      "Indica dónde se introduce el campo Secuencia de Verificación de Trama (SVT) en un protocolo de nivel de enlace:",
     choices: [
       "Al principio de la cabecera del protocolo de nivel de enlace.",
       "Al final de la cabecera del protocolo de nivel de enlace.",
       "Al final del paquete de nivel de enlace.",
       "Al principio del paquete de nivel de enlace.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 874,
+    id: 833,
     title:
-      "Si un protocolo de nivel de enlace emplea la técnica CRC como Secuencia de Verificaciónde Trama, es cierto que:",
+      "Si un protocolo de nivel de enlace emplea la técnica CRC como Secuencia de Verificación de Trama, es cierto que:",
     choices: [
       "Podrá corregir los errores en bits del paquete de nivel de enlace.",
       "Podrá detectar la existencia de bits erróneos en el paquete de nivel de enlace.",
       "Podrá corregir los errores en bits de los datos de nivel de enlace.",
-      "Solicitará al nivel de red la corrección de los bits con errores en el paquete de nivel deenlace.",
+      "Solicitará al nivel de red la corrección de los bits con errores en el paquete de nivel de enlace.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 875,
+    id: 834,
     title:
-      "En un protocolo de control del flujo de parada y espera con numeración de DATOS yACKs, y  donde no se producen errores en la transmisión en el medio físico, es FALSOque:",
+      "En un protocolo de control del flujo de parada y espera con numeración de DATOS y ACKs, y donde no se producen errores en la transmisión en el medio físico, es FALSO que:",
     choices: [
       "No se producen errores de duplicación.",
       "No se producen errores de sincronización.",
       "No se producen reenvíos de paquetes de datos.",
       "No se producen envíos continuos de paquetes de datos.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 876,
+    id: 835,
     title:
-      "Qué capa de la arquitectura de red no está definida en el modelo de referencia IEEE802.2 ?",
+      "Qué capa de la arquitectura de red no está definida en el modelo de referencia IEEE 802.2 ?",
     choices: ["Física.", "MAC.", "LLC.", "Red."],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 877,
+    id: 836,
     title:
-      "Indica en cuál  de las  siguientes   normativas Ethernet  NO es  necesario un tamaño depaquete mínimo:",
+      "Indica en cuál de las siguientes normativas Ethernet NO es necesario un tamaño de paquete mínimo:",
     choices: [
       "100BaseT.",
       "1000BaseT.",
       "10G-BaseT.",
       "Todas las normativas BaseT de Ethernet precisan de tamaño de paquete mínimo.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 878,
+    id: 837,
     title:
-      "La  interconexión  de  segmentos  Ethernet  empleando  conmutadores  en  vez  deconcentradores permite:",
+      "La interconexión de segmentos Ethernet empleando conmutadores en vez de concentradores permite:",
     choices: [
       "Reducir la congestión en la red al aumentar el número de PCs.",
       "Reducir las colisiones en la red al aumentar el número de PCs.",
       "Eliminar las colisiones en la red independientemente del número de PCs.",
       "Eliminar la congestión en la red independientemente del número de PCs.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 879,
+    id: 838,
     title:
-      "Sobre  el  funcionamiento  del  reenvío  de  paquetes  Ethernet  en  un  puente  que  empleaSpanning-Tree, es cierto que :",
+      "Sobre el funcionamiento del reenvío de paquetes Ethernet en un puente que emplea Spanning-Tree, es cierto que :",
     choices: [
-      "Si la dirección MAC destino de un paquete recibido en un puerto no es conocida, se reenvíaa todos los puertos adicionales del puente.",
-      "Si la dirección MAC destino de un paquete recibido en un puerto no es conocida,  sereenvía a todos los puertos ACTIVOS adicionales del puente.",
-      "Si la dirección MAC destino de un paquete recibido en un puerto no es conocida, se reenvíasólo al PUERTO RAÍZ del puente.",
+      "Si la dirección MAC destino de un paquete recibido en un puerto no es conocida, se reenvía a todos los puertos adicionales del puente.",
+      "Si la dirección MAC destino de un paquete recibido en un puerto no es conocida, se reenvía a todos los puertos ACTIVOS adicionales del puente.",
+      "Si la dirección MAC destino de un paquete recibido en un puerto no es conocida, se reenvía sólo al PUERTO RAÍZ del puente.",
       "El puente sólo puede reenviar paquetes Ethernet a su PUERTO RAÍZ.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 880,
+    id: 839,
     title: "La tecnología Ethernet 100BaseT se desarrolló con el objetivo de:",
     choices: [
       "Mejorar el rendimiento en redes Ethernet 10BaseT con aplicaciones cliente/servidor.",
-      "Reducir la congestión en redes Ethernet 10BaseT al aumentar el número de PCs .",
+      "Reducir la congestión en redes Ethernet 10BaseT al aumentar el número de PCs.",
       "Eliminar las colisiones en los concentradores Ethernet 10BaseT.",
       "Eliminar el tamaño de paquete mínimo en redes Ethernet.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 881,
+    id: 840,
     title:
       "En qué tecnología Ethernet se emplea la codificación 8B/10B para la sincronización ?",
     choices: ["100BaseFX.", "100BaseTX.", "1000BaseT.", "1000BaseLX."],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 882,
+    id: 841,
     title:
       "El empleo de un conmutador Ethernet con la tecnología IEEE 802.1Q, permite:",
     choices: [
-      "Crear una red IP en el conmutador donde no existe conectividad directa entre los equipos dela misma red IP.",
+      "Crear una red IP en el conmutador donde no existe conectividad directa entre los equipos de la misma red IP.",
       "Reenviar paquetes ARP request asociados a una VLAN sólo al puerto troncal de la VLAN.",
       "Establecer dominios de difusión diferentes dentro de un mismo conmutador.",
       "Definir varias redes IP para una misma VLAN en el conmutador.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 883,
+    id: 842,
     title:
       "Sobre el funcionamiento de una red LAN inalámbrica de infraestructura es cierto que:",
     choices: [
-      "Cada punto de acceso (AP) tiene conectividad inalámbrica con los equipos conectados aotros APs.",
-      "Un  equipo  conectado  a  un  AP tienen  conectividad  inalámbrica  directa  con  los  demásequipos conectados al AP.",
-      "La conectividad entre equipos inalámbricos conectados a diferentes AP se realiza con unared de infraestructura (red Ethernet).",
-      "Un equipo inalámbrico conectado a un AP no tiene conectividad con equipos en la red deinfraestructura (red Ethernet).",
+      "Cada punto de acceso (AP) tiene conectividad inalámbrica con los equipos conectados a otros APs.",
+      "Un equipo conectado a un AP tienen conectividad inalámbrica directa con los demás equipos conectados al AP.",
+      "La conectividad entre equipos inalámbricos conectados a diferentes AP se realiza con una red de infraestructura (red Ethernet).",
+      "Un equipo inalámbrico conectado a un AP no tiene conectividad con equipos en la red de infraestructura (red Ethernet).",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 884,
+    id: 843,
     title:
-      "Sobre el procedimiento de registro de un equipo inalámbrico en un punto de acceso (AP)es  cierto que:",
+      "Sobre el procedimiento de registro de un equipo inalámbrico en un punto de acceso (AP) es cierto que:",
     choices: [
       "Un AP no puede rechazar registrar a un equipo que solicita el registro.",
       "Para el registro de un equipo en un AP es necesario conocer el SSID de la red inalámbrica.",
       "Si un AP registra un equipo no es posible iniciar el proceso de autenticación.",
-      "El proceso de registro permite proporcionar una clave de cifrado por parte del AP al equipoinalámbrico.",
+      "El proceso de registro permite proporcionar una clave de cifrado por parte del AP al equipo inalámbrico.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 885,
+    id: 844,
     title: "El cifrado en WPA2-PSK y en WPA2-Enterprise se diferencia en que:",
     choices: [
-      "WPA2-PSK emplea una secuencia inicial de cifrado con la misma clave para todos losequipos inalámbricos.",
-      "WPA2-Enterprise no realiza autenticación de clientes al emplear la misma clave inicial decifrado para todos los equipos inalámbricos.",
-      "WPA2-PSK emplea el mecanismo de autenticación LEAP para permitir el acceso a la redinalámbrica.",
-      "WPA2-Enterprise puede emplear el  algoritmo de cifrado EAP y WPA2-PSK sólo puedeemplear el algoritmo de cifrado TKIP.",
+      "WPA2-PSK emplea una secuencia inicial de cifrado con la misma clave para todos los equipos inalámbricos.",
+      "WPA2-Enterprise no realiza autenticación de clientes al emplear la misma clave inicial de cifrado para todos los equipos inalámbricos.",
+      "WPA2-PSK emplea el mecanismo de autenticación LEAP para permitir el acceso a la red inalámbrica.",
+      "WPA2-Enterprise puede emplear el algoritmo de cifrado EAP y WPA2-PSK sólo puede emplear el algoritmo de cifrado TKIP.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 886,
+    id: 845,
     title:
-      "Indica qué dirección IP tiene que ser empleada en un dispositivo para que un routerNUNCA pueda encaminarla (aunque emplee NAT):",
+      "Indica qué dirección IP tiene que ser empleada en un dispositivo para que un router NUNCA pueda encaminarla (aunque emplee NAT):",
     choices: ["10.0.0.3.", "192.168.1.1.", "225.10.2.1.", "241.241.241.241."],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 887,
+    id: 846,
     title: "Cómo es posible reducir la congestión en una red TCP/IP ?",
     choices: [
       "Reduciendo el número de equipos conectados en la red.",
@@ -10745,52 +10259,52 @@ const questionsData: QuestionData[] = [
       "Reduciendo el tamaño del MTU de las redes conectadas.",
       "Aumentando la velocidad de transmisión en las redes conectadas.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 888,
+    id: 847,
     title:
-      "Cuál es el protocolo de encaminamiento empleado en los routers frontera de los SA parala conectividad global en Internet ?",
+      "Cuál es el protocolo de encaminamiento empleado en los routers frontera de los SA para la conectividad global en Internet ?",
     choices: ["OSPF.", "RIPv1.", "BGP.", "RIPv2."],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 889,
+    id: 848,
     title:
-      "Cuál es el protocolo de encaminamiento que envía siempre la información completa dela tabla de encaminamiento de un router ?",
+      "Cuál es el protocolo de encaminamiento que envía siempre la información completa de la tabla de encaminamiento de un router ?",
     choices: ["OSPF.", "RIPv1.", "BGP.", "OSPFv2."],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 890,
+    id: 849,
     title: "El direccionamiento IPv6 presenta la característica de:",
     choices: [
-      "Asociar  direcciones  IP  únicas  a  dispositivos,  independientemente  de  su  ubicacióngeográfica.",
-      "Aumentar el número máximo de saltos de encaminamiento que un paquete IP puede realizara través de los routers de Internet.",
+      "Asociar direcciones IP únicas a dispositivos, independientemente de su ubicación geográfica.",
+      "Aumentar el número máximo de saltos de encaminamiento que un paquete IP puede realizar a través de los routers de Internet.",
       "Emplear un tamaño en bytes para la cabecera IPv6 menor que en IPv4.",
       "No permitir el empleo de direcciones IP de multidifusión.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 891,
+    id: 850,
     title:
-      "Sea una conexión TCP entre un extremo A y otro B en una situación en la que la ventanade congestión del extremo A es menor que la ventana de recepción que informa el extremoB. En esta situación es cierto que:",
+      "Sea una conexión TCP entre un extremo A y otro B en una situación en la que la ventana de congestión del extremo A es menor que la ventana de recepción que informa el extremo B. En esta situación es cierto que:",
     choices: [
       "El extremo A aumenta su ventana de emisión al tamaño de la ventana de recepción en B.",
       "El extremo A mantiene su ventana de emisión al tamaño de la ventana de congestión en A.",
-      "El  extremo  A reduce  su  ventana  de  emisión  a  la  mitad  del  tamaño  de  la  ventana  derecepción en B.",
-      "El  extremo  A reduce  su  ventana  de  emisión  a  la  mitad  del  tamaño  de  la  ventana  decongestión.",
+      "El extremo A reduce su ventana de emisión a la mitad del tamaño de la ventana de recepción en B.",
+      "El extremo A reduce su ventana de emisión a la mitad del tamaño de la ventana de congestión.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 892,
+    id: 851,
     title: "La tecnología de red MPLS está asociada a:",
     choices: [
       "Redes de agregación Ethernet.",
@@ -10798,19 +10312,19 @@ const questionsData: QuestionData[] = [
       "Redes de acceso ADSL.",
       "Redes de acceso FTTH.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 893,
+    id: 852,
     title:
       "Una arquitectura de red que define una aplicación para el intercambio de archivos en una red de área local Ethernet, NO precisa disponer de la capa:",
     choices: ["Física.", "Enlace.", "Red.", "Aplicación."],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 894,
+    id: 853,
     title: "La solicitud de un servicio de la capa n a la capa n-1 provoca:",
     choices: [
       "La comunicación entre las capas pares del nivel n.",
@@ -10818,11 +10332,11 @@ const questionsData: QuestionData[] = [
       "La comunicación entre las capa n y la capa par n-1.",
       "La comunicación entre las capas adyacentes n+1 y n-1.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 895,
+    id: 854,
     title: "Cuando se produce fragmentación de paquetes en un nivel n,",
     choices: [
       "En cada fragmento se incorporan las cabeceras de los niveles inferiores.",
@@ -10830,19 +10344,19 @@ const questionsData: QuestionData[] = [
       "Se incorporan las cabeceras de los niveles inferiores sólo en el primer fragmento.",
       "Se incorpora la cabecera del nivel superior sólo en el primer fragmento.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 896,
+    id: 855,
     title:
       "Indica cuál de las siguientes capas no está presente en la arquitectura TCP/IP:",
     choices: ["Aplicación.", "Sesión.", "Transporte.", "Red."],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 897,
+    id: 856,
     title:
       "En el intercambio de paquetes TCP entre dos estaciones que se encuentran en redes IP diferentes, la cabecera TCP se interpreta:",
     choices: [
@@ -10851,11 +10365,11 @@ const questionsData: QuestionData[] = [
       "En cada repetidor intermedio existente entre las dos estaciones.",
       "En las estaciones que intercambian los paquetes.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 898,
+    id: 857,
     title:
       "Un servidor Web envía a un cliente un paquete HTTP con datos. El paquete es transmitido en el medio físico empleando el protocolo de nivel de enlace Ethernet y sufre un error de CRC. La capa de la arquitectura que reenviará el paquete HTTP es:",
     choices: [
@@ -10864,47 +10378,11 @@ const questionsData: QuestionData[] = [
       "Capa de red.",
       "Capa de enlace.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 899,
-    title:
-      "Cuántos armónicos componen una señal periódica de pulsos con periodo 1 ms y transmitida por un medio fisico de 5000 Hz de ancho de banda ?",
-    choices: ["5.", "6.", "10000.", "Infinitos."],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 900,
-    title:
-      "Determina la velocidad máxima de transmisión para una señal de pulsos con 2 niveles de tensión en un medio físico full-duplex con multiplexión por frecuencia (simétrica para transmisión y recepción) y ancho de banda de 1000 Hz.",
-    choices: ["1000 bps.", "2000 bps.", "4000 bps.", "8000 bps."],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 901,
-    title:
-      "En qué normativa inalámbrica del IEEE no se emplea el mecanismo RTS/CTS en el acceso al medio ?",
-    choices: [
-      "IEEE 802.11b.",
-      "IEEE 802.11g.",
-      "IEEE 802.11n.",
-      "Todas las normas IEEE 802.11x soportan el mecanismo RTS/CTS.",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 902,
-    title: "Qué mecanismo de cifrado en redes WiFi es actualmente seguro ?",
-    choices: ["WPA2/AES.", "WPA2/TKIP.", "WPA2/PEAP.", "WPA2/TLS."],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 903,
+    id: 858,
     title:
       "En el encaminamiento de paquetes en el nivel de red de la arquitectura TCP/IP es cierto que,",
     choices: [
@@ -10913,11 +10391,11 @@ const questionsData: QuestionData[] = [
       "El encaminamiento de un paquete depende de cómo se encaminó el paquete anterior.",
       "El encaminamiento se realiza para todos los paquetes aunque sean enviados al mismo destino.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 904,
+    id: 859,
     title:
       "Sobre la estructura de una tabla de encaminamiento de un router IP es cierto que,",
     choices: [
@@ -10926,24 +10404,11 @@ const questionsData: QuestionData[] = [
       "En una tabla puede existir más de una entrada de puerta de enlace por defecto.",
       "Todas las entradas de una tabla tiene que tener la máscara de red con el mismo valor.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 905,
-    title:
-      "En qué situación el protocolo de encaminamiento OSPF será más adecuado que emplear RIP ?",
-    choices: [
-      "Interconexión de redes LAN con tecnología diferente.",
-      "Interconexión de redes LAN sin bucles.",
-      "Interconexión de redes LAN con menos de 10 saltos de distancia máxima.",
-      "Interconexión de redes LAN donde las distancias entre redes pueden reducirse.",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 906,
+    id: 860,
     title: "Sobre el protocolo de encaminamiento IPv6 es cierto que,",
     choices: [
       "Aumenta el número de direcciones IPv4 empleando la clase reservada E.",
@@ -10951,19 +10416,11 @@ const questionsData: QuestionData[] = [
       "Es posible el intercambio de paquetes IPv4 a través de una red IPv6.",
       "El protocolo IPv6 aumenta el valor del campo TTL para permitir redes IP más extensas.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 907,
-    title:
-      "El dispositivo de interconexión entre dos redes  que trabaja a nivel físico se denomina:",
-    choices: ["Repetidor.", "Puente.", "Router.", "Pasarela."],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 908,
+    id: 861,
     title:
       "La gestión del intercambio de datos entre aplicaciones empleando sockets en una red TCP/IP, se realiza:",
     choices: [
@@ -10972,11 +10429,11 @@ const questionsData: QuestionData[] = [
       "En la capa de red.",
       "En la capa de enlace.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 909,
+    id: 862,
     title:
       "En una transición de una MEF que modela un protocolo de comunicación, es cierto que:",
     choices: [
@@ -10985,78 +10442,19 @@ const questionsData: QuestionData[] = [
       "Interconecta dos estados.",
       "Siempre interconecta dos estados diferentes.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 910,
+    id: 863,
     title:
-      "Sea un medio físico con ancho de banda B que permite una velocidad máxima de transmisión de V bps. Si el ancho de banda B aumenta al doble, es cierto que",
-    choices: [
-      "La velocidad máxima de transmisión será 2*V bps.",
-      "La velocidad máxima de transmisión será 4*V bps.",
-      "La velocidad máxima de transmisión no se verá modificada.",
-      "La relación señal-ruido del medio físico se reduce a la mitad.",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 911,
-    title:
-      "Sobre el funcionamiento de un conmutador Ethernet VLAN es cierto que,",
-    choices: [
-      "Los paquetes de difusión de una VLAN son reenviados sólo a los puertos troncales del conmutador asociados a la misma VLAN.",
-      "Los paquetes de difusión de una VLAN son reenviados a puertos pertenecientes a cualquier VLAN.",
-      "Los paquetes ARP Request transmitidos en una VLAN son reenviados a todos los puertos del conmutador asociados a la misma VLAN.",
-      "Los paquetes ARP Reply transmitidos en una VLAN son reenviados a todos los puertos  troncales y de acceso asociados a la misma VLAN.",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 912,
-    title:
-      "En qué normativa inalámbrica del IEEE no se emplean tramas Beacon Frame para identificar redes Wi-Fi (ESSID) ?",
-    choices: [
-      "IEEE 802.11b.",
-      "IEEE 802.11g.",
-      "IEEE 802.11n.",
-      "Todas las normas IEEE 802.11x emplean las tramas Beacon Frame.",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 913,
-    title: "Qué mecanismo de cifrado en redes Wi-Fi es actualmente seguro ?",
-    choices: ["WPA2/AES.", "WPA2/TKIP.", "WPA2/PEAP.", "WPA2/TLS."],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 914,
-    title:
-      "Indica el mecanismo de autenticación WPA Enterprise que permite el intercambio más seguro de la clave MK entre una estación y un AP.",
+      "Indica el mecanismo de autenticación WPA Enterprise que permite el intercambio más seguro de la clave MK entre una estación y un AP",
     choices: ["EAP/SSH.", "PEAP.", "LEAP.", "EAP/AES."],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 915,
-    title:
-      "Qué característica tienen en común el protocolo de encaminamiento OSPF y el protocolo  RIP versión 2 ?",
-    choices: [
-      "Emplean la misma métrica para determinar el coste del camino a un destino.",
-      "Pueden enviar un mensaje de información a todos los routers de una LAN empleando multidifusión.",
-      "Pueden enviar mensajes a routers que no sean adyacentes (que no están en la misma LAN).",
-      "RIP versión 2 y OSPF no tienen ninguna característica en común.",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 916,
+    id: 864,
     title:
       "Indica la tecnología de acceso WAN que emplea un medio físico dedicado para cada abonado:",
     choices: [
@@ -11065,24 +10463,11 @@ const questionsData: QuestionData[] = [
       "HFC.",
       "Todas las tecnologías de acceso WAN emplean un medio físico dedicado para cada abonado.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 917,
-    title:
-      "En qué tipo de redes de comunicaciones NO es necesario el proceso de encaminamiento en la comunicación entre cualesquiera dos equipos ?",
-    choices: [
-      "Redes de difusión.",
-      "Redes punto a punto.",
-      "Redes de conmutación de paquetes con datagramas.",
-      "Redes de conmutación de paquetes con circuitos virtuales.",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 918,
+    id: 865,
     title:
       "Si la capa n de una arquitectura de red recibe dos paquetes de la capa inferior n-1, es cierto que:",
     choices: [
@@ -11095,7 +10480,7 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 919,
+    id: 866,
     title: "Sobre el funcionamiento de la arquitectura TCP/IP es cierto que:",
     choices: [
       "La capa de aplicación emplea SIEMPRE la capa IP para el intercambio de datos entre equipos.",
@@ -11107,103 +10492,14 @@ const questionsData: QuestionData[] = [
     explanation: "",
   },
   {
-    id: 920,
-    title:
-      "Qué protocolo de aplicación de la arquitectura de red TCP/IP NO emplea ni el protocolo TCP ni el UDP ?",
-    choices: ["HTTP.", "DNS.", "ICMP.", "PING."],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 921,
-    title:
-      "En qué tipo de señalización en BANDA BASE pueden existir más problemas de sincronización emisor – receptor ?",
-    choices: [
-      "Codificación binaria unipolar sin retorno a cero.",
-      "Codificación binaria bipolar con retorno a cero.",
-      "Codificación Mánchester.",
-      "Codificación PCM.",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 922,
-    title:
-      "Qué factor NO limita la distancia máxima de comunicación que puede conseguirse en una fibra óptica ?",
-    choices: [
-      "El tipo de fibra óptica empleada.",
-      "La velocidad de transmisión empleada.",
-      "La potencia del dispositivo emisor de luz.",
-      "El número de canales multiplexados por longitud de onda.",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 923,
-    title:
-      "Qué tipo de servicio ofrecido por el nivel de enlace reenvía paquetes de datos sin controlar el flujo ?",
-    choices: [
-      "Servicio sin conexión ni reconocimiento.",
-      "Servicio sin conexión y con reconocimiento.",
-      "Servicio con conexión y con reconocimiento.",
-      "Servicio de ventana deslizante.",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 924,
-    title:
-      "En qué protocolo de ventana deslizante pueden recibirse paquetes de datos con secuencias no consecutivas ?",
-    choices: [
-      "Protocolo de parada y espera.",
-      "Protocolo de ventana deslizante de 1 bit.",
-      "Protocolo de ventana deslizante con repetición NO selectiva.",
-      "Protocolo de ventana deslizante con repetición selectiva.",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 925,
+    id: 867,
     title: "Indica el sistema de señalización empleado en Ethernet 100BaseFX:",
     choices: ["Manchester.", "4D-PAM5.", "NRZI.", "8B/10B."],
     solution: "-",
     explanation: "",
   },
   {
-    id: 926,
-    title:
-      "Qué tecnología Ethernet NO precisa la introducción de bits de sincronización en los paquetes Ethernet ?",
-    choices: [
-      "Ethernet 1000BaseT.",
-      "Ethernet 100BaseTX.",
-      "Ethernet 100BaseFX.",
-      "Ethernet 1000BaseLX.",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 927,
-    title:
-      "Cómo se denomina el mecanismo en el que no existen colisiones a la hora de transmitir paquetes en las redes inalámbricas ?",
-    choices: ["CSMA/CD con RTS/CTS.", "CSMA/CA con RTS/CTS.", "DCF.", "PCF."],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 928,
-    title:
-      "Qué algoritmo de encaminamiento no tiene en cuenta valores de métrica al gestionar las tablas de encaminamiento ?",
-    choices: ["OSPF.", "BGP.", "RIPv1.", "RIPv2."],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 929,
+    id: 868,
     title:
       "Si se detecta un error en el funcionamiento de la capa n de una arquitectura de red podemos asegurar que,",
     choices: [
@@ -11212,32 +10508,24 @@ const questionsData: QuestionData[] = [
       "Se ha producido un fallo en la capa superior n+1 Þ la arquitectura de red.",
       "Siempre existe un fallo en alguna capa superior a la capa n.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 930,
+    id: 869,
     title:
-      "Una señal digital periódica de 8 bits, con un periodo de 10ms, se envía por un medio con un ancho de banda ideal de 240Hz que comienza en la frecuencia 280Hz. ¿Cuántas componentes armónicas de la señal llegarán correctamente al destino?",
-    choices: ["2.", "3.", "4.", "5."],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 931,
-    title:
-      "Indica en cuál de los siguientes medios físicos el efecto de la dispersión intermodal es mayor.",
+      "Indica en cuál de los siguientes medios físicos el efecto de la dispersión intermodal es mayor",
     choices: [
       "Cable coaxial blindado.",
       "Fibra óptica de índice gradual.",
       "Fibra óptica monomodo.",
       "Fibra óptica multimodo.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 932,
+    id: 870,
     title:
       "Si se desea aumentar la velocidad de transmisión obtenida en una fibra óptica monomodo sin modificar la codificación del número de niveles, es necesario:",
     choices: [
@@ -11246,24 +10534,24 @@ const questionsData: QuestionData[] = [
       "Aumentar la sensibilidad del dispositivo receptor de luz en el extremo de la fibra.",
       "Realizar un multiplexado de longitud de onda para incorporar varios haces de luz.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 933,
+    id: 871,
     title:
-      "Qué afirmación es cierta sobre el funcionamiento del protocolo CSMA/CD ?",
+      "¿Qué afirmación es cierta sobre el funcionamiento del protocolo CSMA/CD ?",
     choices: [
       "Elimina las colisiones en el medio físico esperando un tiempo aleatorio antes de transmitir un paquete.",
       "Si el medio físico está libre siempre se espera un lapso de tiempo antes de transmitir el paquete.",
       "Después de transmitir un paquete al medio físico se comprueba si el medio presenta colisiones.",
       "Si el medio físico está libre antes de la transmisión, nunca se producirán colisiones.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 934,
+    id: 872,
     title:
       "En un paquete Ethernet con el formato IEEE 802.3, ¿ cómo se distingue si el contenido es un paquete IP o un paquete ARP ?",
     choices: [
@@ -11272,11 +10560,11 @@ const questionsData: QuestionData[] = [
       "Empleando el campo tipo de la cabecera LLC.",
       "Empleando el campo longitud de la cabecera IEEE 802.3.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 935,
+    id: 873,
     title:
       "En qué configuración de interconexión de segmentos Ethernet existe un dominio de colisión mayor ?",
     choices: [
@@ -11285,11 +10573,11 @@ const questionsData: QuestionData[] = [
       "Interconexión de 4 concentradores (half-duplex) Ethernet.",
       "Interconexión de 5 conmutadores (full-duplex) Ethernet.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 936,
+    id: 874,
     title: "En qué tecnología Ethernet no se emplea la codificación 8B/10B ?",
     choices: [
       "Ethernet 1000BaseLX.",
@@ -11297,11 +10585,11 @@ const questionsData: QuestionData[] = [
       "Ethernet 1000BaseTX.",
       "Ethernet 1000BaseCX.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 937,
+    id: 875,
     title: "Sobre el funcionamiento de un conmutador VLAN es cierto que,",
     choices: [
       "El formato de los paquetes en los enlaces de acceso es diferente al de los enlaces troncales.",
@@ -11309,11 +10597,11 @@ const questionsData: QuestionData[] = [
       "Un puerto de enlace de acceso puede estar asociado a varias VLAN diferentes.",
       "En un conmutador VLAN sólo puede existir un único puerto de enlace troncal.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 938,
+    id: 876,
     title:
       "Sobre el funcionamiento de un punto de acceso (AP) de una red inalámbrica es cierto que,",
     choices: [
@@ -11322,19 +10610,19 @@ const questionsData: QuestionData[] = [
       "Dos AP con un mismo SSID tienen que emplear siempre el mismo subcanal o portadora.",
       "Una estación asociada a un AP tiene cobertura con todas las estaciones asociadas al AP.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 939,
+    id: 877,
     title:
-      "Indica cuál de los siguientes es un mecanismo de autenticación en WPA2.",
+      "Indica cuál de los siguientes es un mecanismo de autenticación en WPA2",
     choices: ["TKIP.", "PSK.", "AES.", "LEAP."],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 940,
+    id: 878,
     title:
       "Cuál de las siguientes situaciones indica que existe congestión en la red ?",
     choices: [
@@ -11343,11 +10631,11 @@ const questionsData: QuestionData[] = [
       "Presencia de mensajes Source Quench.",
       "Un router detecta que el uso de su CPU para el encaminamiento es del 25%.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 941,
+    id: 879,
     title: "Sobre el protocolo de encaminamiento OSPF es FALSO que,",
     choices: [
       "Emplea el algoritmo de Dijkstra para obtener la solución de encaminamiento en la red.",
@@ -11355,11 +10643,11 @@ const questionsData: QuestionData[] = [
       "Utiliza la difusión para el envío de los mensajes OSPF en la red.",
       "Los enlaces entre routers OSPF pueden modificar su valor de coste del enlace.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 942,
+    id: 880,
     title:
       "Si un paquete IP es enviado a la dirección 224.0.0.7 es cierto que,",
     choices: [
@@ -11368,11 +10656,11 @@ const questionsData: QuestionData[] = [
       "Los routers que reciben este paquete lo envían a todos los routers multicasting de Internet.",
       "El paquete es recibido por todos los equipos de la red donde es transmitido y pertenecen al grupo de multidifusión 224.0.0.7.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 943,
+    id: 881,
     title:
       "En el protocolo TCP, la fase de “arranque lento” está relacionada con:",
     choices: [
@@ -11381,11 +10669,11 @@ const questionsData: QuestionData[] = [
       "El establecimiento de una conexión.",
       "La liberación de una conexión.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 944,
+    id: 882,
     title:
       "En el protocolo TCP, cuando un extremo A comunica al otro extremo B su ventana de recepción, está indicando:",
     choices: [
@@ -11394,11 +10682,11 @@ const questionsData: QuestionData[] = [
       "El número máximo de bytes que el extremo B puede enviar al extremo A.",
       "El número total de bytes que el extremo A recibió correctamente.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 945,
+    id: 883,
     title:
       "El empleo de la tecnología de difusión para las redes LAN se caracteriza por,",
     choices: [
@@ -11407,11 +10695,11 @@ const questionsData: QuestionData[] = [
       "La transmisión de múltiples paquetes para enviar la misma información a todos los computadores de la red.",
       "La tolerancia a fallos que presenta al permitir varios caminos físicos a un determinado computador.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 946,
+    id: 884,
     title:
       "Si en una red de conmutación de paquetes basada en circuitos virtuales, un nodo deja de funcionar es cierto que,",
     choices: [
@@ -11420,11 +10708,11 @@ const questionsData: QuestionData[] = [
       "Todos los computadores de la red quedan incomunicados.",
       "Los computadores que emplean ese nodo para intercambiar paquetes han de determinar una nueva ruta para sus destinos.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 947,
+    id: 885,
     title: "El empleo del mecanismo de difusión en una red LAN permite,",
     choices: [
       "Identificar grupos de máquinas en la red con una única dirección física (dirección MAC).",
@@ -11432,11 +10720,11 @@ const questionsData: QuestionData[] = [
       "Identificar a todas las máquinas de la red con una única dirección física (dirección MAC).",
       "Identificar a todas las máquinas de la red con diferentes direcciones físicas (direcciones MAC).",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 948,
+    id: 886,
     title:
       "La comunicación vertical en una arquitectura de red se caracteriza porque,",
     choices: [
@@ -11445,11 +10733,11 @@ const questionsData: QuestionData[] = [
       "Se establece entre la capa n y la capa par n+1 de la arquitectura.",
       "Se establece entre las capas n y n-1 de la arquitectura.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 949,
+    id: 887,
     title:
       "Si un protocolo de la capa n de una arquitectura de red envía una PDU que no llega a la capa par correspondiente, es cierto que,",
     choices: [
@@ -11458,24 +10746,24 @@ const questionsData: QuestionData[] = [
       "La capa par de nivel n+1en el otro extremo de la comunicación informa del error.",
       "La capa n+1 del emisor reenvía la PDU del nivel n perdida.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 950,
+    id: 888,
     title:
       "Si un protocolo definido en la capa n de una arquitectura de red permite la fragmentación, es cierto que:",
     choices: [
       "Sólo el primer paquete de una fragmentación incorpora la cabecera del protocolo de nivel n.",
-      "Sólo el primer paquete de una fragmentación incorpora la cabecera del protocolo de nivel n-1.",
+      "Sólo el primer paquete de una fragmentación incorpora la cabecera del protocolo de nivel n- 1.",
       "Todos los paquetes de una fragmentación incorporan la cabecera del protocolo de nivel n-1.",
       "Todos los paquetes de una fragmentación incorporan la cabecera del protocolo de nivel n.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 951,
+    id: 889,
     title:
       "La capa de transporte en la arquitectura TCP/IP se caracteriza por,",
     choices: [
@@ -11484,11 +10772,11 @@ const questionsData: QuestionData[] = [
       "Gestionar una comunicación fiable estableciendo circuitos virtuales extremo a extremo con el protocolo TCP.",
       "Proporcionar siempre a la capa de aplicación una comunicación no segura, debido al funcionamiento de conmutación con datagramas en Internet.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 952,
+    id: 890,
     title:
       "En el intercambio de paquetes DNS entre dos computadores A y B que se encuentran en la misma red IP, la cabecera UDP de esos paquetes se interpreta:",
     choices: [
@@ -11497,11 +10785,11 @@ const questionsData: QuestionData[] = [
       "En los computadores que intercambian los paquetes.",
       "En todos los routers existentes en la red IP.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 953,
+    id: 891,
     title:
       "El intercambio de información entre dos computadores que emplean arquitecturas de red diferentes, es posible si:",
     choices: [
@@ -11510,11 +10798,11 @@ const questionsData: QuestionData[] = [
       "Existe un repetidor entre ambos computadores.",
       "Existe una pasarela entre ambos computadores.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 954,
+    id: 892,
     title:
       "Los valores de amplitud de las componentes frecuenciales de una señal de información periódica, dependen de:",
     choices: [
@@ -11523,19 +10811,19 @@ const questionsData: QuestionData[] = [
       "El ancho de banda del medio físico empleada.",
       "Ningún factor, todas las señales tienen los mismos valores de amplitud en sus componentes frecuenciales.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 955,
+    id: 893,
     title:
-      "Determina la velocidad máxima de transmisión para una señal de pulsos con 4 niveles de tensión en un medio físico half-duplex con ancho de banda de 1000 Hz.",
+      "Determina la velocidad máxima de transmisión para una señal de pulsos con 4 niveles de tensión en un medio físico half-duplex con ancho de banda de 1000 Hz",
     choices: ["1000 bps.", "2000 bps.", "4000 bps.", "8000 bps."],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 956,
+    id: 894,
     title:
       "Indica cuál de las siguientes señalizaciones de banda base presenta menos problemas de sincronización y menos efecto del ruido:",
     choices: [
@@ -11544,19 +10832,19 @@ const questionsData: QuestionData[] = [
       "Codificación binaria UNIPOLAR SIN Retorno a Cero.",
       "Codificación Manchester.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 957,
+    id: 895,
     title:
       "Se desea realizar la transmisión en un medio físico de una señal analógica modulada con PCM. La señal analógica tiene un ancho de banda de 2000 Hz y se emplea una modulación PCM con 512 niveles de tensión. El medio físico precisa de una velocidad de transmisión de:",
     choices: ["1024 Kbps.", "2048 Kbps.", "18 Kbps.", "36 Kbps."],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 958,
+    id: 896,
     title:
       "Indica el tipo de modulación que ocupa más ancho de banda para la señal modulada:",
     choices: [
@@ -11565,11 +10853,11 @@ const questionsData: QuestionData[] = [
       "Modulación QAM.",
       "Modulación FSK.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 959,
+    id: 897,
     title:
       "Indica el tipo de modulación con el que es posible obtener mayores velocidades de transmisión:",
     choices: [
@@ -11578,11 +10866,11 @@ const questionsData: QuestionData[] = [
       "Modulación QAM.",
       "Modulación PSK de fase coherente a 0º y 180º.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 960,
+    id: 898,
     title:
       "Indica en qué tipo de cable UTP el ruido de impulso tiene mayor efecto:",
     choices: [
@@ -11591,11 +10879,11 @@ const questionsData: QuestionData[] = [
       "Cable UTP categoría 5.",
       "El ruido de impulso afecta igual a todos los tipos de cable UTP.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 961,
+    id: 899,
     title:
       "El empleo de la fibra óptica como medio de comunicación tiene el inconveniente de:",
     choices: [
@@ -11604,11 +10892,11 @@ const questionsData: QuestionData[] = [
       "Reducir la velocidad de transmisión máxima al aumentar la potencia del haz de luz.",
       "Ser muy sensible al ruido de impulso provocado por aparatos eléctricos.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 962,
+    id: 900,
     title:
       "La detección de errores empleando la técnica de códigos de redundancia cíclica (CRC) se caracteriza por,",
     choices: [
@@ -11617,11 +10905,11 @@ const questionsData: QuestionData[] = [
       "Permitir detectar errores en ráfaga de longitud mayor que el grado del polinomio generador.",
       "Permitir corregir errores en ráfaga de longitud menor que el grado del polinomio generador.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 963,
+    id: 901,
     title:
       "Sea un protocolo de ventana deslizante con ventana de emisor 5 y ventana de recepción 6. Si el emisor envía 3 paquetes con secuencia 1, 2 y 3, y la primera secuencia en la ventana del receptor es 1, es cierto que:",
     choices: [
@@ -11630,11 +10918,11 @@ const questionsData: QuestionData[] = [
       "El emisor no puede enviar el paquete con secuencia 6 hasta recibir el ACK del paquete con secuencia 2.",
       "El receptor puede confirmar como mucho hasta el paquete con secuencia 6 cuando ha recibido los paquetes con secuencias 1 y 2.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 964,
+    id: 902,
     title:
       "Indica qué protocolo MAC de las normas IEEE 802.X no es soportado por el protocolo IEEE 802.2 (LLC):",
     choices: [
@@ -11643,11 +10931,11 @@ const questionsData: QuestionData[] = [
       "MAC IEEE 802.1Q.",
       "Todas las normas MAC del IEEE son soportadas por el protocolo IEEE 802.2.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 965,
+    id: 903,
     title:
       "Indica el servicio del protocolo IEEE 802.2 que emplea el protocolo IP (arquitectura TCP/IP):",
     choices: [
@@ -11656,11 +10944,11 @@ const questionsData: QuestionData[] = [
       "Servicio no orientado a conexión con confirmación (tipo 3).",
       "Puede emplear cualquiera de los 3 tipos de servicios del IEEE 802.2.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 966,
+    id: 904,
     title:
       "Qué afirmación es cierta sobre el funcionamiento del protocolo CSMA/CD ?",
     choices: [
@@ -11669,11 +10957,11 @@ const questionsData: QuestionData[] = [
       "La conexión de dos concentradores Ethernet reduce a la mitad el dominio de colisión.",
       "El reenvío de un paquete que ha sufrido una colisión se produce de manera indefinida hasta su éxito.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 967,
+    id: 905,
     title:
       "Sobre el funcionamiento del algoritmo Spanning Tree en puentes transparentes, es cierto que:",
     choices: [
@@ -11682,11 +10970,11 @@ const questionsData: QuestionData[] = [
       "Permite inhabilitar puertos de los puentes para el proceso de reenvío y aprendizaje.",
       "Establece puentes raíces y puentes designados.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 968,
+    id: 906,
     title:
       "El aumento de 10 Mbps a 100 Mbps en la velocidad de transmisión en una red Ethernet precisa,",
     choices: [
@@ -11695,11 +10983,11 @@ const questionsData: QuestionData[] = [
       "Emplear modulación QAM en vez de codificación Manchester.",
       "Modificar el formato de la cabecera de los paquetes Ethernet.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 969,
+    id: 907,
     title:
       "Indica en qué normativa Ethernet es posible emplear como medio físico tanto cable UTP como fibra óptica:",
     choices: [
@@ -11708,11 +10996,11 @@ const questionsData: QuestionData[] = [
       "Ethernet 1000BaseX.",
       "10Gigabit Ethernet.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 970,
+    id: 908,
     title:
       "Sobre el formato de paquete de la norma IEEE 802.1Q, es cierto que:",
     choices: [
@@ -11721,11 +11009,11 @@ const questionsData: QuestionData[] = [
       "Emplea el campo Tipo de la cabecera para distinguir entre paquetes con formato IEEE 802.3 y con formato IEEE 802.1Q.",
       "Emplea direcciones MAC origen y destino de 64 bytes de tamaño.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 971,
+    id: 909,
     title: "Una red inalámbrica Ad-Hoc se caracteriza por:",
     choices: [
       "Permitir una cobertura en distancia mayor que una red de infraestructura.",
@@ -11733,19 +11021,19 @@ const questionsData: QuestionData[] = [
       "Emplear el mecanismo RTS/CTS para que todas las estaciones tengan cobertura solapada.",
       "Emplear las mismas normativas de transmisión (IEEE 802.11x) que en las redes de infraestructura.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 972,
+    id: 910,
     title:
       "Indica qué mecanismo de AUTENTICACIÓN de redes Wi-Fi es más seguro (más difícil de determinar la clave de autenticación):",
     choices: ["WEP.", "PEAP.", "LEAP.", "TKIP."],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 973,
+    id: 911,
     title:
       "Sobre el funcionamiento de un punto de acceso (AP) de una red inalámbrica es cierto que,",
     choices: [
@@ -11754,11 +11042,11 @@ const questionsData: QuestionData[] = [
       "Dos APs con un mismo SSID tienen que emplear siempre el mismo canal Wi-Fi.",
       "Una estación asociada a un AP tiene cobertura con todas las estaciones asociadas al AP.",
     ],
-    solution: "-",
+    solution: "b",
     explanation: "",
   },
   {
-    id: 974,
+    id: 912,
     title:
       "Sobre las funcionalidades de un router en la arquitectura TCP/IP es FALSO que,",
     choices: [
@@ -11767,19 +11055,19 @@ const questionsData: QuestionData[] = [
       "Gestiona los flujos de información, estableciendo mecanismos de reparto del ancho de banda.",
       "Libera conexiones TCP en caso de que el router se encuentre congestionado.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 975,
+    id: 913,
     title:
       "Indica cuál de las siguientes direcciones IPv4 NO es válida para asignarla a un dispositivo conectado al troncal (backbone) de Internet:",
-    choices: ["5.17.33.4", "122.45.67.34", "192.168.0.1", "200.10.10.1"],
-    solution: "-",
+    choices: ["5.17.33.4.", "122.45.67.34.", "192.168.0.1.", "200.10.10.1."],
+    solution: "c",
     explanation: "",
   },
   {
-    id: 976,
+    id: 914,
     title:
       "Indica con qué mensaje un router conoce si una conexión TCP del protocolo BGP está ACTIVA:",
     choices: [
@@ -11788,19 +11076,19 @@ const questionsData: QuestionData[] = [
       "BGP Notification.",
       "BGP Keepalive.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 977,
+    id: 915,
     title:
       "Indica qué campo de la cabecera IPv4 NO existe en la cabecera IPv6:",
     choices: ["IP origen.", "IP destino.", "TTL.", "HL."],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 978,
+    id: 916,
     title:
       "Si un paquete IP es enviado a la dirección 224.0.0.10 es cierto que,",
     choices: [
@@ -11809,11 +11097,11 @@ const questionsData: QuestionData[] = [
       "Si el nivel de enlace es Ethernet, se empleará como MAC destino una dirección MAC de multidifusión.",
       "El paquete es procesado por todos los routers de la red que emplean el protocolo RIPv2.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 979,
+    id: 917,
     title:
       "Con qué mecanismo el protocolo TCP aumenta el tamaño de la ventana de emisión en una conexión TCP que ha sufrido congestión ?",
     choices: [
@@ -11822,48 +11110,11 @@ const questionsData: QuestionData[] = [
       "Algoritmo de Karn.",
       "Algoritmo de prevención de la congestión.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 980,
-    title:
-      "En qué tipo de redes de comunicaciones NO es necesario el proceso de encaminamiento e n la comunicación entre cualesquiera dos equipos?",
-    choices: [
-      "Redes de difusión.",
-      "Redes punto a punto.",
-      "Redes de conmutación de paquetes con datagramas.",
-      "Redes de conmutación de paquetes con circuitos virtuales.",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 981,
-    title: "Una red punto a punto ...",
-    choices: [
-      "Es una red cuya tecnología de transmisión emplea un enlace directo entre dos dispositivos.",
-      "Es una red cuyo nivel fisico se estructura en una topología de bus.",
-      "Es una red en la que los dispositivos emplean protocolo ETHERNET de nivel de enlace.",
-      "Es una red de conmutación de circuitos con la propiedad de envío de tramas broadcast.",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 982,
-    title: "Una red con topología en anillo ...",
-    choices: [
-      "Especifica sus protocolos y arquitectura en el estándar IEEE 802.5.",
-      "Se emplea, generalmente, más en la construcción de redes WAN que en la de redes MAN.",
-      "Es más eficiente que una topología en bus cuando se emplea en redes LAN grandes.",
-      "Emplea conexiones punto a punto a nivel de enlace, de ahí que el coste de su implantación sea menos elevado que en una topología en bus.",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 983,
+    id: 918,
     title:
       "De acuerdo con la técnica de compartición del medio empleada en algunas redes LA se puede afirmar que:",
     choices: [
@@ -11872,333 +11123,71 @@ const questionsData: QuestionData[] = [
       "Una red wifi IEE 802.11 emplea un método de reserva centralizada.",
       "Una red óptica FDDI emplea el método CSMA p-persistente.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 984,
-    title:
-      "En qué tipo de señalización en BANDA BASE pueden existir más problemas de sincronización emisor – receptor?",
-    choices: [
-      "Codificación binaria unipolar sin retorno a cero.",
-      "Codificación binaria bipolar con retorno a cero.",
-      "Codificación Mánchester",
-      "Codificación PCM.",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 985,
-    title:
-      "Codificaciones -Indica el sistema de señalización empleado en Ethernet 100BaseFX:",
-    choices: ["Manchester.", "4D-PAM5.", "NRZI.", "8B/10B."],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 986,
-    title:
-      "El intercambio de información en una red LAN de difusión NO se caracteriza por,",
-    choices: [
-      "Permitir una única transmisión de una trama al medio físico para que todas las estaciones lareciban.",
-      "Aumentar el número de colisiones en el medio físico cuanto menor sea el número deestaciones en la red.",
-      "Producirse colisiones en el medio físico cuando dos o más estaciones transmiten datossimultáneamente.",
-      "Necesitar un esquema de direccionamiento para las estaciones de la red.",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 987,
-    title:
-      "La comunicación entre dos equipos a través de una red de conmutación de paquetes porcircuitos virtuales se caracteriza por que,",
-    choices: [
-      "Para transmitir las señales, se establece un camino físico exclusivo entre los dos equiposempleando conmutadores.",
-      "Los paquetes de datos pueden llegar al equipo destino desordenados, debido a que hancirculado por distintos caminos en la red.",
-      "Ofrece un servicio de alta calidad, adecuado para la transmisión de datos.",
-      "En general, no requiere de una conexión previa para poder enviar los datos, ni de unadesconexión al acabar",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 988,
-    title: "En referencia a la arquitectura de red TCP/IP, es cierto que,",
-    choices: [
-      "Esta basada la transmisión de paquetes de datos mediante conmutación de circuitosvirtuales.",
-      "El nivel de red ofrece una transmisión de datos fiable al nivel de transporte, conrecuperación de los paquetes que tienen errores.",
-      "Define protocolos concretos para todos los niveles de su arquitectura, excepto para elAcceso a la Red, para el cual se utilizan protocolos de otras arquitecturas.",
-      "No permite comunicaciones orientadas a conexión",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 989,
-    title:
-      "El campo de secuencia de verificación de trama (FCS) de una trama de enlace en unprotocolo de la arquitectura OSI es parte de la,",
-    choices: [
-      "PCI de enlace.",
-      "SDU de enlace.",
-      "ICI de enlace.",
-      "IDU de enlace.",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 990,
-    title:
-      "Respecto a los tipos de servicio que puede ofrecer el nivel de enlace al de red, es cierto que,",
-    choices: [
-      "El servicio con conexión y con reconocimiento de tramas es el más rápido.",
-      "Los servicios sin confirmación se utilizan cuando el medio físico tiene una tasa de erroralta.",
-      "El servicio sin conexión y sin confirmación es el más adecuado para redes locales decalidad.",
-      "Los servicios con confirmación son necesariamente orientados a conexión.",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 991,
-    title:
-      "Habitualmente, en un protocolo orientado a bit, ¿qué operación realiza un emisor paraevitar la interpretación incorrecta de secuencias de bits de datos que coinciden con elcódigo del delimitador 01111110?",
-    choices: [
-      "Añade un cero después de cada secuencia de cinco unos seguidos.",
-      "Sustituye cada secuencia de cinco unos seguidos por un cero.",
-      "Cambia cada secuencia de seis unos seguidos por una secuencia de cinco unos y un cero.",
-      "Duplica el código del delimitador cada vez que aparece entre los bits de datos.",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 992,
-    title:
-      "Cuál es el valor del campo de detección de errores que hay que asociar a la secuencia debits de datos ‘100011’ utilizando un código CRC con el polinomio generador x2+1?",
-    choices: ["00.", "01.", "10.", "11"],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 993,
-    title:
-      "Para que en el envío de paquetes de información en un protocolo de ventana deslizante seaproveche adecuadamente el medio físico, debe verificarse que",
-    choices: [
-      "El emisor pueda enviar paquetes durante todo el tiempo de espera de un ACK.",
-      "El emisor tenga un tamaño de ventana igual a 1.",
-      "El receptor tenga un tamaño de ventana igual a 1.",
-      "El receptor tenga un tamaño de ventana mayor que el emisor.",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 994,
-    title:
-      "Si un protocolo de parada y espera emplea sólo numeración de las tramas de datos, escierto que",
-    choices: [
-      "Pueden producirse errores de duplicación.",
-      "Pueden producirse errores de sincronización emisor - receptor.",
-      "Pueden producirse errores de duplicación y de sincronización.",
-      "No pueden producirse errores de duplicación ni de sincronización.",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 995,
-    title:
-      "Indica en cuál de los siguientes medios físicos el ruido cruzado o diafonía es mayor",
-    choices: [
-      "Cable UTP categoría 3.",
-      "Cable UTP categoría 5.",
-      "Cable STP categoría 5.",
-      "Fibra óptica multimodo.",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 996,
-    title:
-      "Si se ha enviado la trama 100100001 al cable que une dos ordenadores y el polinomio generador empleado en emisor y receptor es x3+x2+1.  El CRC será:",
-    choices: ["000", "001", "100", "110"],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 997,
-    title:
-      "Con los datos que se muestran en la siguiente gráfica se puede deducir que se trataría de  una modulación ...",
-    choices: ["2-PSK.", "3-PSK.", "4-PSK.", "16-PSK."],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 998,
+    id: 919,
     title: "De las redes WIFI del tipo 802.11g, es falso que:",
     choices: [
       "Emplea el método de modulación de la 802.11a.",
       "Opera en la banda de 2.4Ghz al igual que la 802.11 b.",
-      "Emplea códigos de encriptación WEP de 64bitsencriptar las comunicaciones.",
+      "Emplea códigos de encriptación WEP de 64bits encriptar las comunicaciones.",
       "Permite alcanzar velocidades máximas de 54Mbps.",
     ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {
-    id: 999,
+    id: 920,
     title:
-      "De un cable de par trenzado del tipo STP que cumple el estándar EIA-568-A, es ciertoque:",
+      "De un cable de par trenzado del tipo STP que cumple el estándar EIA-568-A, es cierto que:",
     choices: [
       "Es más sensible a procesos de atenuación en la señal que un UTP de categoría 3.",
-      "Si es de categoría 5 soporta velocidades de transmisión entorno a losindependientemente de la distancia que haya entre dispositivos.",
+      "Si es de categoría 5 soporta velocidades de transmisión entorno a los independientemente de la distancia que haya entre dispositivos.",
       "La velocidad de transmisión que soporta es independiente del paso de trenzado.",
-      "Ninguna de las anteriores.100Mbps",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 1000,
-    title:
-      "Se está aplicando el algoritmo de Dijkstra para generar el camino de mínimo coste ypoder emplear ese criterio para un algoritmo de encaminamiento. Si se está evaluando laiteración i=3 con T={1,2,3}. Se puede afirmar que: 4",
-    choices: [
-      "Sólo el coste L(3) ha variado con respecto a la iteración anterior",
-      "Sólo el coste L(5) ha variado con respecto a la iteración anterior",
-      "Sólo el coste L(6) ha variado con respecto a la iteración anterior",
       "Ninguna de las anteriores.",
     ],
-    solution: "-",
+    solution: "d",
     explanation: "",
   },
   {
-    id: 1001,
+    id: 921,
     title:
-      "Dado el esquema de nodos de red de la figura,¿Cuántos paquetes habrán llegado al nodo6 al finalizar el segundo salto, si se aplica la técnica de encaminamiento por inundaciónsiendo el nodo 1 quien inicia el encaminamiento?",
-    choices: ["1 paquete.", "2 paquetes.", "3 paquetes.", "4 paquetes."],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 1002,
-    title:
-      "Cuestiones del test 1. Indicar cual de las siguientes características NO se corresponde con una red de área local:",
+      "Indicar cual de las siguientes características NO se corresponde con una red de área local:",
     choices: [
       "Es habitual la utilización de tecnología punto a punto.",
       "Ofrecen al usuario altas velocidades de transmisión en comparación con las redes de área extendida.",
       "Interconecta equipos cercanos geográficamente.",
       "La red Token Ring (IEEE 802.5) se trata de una red de área local.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 1003,
-    title:
-      "Cuál es el código de Hamming para la secuencia de datos ‘00’ si se emplea paridad impar?",
-    choices: ["11111", "01010", "11111", "11010 "],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 1004,
-    title:
-      "Con respecto al modelo genérico de transferencia de información entre capas...",
-    choices: [
-      "La PCI es la información de control del interfaz.",
-      "La IDU y el SAP forman la PDU.",
-      "El SAP se corresponde con la cabecera de cada servicio.",
-      "La IDU esta formada por la SDU y la ICI. ",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 1005,
-    title: "En relación al modelo OSI, se puede afirmar que:",
-    choices: [
-      "Establecer y liberar conexiones extremo-extremo es propio del nivel de sesión.",
-      "La capa de aplicación es la penúltima capa del modelo OSI.",
-      "El reensamblado se realiza a nivel de transporte. ",
-      "La criptografía y compresión de datos es típica del nivel de enlace.",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 1006,
-    title:
-      "Cuál será el periodo de muestreo de una señal analógica que se ha digitalizado a una velocidad de 4200 bps, con 6 bits por muestra?",
-    choices: ["0 Hz.", "7000 segundos.", "0.0014 segundos  ", "3500 Hz."],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 1007,
-    title:
-      "Con respecto a las técnicas de modulación de analógico a digital...",
-    choices: [
-      "PCM diferencial requiere un ancho de banda menor que DM.",
-      "DM codifica la información analógica muestreada, en cada instante de muestreo, con un único bit. ",
-      "El ruido de cuantización ocurre cuando la señal varía demasiado rápido.",
-      "PCM es la técnica que menor ancho de banda requiere.",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 1008,
+    id: 922,
     title:
       "En relación a los métodos de conmutación entre equipos de la red, es cierto que:",
     choices: [
-      "La conmutación de paquetes fue diseñada para tráfico de datos. ",
+      "La conmutación de paquetes fue diseñada para tráfico de datos.",
       "La conmutación de circuitos es la mejor opción para tráfico de datos.",
       "En un circuito virtual, el fallo de un nodo intermedio del camino no afecta a la comunicación.",
       "En la opción de datagramas, se garantiza que los paquetes lleguen ordenados al destino.",
     ],
-    solution: "-",
+    solution: "a",
     explanation: "",
   },
   {
-    id: 1009,
-    title:
-      "Indicar cual de las siguientes características de los protocolos de encaminamiento basados en vector de distancia y basados en estado del enlace es cierta:",
-    choices: [
-      "En los protocolos basados en estado del enlace para crear las tablas de encaminamiento es necesario conocer previamente la topología de la red.",
-      "En los protocolos basados en vector de distancia cada nodo calcula independientemente las rutas, es decir, sin necesidad de conocer las rutas calculadas por el resto de nodos.",
-      "OSPF es un ejemplo de protocolo basado en vector de distancias.",
-      "RIP es un ejemplo de protocolo basado en estado del enlace. .",
-    ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 1010,
+    id: 923,
     title:
       "Considerando a la relación entre el tiempo de propagación y el tiempo de transmisión y que este último tiempo vale 1 segundo, indicar cual de las siguientes afirmaciones relativas a la eficiencia del protocolo de ventana deslizante es cierta:",
     choices: [
       "La eficiencia no depende del tiempo de transmisión.",
-      "Si el tamaño de la ventana es ≥ 2a+1 la eficiencia es",
-      "Si el tamaño de la ventana es a la eficiencia es",
+      "Si el tamaño de la ventana es ≥ 2a+1 la eficiencia es.",
+      "Si el tamaño de la ventana es a la eficiencia es.",
       "Para un tamaño de ventana menor que a la eficiencia es 1.",
     ],
-    solution: "-",
-    explanation: "",
-  },
-  {
-    id: 1011,
-    title:
-      "Si una conexión ADSL emplea encapsulamiento PPPoE entre PC del cliente y ‘router’ del proveedor de servicios de internet (ISP) para enviar un paquete TCP, entonces la pila de protocolos que emplean los interfaces del modem ADSL, I1: Interfaz LAN‐par trenzado e I2: Interfaz ADSL‐cable telefónico, son:",
-    choices: [
-      "Ethernet+IP+TCP (I1) y ATM+AAL5+LLC+PPP (I2)",
-      "Ethernet+IP+TCP (I1) y Ethernet+IP+TCP (I2)",
-      "Ethernet+PPPoE+PPP+IP+TCP (I1) y Ethernet+PPPoE+PPP+IP+TCP (I2)",
-      "Ethernet+PPPoE+PPP+IP+TCP (I1) y ATM+AAL5+LLC+Ethernet+PPPoE+PPP+IP+TCP (I2)",
-    ],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
 ];

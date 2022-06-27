@@ -1,4 +1,5 @@
 import re
+import sys
 
 raw_data_file = "./tools/raw_data.txt"
 output_file = "./tools/output.txt"
@@ -11,13 +12,16 @@ clean_ast = re.compile(r"^[\*]*|[\*]*$")
 duplicates = []
 total_count = 0
 qid = 1
+line_count = 0
+total_lines = 0
 
 
 def get_choices(choices):
     res = "["
 
     for answer in choices:
-        res += f"\"{re.sub(clean_ast, '', re.sub(option_rgx, '', answer).strip())}\", "
+        answer = re.sub(re.compile(r"\.+$"), '', answer)
+        res += f"\"{re.sub(clean_ast, '', re.sub(option_rgx, '', answer).strip() + '.')}\", "
     if len(res) > 2:
         res = res[:-2]
     return res + "]"
@@ -30,20 +34,22 @@ def parse():
     choices = []
     lines = light_parse().split("\n")
     last = 0
+    global line_count
 
     for line in lines:
+        line_count += 1
         line = line.replace("\"", "\\\"")
         if line == "":
             continue
         elif re.search(option_rgx, line):
             if last == 1:
-                title = re.sub(clean_begin, "", title).strip()
+                title = re.sub(re.compile(r"\.+$"), "", re.sub(clean_begin, "", title)).strip()
             choices.append(line.strip())
             last = 0
         else:
             if last == 0 and title != "":
                 res += add("{\n" +
-                           f"id: {qid},\ntitle: \"{title}\",\nchoices: {get_choices(choices)},\nsolution: \"\",\nexplanation: \"\"\n" + "},\n", title, get_choices(choices))
+                           f"id: {qid},\ntitle: \"{title}\",\nchoices: {get_choices(choices)},\nsolution: \"-\",\nexplanation: \"\"\n" + "},\n", title, get_choices(choices))
                 title = ""
                 choices = []
             last = 1
@@ -62,10 +68,12 @@ def light_parse():
     final = ""
     temp = ""
     prevWasD = False
+    global total_lines
 
     lines = r.readlines()
     r.close()
     lines_count = len(lines)
+    total_lines = lines_count
     print(f"Parsing {lines_count} lines")
 
     for index, line in enumerate(lines, start=0):
@@ -73,7 +81,7 @@ def light_parse():
 
         if line.strip() == "":
             if prevWasD:
-                res += temp.replace("\\n", " ") + "\n"
+                res += temp.replace('\n', ' ') + "\n"
                 temp = ""
                 prevWasD = False
             res += "\n"
@@ -85,7 +93,7 @@ def light_parse():
         if re.search(option_rgx, line):
             if line.startswith("d)"):
                 prevWasD = True
-            res += temp.replace("\\n", " ") + "\n"
+            res += ' '.join(temp.replace('\n', ' ').split()) + "\n"
             temp = line
             continue
         temp += line
@@ -97,7 +105,7 @@ def light_parse():
 
         if line.strip() == "":
             if prevWasD:
-                final += temp.replace("\\n", " ") + "\n"
+                final += ' '.join(temp.replace('\n', ' ').split()) + "\n"
                 temp = ""
                 prevWasD = False
             final += "\n"
@@ -109,7 +117,7 @@ def light_parse():
         if re.search(option_rgx, line):
             if line.startswith("d)"):
                 prevWasD = True
-            final += temp.replace("\\n", " ") + "\n"
+            final += ' '.join(temp.replace('\n', ' ').split()) + "\n"
             temp = line
             continue
         temp += line
@@ -119,15 +127,16 @@ def light_parse():
 
 
 def add(value, title, choices):
-    title = re.sub(re.compile(r"[^\x00-\x7F]*"), "", title.lower()).strip()
-    choices = re.sub(re.compile(r"[^\x00-\x7F]*"), "", choices.lower()).strip()
+    title = re.sub(re.compile(r"[^a-z]"), "", title.lower()).strip()
+    choices = re.sub(re.compile(r"[^a-z]"), "", choices.lower()).strip()
     global total_count
     global duplicates
     global qid
 
     total_count += 1
-    if title + choices in duplicates :
-        return ""
+    for duplicate in duplicates:
+        if title + choices == duplicate:
+            return ""
     qid += 1
     duplicates.append(title + choices)
     return value

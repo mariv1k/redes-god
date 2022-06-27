@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import constants from "../global/constants";
+import parameters from "../global/parameters";
 import * as S from "../global/styles";
 
 export const CheckSolutionsButton = () => {
@@ -8,19 +8,61 @@ export const CheckSolutionsButton = () => {
     navigate("/solved");
   };
 
-  return <S.Button onClick={handleCheckSolutionsButton}>Comprobar</S.Button>;
-};
-
-export const NewTestButton = () => {
-  const navigate = useNavigate();
-  const handleNewTestButton = (): void => {
-    navigate("/");
-    window.location.reload()
-  };
-
-  return <S.Button onClick={handleNewTestButton}>Nuevo test</S.Button>;
+  return <S.Button1 onClick={handleCheckSolutionsButton}>Corregir</S.Button1>;
 };
 
 export const GithubButton = () => {
-  return <S.Button onClick={() => window.open("https://github.com/mariod8/redes-god")}>{constants.svg.github}</S.Button>;
+  return (
+    <S.Button2
+      onClick={() => window.open("https://github.com/mariod8/redes-god")}
+    >
+      {parameters.svg.github}
+    </S.Button2>
+  );
+};
+
+export const NextQuestionButton = () => {
+  const navigate = useNavigate();
+  const handleNextQuestionButton = (): void => {
+    navigate("/");
+  };
+
+  return (
+    <S.Button1 onClick={handleNextQuestionButton}>
+      {parameters.svg.rightArrow}
+    </S.Button1>
+  );
+};
+
+export const ReloadQuestionButton = () => {
+  const navigate = useNavigate();
+  const handleReloadQuestionButton = (): void => {
+    navigate("/");
+  };
+
+  return (
+    <S.Button1 onClick={handleReloadQuestionButton}>
+      {parameters.svg.reloadQuestion}
+    </S.Button1>
+  );
+};
+
+export const GoToExamButton = () => {
+  const navigate = useNavigate();
+  const handleGoToExamButton = (): void => {
+    navigate("/exam");
+  };
+
+  return <S.Button1 onClick={handleGoToExamButton}>Examen</S.Button1>;
+};
+
+export const GoToSoloExamButton = () => {
+  const navigate = useNavigate();
+  const handleGoToSoloExamButton = (): void => {
+    navigate("/");
+  };
+
+  return (
+    <S.Button1 onClick={handleGoToSoloExamButton}>Preguntas sueltas</S.Button1>
+  );
 };

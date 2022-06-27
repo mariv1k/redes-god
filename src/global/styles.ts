@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import parameters from "./parameters";
-import { hexToRgba } from "./utils";
 
 // App
 
@@ -18,7 +17,7 @@ export const App = styled.div`
     font-family: ${parameters.font.fontFamily}, sans-serif;
     font-size: 1rem;
     box-sizing: border-box;
-    color: ${parameters.colors.color3};
+    color: ${parameters.colors.color4};
   }
 `;
 
@@ -39,14 +38,21 @@ export const Header = styled.header`
   height: ${parameters.height.header}px;
   position: sticky;
   z-index: 1;
-  top: 0;
   background-color: ${parameters.colors.color3};
   transition: top 0.2s ease-out !important;
-  display: flex;
-  padding: 20px 30px;
-  flex-direction: row;
+  padding: 10px 25px;
   gap: 8px;
-  align-items: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+
+  a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    user-select: none;
+    text-decoration: none;
+  }
 `;
 
 // Footer
@@ -63,9 +69,9 @@ export const Footer = styled.footer`
   align-items: center;
 `;
 
-// Test
+// Exam
 
-export const Test = styled.div`
+export const Exam = styled.div`
   width: 100%;
   height: 100%;
   display: flex;
@@ -76,7 +82,7 @@ export const Test = styled.div`
 
 // Solved Test
 
-export const SolvedTest = styled.div`
+export const SolvedExam = styled.div`
   width: 100%;
   height: 100%;
   display: flex;
@@ -91,7 +97,7 @@ export const Question = styled.div`
   width: 100%;
   height: fit-content;
   background-color: ${parameters.colors.color2};
-  color: ${parameters.colors.color3};
+  color: ${parameters.colors.color4};
   padding: 20px 30px;
   border-radius: 4px;
   display: grid;
@@ -104,15 +110,18 @@ export const Question = styled.div`
     rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 `;
 
-export const QuestionTitle = styled.span`
+export const QuestionTitle = styled.div`
   font-weight: bold;
+  display: flex;
+  flex-wrap: wrap;
   grid-area: question_title;
-  margin-bottom: 8px;
+  margin-bottom: 16px;
+  width: 100%;
 `;
 
 export const QuestionChoices = styled.div`
   grid-area: question_choices;
-  width: auto;
+  width: 100%;
   text-align: left;
 
   input[type="radio"] {
@@ -129,7 +138,7 @@ export const QuestionChoices = styled.div`
   }
 
   label {
-    font-size: 1.05rem;
+    font-size: 1.04rem;
     cursor: pointer;
     padding: ${parameters.padding.choices};
     position: relative;
@@ -139,11 +148,11 @@ export const QuestionChoices = styled.div`
     &:focus,
     &:active,
     &:hover {
-      color: ${parameters.colors.color4};
+      color: ${parameters.colors.color6};
 
       &:before {
         background: ${parameters.colors.color2};
-        border-color: ${parameters.colors.color4};
+        border-color: ${parameters.colors.color6};
       }
     }
 
@@ -165,11 +174,12 @@ export const QuestionChoices = styled.div`
   input:checked + label {
     @extend .activeAnswer;
     pointer-events: none;
+    color: ${parameters.colors.color6};
 
     &:before {
-      border-color: ${parameters.colors.color2};
-      border: 0.2rem solid ${parameters.colors.color4};
-      background: ${parameters.colors.color4};
+      border-color: ${parameters.colors.color6};
+      border: 0.2rem solid ${parameters.colors.color6};
+      background: ${parameters.colors.color6};
     }
   }
 `;
@@ -184,19 +194,13 @@ export const QuestionPanel = styled.div`
   row-gap: 8px;
 `;
 
-export const QuestionNumber = styled.span`
-  user-select: none;
-  font-size: 0.8rem;
-  margin-bottom: 4px;
-`;
-
 // Solved Question
 
 export const SolvedQuestion = styled.div`
   width: 100%;
   height: fit-content;
   background-color: ${parameters.colors.color2};
-  color: ${parameters.colors.color3};
+  color: ${parameters.colors.color4};
   padding: 20px 30px;
   border-radius: 4px;
   display: grid;
@@ -210,15 +214,9 @@ export const SolvedQuestion = styled.div`
     rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 `;
 
-export const SolvedQuestionTitle = styled.span`
-  font-weight: bold;
-  grid-area: question_title;
-  margin-bottom: 8px;
-`;
-
 export const SolvedQuestionChoices = styled.div`
   grid-area: question_choices;
-  width: auto;
+  width: 100%;
   text-align: left;
   pointer-events: none;
 
@@ -236,11 +234,11 @@ export const SolvedQuestionChoices = styled.div`
   }
 
   .correctChoice {
-    color: green;
+    color: #02e825;
   }
 
   .wrongChoice {
-    color: red;
+    color: #f74b16;
   }
 
   label {
@@ -252,11 +250,11 @@ export const SolvedQuestionChoices = styled.div`
     align-items: center;
 
     &:focus {
-      color: ${parameters.colors.color4};
+      color: ${parameters.colors.color6};
 
       &:before {
         background: ${parameters.colors.color2};
-        border-color: ${parameters.colors.color4};
+        border-color: ${parameters.colors.color6};
       }
     }
 
@@ -281,20 +279,14 @@ export const SolvedQuestionChoices = styled.div`
     pointer-events: none;
 
     &:before {
-      border-color: ${parameters.colors.color2};
-      border: 0.2rem solid ${parameters.colors.color4};
-      background: ${parameters.colors.color4};
+      border-color: ${parameters.colors.color6};
+      border: 0.2rem solid ${parameters.colors.color6};
+      background: ${parameters.colors.color6};
     }
   }
 `;
 
-export const SolvedQuestionNumber = styled.span`
-  user-select: none;
-  font-size: 0.8rem;
-  margin-bottom: 4px;
-`;
-
-export const QuestionExplanation = styled.div`
+export const SolvedQuestionExplanation = styled.div`
   grid-area: question_explanation;
   width: 100%;
   border-radius: 4px;
@@ -316,6 +308,7 @@ export const QuestionExplanation = styled.div`
     cursor: pointer;
     justify-content: space-between;
     user-select: none;
+    font-weight: 700;
 
     &:hover {
       background-color: ${parameters.colors.color5};
@@ -342,24 +335,29 @@ export const QuestionExplanation = styled.div`
     padding: 10px 20px;
     max-height: fit-content;
   }
+
+  svg {
+    width: 24px;
+    height: 24px;
+    fill: ${parameters.colors.color4}
+  }
 `;
 
 // Button
 
-export const Button = styled.div`
-  width: "fit-content";
-  height: "fit-content";
-  background-color: ${parameters.colors.color2};
-  border: 2px solid ${hexToRgba(parameters.colors.color3)};
+export const Button1 = styled.div`
+  width: fit-content;
+  height: fit-content;
+  background-color: ${parameters.colors.color7};
+  color: ${parameters.colors.color4};
+  border-radius: 4px;
+  cursor: pointer;
+  user-select: none;
+  padding: 6px 10px;
+  font-weight: 700;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 4px;
-  cursor: pointer;
-  color: ${parameters.colors.color3};
-  user-select: none;
-  padding: 4px;
-  font-weight: 600;
 
   &.inactive {
     pointer-events: none;
@@ -367,21 +365,63 @@ export const Button = styled.div`
   }
 
   &:hover {
-    background-color: ${parameters.colors.color3};
-
-    svg {
-      fill: ${parameters.colors.color2};
-    }
-    color: ${parameters.colors.color2};
+    opacity: 0.8;
   }
 
   &:active {
-    transform: scale(0.95);
+    opacity: 0.7;
   }
 
   svg {
-    width: 24px;
-    height: 24px;
-    ${parameters.colors.color3};
+    float: left;
+    width: 25px;
+    height: 25px;
+    fill: ${parameters.colors.color4};
   }
+`;
+
+export const Button2 = styled.div`
+  width: fit-content;
+  height: fit-content;
+  background-color: ${parameters.colors.color7};
+  color: ${parameters.colors.color4};
+  border-radius: 4px;
+  cursor: pointer;
+  user-select: none;
+  margin-left: auto;
+  padding: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &.inactive {
+    pointer-events: none;
+    opacity: 0.5;
+  }
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.7;
+  }
+
+  svg {
+    float: left;
+    width: 25px;
+    height: 25px;
+    fill: ${parameters.colors.color4};
+  }
+`;
+
+// Solo Question Exam
+
+export const SoloQuestionExam = styled.div`
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 12px;
 `;

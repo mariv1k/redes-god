@@ -42,3 +42,41 @@ export function round(num: number, decimals = 2) {
 export function clamp(num: number, min: number, max: number) {
   return num <= min ? min : num >= max ? max : num;
 }
+
+
+export function msToHMS(ms: number) {
+  var timeElapsed = ms;
+  var ms = timeElapsed % 1000;
+  timeElapsed = (timeElapsed - ms) / 1000;
+  var secs = timeElapsed % 60;
+  timeElapsed = (timeElapsed - secs) / 60;
+  var mins = timeElapsed % 60;
+  var hrs = (timeElapsed - mins) / 60;
+  return (
+    (hrs < 10 ? "0" + hrs : hrs) +
+    ":" +
+    (mins < 10 ? "0" + mins : mins) +
+    ":" +
+    (secs < 10 ? "0" + secs : secs)
+  );
+}
+
+export function parseMs(rawTime: string) {
+  rawTime = rawTime.toLowerCase();
+  if (!/[smhd]$/.test(rawTime)) return 1000;
+  var timeUnit = /[smhd]/gm.exec(rawTime)![0];
+  var timeValue = parseInt(/\d+/gm.exec(rawTime)![0]) * 1000;
+
+  switch (timeUnit) {
+    case "s":
+      return timeValue;
+    case "m":
+      return timeValue * 60;
+    case "h":
+      return timeValue * 60 * 60;
+    case "d":
+      return timeValue * 60 * 60 * 24;
+    default:
+      return 1000;
+  }
+}
