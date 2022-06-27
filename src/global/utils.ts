@@ -46,7 +46,7 @@ export function clamp(num: number, min: number, max: number) {
 
 export function msToHMS(ms: number) {
   var timeElapsed = ms;
-  var ms = timeElapsed % 1000;
+  ms = timeElapsed % 1000;
   timeElapsed = (timeElapsed - ms) / 1000;
   var secs = timeElapsed % 60;
   timeElapsed = (timeElapsed - secs) / 60;
