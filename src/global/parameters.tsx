@@ -8,7 +8,7 @@ const parameters = {
     color6: "#ffd247",
     color7: "#ff5c5b",
     color8: "#02e825",
-    color9: "#EE4B2B"
+    color9: "#EE4B2B",
   },
   font: {
     fontFamily: "Open Sans",

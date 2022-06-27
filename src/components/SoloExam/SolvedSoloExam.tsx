@@ -7,7 +7,7 @@ const SoloSolvedExam = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-  
+
   return (
     <S.SolvedExam>
       {ExamManager.SolvedSoloQuestion()} {<NextQuestionButton />}

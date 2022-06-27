@@ -12,7 +12,7 @@ import { SolvedSoloQuestion } from "../SoloExam/SolvedSoloQuestion";
 export class ExamManager {
   private static _currentQuestion = 0;
   private static _questions: T.Question[] = [];
-  public static QuestionsPerTest = 35
+  public static QuestionsPerTest = 35;
 
   public static get questions(): T.Question[] {
     return this._questions;

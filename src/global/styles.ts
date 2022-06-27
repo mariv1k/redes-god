@@ -89,6 +89,12 @@ export const SolvedExam = styled.div`
   align-items: center;
   flex-direction: column;
   row-gap: 12px;
+
+  .ExamScore {
+    background-color: ${parameters.colors.color2};
+    padding: 20px;
+    border-radius: 4px;
+  }
 `;
 
 // Question
@@ -338,7 +344,7 @@ export const SolvedQuestionExplanation = styled.div`
   svg {
     width: 24px;
     height: 24px;
-    fill: ${parameters.colors.color4}
+    fill: ${parameters.colors.color4};
   }
 `;
 
