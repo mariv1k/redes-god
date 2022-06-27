@@ -205,11 +205,11 @@ export const SolvedQuestion = styled.div`
   border-radius: 4px;
   display: grid;
   gap: 0;
-  grid-template-columns: auto;
+  grid-template-columns: auto min-content;
   grid-template-areas:
-    "question_title"
-    "question_choices"
-    "question_explanation";
+    "question_title question_panel"
+    "question_choices question_panel"
+    "question_explanation question_panel";
   box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
     rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 `;
@@ -234,15 +234,15 @@ export const SolvedQuestionChoices = styled.div`
   }
 
   .correctChoice {
-    color: #02e825;
+    color: ${parameters.colors.color8};
   }
 
   .wrongChoice {
-    color: #f74b16;
+    color: ${parameters.colors.color9};
   }
 
   label {
-    font-size: 1.05rem;
+    font-size: 1.04rem;
     cursor: pointer;
     padding: ${parameters.padding.choices};
     position: relative;
@@ -296,8 +296,7 @@ export const SolvedQuestionExplanation = styled.div`
   font-size: 1rem;
 
   &.inactive {
-    pointer-events: none;
-    opacity: 0.5;
+    display: none;
   }
 
   label {

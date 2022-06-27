@@ -77,11 +77,38 @@ export const SolvedSoloQuestion = (question: T.Question) => {
         }
       >
         <label htmlFor={question.id.toString()}>
-          {"Explicación"}{parameters.svg.unfoldAccordion}
+          {"Explicación"}
+          {parameters.svg.unfoldAccordion}
         </label>
         <input type="checkbox" id={question.id.toString()} name="accordion" />
         <div dangerouslySetInnerHTML={{ __html: explanation }} />
       </S.SolvedQuestionExplanation>
+    );
+  };
+
+  const QuestionPanel = () => {
+    /*const handleReportChoiceButton = (): void => {
+      // TODO
+    };*/
+
+    /*const ReportChoiceButton = () => {
+      return (
+        <>
+          <S.Button
+            data-tip
+            data-for="report_choice_button"
+            onClick={handleReportChoiceButton}
+          >
+            {constants.svg.reportQuestion}
+          </S.Button>
+        </>
+      );
+    };*/
+
+    return (
+      <S.QuestionPanel className="question_panel">
+        {/*<ReportChoiceButton />*/}
+      </S.QuestionPanel>
     );
   };
 
@@ -90,6 +117,7 @@ export const SolvedSoloQuestion = (question: T.Question) => {
       {QuestionTitle(question.data.title)}
       {SolvedQuestionChoices(question.data.choices)}
       {SolvedQuestionExplanation(question.data.explanation)}
+      {QuestionPanel()}
     </S.SolvedQuestion>
   );
 };

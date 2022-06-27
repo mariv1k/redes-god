@@ -93,11 +93,38 @@ export const SolvedQuestion = (question: T.Question) => {
     );
   };
 
+  const QuestionPanel = () => {
+    /*const handleReportChoiceButton = (): void => {
+      // TODO
+    };*/
+
+    /*const ReportChoiceButton = () => {
+      return (
+        <>
+          <S.Button
+            data-tip
+            data-for="report_choice_button"
+            onClick={handleReportChoiceButton}
+          >
+            {constants.svg.reportQuestion}
+          </S.Button>
+        </>
+      );
+    };*/
+
+    return (
+      <S.QuestionPanel className="question_panel">
+        {/*<ReportChoiceButton />*/}
+      </S.QuestionPanel>
+    );
+  };
+
   return (
     <S.SolvedQuestion>
       {QuestionTitle(question.data.title, question.id)}
       {SolvedQuestionChoices(question.data.choices)}
       {SolvedQuestionExplanation(question.data.explanation)}
+      {QuestionPanel()}
     </S.SolvedQuestion>
   );
 };

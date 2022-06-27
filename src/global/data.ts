@@ -7583,7 +7583,7 @@ const questionsData: QuestionData[] = [
       "Se sabe que en una LAI, un nodo encaminador denotado por A puede encaminar hasta un ETD a través de cualquiera de sus nodos adyacentes (B, C y D) y para el cálculo de la ruta y de la métrica asociada, A usa el protocolo OSPF en modo ToS8. De acuerdo a la información estadística de mínimo coste facilitada en la tabla para tres posibles parámetros de métrica, ¿cuál sería la puerta de enlace por defecto, más adecuada, para transmitir al ETD y cuál sería su métrica asociada?",
     choices: [
       "Nodo B con métrica 1.",
-      "Iodo C con métrica 2.",
+      "Nodo C con métrica 2.",
       "Nodo D con métrica 1.",
       "Cualquiera de los nodos es valido (B, C o y D, con métrica 7).",
     ],
