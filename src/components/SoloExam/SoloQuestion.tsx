@@ -4,6 +4,7 @@ import { nextChar } from "../../global/utils";
 import { ExamManager } from "../Exam/Exam";
 import * as T from "../../global/types";
 import { useNavigate } from "react-router-dom";
+import { ReloadQuestionButton } from "../Button";
 
 export const SoloQuestion = (question: T.Question) => {
   const [selectedChoice, setSelectedChoice] = useState("-");
@@ -76,6 +77,7 @@ export const SoloQuestion = (question: T.Question) => {
 
     return (
       <S.QuestionPanel className="question_panel">
+        {<ReloadQuestionButton />}
         {/*<ReportChoiceButton />*/}
       </S.QuestionPanel>
     );

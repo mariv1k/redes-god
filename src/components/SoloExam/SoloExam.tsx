@@ -1,6 +1,5 @@
 import { useEffect } from "react";
 import * as S from "../../global/styles";
-import { ReloadQuestionButton } from "../Button";
 import { ExamManager } from "../Exam/Exam";
 
 const SoloExam = () => {
@@ -10,7 +9,9 @@ const SoloExam = () => {
   }, []);
 
   return (
-    <S.SoloQuestionExam>{ExamManager.NextSoloQuestion()}{<ReloadQuestionButton />}</S.SoloQuestionExam>
+    <S.SoloQuestionExam>
+      {ExamManager.NextSoloQuestion()}
+    </S.SoloQuestionExam>
   );
 };
 

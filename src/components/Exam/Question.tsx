@@ -67,14 +67,14 @@ export const Question = (question: T.Question) => {
     const ClearChoiceButton = () => {
       return (
         <>
-          <S.Button2
+          <S.Button1
             data-tip
             data-for="clear_choice_button"
             className={selectedChoice === "-" ? "inactive" : ""}
             onClick={handleClearChoiceButton}
           >
             {parameters.svg.clearChoice}
-          </S.Button2>
+          </S.Button1>
         </>
       );
     };

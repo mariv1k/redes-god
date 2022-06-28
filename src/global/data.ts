@@ -10495,7 +10495,7 @@ const questionsData: QuestionData[] = [
     id: 867,
     title: "Indica el sistema de señalización empleado en Ethernet 100BaseFX:",
     choices: ["Manchester.", "4D-PAM5.", "NRZI.", "8B/10B."],
-    solution: "-",
+    solution: "c",
     explanation: "",
   },
   {

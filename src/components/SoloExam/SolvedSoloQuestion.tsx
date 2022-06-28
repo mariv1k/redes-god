@@ -2,6 +2,7 @@ import parameters from "../../global/parameters";
 import * as S from "../../global/styles";
 import * as T from "../../global/types";
 import { nextChar } from "../../global/utils";
+import { NextQuestionButton } from "../Button";
 import { ExamManager } from "../Exam/Exam";
 
 export const SolvedSoloQuestion = (question: T.Question) => {
@@ -107,6 +108,7 @@ export const SolvedSoloQuestion = (question: T.Question) => {
 
     return (
       <S.QuestionPanel className="question_panel">
+        {<NextQuestionButton />}
         {/*<ReportChoiceButton />*/}
       </S.QuestionPanel>
     );
