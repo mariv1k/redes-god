@@ -40,7 +40,7 @@ export const SolvedExam = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-
+  console.log(1)
   return (
     <S.SolvedExam>
       {ExamManager.SolvedQuestionGroup(35)}

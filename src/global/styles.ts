@@ -131,7 +131,7 @@ export const QuestionTitle = styled.div`
   display: flex;
   flex-wrap: wrap;
   grid-area: question_title;
-  margin-bottom: 16px;
+  margin-bottom: ${parameters.margin.questionTitle};
   width: 100%;
 `;
 

@@ -14,11 +14,14 @@ const parameters = {
     fontFamily: "Open Sans",
   },
   padding: {
-    choices: "0 0 .8rem 1.75rem",
+    choices: "0.8rem 0 0 1.75rem",
   },
   height: {
     header: 80,
     footer: 100,
+  },
+  margin: {
+    questionTitle: "8px"
   },
   svg: {
     clearChoice: (
