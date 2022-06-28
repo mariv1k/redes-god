@@ -1,5 +1,18 @@
-const Author = () => {
-  return <span>xd</span>
-}
+import { useEffect } from "react";
+import * as S from "../global/styles";
+const image = require("../res/author.jpg");
 
-export default Author
+const Author = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  return (
+    <S.Author>
+      <img src={image} />
+      <span>yo ^</span>
+    </S.Author>
+  );
+};
+
+export default Author;

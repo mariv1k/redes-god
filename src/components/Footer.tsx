@@ -1,10 +1,10 @@
+import { Link } from "react-router-dom";
 import * as S from "../global/styles";
-import Author from "./Author";
 
 const Footer = () => {
   return (
     <S.Footer>
-      <Author />
+       <Link to="/author">Autor</Link>
     </S.Footer>
   );
 };

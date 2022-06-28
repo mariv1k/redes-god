@@ -5,7 +5,7 @@ import * as S from "../global/styles";
 export const CheckSolutionsButton = () => {
   const navigate = useNavigate();
   const handleCheckSolutionsButton = (): void => {
-    navigate("/solved");
+    navigate("/solved-exam");
   };
 
   return <S.Button1 onClick={handleCheckSolutionsButton}>Corregir</S.Button1>;

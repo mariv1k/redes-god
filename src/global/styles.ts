@@ -62,11 +62,21 @@ export const Footer = styled.footer`
   background-color: ${parameters.colors.color3};
   height: ${parameters.height.footer}px;
   width: 100%;
+  padding: 10px 25px;
   display: flex;
   flex-direction: row;
+  gap: 8px;
   gap: 10px;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
+
+  * {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 `;
 
 // Exam
@@ -92,7 +102,7 @@ export const SolvedExam = styled.div`
 
   .ExamScore {
     background-color: ${parameters.colors.color2};
-    padding: 20px;
+    padding: 20px 30px;
     border-radius: 4px;
   }
 `;
@@ -429,4 +439,22 @@ export const SoloQuestionExam = styled.div`
   align-items: center;
   flex-direction: column;
   row-gap: 12px;
+`;
+
+// Author
+
+export const Author = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+
+  img {
+    width: 300px;
+  }
+
+  span {
+    font-weight: bold;
+    font-size: 16px;
+  }
 `;
