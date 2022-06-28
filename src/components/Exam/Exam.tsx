@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import questionsData from "../../global/data";
+import data from "../../global/data.json";
 import * as S from "../../global/styles";
 import * as T from "../../global/types";
 import { shuffle } from "../../global/utils";
@@ -19,16 +19,22 @@ export class ExamManager {
   }
 
   public static InitQuestions(number?: number, force: boolean = false): void {
-    if (number && number > questionsData.length) return;
+    if (number && number > data.questionsData.length) return;
     if (!force && this._questions.length > 0) return;
     ExamManager._currentQuestion = 0;
     this._questions = [];
-    shuffle(questionsData)
+    shuffle(data.questionsData)
       .slice(0, number)
       .forEach((questionData, index) => {
         const question: T.Question = {
           id: index + 1,
-          data: questionData,
+          data: {
+            id: questionData.id,
+            title: questionData.title,
+            choices: questionData.choices,
+            solution: questionData.solution as T.Choice,
+            explanation: questionData.explanation,
+          },
           choice: "-",
         };
         this._questions.push(question);
