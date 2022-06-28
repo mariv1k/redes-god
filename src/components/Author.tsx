@@ -9,7 +9,7 @@ const Author = () => {
 
   return (
     <S.Author>
-      <img src={image} />
+      <img src={image} alt="" />
       <span>yo ^</span>
     </S.Author>
   );
