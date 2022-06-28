@@ -19,26 +19,20 @@ export const SolvedQuestion = (question: T.Question) => {
       return question.choice === ExamManager.GetChoice(value);
     };
     const isChoiceCorrect = (value: string): boolean => {
-      const choice = ExamManager.GetChoice(value)
+      const choice = ExamManager.GetChoice(value);
 
       if (question.data.solution === "-") return false;
       if (question.choice === "-") return false;
-      if (
-        choice === question.data.solution
-      )
-        return true;
+      if (choice === question.data.solution) return true;
       return false;
     };
     const isChoiceWrong = (value: string): boolean => {
-      const choice = ExamManager.GetChoice(value)
-      
+      const choice = ExamManager.GetChoice(value);
+
       if (question.data.solution === "-") return false;
       if (question.choice === "-" && question.data.solution === choice)
         return true;
-      if (
-        question.choice === choice &&
-        choice !== question.data.solution
-      )
+      if (question.choice === choice && choice !== question.data.solution)
         return true;
       return false;
     };
@@ -85,7 +79,8 @@ export const SolvedQuestion = (question: T.Question) => {
         }
       >
         <label htmlFor={question.id.toString()}>
-          Explicación<div>{parameters.svg.unfoldAccordion}</div>
+          {"Explicación"}
+          {parameters.svg.unfoldAccordion}
         </label>
         <input type="checkbox" id={question.id.toString()} name="accordion" />
         <div dangerouslySetInnerHTML={{ __html: explanation }} />

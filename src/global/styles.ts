@@ -72,6 +72,7 @@ export const Footer = styled.footer`
 
   * {
     text-decoration: none;
+    font-weight: 700;
 
     &:hover {
       text-decoration: underline;
@@ -114,14 +115,15 @@ export const Question = styled.div`
   height: fit-content;
   background-color: ${parameters.colors.color2};
   color: ${parameters.colors.color4};
-  padding: 20px 30px;
+  padding: 20px 30px calc(20px - 0.4rem) 30px;
   border-radius: 4px;
   display: grid;
   gap: 0;
   grid-template-columns: auto min-content;
   grid-template-areas:
     "question_title question_panel"
-    "question_choices question_panel";
+    "question_choices question_choices"
+    "question_choices question_choices";
   box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
     rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 `;
@@ -207,7 +209,7 @@ export const QuestionPanel = styled.div`
   flex-direction: column;
   align-items: center;
   margin-left: 30px;
-  row-gap: 8px;
+  gap: 8px;
 `;
 
 // Solved Question
@@ -217,15 +219,16 @@ export const SolvedQuestion = styled.div`
   height: fit-content;
   background-color: ${parameters.colors.color2};
   color: ${parameters.colors.color4};
-  padding: 20px 30px;
+  padding: 20px 30px calc(20px - 0.4rem) 30px;
   border-radius: 4px;
   display: grid;
   gap: 0;
   grid-template-columns: auto min-content;
   grid-template-areas:
     "question_title question_panel"
-    "question_choices question_panel"
-    "question_explanation question_panel";
+    "question_choices question_choices"
+    "question_choices question_choices"
+    "question_explanation question_explanation";
   box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
     rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 `;
@@ -326,14 +329,8 @@ export const SolvedQuestionExplanation = styled.div`
     font-weight: 700;
 
     &:hover {
-      background-color: ${parameters.colors.color5};
+      opacity: 0.8
     }
-  }
-
-  label > span {
-    transform: rotate(90deg);
-    font-size: 1.01rem;
-    font-weight: 700;
   }
 
   label + input[type="checkbox"] {

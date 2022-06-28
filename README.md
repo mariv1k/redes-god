@@ -1,5 +1,5 @@
 # Redes God
-+900 tests para Redes
++900 preguntas test para Redes
 
 ## Online
 [Web](https://redesgod.netlify.app/)

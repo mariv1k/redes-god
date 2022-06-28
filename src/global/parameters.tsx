@@ -14,7 +14,7 @@ const parameters = {
     fontFamily: "Open Sans",
   },
   padding: {
-    choices: "0.8rem 0 0 1.75rem",
+    choices: "0.4rem 0 0.4rem 1.75rem",
   },
   height: {
     header: 80,
