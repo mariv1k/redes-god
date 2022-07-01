@@ -13,11 +13,11 @@ export const CheckSolutionsButton = () => {
 
 export const GithubButton = () => {
   return (
-    <S.Button2
-      onClick={() => window.open("https://github.com/mariod8/redes-god")}
+    <S.Button1
+      style={{marginLeft: "auto"}} onClick={() => window.open("https://github.com/mariod8/redes-god")}
     >
       {parameters.svg.github}
-    </S.Button2>
+    </S.Button1>
   );
 };
 

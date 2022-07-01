@@ -25,7 +25,7 @@ export const App = styled.div`
 
 export const Main = styled.main`
   width: 95%;
-  min-height: calc(100vh - 80px);
+  min-height: calc(100vh - ${parameters.height.header});
   height: auto;
   max-width: 1000px;
   padding: 30px 0;
@@ -35,7 +35,7 @@ export const Main = styled.main`
 
 export const Header = styled.header`
   width: 100%;
-  height: ${parameters.height.header}px;
+  height: ${parameters.height.header};
   position: sticky;
   z-index: 1;
   background-color: ${parameters.colors.color3};
@@ -46,13 +46,6 @@ export const Header = styled.header`
   justify-content: center;
   align-items: center;
   flex-direction: row;
-
-  a {
-    font-size: 1.5rem;
-    font-weight: bold;
-    user-select: none;
-    text-decoration: none;
-  }
 `;
 
 // Footer

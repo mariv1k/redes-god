@@ -5669,7 +5669,7 @@
       "id": 501,
       "title": "Indicar cuál de las siguientes codificaciones NO es correcta:",
       "choices": ["NRZ bipolar.", "AMI.", "Manchester diferencial.", "RZ."],
-      "solution": "c",
+      "solution": "d",
       "explanation": ""
     },
     {
@@ -6945,7 +6945,7 @@
     },
     {
       "id": 615,
-      "title": "El grado del polinomio generador empleado en los códigos de redundancia cíclica (CRC) 5O afecta a,",
+      "title": "El grado del polinomio generador empleado en los códigos de redundancia cíclica (CRC) NO afecta a,",
       "choices": [
         "El número de bits del resto en la operación de división de polinomios.",
         "La cantidad de información redundante en el paquete de información.",
@@ -7278,7 +7278,7 @@
     },
     {
       "id": 644,
-      "title": "La velocidad máxima de transmisión que puede emplearse en un medio físico 6O depende de,",
+      "title": "La velocidad máxima de transmisión que puede emplearse en un medio físico NO depende de,",
       "choices": [
         "El número de armónicos que componen la señal.",
         "El ancho de banda del medio físico.",
@@ -7314,7 +7314,7 @@
     },
     {
       "id": 647,
-      "title": "Qué situación 6O es indicio de presencia de congestión en una red de comunicaciones ?",
+      "title": "Qué situación NO es indicio de presencia de congestión en una red de comunicaciones ?",
       "choices": [
         "Presencia de mensajes ICMP Fragment Reaseembly Time exceded.",
         "Presencia de mensajes ICMP Host Unreachable.",

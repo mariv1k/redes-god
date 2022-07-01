@@ -17,7 +17,7 @@ const parameters = {
     choices: "0.4rem 0 0.4rem 1.75rem",
   },
   height: {
-    header: 80,
+    header: "80px",
     footer: 100,
   },
   margin: {

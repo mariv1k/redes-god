@@ -12,7 +12,7 @@ const Header = () => {
     if (prevScrollpos > currentScrollPos) {
       setStyleTop("0");
     } else {
-      setStyleTop(`-${parameters.height.header}px`);
+      setStyleTop(`-${parameters.height.header}`);
     }
     prevScrollpos = currentScrollPos;
   };
