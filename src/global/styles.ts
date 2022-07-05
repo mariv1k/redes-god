@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import parameters from "./parameters";
+import styled from "styled-components"
+import parameters from "./parameters"
 
 // App
 
@@ -19,7 +19,7 @@ export const App = styled.div`
     box-sizing: border-box;
     color: ${parameters.colors.color4};
   }
-`;
+`
 
 // Main
 
@@ -29,7 +29,7 @@ export const Main = styled.main`
   height: auto;
   max-width: 1000px;
   padding: 30px 0;
-`;
+`
 
 // Header
 
@@ -46,7 +46,7 @@ export const Header = styled.header`
   justify-content: center;
   align-items: center;
   flex-direction: row;
-`;
+`
 
 // Footer
 
@@ -71,7 +71,7 @@ export const Footer = styled.footer`
       text-decoration: underline;
     }
   }
-`;
+`
 
 // Exam
 
@@ -82,7 +82,7 @@ export const Exam = styled.div`
   align-items: center;
   flex-direction: column;
   row-gap: 12px;
-`;
+`
 
 // Solved Test
 
@@ -99,7 +99,7 @@ export const SolvedExam = styled.div`
     padding: 20px 30px;
     border-radius: 4px;
   }
-`;
+`
 
 // Question
 
@@ -119,7 +119,7 @@ export const Question = styled.div`
     "question_choices question_choices";
   box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
     rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
-`;
+`
 
 export const QuestionTitle = styled.div`
   font-weight: bold;
@@ -128,7 +128,7 @@ export const QuestionTitle = styled.div`
   grid-area: question_title;
   margin-bottom: ${parameters.margin.questionTitle};
   width: 100%;
-`;
+`
 
 export const QuestionChoices = styled.div`
   grid-area: question_choices;
@@ -193,7 +193,7 @@ export const QuestionChoices = styled.div`
       background: ${parameters.colors.color6};
     }
   }
-`;
+`
 
 export const QuestionPanel = styled.div`
   grid-area: question_panel;
@@ -203,7 +203,7 @@ export const QuestionPanel = styled.div`
   align-items: center;
   margin-left: 30px;
   gap: 8px;
-`;
+`
 
 // Solved Question
 
@@ -224,7 +224,7 @@ export const SolvedQuestion = styled.div`
     "question_explanation question_explanation";
   box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
     rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
-`;
+`
 
 export const SolvedQuestionChoices = styled.div`
   grid-area: question_choices;
@@ -296,7 +296,7 @@ export const SolvedQuestionChoices = styled.div`
       background: ${parameters.colors.color6};
     }
   }
-`;
+`
 
 export const SolvedQuestionExplanation = styled.div`
   grid-area: question_explanation;
@@ -322,7 +322,7 @@ export const SolvedQuestionExplanation = styled.div`
     font-weight: 700;
 
     &:hover {
-      opacity: 0.8
+      opacity: 0.8;
     }
   }
 
@@ -346,7 +346,7 @@ export const SolvedQuestionExplanation = styled.div`
     height: 24px;
     fill: ${parameters.colors.color4};
   }
-`;
+`
 
 // Button
 
@@ -383,7 +383,7 @@ export const Button1 = styled.div`
     height: 25px;
     fill: ${parameters.colors.color4};
   }
-`;
+`
 
 export const Button2 = styled.div`
   width: fit-content;
@@ -418,7 +418,7 @@ export const Button2 = styled.div`
     height: 25px;
     fill: ${parameters.colors.color4};
   }
-`;
+`
 
 // Solo Question Exam
 
@@ -429,7 +429,7 @@ export const SoloQuestionExam = styled.div`
   align-items: center;
   flex-direction: column;
   row-gap: 12px;
-`;
+`
 
 // Author
 
@@ -447,4 +447,4 @@ export const Author = styled.div`
     font-weight: bold;
     font-size: 16px;
   }
-`;
+`

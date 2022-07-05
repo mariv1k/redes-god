@@ -1,35 +1,33 @@
-import { ChangeEvent, useState } from "react";
-import * as S from "../../global/styles";
-import { nextChar } from "../../global/utils";
-import { ExamManager } from "../Exam/Exam";
-import * as T from "../../global/types";
-import { useNavigate } from "react-router-dom";
-import { ReloadQuestionButton } from "../Button";
+import { ChangeEvent, useState } from "react"
+import * as S from "../../global/styles"
+import { nextChar } from "../../global/utils"
+import { ExamManager } from "../Exam/Exam"
+import * as T from "../../global/types"
+import { useNavigate } from "react-router-dom"
+import { ReloadQuestionButton } from "../Button"
 
 export const SoloQuestion = (question: T.Question) => {
-  const [selectedChoice, setSelectedChoice] = useState("-");
+  const [selectedChoice, setSelectedChoice] = useState("-")
 
   const QuestionTitle = (title: string) => {
-    return (
-      <S.QuestionTitle className="question_title">{title}</S.QuestionTitle>
-    );
-  };
+    return <S.QuestionTitle className="question_title">{title}</S.QuestionTitle>
+  }
 
   const QuestionChoices = (choices: string[]) => {
-    var choiceIndex = "a";
-    const navigate = useNavigate();
+    var choiceIndex = "a"
+    const navigate = useNavigate()
     const isChoiceChecked = (value: string): boolean => {
-      return selectedChoice === value;
-    };
+      return selectedChoice === value
+    }
     const handleChoiceClick = (e: ChangeEvent<HTMLInputElement>): void => {
-      setSelectedChoice(e.currentTarget.value);
-      ExamManager.SetChoice(e.currentTarget.value);
-      navigate("/solved-solo-exam");
-    };
+      setSelectedChoice(e.currentTarget.value)
+      ExamManager.SetChoice(e.currentTarget.value)
+      navigate("/solved-solo-exam")
+    }
     const choicesGroup = choices.map((choice) => {
-      const id = question.id.toString() + choiceIndex;
-      const prevChoiceIndex = choiceIndex;
-      choiceIndex = nextChar(choiceIndex);
+      const id = question.id.toString() + choiceIndex
+      const prevChoiceIndex = choiceIndex
+      choiceIndex = nextChar(choiceIndex)
 
       return (
         <>
@@ -46,15 +44,15 @@ export const SoloQuestion = (question: T.Question) => {
             htmlFor={id}
           >{`${prevChoiceIndex}) ${choice}`}</label>
         </>
-      );
-    });
+      )
+    })
 
     return (
       <S.QuestionChoices className="question_choices">
         {choicesGroup}
       </S.QuestionChoices>
-    );
-  };
+    )
+  }
 
   const QuestionPanel = () => {
     /*const handleReportChoiceButton = (): void => {
@@ -80,8 +78,8 @@ export const SoloQuestion = (question: T.Question) => {
         {<ReloadQuestionButton />}
         {/*<ReportChoiceButton />*/}
       </S.QuestionPanel>
-    );
-  };
+    )
+  }
 
   return (
     <S.Question>
@@ -89,5 +87,5 @@ export const SoloQuestion = (question: T.Question) => {
       {QuestionChoices(question.data.choices)}
       {QuestionPanel()}
     </S.Question>
-  );
-};
+  )
+}

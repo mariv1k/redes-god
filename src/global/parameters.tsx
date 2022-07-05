@@ -21,7 +21,7 @@ const parameters = {
     footer: 100,
   },
   margin: {
-    questionTitle: "8px"
+    questionTitle: "8px",
   },
   svg: {
     clearChoice: (
@@ -59,6 +59,6 @@ const parameters = {
       </svg>
     ),
   },
-};
+}
 
-export default parameters;
+export default parameters

@@ -15,7 +15,6 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
-    "react-tooltip": "^4.2.21",
     "styled-components": "^5.3.5",
     "typescript": "^4.7.4",
     "web-vitals": "^2.1.4"
@@ -25,7 +24,8 @@
     "build": "react-scripts build",
     "test": "jest --watch",
     "eject": "react-scripts eject",
-    "tauri": "tauri"
+    "tauri": "tauri",
+    "format": "prettier --write \"**/*.+(js|jsx|ts|tsx|html|json|css|md)\""
   },
   "eslintConfig": {
     "extends": [
@@ -48,6 +48,13 @@
   "devDependencies": {
     "@tauri-apps/cli": "^1.0.0",
     "@types/styled-components": "^5.1.25",
-    "cross-env": "^7.0.3"
+    "cross-env": "^7.0.3",
+    "prettier": "^2.7.1"
+  },
+  "prettier": {
+    "printWidth": 80,
+    "arrowParens": "always",
+    "semi": false,
+    "tabWidth": 2
   }
 }

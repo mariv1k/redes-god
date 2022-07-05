@@ -1,8 +1,8 @@
-import * as S from "./global/styles";
-import { BrowserRouter } from "react-router-dom";
-import Header from "./components/Header";
-import Main from "./components/Main";
-import Footer from "./components/Footer";
+import * as S from "./global/styles"
+import { BrowserRouter } from "react-router-dom"
+import Header from "./components/Header"
+import Main from "./components/Main"
+import Footer from "./components/Footer"
 
 const App = () => {
   return (
@@ -13,7 +13,7 @@ const App = () => {
         <Footer />
       </BrowserRouter>
     </S.App>
-  );
-};
+  )
+}
 
-export default App;
+export default App

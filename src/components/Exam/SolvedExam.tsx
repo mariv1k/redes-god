@@ -1,20 +1,20 @@
-import { useEffect } from "react";
-import * as S from "../../global/styles";
-import { clamp } from "../../global/utils";
-import { ExamManager } from "../Exam/Exam";
+import { useEffect } from "react"
+import * as S from "../../global/styles"
+import { clamp } from "../../global/utils"
+import { ExamManager } from "../Exam/Exam"
 
 const ExamScore = () => {
-  const totalQuestions = ExamManager.QuestionsPerTest;
+  const totalQuestions = ExamManager.QuestionsPerTest
   const correctQuestions = ExamManager.questions.filter(
     (question) =>
       question.choice !== "-" && question.choice === question.data.solution
-  ).length;
+  ).length
   const wrongQuestions = ExamManager.questions.filter(
     (question) =>
       question.choice !== "-" && question.choice !== question.data.solution
-  ).length;
+  ).length
   const notAnsweredQuestions =
-    ExamManager.QuestionsPerTest - wrongQuestions - correctQuestions;
+    ExamManager.QuestionsPerTest - wrongQuestions - correctQuestions
 
   return (
     <div className="ExamScore">
@@ -33,18 +33,18 @@ const ExamScore = () => {
         ).toFixed(2)}
       </div>
     </div>
-  );
-};
+  )
+}
 
 export const SolvedExam = () => {
   useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+    window.scrollTo(0, 0)
+  }, [])
   console.log(1)
   return (
     <S.SolvedExam>
       {ExamManager.SolvedQuestionGroup(35)}
       {ExamScore()}
     </S.SolvedExam>
-  );
-};
+  )
+}

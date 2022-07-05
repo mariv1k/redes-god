@@ -1,34 +1,34 @@
-import { ChangeEvent, useState } from "react";
-import parameters from "../../global/parameters";
-import * as S from "../../global/styles";
-import * as T from "../../global/types";
-import { nextChar } from "../../global/utils";
-import { ExamManager } from "../Exam/Exam";
+import { ChangeEvent, useState } from "react"
+import parameters from "../../global/parameters"
+import * as S from "../../global/styles"
+import * as T from "../../global/types"
+import { nextChar } from "../../global/utils"
+import { ExamManager } from "../Exam/Exam"
 
 export const Question = (question: T.Question) => {
-  const [selectedChoice, setSelectedChoice] = useState("-");
+  const [selectedChoice, setSelectedChoice] = useState("-")
 
   const QuestionTitle = (title: string, num: number) => {
     return (
       <S.QuestionTitle className="question_title">
         {num}. {title}
       </S.QuestionTitle>
-    );
-  };
+    )
+  }
 
   const QuestionChoices = (choices: string[]) => {
-    var choiceIndex = "a";
+    var choiceIndex = "a"
     const isChoiceChecked = (value: string): boolean => {
-      return selectedChoice === value;
-    };
+      return selectedChoice === value
+    }
     const handleChoiceClick = (e: ChangeEvent<HTMLInputElement>): void => {
-      setSelectedChoice(e.currentTarget.value);
-      ExamManager.SetChoice(e.currentTarget.value);
-    };
+      setSelectedChoice(e.currentTarget.value)
+      ExamManager.SetChoice(e.currentTarget.value)
+    }
     const choicesGroup = choices.map((choice) => {
-      const id = question.id.toString() + choiceIndex;
-      const prevChoiceIndex = choiceIndex;
-      choiceIndex = nextChar(choiceIndex);
+      const id = question.id.toString() + choiceIndex
+      const prevChoiceIndex = choiceIndex
+      choiceIndex = nextChar(choiceIndex)
 
       return (
         <>
@@ -45,21 +45,21 @@ export const Question = (question: T.Question) => {
             htmlFor={id}
           >{`${prevChoiceIndex}) ${choice}`}</label>
         </>
-      );
-    });
+      )
+    })
 
     return (
       <S.QuestionChoices className="question_choices">
         {choicesGroup}
       </S.QuestionChoices>
-    );
-  };
+    )
+  }
 
   const QuestionPanel = () => {
     const handleClearChoiceButton = (): void => {
-      setSelectedChoice("-");
-      ExamManager.SetChoice(question.id + "-");
-    };
+      setSelectedChoice("-")
+      ExamManager.SetChoice(question.id + "-")
+    }
     /*const handleReportChoiceButton = (): void => {
       // TODO
     };*/
@@ -76,8 +76,8 @@ export const Question = (question: T.Question) => {
             {parameters.svg.clearChoice}
           </S.Button1>
         </>
-      );
-    };
+      )
+    }
     /*const ReportChoiceButton = () => {
       return (
         <>
@@ -97,8 +97,8 @@ export const Question = (question: T.Question) => {
         <ClearChoiceButton />
         {/*<ReportChoiceButton />*/}
       </S.QuestionPanel>
-    );
-  };
+    )
+  }
 
   return (
     <S.Question>
@@ -106,5 +106,5 @@ export const Question = (question: T.Question) => {
       {QuestionChoices(question.data.choices)}
       {QuestionPanel()}
     </S.Question>
-  );
-};
+  )
+}

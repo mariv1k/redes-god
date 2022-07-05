@@ -1,8 +1,8 @@
-import parameters from "../../global/parameters";
-import * as S from "../../global/styles";
-import * as T from "../../global/types";
-import { nextChar } from "../../global/utils";
-import { ExamManager } from "../Exam/Exam";
+import parameters from "../../global/parameters"
+import * as S from "../../global/styles"
+import * as T from "../../global/types"
+import { nextChar } from "../../global/utils"
+import { ExamManager } from "../Exam/Exam"
 
 export const SolvedQuestion = (question: T.Question) => {
   const QuestionTitle = (title: string, num: number) => {
@@ -10,36 +10,36 @@ export const SolvedQuestion = (question: T.Question) => {
       <S.QuestionTitle className="question_title">
         {num}. {title}
       </S.QuestionTitle>
-    );
-  };
+    )
+  }
 
   const SolvedQuestionChoices = (choices: string[]) => {
-    var choiceIndex = "a";
+    var choiceIndex = "a"
     const isChoiceChecked = (value: string): boolean => {
-      return question.choice === ExamManager.GetChoice(value);
-    };
+      return question.choice === ExamManager.GetChoice(value)
+    }
     const isChoiceCorrect = (value: string): boolean => {
-      const choice = ExamManager.GetChoice(value);
+      const choice = ExamManager.GetChoice(value)
 
-      if (question.data.solution === "-") return false;
-      if (question.choice === "-") return false;
-      if (choice === question.data.solution) return true;
-      return false;
-    };
+      if (question.data.solution === "-") return false
+      if (question.choice === "-") return false
+      if (choice === question.data.solution) return true
+      return false
+    }
     const isChoiceWrong = (value: string): boolean => {
-      const choice = ExamManager.GetChoice(value);
+      const choice = ExamManager.GetChoice(value)
 
-      if (question.data.solution === "-") return false;
+      if (question.data.solution === "-") return false
       if (question.choice === "-" && question.data.solution === choice)
-        return true;
+        return true
       if (question.choice === choice && choice !== question.data.solution)
-        return true;
-      return false;
-    };
+        return true
+      return false
+    }
     const choicesGroup = choices.map((choice) => {
-      const id = question.id.toString() + choiceIndex;
-      const prevChoiceIndex = choiceIndex;
-      choiceIndex = nextChar(choiceIndex);
+      const id = question.id.toString() + choiceIndex
+      const prevChoiceIndex = choiceIndex
+      choiceIndex = nextChar(choiceIndex)
 
       return (
         <>
@@ -61,15 +61,15 @@ export const SolvedQuestion = (question: T.Question) => {
             htmlFor={id}
           >{`${prevChoiceIndex}) ${choice}`}</label>
         </>
-      );
-    });
+      )
+    })
 
     return (
       <S.SolvedQuestionChoices className="question_choices">
         {choicesGroup}
       </S.SolvedQuestionChoices>
-    );
-  };
+    )
+  }
 
   const SolvedQuestionExplanation = (explanation: string) => {
     return (
@@ -85,8 +85,8 @@ export const SolvedQuestion = (question: T.Question) => {
         <input type="checkbox" id={question.id.toString()} name="accordion" />
         <div dangerouslySetInnerHTML={{ __html: explanation }} />
       </S.SolvedQuestionExplanation>
-    );
-  };
+    )
+  }
 
   const QuestionPanel = () => {
     /*const handleReportChoiceButton = (): void => {
@@ -111,8 +111,8 @@ export const SolvedQuestion = (question: T.Question) => {
       <S.QuestionPanel className="question_panel">
         {/*<ReportChoiceButton />*/}
       </S.QuestionPanel>
-    );
-  };
+    )
+  }
 
   return (
     <S.SolvedQuestion>
@@ -121,5 +121,5 @@ export const SolvedQuestion = (question: T.Question) => {
       {SolvedQuestionExplanation(question.data.explanation)}
       {QuestionPanel()}
     </S.SolvedQuestion>
-  );
-};
+  )
+}

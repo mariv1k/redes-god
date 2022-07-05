@@ -1,13 +1,13 @@
-import { useEffect } from "react";
-import * as S from "../../global/styles";
-import { ExamManager } from "../Exam/Exam";
+import { useEffect } from "react"
+import * as S from "../../global/styles"
+import { ExamManager } from "../Exam/Exam"
 
 const SoloSolvedExam = () => {
   useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+    window.scrollTo(0, 0)
+  }, [])
 
-  return <S.SolvedExam>{ExamManager.SolvedSoloQuestion()}</S.SolvedExam>;
-};
+  return <S.SolvedExam>{ExamManager.SolvedSoloQuestion()}</S.SolvedExam>
+}
 
-export default SoloSolvedExam;
+export default SoloSolvedExam
