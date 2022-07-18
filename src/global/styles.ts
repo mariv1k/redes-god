@@ -351,8 +351,6 @@ export const SolvedQuestionExplanation = styled.div`
 // Button
 
 export const Button1 = styled.div`
-  width: fit-content;
-  height: fit-content;
   background-color: ${parameters.colors.color7};
   color: ${parameters.colors.color4};
   border-radius: 4px;
@@ -360,8 +358,12 @@ export const Button1 = styled.div`
   user-select: none;
   padding: 6px 10px;
   font-weight: 700;
+  line-height: 20px;
+  font-size:1rem;
+  width: fit-content;
+  height: fit-content;
+  text-align: center;
   display: flex;
-  justify-content: center;
   align-items: center;
 
   &.inactive {
@@ -378,9 +380,11 @@ export const Button1 = styled.div`
   }
 
   svg {
-    float: left;
-    width: 25px;
-    height: 25px;
+    display: flex;
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    vertical-align: middle;
     fill: ${parameters.colors.color4};
   }
 `

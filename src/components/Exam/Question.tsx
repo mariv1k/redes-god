@@ -1,9 +1,9 @@
 import { ChangeEvent, useState } from "react"
-import parameters from "../../global/parameters"
 import * as S from "../../global/styles"
 import * as T from "../../global/types"
 import { nextChar } from "../../global/utils"
 import { ExamManager } from "../Exam/Exam"
+import {MdRemoveDone} from "react-icons/md"
 
 export const Question = (question: T.Question) => {
   const [selectedChoice, setSelectedChoice] = useState("-")
@@ -73,7 +73,7 @@ export const Question = (question: T.Question) => {
             className={selectedChoice === "-" ? "inactive" : ""}
             onClick={handleClearChoiceButton}
           >
-            {parameters.svg.clearChoice}
+            <MdRemoveDone />
           </S.Button1>
         </>
       )

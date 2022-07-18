@@ -1,4 +1,4 @@
-import parameters from "../../global/parameters"
+import {MdKeyboardArrowDown} from "react-icons/md"
 import * as S from "../../global/styles"
 import * as T from "../../global/types"
 import { nextChar } from "../../global/utils"
@@ -77,7 +77,7 @@ export const SolvedSoloQuestion = (question: T.Question) => {
       >
         <label htmlFor={question.id.toString()}>
           {"Explicación"}
-          {parameters.svg.unfoldAccordion}
+          <MdKeyboardArrowDown/>
         </label>
         <input type="checkbox" id={question.id.toString()} name="accordion" />
         <div dangerouslySetInnerHTML={{ __html: explanation }} />

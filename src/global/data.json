@@ -5583,7 +5583,7 @@
     },
     {
       "id": 494,
-      "title": "Cuál de las siguiente funciones del modelo OSI NO la realiza la capa indicada?:",
+      "title": "Cuál de las siguientes funciones del modelo OSI NO la realiza la capa indicada?:",
       "choices": [
         "Presentación: Establece el formato de la información intercambiada.",
         "Transporte: Evitar posibles errores de encaminamiento.",

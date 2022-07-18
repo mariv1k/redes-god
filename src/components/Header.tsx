@@ -1,10 +1,10 @@
-import { useState } from "react"
+import { useState } from "react" 
 import parameters from "../global/parameters"
 import * as S from "../global/styles"
 import { GithubButton, GoToExamButton, GoToSoloExamButton } from "./Button"
 
 const Header = () => {
-  var prevScrollpos = window.pageYOffset
+  var prevScrollpos = window.scrollY || document.documentElement.scrollTop;
   const [styleTop, setStyleTop] = useState("0")
 
   window.onscroll = function () {
