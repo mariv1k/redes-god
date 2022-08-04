@@ -1,90 +1,90 @@
 import re
-import sys
 
 raw_data_file = "./tools/raw_data.txt"
 output_file = "./tools/output.txt"
-output_light_file = "./tools/output-light.txt"
+sanitise_file = "./tools/output-sanitised.txt"
 
 option_rgx = re.compile(r"^[a-d]\)")
 clean_begin = re.compile(r"^[^[a-zA-Z]*")
 clean_ast = re.compile(r"^[\*]*|[\*]*$")
 
-duplicates = []
-total_count = 0
+unique_questions = []
+total_questions_amount = 0
 qid = 1
-line_count = 0
-total_lines = 0
+file_line_count = 0
 
 
-def get_choices(choices):
-    res = "["
+def choices_to_string(choices):
+    o = "["
 
-    for answer in choices:
-        answer = re.sub(re.compile(r"\.+$"), '', answer)
-        res += f"\"{re.sub(clean_ast, '', re.sub(option_rgx, '', answer).strip() + '.')}\", "
-    if len(res) > 2:
-        res = res[:-2]
-    return res + "]"
+    for choice in choices:
+        choice = re.sub(re.compile(r"\.+$"), '', choice)
+        o += f"\"{re.sub(clean_ast, '', re.sub(option_rgx, '', choice).strip() + '.')}\", "
+    if len(o) > 2:
+        o = o[:-2]
+    return o + "]"
 
 
 def parse():
-    o = open(output_file, "w")
-    res = "[\n"
-    title = ""
-    choices = []
-    lines = light_parse().split("\n")
+    fl = open(output_file, "w")
+    o = "[\n"
+    qtitle = ""
+    qchoices = []
+    lines = sanitise().split("\n")
     last = 0
-    global line_count
+    global file_line_count
 
     for line in lines:
-        line_count += 1
+        file_line_count += 1
         line = line.replace("\"", "\\\"")
         if line == "":
             continue
         elif re.search(option_rgx, line):
             if last == 1:
-                title = re.sub(re.compile(r"\.+$"), "", re.sub(clean_begin, "", title)).strip()
-            choices.append(line.strip())
+                qtitle = re.sub(re.compile(r"\.+$"), "",
+                                re.sub(clean_begin, "", qtitle)).strip()
+            qchoices.append(line.strip())
             last = 0
         else:
-            if last == 0 and title != "":
-                res += add("{\n" +
-                           f"id: {qid},\ntitle: \"{title}\",\nchoices: {get_choices(choices)},\nsolution: \"-\",\nexplanation: \"\"\n" + "},\n", title, get_choices(choices))
-                title = ""
-                choices = []
+            if last == 0 and qtitle != "":
+                o += add_question("{\n" +
+                                  f"id: {qid},\ntitle: \"{qtitle}\",\nchoices: {choices_to_string(qchoices)},\nsolution: \"-\",\nexplanation: \"\"\n" + "},\n", qtitle, qchoices)
+                qtitle = ""
+                qchoices = []
             last = 1
-            title += line
+            qtitle += line
             continue
-    res += "]\n"
-    o.write(res)
-    o.close()
-    print(f"Found {len(duplicates)} questions ({round(((len(duplicates) / total_count) * 1000)) / 100}% were duplicates)")
+    o += "]\n"
+
+    print(f"Found {len(unique_questions)} questions ({round(((1 - len(unique_questions) / total_questions_amount) * 1000)) / 100}% were duplicates)")
+
+    fl.write(o)
+    fl.close()
 
 
-def light_parse():
-    r = open(raw_data_file, "r")
-    o = open(output_light_file, "w")
-    res = ""
+def sanitise():
+    rfl = open(raw_data_file, "r")
+    sfl = open(sanitise_file, "w")
+    o = ""
     final = ""
     temp = ""
-    prevWasD = False
+    prev_was_d = False
     global total_lines
 
-    lines = r.readlines()
-    r.close()
-    lines_count = len(lines)
-    total_lines = lines_count
-    print(f"Parsing {lines_count} lines")
+    lines = rfl.readlines()
+    rfl.close()
+    total_lines = len(lines)
+    print(f"Parsing {total_lines} lines")
 
-    for index, line in enumerate(lines, start=0):
+    for line in lines:
         line = line.lstrip()
 
         if line.strip() == "":
-            if prevWasD:
-                res += temp.replace('\n', ' ') + "\n"
+            if prev_was_d:
+                o += temp.replace('\n', ' ') + "\n"
                 temp = ""
-                prevWasD = False
-            res += "\n"
+                prev_was_d = False
+            o += "\n"
             continue
         if line.strip() == "###BREAKPOINT###":
             break
@@ -92,22 +92,22 @@ def light_parse():
             continue
         if re.search(option_rgx, line):
             if line.startswith("d)"):
-                prevWasD = True
-            res += ' '.join(temp.replace('\n', ' ').split()) + "\n"
+                prev_was_d = True
+            o += ' '.join(temp.replace('\n', ' ').split()) + "\n"
             temp = line
             continue
         temp += line
-
     temp = ""
-    prevWasD = False
-    for index, line in enumerate(res.split("\n"), start=0):
+    prev_was_d = False
+
+    for line in o.split("\n"):
         line = line.lstrip()
 
         if line.strip() == "":
-            if prevWasD:
+            if prev_was_d:
                 final += ' '.join(temp.replace('\n', ' ').split()) + "\n"
                 temp = ""
-                prevWasD = False
+                prev_was_d = False
             final += "\n"
             continue
         if line.strip() == "###BREAKPOINT###":
@@ -116,29 +116,38 @@ def light_parse():
             continue
         if re.search(option_rgx, line):
             if line.startswith("d)"):
-                prevWasD = True
+                prev_was_d = True
             final += ' '.join(temp.replace('\n', ' ').split()) + "\n"
             temp = line
             continue
         temp += line
-    o.write(final)
-    o.close()
+
+    sfl.write(final)
+    sfl.close()
     return final
 
 
-def add(value, title, choices):
+def add_question(value, title, choices):
     title = re.sub(re.compile(r"[^a-z]"), "", title.lower()).strip()
-    choices = re.sub(re.compile(r"[^a-z]"), "", choices.lower()).strip()
-    global total_count
-    global duplicates
+    choices = list(map(lambda choice: re.sub(re.compile(
+        r"[^a-z]"), "", choice.lower()).strip(), choices))
+    global total_questions_amount
+    global unique_questions
     global qid
 
-    total_count += 1
-    for duplicate in duplicates:
-        if title + choices == duplicate:
+    total_questions_amount += 1
+    for unique_combinations in unique_questions:
+        is_unique = True
+
+        for unique_combination in unique_combinations:
+            for choice in choices:
+                if title + choice == unique_combination:
+                    is_unique = False
+        if not is_unique:
             return ""
+
     qid += 1
-    duplicates.append(title + choices)
+    unique_questions.append(list(map(lambda choice: title + choice, choices)))
     return value
 
 
