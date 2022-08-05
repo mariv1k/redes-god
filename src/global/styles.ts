@@ -53,7 +53,7 @@ export const Header = styled.header`
 export const Footer = styled.footer`
   color: ${parameters.colors.color1};
   background-color: ${parameters.colors.color3};
-  height: ${parameters.height.footer}px;
+  height: ${parameters.height.footer};
   width: 100%;
   padding: 10px 25px;
   display: flex;
@@ -359,7 +359,7 @@ export const Button1 = styled.div`
   padding: 6px 10px;
   font-weight: 700;
   line-height: 20px;
-  font-size:1rem;
+  font-size: 1rem;
   width: fit-content;
   height: fit-content;
   text-align: center;

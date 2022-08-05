@@ -3,7 +3,7 @@ import * as S from "../../global/styles"
 import * as T from "../../global/types"
 import { nextChar } from "../../global/utils"
 import { ExamManager } from "../Exam/Exam"
-import {MdRemoveDone} from "react-icons/md"
+import { RemoveDone } from "@mui/icons-material"
 
 export const Question = (question: T.Question) => {
   const [selectedChoice, setSelectedChoice] = useState("-")
@@ -73,7 +73,7 @@ export const Question = (question: T.Question) => {
             className={selectedChoice === "-" ? "inactive" : ""}
             onClick={handleClearChoiceButton}
           >
-            <MdRemoveDone />
+            <RemoveDone />
           </S.Button1>
         </>
       )

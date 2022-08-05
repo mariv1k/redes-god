@@ -1,4 +1,4 @@
-import {MdKeyboardArrowDown} from "react-icons/md"
+import { KeyboardArrowDown } from "@mui/icons-material"
 import * as S from "../../global/styles"
 import * as T from "../../global/types"
 import { nextChar } from "../../global/utils"
@@ -77,7 +77,7 @@ export const SolvedSoloQuestion = (question: T.Question) => {
       >
         <label htmlFor={question.id.toString()}>
           {"Explicación"}
-          <MdKeyboardArrowDown/>
+          <KeyboardArrowDown />
         </label>
         <input type="checkbox" id={question.id.toString()} name="accordion" />
         <div dangerouslySetInnerHTML={{ __html: explanation }} />

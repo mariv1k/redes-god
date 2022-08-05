@@ -1,4 +1,3 @@
-import { useEffect } from "react"
 import data from "../../global/data.json"
 import * as S from "../../global/styles"
 import * as T from "../../global/types"
@@ -41,12 +40,10 @@ export class ExamManager {
       })
   }
 
-  public static QuestionsGroup(amount = -1) {
+  public static QuestionGroup(amount?: number) {
     return (
       <>
-        {this._questions
-          .slice(0, amount === -1 ? undefined : amount)
-          .map((question) => Question(question))}
+        {this._questions.slice(0, amount).map((question) => Question(question))}
       </>
     )
   }
@@ -92,14 +89,11 @@ export class ExamManager {
 }
 
 const Exam = () => {
-  useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
   ExamManager.InitQuestions(ExamManager.QuestionsPerTest)
 
   return (
     <S.Exam>
-      {ExamManager.QuestionsGroup(ExamManager.QuestionsPerTest)}
+      {ExamManager.QuestionGroup(ExamManager.QuestionsPerTest)}
       <CheckSolutionsButton />
     </S.Exam>
   )

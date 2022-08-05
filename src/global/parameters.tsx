@@ -18,11 +18,11 @@ const parameters = {
   },
   height: {
     header: "80px",
-    footer: 100,
+    footer: "100px",
   },
   margin: {
     questionTitle: "8px",
-  }
+  },
 }
 
 export default parameters

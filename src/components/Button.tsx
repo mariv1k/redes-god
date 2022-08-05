@@ -1,7 +1,6 @@
 import { useNavigate } from "react-router-dom"
 import * as S from "../global/styles"
-import {AiFillGithub,AiOutlineReload} from "react-icons/ai"
-import {MdOutlineArrowForward} from "react-icons/md"
+import { Replay, GitHub, ArrowForward } from "@mui/icons-material"
 
 export const CheckSolutionsButton = () => {
   const navigate = useNavigate()
@@ -15,11 +14,11 @@ export const CheckSolutionsButton = () => {
 export const GithubButton = () => {
   return (
     <S.Button1
-        style={{ marginLeft: "auto" }}
-        onClick={() => window.open("https://github.com/mariod8/redes-god")}
-      >
-        <AiFillGithub />
-      </S.Button1>
+      style={{ marginLeft: "auto" }}
+      onClick={() => window.open("https://github.com/mariod8/redes-god")}
+    >
+      <GitHub />
+    </S.Button1>
   )
 }
 
@@ -31,7 +30,7 @@ export const NextQuestionButton = () => {
 
   return (
     <S.Button1 onClick={handleNextQuestionButton}>
-      <MdOutlineArrowForward />
+      <ArrowForward />
     </S.Button1>
   )
 }
@@ -44,7 +43,7 @@ export const ReloadQuestionButton = () => {
 
   return (
     <S.Button1 onClick={handleReloadQuestionButton}>
-      <AiOutlineReload />
+      <Replay />
     </S.Button1>
   )
 }
