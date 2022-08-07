@@ -16,3 +16,6 @@ cd redes-god
 npm i
 npm run tauri build
 ```
+
+### Ejecutable
+[Descarga](https://github.com/mariod8/redes-god/releases) desde la página de lanzamientos
