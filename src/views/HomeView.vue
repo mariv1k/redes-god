@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-row gap-2 [&>span]:font-bold [&>span]:text-sm mb-2">
+  <div class="flex flex-row gap-2 [&>span]:font-bold [&>span]:text-sm">
     <span class="opacity-50">{{ question_idx + 1 }} / {{ questions.length }}</span>
     <span class="text-[#96e6a1]">{{ hits }}</span>
     <span class="text-[#f5576c]">{{ fails }}</span>

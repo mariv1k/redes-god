@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col">
-    <span class="font-bold">{{ data?.title }}</span>
+    <span class="font-bold text-lg">{{ data?.title }}</span>
     <ul class="mb-2 list-none">
       <Choice
         v-for="(choice, index) in data.choices"
