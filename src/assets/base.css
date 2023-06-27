@@ -22,6 +22,7 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding: 0 18px;
   @apply bg-[#0f172a];
 }
 
@@ -33,5 +34,11 @@ code {
 
 main {
   max-width: 780px;
+  margin: auto;
+}
+
+header {
+  max-width: 780;
+  height: 24px;
   margin: auto;
 }
