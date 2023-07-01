@@ -12,6 +12,12 @@
   color: white;
 }
 
+::-moz-selection,
+::selection {
+  color: #0f172a;
+  background: white;
+}
+
 body {
   min-height: 100vh;
   line-height: 1.6;
@@ -38,6 +44,12 @@ main {
 }
 
 header {
+  max-width: 780;
+  height: 24px;
+  margin: auto;
+}
+
+footer {
   max-width: 780;
   height: 24px;
   margin: auto;

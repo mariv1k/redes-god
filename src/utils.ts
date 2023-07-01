@@ -20,16 +20,19 @@ export function randomIntFromInterval(min: number, max: number) {
 
 export function getQuestions() {
   return shuffle(
-    questions.map((question) => {
+    questions.map((question, index) => {
       const solution = question.choices[question.solution]
       const shuffled = shuffle(question.choices)
 
       return {
-        id: question.id,
+        id: index,
         title: question.title,
         choices: shuffled,
         solution: shuffled.indexOf(solution)
       } as IQuestion
     })
   )
+}
+export function clamp(number: number, min: number, max: number) {
+  return Math.max(min, Math.min(number, max))
 }

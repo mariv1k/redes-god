@@ -4,7 +4,7 @@
     <span class="text-[#96e6a1]">{{ hits }}</span>
     <span class="text-[#f5576c]">{{ fails }}</span>
   </div>
-  <Question @set-choice="setChoice" :data="question" />
+  <Question @set-choice="setChoice" :data="question" :show-result="showResult" />
   <div
     class="flex flex-row gap-2 [&>button]:w-full [&>button]:flex [&>button]:items-center [&>button]:justify-center [&>button]:h-16 [&>button]:rounded-lg [&>button>svg]:stroke-[#1e293b]"
   >
@@ -70,7 +70,6 @@ export default {
         this.question_idx - 1 < 0 ? this.questions.length - 1 : this.question_idx - 1
     },
     setChoice(choice: number, id: number) {
-      if (this.question.answer !== undefined) return
       this.questions[this.question_idx].answer = choice
       this.question.solution === this.question.answer ? this.hits++ : this.fails++
     }
@@ -78,6 +77,9 @@ export default {
   computed: {
     question() {
       return this.questions[this.question_idx]
+    },
+    showResult() {
+      return this.question.answer !== undefined
     }
   },
   components: {
