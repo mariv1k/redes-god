@@ -50,7 +50,7 @@ main {
 header {
   max-width: var(--page-width);
   height: auto;
-  margin: auto;
+  margin: 24px auto;
 }
 
 footer {
