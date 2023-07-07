@@ -12,3 +12,8 @@ export interface IChoice {
   readonly solution: number
   answer?: number
 }
+
+export enum Tabs {
+  FAST_MODE,
+  TEST
+}

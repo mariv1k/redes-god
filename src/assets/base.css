@@ -3,6 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --page-width: 780px;
+}
+
 *,
 *::before,
 *::after {
@@ -29,7 +33,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   padding: 0 18px;
-  @apply bg-[#0f172a];
+  @apply bg-night;
 }
 
 code {
@@ -39,22 +43,34 @@ code {
 }
 
 main {
-  max-width: 780px;
+  max-width: var(--page-width);
   margin: auto;
 }
 
 header {
-  max-width: 780;
-  height: 24px;
+  max-width: var(--page-width);
+  height: auto;
   margin: auto;
 }
 
 footer {
-  max-width: 780;
-  height: 24px;
+  max-width: var(--page-width);
+  height: auto;
   margin: auto;
 }
 
 button:focus {
   outline: none;
+}
+
+.grad-correct {
+  @apply bg-gradient-to-tr from-[#d4fc79] to-[#96e6a1];
+}
+
+.grad-wrong {
+  @apply bg-gradient-to-tr from-[#f093fb] to-[#f5576c];
+}
+
+.grad-hover {
+  @apply bg-gradient-to-tr from-[#84fab0] to-[#8fd3f4];
 }

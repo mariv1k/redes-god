@@ -28,30 +28,30 @@ export default {
       if (this.showResult) {
         if (this.data.answer === this.data.id) {
           style.push(
-            "[&>span]:underline [&>span]:decoration-2 [&>span]:underline-offset-2 [&>span]:font-bold [&>span]:text-[#1e293b]"
+            "[&>span]:underline [&>span]:decoration-2 [&>span]:underline-offset-2 [&>span]:font-bold [&>span]:text-nightless"
           )
         }
         if (this.data.solution === this.data.id) {
           if (this.data.answer === undefined) {
-            style.push("bg-gradient-to-tr from-[#f093fb] to-[#f5576c] [&>span]:text-[#1e293b]")
+            style.push("grad-wrong [&>span]:text-nightless")
           } else {
-            style.push("bg-gradient-to-tr from-[#d4fc79] to-[#96e6a1] [&>span]:text-[#1e293b]")
+            style.push("grad-correct [&>span]:text-nightless")
           }
         }
         if (this.data.answer === this.data.id && this.data.solution !== this.data.id) {
-          style.push("bg-gradient-to-tr from-[#f093fb] to-[#f5576c] [&>span]:text-[#1e293b]")
+          style.push("grad-wrong [&>span]:text-nightless")
         }
       } else {
         if (this.data.answer === this.data.id) {
           style.push(
-            "bg-gradient-to-tr from-[#84fab0] to-[#8fd3f4] [&>span]:underline [&>span]:decoration-2 [&>span]:underline-offset-2 [&>span]:font-bold [&>span]:text-[#1e293b] cursor-default"
+            "grad-hover [&>span]:underline [&>span]:decoration-2 [&>span]:underline-offset-2 [&>span]:font-bold [&>span]:text-nightless cursor-default"
           )
         } else {
-          style.push("cursor-pointer hover:bg-[#1e293b]")
+          style.push("cursor-pointer hover:bg-nightless")
         }
       }
       if (this.data.answer === undefined && !this.disableInteraction) {
-        style.push("cursor-pointer hover:bg-[#1e293b]")
+        style.push("cursor-pointer hover:bg-nightless")
       }
 
       return style.join(" ")

@@ -1,10 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./index.html",
-    "./src/**/*.{vue,js,ts,jsx,tsx}",
-  ],
+  content: ["./src/pages/**/*.{html}", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
-    extend: {}
+    extend: {
+      colors: {
+        night: "#0f172a",
+        nightless: "#1e293b"
+      }
+    }
   }
 }

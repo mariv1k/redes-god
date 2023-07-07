@@ -6,7 +6,7 @@
   </div>
   <Question @set-choice="setChoice" :data="question" :show-result="showResult" />
   <div
-    class="flex flex-row gap-2 [&>button]:w-full [&>button]:flex [&>button]:items-center [&>button]:justify-center [&>button]:h-16 [&>button]:rounded-lg [&>button>svg]:stroke-[#1e293b]"
+    class="flex flex-row gap-2 [&>button]:w-full [&>button]:flex [&>button]:items-center [&>button]:justify-center [&>button]:h-16 [&>button]:rounded-lg [&>button>svg]:stroke-nightless"
   >
     <button
       class="bg-gradient-to-tr hover:bg-gradient-to-br from-[#84fab0] to-[#8fd3f4]"

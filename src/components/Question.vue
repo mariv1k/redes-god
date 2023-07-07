@@ -4,8 +4,8 @@
     <ul class="list-none">
       <Choice
         v-for="(choice, index) in data.choices"
-        :key="index"
         @click="setChoice(index, data.id)"
+        :key="index"
         :data="{id: index, choice, solution: data!.solution, answer: data.answer}"
         :showResult="showResult"
         :disableInteraction="disableInteraction"
