@@ -28,7 +28,7 @@
 
 <script lang="ts">
 import Question from "@/components/Question.vue"
-import { clamp, getQuestions } from "@/utils"
+import { getQuestions } from "@/utils"
 
 const QUESTIONS_AMOUNT = 35
 const questions = getQuestions().slice(0, QUESTIONS_AMOUNT)
@@ -67,7 +67,7 @@ export default {
       ).length
     },
     score() {
-      return (clamp((this.ok - this.wrong / 3) / QUESTIONS_AMOUNT, 0, 1) * 10).toFixed(1)
+      return (Math.max((this.ok - this.wrong / 3) / QUESTIONS_AMOUNT, 0) * 10).toFixed(1)
     }
   },
   components: {
