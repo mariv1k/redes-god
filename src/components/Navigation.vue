@@ -22,7 +22,7 @@ export default {
 
 <template>
   <div
-    class="flex flex-row [&>button]:w-full [&>button]:flex [&>button]:items-center [&>button]:justify-center [&>button]:h-12 [&>button>span]:font-bold"
+    class="flex flex-row gap-2 [&>button]:rounded-lg [&>button]:w-full [&>button]:flex [&>button]:items-center [&>button]:justify-center [&>button]:h-12 [&>button>span]:font-bold"
   >
     <button
       @click="setTab(Tabs.FAST_MODE)"
