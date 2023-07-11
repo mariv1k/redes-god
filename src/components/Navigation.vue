@@ -21,20 +21,16 @@ export default {
 </script>
 
 <template>
-  <div
-    class="flex flex-row gap-2 [&>button]:rounded-lg [&>button]:w-full [&>button]:flex [&>button]:items-center [&>button]:justify-center [&>button]:h-12 [&>button>span]:font-bold"
-  >
-    <button
-      @click="setTab(Tabs.FAST_MODE)"
-      class="bg-gradient-to-b hover:to-90% from-nightless to-night to-75%"
+  <nav>
+    <div
+      class="flex flex-row gap-0.5 [&>button:hover]:bg-opacity-75 [&>button]:w-full [&>button]:flex [&>button]:items-center [&>button]:justify-center [&>button]:h-12 [&>button>span]:font-bold"
     >
-      <span>Fast Mode</span>
-    </button>
-    <button
-      @click="setTab(Tabs.TEST)"
-      class="bg-gradient-to-b hover:to-90% from-nightless to-night to-75%"
-    >
-      <span>Test</span>
-    </button>
-  </div>
+      <button @click="setTab(Tabs.FAST_MODE)" class="bg-nightless rounded-s-lg">
+        <span>Fast Mode</span>
+      </button>
+      <button @click="setTab(Tabs.TEST)" class="bg-nightless rounded-e-lg">
+        <span>Test</span>
+      </button>
+    </div>
+  </nav>
 </template>
