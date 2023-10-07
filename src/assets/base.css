@@ -6,71 +6,45 @@
 :root {
   --page-width: 780px;
 }
-
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
-  margin: 0;
-  font-weight: normal;
-  color: white;
+  @apply box-border font-normal text-white m-0;
 }
-
 ::-moz-selection,
 ::selection {
-  color: #0f172a;
+  @apply text-slate-900;
   background: white;
 }
-
 body {
-  min-height: 100vh;
-  line-height: 1.6;
-  overflow-x: hidden;
-  scroll-behavior: smooth;
+  @apply min-h-[100svh] leading-[1.6] overflow-x-hidden scroll-smooth text-[15px] px-[18px] py-0
+  bg-night antialiased;
   font-family: "PT Sans", sans-serif;
-  font-size: 15px;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  padding: 0 18px;
-  @apply bg-night;
 }
-
 code {
-  background-color: gray;
-  border-radius: 5px;
-  padding: 3px 5px;
+  @apply bg-[gray] px-[5px] py-[3px] rounded-[5px];
 }
-
 main {
-  max-width: var(--page-width);
-  margin: auto;
+  @apply max-w-[var(--page-width)] m-auto;
 }
-
 header {
-  max-width: var(--page-width);
-  height: auto;
-  margin: 24px auto;
+  @apply max-w-[var(--page-width)] h-auto mx-auto my-6;
 }
-
 footer {
-  max-width: var(--page-width);
-  height: auto;
-  margin: auto;
+  @apply max-w-[var(--page-width)] h-auto m-auto;
 }
-
 button:focus {
   outline: none;
 }
 
 .grad-correct {
-  @apply bg-gradient-to-tr from-[#d4fc79] to-[#96e6a1];
+  @apply bg-gradient-to-tr from-yellow to-green;
 }
 
 .grad-wrong {
-  @apply bg-gradient-to-tr from-[#f093fb] to-[#f5576c];
+  @apply bg-gradient-to-tr from-pink to-red;
 }
 
 .grad-hover {
-  @apply bg-gradient-to-tr from-[#84fab0] to-[#8fd3f4];
+  @apply bg-gradient-to-tr from-celeste to-[#8fd3f4];
 }

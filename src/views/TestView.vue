@@ -1,25 +1,26 @@
 <template>
   <Question
-    v-for="question in questions"
+    v-for="(question, index) in questions"
     :key="question.id"
     @set-choice="setChoice"
     :data="question"
     :show-result="showResults"
     :disable-interaction="disableInteraction"
+    :index="index + 1"
   />
   <div class="my-5">
     <button
       v-if="!showResults"
-      class="w-full flex justify-center items-center text-[#1e293b] h-16 rounded-md text-xl font-bold bg-gradient-to-tr hover:bg-gradient-to-br from-[#84fab0] to-[#8fd3f4]"
+      class="w-full flex justify-center items-center text-[#1e293b] h-16 rounded-md text-xl font-bold bg-gradient-to-tr hover:bg-gradient-to-br from-celeste to-[#8fd3f4]"
       @click="correct"
     >
       Correct
     </button>
     <div v-else class="p-3 bg-[#1e293b] rounded-md w-full flex flex-col items-center">
       <div class="flex flex-row gap-2 [&>span]:font-bold [&>span]:text-md">
-        <span class="text-[#96e6a1]">{{ ok }}</span>
+        <span class="text-green">{{ ok }}</span>
         <span class="opacity-50">{{ blank }}</span>
-        <span class="text-[#f5576c]">{{ wrong }}</span>
+        <span class="text-red">{{ wrong }}</span>
       </div>
       <span class="font-bold text-2xl">{{ score }}</span>
     </div>

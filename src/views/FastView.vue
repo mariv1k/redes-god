@@ -1,15 +1,15 @@
 <template>
   <div class="flex flex-row gap-2 [&>span]:font-bold [&>span]:text-sm">
     <span class="opacity-50">{{ question_idx + 1 }} / {{ questions.length }}</span>
-    <span class="text-[#96e6a1]">{{ hits }}</span>
-    <span class="text-[#f5576c]">{{ fails }}</span>
+    <span class="text-green">{{ hits }}</span>
+    <span class="text-red">{{ fails }}</span>
   </div>
   <Question @set-choice="setChoice" :data="question" :show-result="showResult" />
   <div
     class="flex flex-row gap-2 [&>button]:w-full [&>button]:flex [&>button]:items-center [&>button]:justify-center [&>button]:h-16 [&>button]:rounded-lg [&>button>svg]:stroke-nightless"
   >
     <button
-      class="bg-gradient-to-tr hover:bg-gradient-to-br from-[#84fab0] to-[#8fd3f4]"
+      class="bg-gradient-to-tr hover:bg-gradient-to-br from-celeste to-[#8fd3f4]"
       @click="prevQuestion"
     >
       <svg
@@ -27,7 +27,7 @@
       </svg>
     </button>
     <button
-      class="bg-gradient-to-tl hover:bg-gradient-to-bl from-[#84fab0] to-[#8fd3f4]"
+      class="bg-gradient-to-tl hover:bg-gradient-to-bl from-celeste to-[#8fd3f4]"
       @click="nextQuestion"
     >
       <svg
